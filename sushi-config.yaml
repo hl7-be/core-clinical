@@ -7,12 +7,12 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: my-ig
-canonical: http://example.com/fhir/example
-url: http://example.com/fhir/example
-name: ExampleIG
-title: "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"
-description: Example IG exercises many of the fields in a SUSHI configuration.
+id: hl7.fihr.be.core-clinical
+canonical: https://www.ehealth.fgov.be/standards/fhir/core-clinical
+url: https://www.ehealth.fgov.be/standards/fhir/core-clinical
+name: Transversal Clinical Core
+title: "HL7 FHIR Implementation Guide: Transversal Clinical Core"
+description: "HL7 FHIR Implementation Guide: Transversal Clinical Core"
 status: active
 license: CC0-1.0
 date: 2020-02-26
@@ -37,23 +37,23 @@ releaseLabel: STU1
 # as IG.publisher.  The contact details and/or additional publishers
 # will be translated into IG.contact values.
 publisher:
-  name: My Organization 
-  url: http://example.com/committees
-  email: my-group@example.com
+  name: eHealth Platform 
+  url: https://www.ehealth.fgov.be
+  email: message-structure@www.ehealth.fgov.be
 
 # ContactDetail is required by the template.
 contact:
-  - name: Bob Smith
+  - name: Message-Structure
     telecom:
       - system: email
-        value: bobsmith@example.com
+        value: message-structure@www.ehealth.fgov.be
         use: work
 
 # The jurisdiction can be a single item or a list. The FHIR Shorthand
 # code syntax can be used here.
 
-#jurisdiction: urn:iso:std:iso:3166#US "United States of America"
-jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
+jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
+#jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
@@ -185,3 +185,7 @@ FSHOnly: false
 # When set to true, the "short" and "definition" field on the root element of an Extension will
 # be set to the "Title" and "Description" of that Extension. Default is true.
 #applyExtensionMetadataToRoot: false
+
+
+dependencies:
+  hl7.fhir.be.core: 2.0.0
