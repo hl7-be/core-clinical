@@ -7,7 +7,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: hl7.fihr.be.core-clinical
+id: hl7.fhir.be.core-clinical
 canonical: https://www.ehealth.fgov.be/standards/fhir/core-clinical
 url: https://www.ehealth.fgov.be/standards/fhir/core-clinical
 name: Transversal Clinical Core
