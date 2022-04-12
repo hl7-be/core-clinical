@@ -19,7 +19,7 @@ Description: "To support the standard exchange of scores such as pain assessment
 * category from BeVSScoreCategory (required)
 * category ^short = "The high-level group or category of the score - e.g. 'Risk score' or 'Pain score'"
 * code MS
-* code from BeVSScore (required)
+* code from https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-score (required)
 * code ^short = "The code of the score that is being calculated."
 * subject 1.. MS
 * subject only Reference(BePatient or Group)
