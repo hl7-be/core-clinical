@@ -1,0 +1,8 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <h3>Scope</h3>
+  <p>
+    The scope of this package is to bundle all concepts and other FHIR resources that are transversal, 
+    and thus can be used in other, more specific packages and that are medical in nature, rather than
+    purely administrative. The purely administrative resources are defined in hl7.fhir.be.core .
+  </p>
+</div>
