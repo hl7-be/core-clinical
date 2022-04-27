@@ -15,7 +15,6 @@ Description: "Codes as defined initially by the NIHDI. Dutch translations were n
 
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
 * ^content = #complete
-* ^count = 1
 * #ADBB "Alarm distress baby scale" "Alarm distress baby scale"
 * #ADBB ^designation.language = #fr-BE
 * #ADBB ^designation.value = "Alarm détresse bébé"

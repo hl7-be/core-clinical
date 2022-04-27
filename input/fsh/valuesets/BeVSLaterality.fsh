@@ -12,6 +12,16 @@ Description: "Laterality"
 * ^contact[+].name = "Message structure"
 * ^contact[=].telecom.system = #email
 * ^contact[=].telecom.value = "message-structure@ehealth.fgov.be"
-
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
-* include codes from valueset BodystructureLocationQualifier
+* include  http://snomed.info/sct#419161000
+* include  http://snomed.info/sct#419465000
+* include  http://snomed.info/sct#51440002
+* include  http://snomed.info/sct#261183002
+* include  http://snomed.info/sct#261122009
+* include  http://snomed.info/sct#255561001
+* include  http://snomed.info/sct#49370004
+* include  http://snomed.info/sct#264217000
+* include  http://snomed.info/sct#261089000
+* include  http://snomed.info/sct#255551008
+* include  http://snomed.info/sct#351726001
+* include  http://snomed.info/sct#352730000
