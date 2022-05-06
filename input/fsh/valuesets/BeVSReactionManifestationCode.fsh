@@ -46,5 +46,4 @@ Description: "Reaction Manifestation Code (Allergy - Immunization)"
 * include  http://snomed.info/sct#126485001
 * include  http://snomed.info/sct#31996006
 * include  http://snomed.info/sct#1985008
-* include  http://snomed.info/sct#404684003
 
