@@ -16,3 +16,4 @@ Description: "Body Site CodeSystem"
 * ^content = #complete
 * ^count = 1
 * #IM "Intramuscular"
+* ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1

@@ -13,6 +13,7 @@ Description: "Reaction Manifestation Code (Allergy - Immunization)"
 * ^contact[=].telecom.system = #email
 * ^contact[=].telecom.value = "message-structure@ehealth.fgov.be"
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
+* ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * include  http://snomed.info/sct#39579001
 * include  http://snomed.info/sct#735173007
 * include  http://snomed.info/sct#41291007

@@ -12,7 +12,7 @@ Description: "Codes as defined initially by the NIHDI. Dutch translations were n
 * ^contact[+].name = "Message structure"
 * ^contact[=].telecom.system = #email
 * ^contact[=].telecom.value = "message-structure@ehealth.fgov.be"
-
+* ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
 * ^content = #complete
 * #ADBB "Alarm distress baby scale" "Alarm distress baby scale"
