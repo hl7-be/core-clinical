@@ -16,3 +16,4 @@ Description: "An explicit statement of laterality of a lesion, or a treatment, e
 * value[x] only Coding
 * valueCoding 0..1
 * valueCoding from BeVSLaterality (required)
+* ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1

@@ -16,3 +16,4 @@ Description: "The type of event that triggers the problem to be evaluated - whet
 * value[x] only code
 * valueCode 0..1
 * valueCode from BeVSProblemOriginType (required)
+* ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1

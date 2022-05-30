@@ -13,6 +13,7 @@ Description: "Laterality"
 * ^contact[=].telecom.system = #email
 * ^contact[=].telecom.value = "message-structure@ehealth.fgov.be"
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
+* ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * include  http://snomed.info/sct#419161000
 * include  http://snomed.info/sct#419465000
 * include  http://snomed.info/sct#51440002
