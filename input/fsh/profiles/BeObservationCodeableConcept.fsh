@@ -14,3 +14,4 @@ In general, it shall be noted SNOMED-CT is the preferred national terminology. O
 * coding[LOINC].code 1..
 * coding[SNOMED-CT].system = "http://snomed.info/sct" (exactly)
 * coding[SNOMED-CT].code 1..
+* ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1

@@ -13,7 +13,7 @@ Description: "Belgian federal profile. Initially based on the functional descrip
 * ^contact[+].name = "Message structure"
 * ^contact[=].telecom.system = #email
 * ^contact[=].telecom.value = "message-structure@ehealth.fgov.be"
-
+* ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
 * extension ^slicing.discriminator.type = #value
 * extension ^slicing.discriminator.path = "url"
