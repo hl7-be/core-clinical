@@ -15,6 +15,8 @@ Description: "Problem Category"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
 * ^content = #complete
+* ^experimental = false
+* ^caseSensitive = false
 * #diagnosis "Diagnosis" "A disease identified from a clinical reasoning, based on pathological and physiological ascertainments"
 * #diagnosis ^designation[0].language = #fr-BE
 * #diagnosis ^designation[=].value = "Diagnostic"

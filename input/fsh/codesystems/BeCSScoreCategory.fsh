@@ -15,6 +15,8 @@ Description: "Score Category"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
 * ^content = #complete
+* ^experimental = false
+* ^caseSensitive = false
 * #risk "Risk score" "Risk score"
 * #risk ^designation[0].language = #fr-BE
 * #risk ^designation[=].value = "Risk score"
