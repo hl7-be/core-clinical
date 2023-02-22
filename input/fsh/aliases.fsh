@@ -1,0 +1,1 @@
+Alias: $sct = http://snomed.info/sct|http://snomed.info/sct/11000172109

@@ -15,10 +15,12 @@ Description: "Codes as defined by the NIHDI. Dutch translations are expected for
 * ^contact[=].telecom.value = "message-structure@ehealth.fgov.be"
 * ^jurisdiction.coding[0] = http://unstats.un.org/unsd/methods/m49/m49.htm#056
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
-* ^compose.include[0].system = "http://snomed.info/sct"
+* ^experimental = false
+//* ^caseSensitive = false
+* ^compose.include[0].system = $sct
 * ^compose.include[=].concept[0].code = #763117005
 * ^compose.include[=].concept[=].display = "FINDRISC (Finnish Diabetes Risk Score) score"
-* ^compose.include[=].concept[=].designation[0].use = http://snomed.info/sct#900000000000003001 "Fully specified name"
+* ^compose.include[=].concept[=].designation[0].use = $sct#900000000000003001 "Fully specified name"
 * ^compose.include[=].concept[=].designation[=].value = "Finnish Diabetes Risk Score (observable entity)"
 * ^compose.include[=].concept[=].designation[+].language = #en
 * ^compose.include[=].concept[=].designation[=].value = "Finnish Diabetes Risk Score"

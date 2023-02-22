@@ -15,6 +15,8 @@ Description: "Problem Origin Type"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
 * ^content = #complete
+* ^experimental = false
+* ^caseSensitive = false
 * #referral "Referral order" "Following a referral order"
 * #referral ^designation[0].language = #fr-BE
 * #referral ^designation[=].value = "prescription de renvoi"

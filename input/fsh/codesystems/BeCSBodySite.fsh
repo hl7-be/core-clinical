@@ -13,7 +13,6 @@ Description: "Body Site CodeSystem"
 * ^contact[=].telecom.system = #email
 * ^contact[=].telecom.value = "message-structure@ehealth.fgov.be"
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
-* ^content = #complete
-* ^count = 1
-* #IM "Intramuscular"
+* ^experimental = false
+* ^caseSensitive = false
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1

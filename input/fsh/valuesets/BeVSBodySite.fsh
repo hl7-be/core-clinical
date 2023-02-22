@@ -14,4 +14,7 @@ Description: "Body Site"
 * ^contact[=].telecom.value = "message-structure@ehealth.fgov.be"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
-* include codes from system BeCSBodySite
+* ^experimental = false
+//* ^caseSensitive = false
+
+* include codes from system $sct where concept is-a $sct#442083009
