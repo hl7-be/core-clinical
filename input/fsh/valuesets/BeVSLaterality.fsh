@@ -17,6 +17,8 @@ Description: "Laterality"
 * ^experimental = false
 //* ^caseSensitive = false
 
+* include  $sct#7771000
+* include  $sct#24028007
 * include  $sct#419161000
 * include  $sct#419465000
 * include  $sct#51440002
