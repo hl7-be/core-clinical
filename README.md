@@ -15,4 +15,4 @@ Issues and change requests are managed here:
 Issues:  __https://github.com/hl7-be/core-clinical/issues__  
 Kanban board:  __https://github.com/hl7-be/core-clinical/projects/1__  
 
----
+
