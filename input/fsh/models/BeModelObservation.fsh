@@ -2,7 +2,7 @@ Logical: BeModelObservation
 Parent: Base
 Description: "Logical model for the Observation careset"
 Title: "BeModelObservation"
-* uniqueIdentifier 1..1 Identifier "Unique identifier of the observation. Identifier value. (https://docs.google.com/document/d/13qamEPfdQ2HgUiXmjwHQNchpEU3LsQHF5MN9jKufX2g/edit?usp=sharing)."
+* identifier 1..* Identifier "Unique identifier of the observation. Identifier value. (https://docs.google.com/document/d/13qamEPfdQ2HgUiXmjwHQNchpEU3LsQHF5MN9jKufX2g/edit?usp=sharing)."
 * recordedDate 1..1 dateTime "date of last modification of the information by the Recorder. Not part of the identifier (no versioning)."
 * recorder 1..1 Identifier "is the unique identifier of the healthcare professional who encodes the information. The unique identifier must be the National Professional Register Number (NISS) but in certain cases, another unique identifier can be authorized (see business rules)"
 * performer 1..1 Identifier "is the unique identifier of the healthcare professional who takes responsibility for its content. The unique identifier must be the national professional register number (NISS) but in certain cases, another unique identifier can be authorized (see business rules)"
