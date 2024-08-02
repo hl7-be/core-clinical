@@ -13,10 +13,10 @@ url: https://www.ehealth.fgov.be/standards/fhir/core-clinical
 name: Transversal Clinical Core
 title: "HL7 FHIR Implementation Guide: Transversal Clinical Core"
 description: "HL7 FHIR Implementation Guide: Transversal Clinical Core"
-status: active
+status: draft
 license: CC0-1.0
 date: 2020-02-26
-version: 1.0.1
+version: 1.2.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here (but so far SUSHI only
@@ -164,9 +164,14 @@ menu:
   Home: index.html
   Guidance: guidance.html
   Artifacts:
-    Profiles: artifacts.html#2
-    Extensions: artifacts.html#3
-    Value Sets: artifacts.html#4
+    Logical Models: artifacts.html#structures-logical-models
+    Profiles: artifacts.html#structures-resource-profiles
+    Data Types: artifacts.html#structures-data-type-profiles
+    Extensions: artifacts.html#structures-extension-definitions
+    Value Sets: artifacts.html#terminology-value-sets
+    Code Systems: artifacts.html#terminology-code-systems
+    Naming Systems: artifacts.html#terminology-naming-systems
+    Examples: artifacts.html#example-example-instances
   Downloads: downloads.html
 #  History: http://hl7.org/fhir/us/example/history.html
 
@@ -198,4 +203,5 @@ FSHOnly: false
 
 
 dependencies:
-  hl7.fhir.be.core: current
+  hl7.fhir.be.core: current$issue-133
+  hl7.fhir.extensions.r5: 4.0.1
