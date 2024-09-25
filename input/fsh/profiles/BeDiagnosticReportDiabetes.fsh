@@ -5,7 +5,7 @@ Id: be-diagnostic-report-diabetes
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open 
 * identifier contains UUID 1..1 MS
-* identifier[UUID].system = "http://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diagnostic-report-diabetes"
+* identifier[UUID].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diagnostic-report-diabetes"
 * extension contains BeExtRecordedDate named recorded-date 1..1 MS and
     BeExtRecorder named recorder 1..1 MS and
     BeExtCodeableReference named device 0..1 MS and
