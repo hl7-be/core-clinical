@@ -16,13 +16,14 @@ Id: be-observation-diabetes
 * effectivePeriod.end 1..1 MS
 * subject 1..1 MS
 * subject only Reference(BePatient)
-* performer 1..1 MS
-* performer only Reference(BePractitioner or BePractitionerRole)
-* category 1..1 MS
-* category = $sct#698472009 
+//* performer 1..1 MS
+//* performer only Reference(BePractitioner or BePractitionerRole)
+* category 1..* MS
+* category from BeVSDiabetesObservationCategory 
 * status 1..1 MS
-//* status = $sct#445665009 
+* status from BeVSDiabetesObservationStatus
 * code 1..1 MS
+* code from BeVSDiabetesObservationCode
 * value[x] 1..1 MS
 * referenceRange MS
-* device 0..1 MS
+//* device 0..1 MS
