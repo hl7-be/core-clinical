@@ -8,7 +8,7 @@ Id: be-observation-diabetes
 * identifier[UUID].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-observation-diabetes"
 
 * extension contains BeExtRecordedDate named recorded-date 0..1 MS and
-    http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.supportingInfo.type named type 1..1 MS and
+    //http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.supportingInfo.type named type 1..1 MS and
     BeExtRecorder named recorder 1..1 MS
 * effective[x] only Period
 * effectivePeriod MS
