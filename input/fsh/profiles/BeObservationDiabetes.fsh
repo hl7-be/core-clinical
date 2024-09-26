@@ -5,7 +5,7 @@ Id: be-observation-diabetes
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open 
 * identifier contains UUID 1..1 MS
-* identifier[UUID].system = "http://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-observation-diabetes"
+* identifier[UUID].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-observation-diabetes"
 
 * extension contains BeExtRecordedDate named recorded-date 0..1 MS and
     http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.supportingInfo.type named type 1..1 MS and
