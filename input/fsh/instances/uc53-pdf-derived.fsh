@@ -1,4 +1,44 @@
-Instance: uc52-pdf-derived
+Instance: uc53-bundle
+InstanceOf: Bundle
+* identifier[+].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diagnostic-report-diabetes"
+* identifier[=].value = "6e126868-aa6a-41ef-b7fb-3c8b690d8ffb"
+* type = #document
+* entry[+].resource = uc53-composition
+* entry[=].fullUrl = "urn:uuid:66442d1d-2a00-45cc-a4bd-b07c2a376212"
+* entry[+].resource = uc53-pdf-derived
+* entry[=].fullUrl = "urn:uuid:6e126868-aa6a-41ef-b7fb-3c8b690d8ffb"
+* entry[+].resource = c611b58d-27bb-49e2-b3ec-bd59e986f5f3
+* entry[=].fullUrl = "urn:uuid:c611b58d-27bb-49e2-b3ec-bd59e986f5f3"
+* entry[+].resource = 397dffb4-a88a-47d0-b10d-beffcbf6157d
+* entry[=].fullUrl = "urn:uuid:397dffb4-a88a-47d0-b10d-beffcbf6157d"
+* entry[+].resource = 6756477d-b57a-4611-b048-374d46f52908
+* entry[=].fullUrl = "urn:uuid:6756477d-b57a-4611-b048-374d46f52908"
+* entry[+].resource = b44fe5d5-f57b-4424-b628-d2baeb447738
+* entry[=].fullUrl = "urn:uuid:b44fe5d5-f57b-4424-b628-d2baeb447738"
+* entry[+].resource = b28ef33b-0480-4bde-a5df-94988813110b
+* entry[=].fullUrl = "urn:uuid:b28ef33b-0480-4bde-a5df-94988813110b"
+* entry[+].resource = 449a728d-dfb4-422d-94aa-1a2d43849ee5
+* entry[=].fullUrl = "urn:uuid:449a728d-dfb4-422d-94aa-1a2d43849ee5"
+* entry[+].resource = a6665182-e11a-40a9-ae83-9b093a353f16
+* entry[=].fullUrl = "urn:uuid:a6665182-e11a-40a9-ae83-9b093a353f16"
+* entry[+].resource = 454a29d0-0893-458a-b2e5-25452b89e29a
+* entry[=].fullUrl = "urn:uuid:454a29d0-0893-458a-b2e5-25452b89e29a"
+* entry[+].resource = device
+* entry[=].fullUrl = "urn:uuid:ce11c616-6625-4966-8a16-012ee8ff1d8e"
+* timestamp = "2024-11-25T00:00:00.000+01:00"
+
+Instance: uc53-composition
+InstanceOf: Composition
+//* id = "66442d1d-2a00-45cc-a4bd-b07c2a376212"
+* status = #final
+* type = $sct#439926003
+* date = "2024-11-25"
+* author.identifier.system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"
+* author.identifier.value = "0403044007"
+* title = "Diabetes device report"
+* section.entry = Reference(urn:uuid:6e126868-aa6a-41ef-b7fb-3c8b690d8ffb)
+
+Instance: uc53-pdf-derived
 InstanceOf: BeDiagnosticReportDiabetes
 * identifier[UUID][+].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diagnostic-report-diabetes"
 * identifier[UUID][=].value = "6e126868-aa6a-41ef-b7fb-3c8b690d8ffb"
@@ -17,20 +57,20 @@ InstanceOf: BeDiagnosticReportDiabetes
 * status = #final
 * presentedForm.data = "JVBERi0xLjANCjEgMCBvYmo8PC9QYWdlcyAyIDAgUj4+ZW5kb2JqIDIgMCBvYmo8PC9LaWRzWzMgMCBSXS9Db3VudCAxPj5lbmRvYmogMyAwIG9iajw8L01lZGlhQm94WzAgMCAzIDNdPj5lbmRvYmoNCnRyYWlsZXI8PC9Sb290IDEgMCBSPj4="
 * presentedForm.contentType = #"application/pdf"
-* result[+] = Reference(6e126868-aa6a-41ef-b7fb-3c8b690d8ffc1)
-* result[+] = Reference(6e126868-aa6a-41ef-b7fb-3c8b690d8ffc2)
-* result[+] = Reference(6e126868-aa6a-41ef-b7fb-3c8b690d8ffc3)
-* result[+] = Reference(6e126868-aa6a-41ef-b7fb-3c8b690d8ffc4)
-* result[+] = Reference(6e126868-aa6a-41ef-b7fb-3c8b690d8ffc5)
-* result[+] = Reference(6e126868-aa6a-41ef-b7fb-3c8b690d8ffc6)
-* result[+] = Reference(6e126868-aa6a-41ef-b7fb-3c8b690d8ffc7)
-* result[+] = Reference(6e126868-aa6a-41ef-b7fb-3c8b690d8ffc8)
+* result[+] = Reference(urn:uuid:c611b58d-27bb-49e2-b3ec-bd59e986f5f3)
+* result[+] = Reference(urn:uuid:397dffb4-a88a-47d0-b10d-beffcbf6157d)
+* result[+] = Reference(urn:uuid:6756477d-b57a-4611-b048-374d46f52908)
+* result[+] = Reference(urn:uuid:b44fe5d5-f57b-4424-b628-d2baeb447738)
+* result[+] = Reference(urn:uuid:b28ef33b-0480-4bde-a5df-94988813110b)
+* result[+] = Reference(urn:uuid:449a728d-dfb4-422d-94aa-1a2d43849ee5)
+* result[+] = Reference(urn:uuid:a6665182-e11a-40a9-ae83-9b093a353f16)
+* result[+] = Reference(urn:uuid:454a29d0-0893-458a-b2e5-25452b89e29a)
 
-Instance: 6e126868-aa6a-41ef-b7fb-3c8b690d8ffc1
+Instance: c611b58d-27bb-49e2-b3ec-bd59e986f5f3
 InstanceOf: BeObservationDiabetes
 Description: "Coefficient of variation"
 * identifier[UUID][+].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-observation-diabetes"
-* identifier[UUID][=].value = "6e126868-aa6a-41ef-b7fb-3c8b690d8ffc1"
+* identifier[UUID][=].value = "c611b58d-27bb-49e2-b3ec-bd59e986f5f3"
 * extension[BeExtRecordedDate].valueDateTime = "2024-11-25"
 * effectivePeriod.start = "2024-11-11"
 * effectivePeriod.end = "2024-11-24"
@@ -41,7 +81,7 @@ Description: "Coefficient of variation"
 * category[+] = $sct#439926003
 * category[+] = $sct#258090004
 * code = $sct#778232399
-* device = Reference(device)
+* device = Reference(urn:uuid:ce11c616-6625-4966-8a16-012ee8ff1d8e)
 * status = #final
 * valueQuantity.value = 6
 * valueQuantity.unit = "%"
@@ -54,11 +94,11 @@ Description: "Coefficient of variation"
 * referenceRange.high.code = #"%"
 * referenceRange.high.system = "http://unitsofmeasure.org"
 
-Instance: 6e126868-aa6a-41ef-b7fb-3c8b690d8ffc2
+Instance: 397dffb4-a88a-47d0-b10d-beffcbf6157d
 InstanceOf: BeObservationDiabetes
 Description: "Days sensor worn"
 * identifier[UUID][+].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-observation-diabetes"
-* identifier[UUID][=].value = "6e126868-aa6a-41ef-b7fb-3c8b690d8ffc2"
+* identifier[UUID][=].value = "397dffb4-a88a-47d0-b10d-beffcbf6157d"
 * extension[BeExtRecordedDate].valueDateTime = "2024-11-25"
 * effectivePeriod.start = "2024-11-11"
 * effectivePeriod.end = "2024-11-24"
@@ -69,7 +109,7 @@ Description: "Days sensor worn"
 * category[+] = $sct#439926003
 * category[+] = $sct#258090004
 * code = $sct#757492266
-* device = Reference(device)
+* device = Reference(urn:uuid:ce11c616-6625-4966-8a16-012ee8ff1d8e)
 * status = #final
 * valueQuantity.value = 14
 * valueQuantity.unit = "days"
@@ -84,11 +124,11 @@ Description: "Days sensor worn"
 
 
 
-Instance: 6e126868-aa6a-41ef-b7fb-3c8b690d8ffc3
+Instance: 6756477d-b57a-4611-b048-374d46f52908
 InstanceOf: BeObservationDiabetes
 Description: "% Data Captured"
 * identifier[UUID][+].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-observation-diabetes"
-* identifier[UUID][=].value = "6e126868-aa6a-41ef-b7fb-3c8b690d8ffc3"
+* identifier[UUID][=].value = "6756477d-b57a-4611-b048-374d46f52908"
 * extension[BeExtRecordedDate].valueDateTime = "2024-11-25"
 * effectivePeriod.start = "2024-11-11"
 * effectivePeriod.end = "2024-11-24"
@@ -99,7 +139,7 @@ Description: "% Data Captured"
 * category[+] = $sct#439926003
 * category[+] = $sct#258090004
 * code = $sct#242282937
-* device = Reference(device)
+* device = Reference(urn:uuid:ce11c616-6625-4966-8a16-012ee8ff1d8e)
 * status = #final
 * valueQuantity.value = 96
 * valueQuantity.unit = "%"
@@ -113,11 +153,11 @@ Description: "% Data Captured"
 * referenceRange.low.system = "http://unitsofmeasure.org"
 
 
-Instance: 6e126868-aa6a-41ef-b7fb-3c8b690d8ffc4
+Instance: b44fe5d5-f57b-4424-b628-d2baeb447738
 InstanceOf: BeObservationDiabetes
 Description: "TAR-Very high"
 * identifier[UUID][+].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-observation-diabetes"
-* identifier[UUID][=].value = "6e126868-aa6a-41ef-b7fb-3c8b690d8ffc4"
+* identifier[UUID][=].value = "b44fe5d5-f57b-4424-b628-d2baeb447738"
 * extension[BeExtRecordedDate].valueDateTime = "2024-11-25"
 * effectivePeriod.start = "2024-11-11"
 * effectivePeriod.end = "2024-11-24"
@@ -128,7 +168,7 @@ Description: "TAR-Very high"
 * category[+] = $sct#439926003
 * category[+] = $sct#258090004
 * code = $sct#124011008
-* device = Reference(device)
+* device = Reference(urn:uuid:ce11c616-6625-4966-8a16-012ee8ff1d8e)
 * status = #final
 * valueQuantity.value = 20
 * valueQuantity.unit = "%"
@@ -143,11 +183,11 @@ Description: "TAR-Very high"
 * referenceRange.appliesTo.text = "≥ 250 mg/dL"
 
 
-Instance: 6e126868-aa6a-41ef-b7fb-3c8b690d8ffc5
+Instance: b28ef33b-0480-4bde-a5df-94988813110b
 InstanceOf: BeObservationDiabetes
 Description: "TAR-High"
 * identifier[UUID][+].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-observation-diabetes"
-* identifier[UUID][=].value = "6e126868-aa6a-41ef-b7fb-3c8b690d8ffc5"
+* identifier[UUID][=].value = "b28ef33b-0480-4bde-a5df-94988813110b"
 * extension[BeExtRecordedDate].valueDateTime = "2024-11-25"
 * effectivePeriod.start = "2024-11-11"
 * effectivePeriod.end = "2024-11-24"
@@ -158,7 +198,7 @@ Description: "TAR-High"
 * category[+] = $sct#439926003
 * category[+] = $sct#258090004
 * code = $sct#865587343
-* device = Reference(device)
+* device = Reference(urn:uuid:ce11c616-6625-4966-8a16-012ee8ff1d8e)
 * status = #final
 * valueQuantity.value = 23
 * valueQuantity.unit = "%"
@@ -172,11 +212,11 @@ Description: "TAR-High"
 * referenceRange.high.system = "http://unitsofmeasure.org"
 * referenceRange.appliesTo.text = "≥180 mg/dL, <250 mg/dL"
 
-Instance: 6e126868-aa6a-41ef-b7fb-3c8b690d8ffc6
+Instance: 449a728d-dfb4-422d-94aa-1a2d43849ee5
 InstanceOf: BeObservationDiabetes
 Description: "TIR"
 * identifier[UUID][+].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-observation-diabetes"
-* identifier[UUID][=].value = "6e126868-aa6a-41ef-b7fb-3c8b690d8ffc6"
+* identifier[UUID][=].value = "449a728d-dfb4-422d-94aa-1a2d43849ee5"
 * extension[BeExtRecordedDate].valueDateTime = "2024-11-25"
 * effectivePeriod.start = "2024-11-11"
 * effectivePeriod.end = "2024-11-24"
@@ -187,7 +227,7 @@ Description: "TIR"
 * category[+] = $sct#439926003
 * category[+] = $sct#258090004
 * code = $sct#438565545
-* device = Reference(device)
+* device = Reference(urn:uuid:ce11c616-6625-4966-8a16-012ee8ff1d8e)
 * status = #final
 * valueQuantity.value = 47
 * valueQuantity.unit = "%"
@@ -203,11 +243,11 @@ Description: "TIR"
 
 
 
-Instance: 6e126868-aa6a-41ef-b7fb-3c8b690d8ffc7
+Instance: a6665182-e11a-40a9-ae83-9b093a353f16
 InstanceOf: BeObservationDiabetes
 Description: "TBR Time below range - low"
 * identifier[UUID][+].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-observation-diabetes"
-* identifier[UUID][=].value = "6e126868-aa6a-41ef-b7fb-3c8b690d8ffc7"
+* identifier[UUID][=].value = "a6665182-e11a-40a9-ae83-9b093a353f16"
 * extension[BeExtRecordedDate].valueDateTime = "2024-11-25"
 * effectivePeriod.start = "2024-11-11"
 * effectivePeriod.end = "2024-11-24"
@@ -218,7 +258,7 @@ Description: "TBR Time below range - low"
 * category[+] = $sct#439926003
 * category[+] = $sct#258090004
 * code = $sct#278399267
-* device = Reference(device)
+* device = Reference(urn:uuid:ce11c616-6625-4966-8a16-012ee8ff1d8e)
 * status = #final
 * valueQuantity.value = 4
 * valueQuantity.unit = "%"
@@ -233,11 +273,11 @@ Description: "TBR Time below range - low"
 * referenceRange.appliesTo.text = "≥54 mg/dL, <70 mg/dL"
 
 
-Instance: 6e126868-aa6a-41ef-b7fb-3c8b690d8ffc8
+Instance: 454a29d0-0893-458a-b2e5-25452b89e29a
 InstanceOf: BeObservationDiabetes
 Description: "TBR Time below range – very low"
 * identifier[UUID][+].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-observation-diabetes"
-* identifier[UUID][=].value = "6e126868-aa6a-41ef-b7fb-3c8b690d8ffc8"
+* identifier[UUID][=].value = "454a29d0-0893-458a-b2e5-25452b89e29a"
 * extension[BeExtRecordedDate].valueDateTime = "2024-11-25"
 * effectivePeriod.start = "2024-11-11"
 * effectivePeriod.end = "2024-11-24"
@@ -248,7 +288,7 @@ Description: "TBR Time below range – very low"
 * category[+] = $sct#439926003
 * category[+] = $sct#258090004
 * code = $sct#364527445
-* device = Reference(device)
+* device = Reference(urn:uuid:ce11c616-6625-4966-8a16-012ee8ff1d8e)
 * status = #final
 * valueQuantity.value = 6
 * valueQuantity.unit = "%"

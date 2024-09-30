@@ -1,3 +1,25 @@
+Instance: uc52-bundle
+InstanceOf: Bundle
+* identifier[+].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diagnostic-report-diabetes"
+* identifier[=].value = "6e126868-aa6a-41ef-b7fb-3c8b690d8ffb"
+* type = #document
+* entry[+].resource = uc52-composition
+* entry[=].fullUrl = "urn:uuid:66442d1d-2a00-45cc-a4bd-b07c2a376212"
+* entry[+].resource = uc52-pdfonly
+* entry[=].fullUrl = "urn:uuid:6e126868-aa6a-41ef-b7fb-3c8b690d8ffb"
+* timestamp = "2024-11-25T00:00:00.000+01:00"
+
+Instance: uc52-composition
+InstanceOf: Composition
+* id = "66442d1d-2a00-45cc-a4bd-b07c2a376212"
+* status = #final
+* type = $sct#439926003
+* date = "2024-11-25"
+* author.identifier.system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"
+* author.identifier.value = "0403044007"
+* title = "Diabetes device report"
+* section.entry = Reference(urn:uuid:6e126868-aa6a-41ef-b7fb-3c8b690d8ffb)
+
 Instance: uc52-pdfonly
 InstanceOf: BeDiagnosticReportDiabetes
 * identifier[UUID][+].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diagnostic-report-diabetes"
