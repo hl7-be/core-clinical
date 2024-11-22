@@ -11,7 +11,6 @@ InstanceOf: Bundle
 
 Instance: uc52-composition
 InstanceOf: Composition
-* id = "66442d1d-2a00-45cc-a4bd-b07c2a376212"
 * status = #final
 * type = $sct#439926003
 * date = "2024-11-25"

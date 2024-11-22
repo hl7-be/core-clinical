@@ -205,3 +205,39 @@ FSHOnly: false
 dependencies:
   hl7.fhir.be.core: current$issue-133
   hl7.fhir.extensions.r5: 4.0.1
+
+resources:
+  Bundle/uc52-bundle:
+    name: Use case 5.2
+    description: Bundle containing only a pdf, no derived data  
+  Composition/uc52-composition:
+    name: Use case 5.2 (Composition)
+    description: Index page of the Bundle
+  DiagnosticReport/uc52-pdfonly:
+    name: Use case 5.2 (Diagnostic Report)
+    description: Diagnostic report, containing the pdf
+  Bundle/uc53-bundle:
+    name: Use case 5.3
+    description: Bundle containing pdf and derived data (with/without reference range)
+  DiagnosticReport/uc53-pdf-derived:
+    name: Use case 5.3 (Diagnostic Report)
+    description: Diagnostic report, containing a pdf and references to derived observations
+  Composition/uc53-composition:
+    name: Use case 5.3 (Composition)
+    description: Index page of the Bundle
+  Observation/c611b58d-27bb-49e2-b3ec-bd59e986f5f3:
+    name: Use case 5.3 (Observation)
+  Observation/397dffb4-a88a-47d0-b10d-beffcbf6157d:
+    name: Use case 5.3 (Observation)
+  Observation/6756477d-b57a-4611-b048-374d46f52908:
+    name: Use case 5.3 (Observation)
+  Observation/b28ef33b-0480-4bde-a5df-94988813110b:
+    name: Use case 5.3 (Observation)
+  Observation/449a728d-dfb4-422d-94aa-1a2d43849ee5:
+    name: Use case 5.3 (Observation)
+  Observation/a6665182-e11a-40a9-ae83-9b093a353f16:
+    name: Use case 5.3 (Observation)
+  Observation/454a29d0-0893-458a-b2e5-25452b89e29a:
+    name: Use case 5.3 (Observation)
+  Device/device:
+    name: Use case 5.3 (Device)
