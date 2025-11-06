@@ -203,7 +203,7 @@ FSHOnly: false
 
 
 dependencies:
-  hl7.fhir.be.core: current$issue-133
+  hl7.fhir.be.core: current
   hl7.fhir.extensions.r5: 4.0.1
 
 resources:
