@@ -13,7 +13,7 @@ url: https://www.ehealth.fgov.be/standards/fhir/core-clinical
 name: Transversal Clinical Core
 title: "HL7 FHIR Implementation Guide: Transversal Clinical Core"
 description: "HL7 FHIR Implementation Guide: Transversal Clinical Core"
-status: active
+status: draft
 license: CC0-1.0
 date: 2020-02-26
 version: 1.0.1
