@@ -16,3 +16,5 @@ Description: "An explicit statement of laterality of a lesion, or a treatment, e
 * ^context[=].expression = "Observation.bodySite"
 * ^context[+].type = #element
 * ^context[=].expression = "ServiceRequest.bodySite"
+* ^context[+].type = #element
+* ^context[=].expression = "Procedure.bodySite"

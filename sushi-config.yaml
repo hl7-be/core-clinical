@@ -199,3 +199,5 @@ FSHOnly: false
 
 dependencies:
   hl7.fhir.be.core: current
+#  hl7.fhir.extensions.r5: 4.0.1
+  hl7.fhir.uv.xver-r5.r4 : 0.0.1-snapshot-2
