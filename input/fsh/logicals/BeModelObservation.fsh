@@ -1,4 +1,4 @@
-Logical: BeModelObservation
+Logical: BeModelClinicalObservation
 Title: "BeObservation Model"
 Description: "Observation logical model"
 Id: be-model-observation
