@@ -2,6 +2,7 @@ Logical: BeModelObservation
 Title: "BeObservation Model"
 Description: "Observation logical model"
 Id: be-model-observation
+Characteristics: #can-be-target
 
 
 * identifier 1..* Identifier "Unique identifier for the observation"
@@ -13,11 +14,14 @@ Id: be-model-observation
 //* focus 0..1 Reference "The actual focus of an observation when it is not the patient of record"
 * request 0..1 Reference "The request that this observation is fulfilling"
 * partOfProcedure 0..* Reference "Part of referenced procedure"
+* encounter 0..1 Reference (Encounter) "Event during which this observation is made"
+* method 0..1 CodeableConcept "The method used to obtain the information"
 * specimen 0..1 Reference "The specimen that was used when this observation was made"
 * device 0..1 Reference "The device used to generate the observation data"
 * category 0..* CodeableConcept "A code that classifies the general type of observation being made"
 * code 1..1 CodeableConcept "Describes what was observed. Sometimes this is called the observation 'name'"
 * value[x] 0..1 Quantity or CodeableConcept or string or boolean or integer or Range or Ratio or time or dateTime or Period "The value of the observation - typically a code, an amount or a date" 
+* hasMember 0..* Reference (BeModelObservation) "Other observations that are part of this observation"
 * component 0..* BackboneElement "Some observations have multiple component observations"
   * code 1..1 CodeableConcept "Describes what was observed."
   * value[x] 0..1 Quantity or CodeableConcept or string or boolean or integer or Range or Ratio or time or dateTime or Period "The value of the component observation - typically a code, an amount or a date" 
