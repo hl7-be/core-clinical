@@ -21,7 +21,7 @@ Characteristics: #can-be-target
 * category 0..* CodeableConcept "A code that classifies the general type of observation being made"
 * code 1..1 CodeableConcept "Describes what was observed. Sometimes this is called the observation 'name'"
 * value[x] 0..1 Quantity or CodeableConcept or string or boolean or integer or Range or Ratio or time or dateTime or Period "The value of the observation - typically a code, an amount or a date" 
-* member 0..* Reference (BeModelObservation) "Other observations that are part of this observation"
+* member 0..* Reference (BeModelClinicalObservation) "Other observations that are part of this observation"
 // * component 0..* BackboneElement "Some observations have multiple component observations"
 //   * code 1..1 CodeableConcept "Describes what was observed."
 //   * value[x] 0..1 Quantity or CodeableConcept or string or boolean or integer or Range or Ratio or time or dateTime or Period "The value of the component observation - typically a code, an amount or a date" 
