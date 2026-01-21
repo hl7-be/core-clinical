@@ -1,5 +1,7 @@
 Profile: BeCarePlan
 Parent: CarePlan
+Description: "Placeholder profile for contextualising the FHIR resource"
+
 * basedOn only Reference(BeCarePlan)
 * replaces only Reference(BeCarePlan)
 * partOf only Reference(BeCarePlan)
