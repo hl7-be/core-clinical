@@ -1,7 +1,7 @@
 Logical: BeModelClinicalObservation
 Title: "BeObservation Model"
 Description: "Observation logical model"
-Id: be-model-observation
+Id: BeModelClinicalObservation
 Characteristics: #can-be-target
 
 
