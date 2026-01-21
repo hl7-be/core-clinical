@@ -12,6 +12,12 @@ Description: "Belgian federal profile for a clinical observation."
 //* recorder 
 
 * performer MS
+* performer ^comment = """
+When the specific performer is not known, the organisation can be used. 
+When a device is creating the entry, `.device` should identify the device, and `.performer` should identify the person responsible for (using) the device, e.g. the professional or patient.
+In cases where the performer is known but there is no resource or unique identifier, the reference.display can be used - although this should be avoided.
+"""
+
 * subject 1..1 MS
 * basedOn MS // requestId
 * partOf MS
