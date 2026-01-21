@@ -2,7 +2,8 @@ Profile: BeEncounter
 Parent: Encounter
 Id: be-encounter
 Title: "BeEncounter"
-Description: "(Temporary version until approval HL7Belgium WG) Belgian profile indicating the base data needed for the recording of a meeting between a patient and a practitioner/organization"
+Description: "Placeholder profile for contextualising the FHIR resource"
+
 * subject only Reference(BePatient or Group)
 * participant.individual only Reference(BePractitioner or BePractitionerRole or RelatedPerson) 
 * participant.individual ^short = "*TODO* RelatedPerson -> BeRelatedPerson"
