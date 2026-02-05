@@ -1,0 +1,12 @@
+{
+	"package-id": "hl7.fhir.be.core-clinical",
+	"version": "1.1.0",
+	"path": "https://www.ehealth.fgov.be/standards/fhir/core-clinical/1.1.0",
+	"milestone": true,
+	"status": "release",
+	"sequence": "Trial Use",
+	"desc": "eHealth FHIR core-clinical Profiles for Belgium",
+	"desccmd": "eHealth FHIR core-clinical Profiles for Belgium",
+	"mode": "milestone",
+	"first": false
+}
