@@ -10,9 +10,9 @@
 id: hl7.fhir.be.core-clinical
 canonical: https://www.ehealth.fgov.be/standards/fhir/core-clinical
 url: https://www.ehealth.fgov.be/standards/fhir/core-clinical
-name: Transversal Clinical Core
-title: "HL7 FHIR Implementation Guide: Transversal Clinical Core"
-description: "HL7 FHIR Implementation Guide: Transversal Clinical Core"
+name: TransversalClinicalCore
+title: "Clinical Core"
+description: "HL7 Belgium - Transversal Clinical Core"
 status: active
 license: CC0-1.0
 date: 2020-02-26
