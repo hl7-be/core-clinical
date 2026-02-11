@@ -1,0 +1,6 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-bodysite,1.0.1,active,,BeCSBodySite,Body Site CodeSystem,"Body Site CodeSystem",
+https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category,1.0.1,active,,BeCSProblemCategory,Problem Category,"Problem Category",
+https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type,1.0.1,active,,BeCSProblemOriginType,Problem Origin Type,"Problem Origin Type",
+https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score,1.0.1,active,,BeCSScore,Score Code System,"Codes as defined initially by the NIHDI. Dutch translations were not yet defined but are planned   for a next release.",
+https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category,1.0.1,active,,BeCSScoreCategory,Score Category,"Score Category",

@@ -1,0 +1,83 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "af948cb9-2994-4bef-b5bb-ab1ad847be34-105",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/af948cb9-2994-4bef-b5bb-ab1ad847be34-105",
+  "name" : "IntersectionBeVSScoreAndBeVSScore",
+  "title" : "Intersection of Score Value Set And Score Value Set",
+  "status" : "active",
+  "date" : "2026-02-11T21:11:46+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "763117005",
+        "display" : "FINDRISC (Finnish Diabetes Risk Score) score"
+      },
+      {
+        "code" : "446661009",
+        "display" : "Visual Analogic Scale for pain assessment"
+      },
+      {
+        "code" : "273531005",
+        "display" : "Index of Independence in Activities of Daily Living"
+      },
+      {
+        "code" : "447316007",
+        "display" : "Mini-Mental State Examination"
+      },
+      {
+        "code" : "444297006",
+        "display" : "Malnutrition Universal Screening"
+      },
+      {
+        "code" : "443133008",
+        "display" : "Norton Pressure Sore Risk-Assessment Scale Scoring System"
+      },
+      {
+        "code" : "7121000122100",
+        "display" : "Pain Assessment in Advanced Dementia Scale"
+      },
+      {
+        "code" : "273849003",
+        "display" : "Subjective Global Assessment"
+      },
+      {
+        "code" : "450738001",
+        "display" : "Timed Chair Stand"
+      },
+      {
+        "code" : "444680009",
+        "display" : "Timed Up&Go : évalue le risque de chute chez une personne"
+      },
+      {
+        "code" : "278897004",
+        "display" : "Waterlow pressure ulcer risk assessment"
+      },
+      {
+        "code" : "763259004",
+        "display" : "Disease Activity Score"
+      },
+      {
+        "code" : "273364009",
+        "display" : "Clinical Disease Activity Index"
+      },
+      {
+        "code" : "443318007",
+        "display" : "Tinetti balance and gait scale"
+      },
+      {
+        "code" : "719124004",
+        "display" : "Arthritis Impact Measurement Scales 2 (AIMS2)"
+      }]
+    },
+    {
+      
+    }]
+  }
+}

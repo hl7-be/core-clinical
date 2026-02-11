@@ -1,0 +1,151 @@
+TransversalClinicalCore : Validation Results
+=========================================
+
+err = 3, warn = 27, info = 44
+IG Publisher Version: 2.1.0
+Generated Wed Feb 11 21:12:34 UTC 2026. FHIR version 4.0.1 for hl7.fhir.be.core-clinical#1.0.1 (canonical = https://www.ehealth.fgov.be/standards/fhir/core-clinical)
+ Build Errors : 0 / 8 / 0
+ /work/fsh-generated/resources/CodeSystem-be-cs-bodysite : 0 / 1 / 2
+ /work/fsh-generated/resources/CodeSystem-be-cs-problem-category : 0 / 0 / 2
+ /work/fsh-generated/resources/CodeSystem-be-cs-problem-origin-type : 0 / 0 / 2
+ /work/fsh-generated/resources/CodeSystem-be-cs-score : 0 / 0 / 2
+ /work/fsh-generated/resources/CodeSystem-be-cs-score-category : 0 / 0 / 2
+ /work/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.core-clinical : 1 / 0 / 2
+ /work/fsh-generated/resources/Parameters-terminology-expansion : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeAppointment : 0 / 1 / 3
+ /work/fsh-generated/resources/StructureDefinition-BeCarePlan : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-BeClinicalImpression : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-BeGoal : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-BeModelBodySite : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-BeModelClinicalObservation : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-clinical-observation : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-encounter : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-ext-body-topography : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-ext-laterality : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-ext-problem-origin-type : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-observation : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-observationcodeableconcept : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-problem : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-procedure : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-questionnaire-response : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-scoreresult : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-service-request : 0 / 1 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-body-topography : 2 / 0 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-bodysite : 0 / 0 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-laterality : 0 / 2 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-category : 0 / 0 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-code : 0 / 0 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-origin-type : 0 / 0 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-reaction-manifestation-code : 0 / 0 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-score : 0 / 0 / 12
+ /work/fsh-generated/resources/ValueSet-be-vs-scorecategory : 0 / 0 / 2
+</table>
+== n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Parameters/terminology-expansion.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 5: The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
+WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
+== fsh-generated/resources/CodeSystem-be-cs-bodysite.json ==
+INFORMATION: CodeSystem/be-cs-bodysite: CodeSystem.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: CodeSystem/be-cs-bodysite: CodeSystem: When a CodeSystem has content = 'complete', it doesnt make sense for there to be no concepts defined
+== fsh-generated/resources/CodeSystem-be-cs-problem-category.json ==
+INFORMATION: CodeSystem/be-cs-problem-category: CodeSystem.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+== fsh-generated/resources/CodeSystem-be-cs-problem-origin-type.json ==
+INFORMATION: CodeSystem/be-cs-problem-origin-type: CodeSystem.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+== fsh-generated/resources/CodeSystem-be-cs-score.json ==
+INFORMATION: CodeSystem/be-cs-score: CodeSystem.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+== fsh-generated/resources/CodeSystem-be-cs-score-category.json ==
+INFORMATION: CodeSystem/be-cs-score-category: CodeSystem.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.be.core-clinical.json ==
+INFORMATION: ImplementationGuide/hl7.fhir.be.core-clinical: ImplementationGuide.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+ERROR: ImplementationGuide/hl7.fhir.be.core-clinical: ImplementationGuide.definition.extension[28].url: No definition could be found for URL value 'http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters'
+== fsh-generated/resources/Parameters-terminology-expansion.json ==
+== fsh-generated/resources/StructureDefinition-BeAppointment.json ==
+INFORMATION: StructureDefinition/BeAppointment: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+INFORMATION: StructureDefinition/BeAppointment: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeAppointment'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-BeCarePlan.json ==
+INFORMATION: StructureDefinition/BeCarePlan: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeCarePlan'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-BeClinicalImpression.json ==
+INFORMATION: StructureDefinition/BeClinicalImpression: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeClinicalImpression'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-BeGoal.json ==
+INFORMATION: StructureDefinition/BeGoal: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeGoal'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-BeModelBodySite.json ==
+INFORMATION: StructureDefinition/BeModelBodySite: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+== fsh-generated/resources/StructureDefinition-BeModelClinicalObservation.json ==
+INFORMATION: StructureDefinition/BeModelClinicalObservation: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+== fsh-generated/resources/StructureDefinition-be-clinical-observation.json ==
+INFORMATION: StructureDefinition/be-clinical-observation: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-clinical-observation'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-be-encounter.json ==
+INFORMATION: StructureDefinition/be-encounter: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-encounter'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-be-ext-body-topography.json ==
+INFORMATION: StructureDefinition/be-ext-body-topography: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-ext-body-topography'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-be-ext-laterality.json ==
+INFORMATION: StructureDefinition/be-ext-laterality: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-ext-laterality'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-be-ext-problem-origin-type.json ==
+INFORMATION: StructureDefinition/be-ext-problem-origin-type: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-ext-problem-origin-type'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-be-observation.json ==
+INFORMATION: StructureDefinition/be-observation: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: StructureDefinition/be-observation: StructureDefinition: The resource status 'active' and the standards status 'deprecated' are not consistent
+== fsh-generated/resources/StructureDefinition-be-observationcodeableconcept.json ==
+INFORMATION: StructureDefinition/be-observationcodeableconcept: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observationcodeableconcept'): The Implementation Guide contains no examples for this data type profile
+== fsh-generated/resources/StructureDefinition-be-problem.json ==
+INFORMATION: StructureDefinition/be-problem: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-problem'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-be-procedure.json ==
+INFORMATION: StructureDefinition/be-procedure: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-procedure'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-be-questionnaire-response.json ==
+INFORMATION: StructureDefinition/be-questionnaire-response: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-questionnaire-response'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-be-scoreresult.json ==
+INFORMATION: StructureDefinition/be-scoreresult: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-scoreresult'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-be-service-request.json ==
+INFORMATION: StructureDefinition/be-service-request: StructureDefinition.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: StructureDefinition.where(url = 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-service-request'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-be-vs-body-topography.json ==
+ERROR: ValueSet.where(url = 'https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/BeVSBodyTopography'): Conformance resource /work/fsh-generated/resources/ValueSet-be-vs-body-topography.json - the canonical URL (https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-body-topography) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/BeVSBodyTopography). Use the special-url parameter if you really mean for it not to match
+INFORMATION: ValueSet/be-vs-body-topography: ValueSet.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+ERROR: /work/fsh-generated/resources/ValueSet-be-vs-body-topography: URL Mismatch https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-body-topography vs https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/BeVSBodyTopography
+== fsh-generated/resources/ValueSet-be-vs-bodysite.json ==
+INFORMATION: ValueSet/be-vs-bodysite: ValueSet.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+== fsh-generated/resources/ValueSet-be-vs-laterality.json ==
+INFORMATION: ValueSet/be-vs-laterality: ValueSet.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+WARNING: ValueSet/be-vs-laterality: ValueSet.compose.include[0].concept[2]: The concept '419161000' has a status of inactive and its use should be reviewed
+WARNING: ValueSet/be-vs-laterality: ValueSet.compose.include[0].concept[3]: The concept '419465000' has a status of inactive and its use should be reviewed
+== fsh-generated/resources/ValueSet-be-vs-problem-category.json ==
+INFORMATION: ValueSet/be-vs-problem-category: ValueSet.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+== fsh-generated/resources/ValueSet-be-vs-problem-code.json ==
+INFORMATION: ValueSet/be-vs-problem-code: ValueSet.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+== fsh-generated/resources/ValueSet-be-vs-problem-origin-type.json ==
+INFORMATION: ValueSet/be-vs-problem-origin-type: ValueSet.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+== fsh-generated/resources/ValueSet-be-vs-reaction-manifestation-code.json ==
+INFORMATION: ValueSet/be-vs-reaction-manifestation-code: ValueSet.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+== fsh-generated/resources/ValueSet-be-vs-score.json ==
+INFORMATION: ValueSet/be-vs-score: ValueSet.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[1]: Wrong Display Name 'Visual Analogic Scale for pain assessment' for http://snomed.info/sct#446661009. Valid display is 'Visual analog scale score (observable entity)' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[3]: Wrong Display Name 'Mini-Mental State Examination' for http://snomed.info/sct#447316007. Valid display is 'Mini-mental state examination score (observable entity)' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[4]: Wrong Display Name 'Malnutrition Universal Screening' for http://snomed.info/sct#444297006. Valid display is 'Malnutrition universal screening tool score (observable entity)' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[5]: Wrong Display Name 'Norton Pressure Sore Risk-Assessment Scale Scoring System' for http://snomed.info/sct#443133008. Valid display is 'Norton pressure sore risk score' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[8]: Wrong Display Name 'Timed Chair Stand' for http://snomed.info/sct#450738001. Valid display is 'Thirty second chair stand test score (observable entity)' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[9]: Wrong Display Name 'Timed Up&Go : évalue le risque de chute chez une personne' for http://snomed.info/sct#444680009. Valid display is 'Timed up and go mobility test score (observable entity)' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[10]: Wrong Display Name 'Waterlow pressure ulcer risk assessment' for http://snomed.info/sct#278897004. Valid display is 'Waterlow pressure sore risk score' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[12]: Wrong Display Name 'Clinical Disease Activity Index' for http://snomed.info/sct#273364009. Valid display is 'Crohn's Disease Activity Index (assessment scale)' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[14]: Wrong Display Name 'Arthritis Impact Measurement Scales 2 (AIMS2)' for http://snomed.info/sct#719124004. Valid display is 'Arthritis Impact Measurement Scales 2 score (observable entity)' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [Arthritis Impact Measurement Scales 2 (AIMS2)] and examples for no FSN: [FINDRISC (Finnish Diabetes Risk Score) score, Visual Analogic Scale for pain assessment, Index of Independence in Activities of Daily Living, Mini-Mental State Examination, Malnutrition Universal Screening])
+== fsh-generated/resources/ValueSet-be-vs-scorecategory.json ==
+INFORMATION: ValueSet/be-vs-scorecategory: ValueSet.jurisdiction[0]: Reference to draft CodeSystem urn:iso:std:iso:3166|20210120

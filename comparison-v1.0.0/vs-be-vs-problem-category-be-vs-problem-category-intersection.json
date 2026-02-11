@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "af948cb9-2994-4bef-b5bb-ab1ad847be34-93",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/af948cb9-2994-4bef-b5bb-ab1ad847be34-93",
+  "name" : "IntersectionBeVSProblemCategoryAndBeVSProblemCategory",
+  "title" : "Intersection of Problem Category And Problem Category",
+  "status" : "active",
+  "date" : "2026-02-11T21:11:46+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }]
+}

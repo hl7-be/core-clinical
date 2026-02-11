@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="be-cs-problem-origin-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem be-cs-problem-origin-type</b></p><a name="be-cs-problem-origin-type"> </a><a name="hcbe-cs-problem-origin-type"> </a><p>This case-insensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">referral<a name="be-cs-problem-origin-type-referral"> </a></td><td>Referral order</td><td>Following a referral order</td></tr><tr><td style="white-space:nowrap">own-initiative<a name="be-cs-problem-origin-type-own-initiative"> </a></td><td>Patient's own initiative</td><td>The patient has arrived on their own initiative</td></tr><tr><td style="white-space:nowrap">counsel<a name="be-cs-problem-origin-type-counsel"> </a></td><td>Advice or recommendation from another provider (no prescription)</td><td>From an advice or recommendation of a health professional (without prescription)</td></tr><tr><td style="white-space:nowrap">other<a name="be-cs-problem-origin-type-other"> </a></td><td>other</td><td>Other</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (Belgium) (fr)</b></td><td><b>Nederlands (België) (Dutch (Belgium), nl)</b></td></tr><tr><td>referral</td><td>prescription de renvoi</td><td>verwijsvoorschrift</td></tr><tr><td>own-initiative</td><td>libre</td><td>Op eigen initiatief</td></tr><tr><td>counsel</td><td>conseil</td><td>doorverwijzing</td></tr><tr><td>other</td><td>autre</td><td>andere</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"/>
+  <version value="1.0.1"/>
+  <name value="BeCSProblemOriginType"/>
+  <title value="Problem Origin Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-10T10:59:49+00:00"/>
+  <publisher value="eHealth Platform"/>
+  <contact>
+    <name value="eHealth Platform"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ehealth.fgov.be"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="message-structure@www.ehealth.fgov.be"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Message-Structure"/>
+    <telecom>
+      <system value="email"/>
+      <value value="message-structure@www.ehealth.fgov.be"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Problem Origin Type"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BE"/>
+      <display value="Belgium"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="referral"/>
+    <display value="Referral order"/>
+    <definition value="Following a referral order"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="prescription de renvoi"/>
+    </designation>
+    <designation>
+      <language value="nl-BE"/>
+      <value value="verwijsvoorschrift"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="own-initiative"/>
+    <display value="Patient's own initiative"/>
+    <definition value="The patient has arrived on their own initiative"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="libre"/>
+    </designation>
+    <designation>
+      <language value="nl-BE"/>
+      <value value="Op eigen initiatief"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="counsel"/>
+    <display value="Advice or recommendation from another provider (no prescription)"/>
+    <definition value="From an advice or recommendation of a health professional (without prescription)"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="conseil"/>
+    </designation>
+    <designation>
+      <language value="nl-BE"/>
+      <value value="doorverwijzing"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="other"/>
+    <definition value="Other"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="autre"/>
+    </designation>
+    <designation>
+      <language value="nl-BE"/>
+      <value value="andere"/>
+    </designation>
+  </concept>
+</CodeSystem>

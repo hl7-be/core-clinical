@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "af948cb9-2994-4bef-b5bb-ab1ad847be34-29",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/af948cb9-2994-4bef-b5bb-ab1ad847be34-29",
+  "name" : "UnionObservationCategoryCodesAndObservationCategoryCodes",
+  "title" : "Union of Observation Category Codes And Observation Category Codes",
+  "status" : "draft",
+  "date" : "2026-02-11T21:11:46+00:00"
+}

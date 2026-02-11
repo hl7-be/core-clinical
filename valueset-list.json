@@ -1,0 +1,93 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSBodySite",
+      "title" : "Body Site",
+      "description" : "Body Site",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSLaterality",
+      "title" : "Laterality",
+      "description" : "Laterality",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-problem-category",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSProblemCategory",
+      "title" : "Problem Category",
+      "description" : "Problem Category",
+      "systems" : [
+        "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"
+      ]
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-problem-code",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSProblemCode",
+      "title" : "Problem Code",
+      "description" : "Problem Code. No Belgian standardized valueset is yet defined, this is expected   for a future iteration. Implementers are encouraged to use a codification system of their choosing."
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-problem-origin-type",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSProblemOriginType",
+      "title" : "Problem Origin Type",
+      "description" : "Problem Origin Type",
+      "systems" : [
+        "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"
+      ]
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-reaction-manifestation-code",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSReactionManifestationCode",
+      "title" : "Reaction Manifestation Code",
+      "description" : "Reaction Manifestation Code (Allergy - Immunization)",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-score",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSScore",
+      "title" : "Score Value Set",
+      "description" : "Codes as defined by the NIHDI. Dutch translations are expected for a next release.",
+      "systems" : [
+        "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-scorecategory",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSScoreCategory",
+      "title" : "Score Category Value Set",
+      "description" : "Score Category Value Set",
+      "systems" : [
+        "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category"
+      ]
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/BeVSBodyTopography",
+      "version" : "1.0.1",
+      "status" : "draft",
+      "name" : "BeVSBodyTopography",
+      "title" : "BeVSBodyTopography",
+      "description" : "Body topography value set - describes the location or relative position on the body (e.g., superior/inferior, medial/lateral, internal/external)",
+      "systems" : ["http://snomed.info/sct"]
+    }
+  ]
+}

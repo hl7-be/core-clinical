@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="be-cs-score-category"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem be-cs-score-category</b></p><a name="be-cs-score-category"> </a><a name="hcbe-cs-score-category"> </a><p>This case-insensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">risk<a name="be-cs-score-category-risk"> </a></td><td>Risk score</td><td>Risk score</td></tr><tr><td style="white-space:nowrap">pain<a name="be-cs-score-category-pain"> </a></td><td>Pain score</td><td>Pain score</td></tr><tr><td style="white-space:nowrap">other<a name="be-cs-score-category-other"> </a></td><td>Other</td><td>Other</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (Belgium) (fr)</b></td><td><b>Nederlands (België) (Dutch (Belgium), nl)</b></td></tr><tr><td>risk</td><td>Risk score</td><td>Risk score</td></tr><tr><td>pain</td><td>Pain Score</td><td>Pain Score</td></tr><tr><td>other</td><td>Autre</td><td>andere</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category"/>
+  <version value="1.0.1"/>
+  <name value="BeCSScoreCategory"/>
+  <title value="Score Category"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-10T10:59:49+00:00"/>
+  <publisher value="eHealth Platform"/>
+  <contact>
+    <name value="eHealth Platform"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ehealth.fgov.be"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="message-structure@www.ehealth.fgov.be"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Message-Structure"/>
+    <telecom>
+      <system value="email"/>
+      <value value="message-structure@www.ehealth.fgov.be"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Score Category"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BE"/>
+      <display value="Belgium"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="risk"/>
+    <display value="Risk score"/>
+    <definition value="Risk score"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Risk score"/>
+    </designation>
+    <designation>
+      <language value="nl-BE"/>
+      <value value="Risk score"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="pain"/>
+    <display value="Pain score"/>
+    <definition value="Pain score"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Pain Score"/>
+    </designation>
+    <designation>
+      <language value="nl-BE"/>
+      <value value="Pain Score"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Autre"/>
+    </designation>
+    <designation>
+      <language value="nl-BE"/>
+      <value value="andere"/>
+    </designation>
+  </concept>
+</CodeSystem>

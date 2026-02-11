@@ -1,0 +1,119 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "af948cb9-2994-4bef-b5bb-ab1ad847be34-102",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/af948cb9-2994-4bef-b5bb-ab1ad847be34-102",
+  "name" : "IntersectionBeVSReactionManifestationCodeAndBeVSReactionManifestationCode",
+  "title" : "Intersection of Reaction Manifestation Code And Reaction Manifestation Code",
+  "status" : "active",
+  "date" : "2026-02-11T21:11:46+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "39579001"
+      },
+      {
+        "code" : "735173007"
+      },
+      {
+        "code" : "41291007"
+      },
+      {
+        "code" : "410430005"
+      },
+      {
+        "code" : "698247007"
+      },
+      {
+        "code" : "195967001"
+      },
+      {
+        "code" : "4386001"
+      },
+      {
+        "code" : "9826008"
+      },
+      {
+        "code" : "91175000"
+      },
+      {
+        "code" : "40275004"
+      },
+      {
+        "code" : "62315008"
+      },
+      {
+        "code" : "267036007"
+      },
+      {
+        "code" : "43116000"
+      },
+      {
+        "code" : "271759003"
+      },
+      {
+        "code" : "247472004"
+      },
+      {
+        "code" : "271807003"
+      },
+      {
+        "code" : "271757001"
+      },
+      {
+        "code" : "297942002"
+      },
+      {
+        "code" : "76067001"
+      },
+      {
+        "code" : "386661006"
+      },
+      {
+        "code" : "45007003"
+      },
+      {
+        "code" : "422587007"
+      },
+      {
+        "code" : "768962006"
+      },
+      {
+        "code" : "51599000"
+      },
+      {
+        "code" : "23924001"
+      },
+      {
+        "code" : "418363000"
+      },
+      {
+        "code" : "70076002"
+      },
+      {
+        "code" : "162290004"
+      },
+      {
+        "code" : "73442001"
+      },
+      {
+        "code" : "49727002"
+      },
+      {
+        "code" : "126485001"
+      },
+      {
+        "code" : "31996006"
+      },
+      {
+        "code" : "1985008"
+      }]
+    }]
+  }
+}

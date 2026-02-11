@@ -1,0 +1,61 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"BeModelClinicalObservation","BeModelClinicalObservation","","","",0,*,"","","","null {[]} {[]}
+","BeClinicalObservation Model","Clinical Observation logical model","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"BeModelClinicalObservation.identifier","BeModelClinicalObservation.identifier","","","",1,*,"","","","Identifier {[]} {[]}
+","Unique identifier for the observation","Unique identifier for the observation","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.identifier",1,*,"",""
+"BeModelClinicalObservation.recordedDate","BeModelClinicalObservation.recordedDate","","","",1,1,"","","","dateTime {[]} {[]}
+","Date when the observation was recorded","Date when the observation was recorded","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.recordedDate",1,1,"",""
+"BeModelClinicalObservation.observationDate[x]","BeModelClinicalObservation.observationDate[x]","","","",1,1,"","","","dateTime {[]} {[]}
+Period {[]} {[]}","Date or period of the observation","Date or period of the observation","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.observationDate[x]",1,1,"",""
+"BeModelClinicalObservation.recorder","BeModelClinicalObservation.recorder","","","",1,1,"","","","Reference {[]} {[]}
+","Person, organisation or device that recorded the observation","Person, organisation or device that recorded the observation","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.recorder",1,1,"",""
+"BeModelClinicalObservation.performer","BeModelClinicalObservation.performer","","","",0,1,"","","","Reference {[]} {[]}
+","The professional that performed the observation","The professional that performed the observation","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.performer",0,1,"",""
+"BeModelClinicalObservation.patient","BeModelClinicalObservation.patient","","","",1,1,"","","","Reference {[]} {[]}
+","The patient that this observation is about","The patient that this observation is about","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.patient",1,1,"",""
+"BeModelClinicalObservation.request","BeModelClinicalObservation.request","","","",0,1,"","","","Reference {[]} {[]}
+","The request that this observation is fulfilling","The request that this observation is fulfilling","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.request",0,1,"",""
+"BeModelClinicalObservation.partOfProcedure","BeModelClinicalObservation.partOfProcedure","","","",0,*,"","","","Reference {[]} {[]}
+","Part of referenced procedure","Part of referenced procedure","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.partOfProcedure",0,*,"",""
+"BeModelClinicalObservation.specimen","BeModelClinicalObservation.specimen","","","",0,1,"","","","Reference {[]} {[]}
+","The specimen that was used when this observation was made","The specimen that was used when this observation was made","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.specimen",0,1,"",""
+"BeModelClinicalObservation.device","BeModelClinicalObservation.device","","","",0,1,"","","","Reference {[]} {[]}
+","The device used to generate the observation data","The device used to generate the observation data","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.device",0,1,"",""
+"BeModelClinicalObservation.category","BeModelClinicalObservation.category","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","A code that classifies the general type of observation being made","A code that classifies the general type of observation being made","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.category",0,*,"",""
+"BeModelClinicalObservation.code","BeModelClinicalObservation.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Describes what was observed. Sometimes this is called the observation 'name'","Describes what was observed. Sometimes this is called the observation 'name'","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.code",1,1,"",""
+"BeModelClinicalObservation.value[x]","BeModelClinicalObservation.value[x]","","","",0,1,"","","","Quantity {[]} {[]}
+CodeableConcept {[]} {[]}string {[]} {[]}boolean {[]} {[]}integer {[]} {[]}Range {[]} {[]}Ratio {[]} {[]}time {[]} {[]}dateTime {[]} {[]}Period {[]} {[]}","The value of the observation - typically a code, an amount or a date","The value of the observation - typically a code, an amount or a date","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.value[x]",0,1,"",""
+"BeModelClinicalObservation.member","BeModelClinicalObservation.member","","","",0,*,"","","","Reference {[]} {[CanonicalType[https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeModelClinicalObservation]]}
+","Other observations that are part of this observation","Other observations that are part of this observation","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.member",0,*,"",""
+"BeModelClinicalObservation.status","BeModelClinicalObservation.status","","","",1,1,"","","","code {[]} {[]}
+","The status of the result value.","The status of the result value.","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.status",1,1,"",""
+"BeModelClinicalObservation.interpretation","BeModelClinicalObservation.interpretation","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","A categorical assessment of an observation value","A categorical assessment of an observation value","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.interpretation",0,*,"",""
+"BeModelClinicalObservation.referenceRange","BeModelClinicalObservation.referenceRange","","","",0,*,"","","","BackboneElement {[]} {[]}
+","Guidance on how to interpret the value by comparison to a normal or recommended range","Guidance on how to interpret the value by comparison to a normal or recommended range","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.referenceRange",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"BeModelClinicalObservation.referenceRange.id","BeModelClinicalObservation.referenceRange.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"BeModelClinicalObservation.referenceRange.extension","BeModelClinicalObservation.referenceRange.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"BeModelClinicalObservation.referenceRange.modifierExtension","BeModelClinicalObservation.referenceRange.modifierExtension","","extensions
+user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
+","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+
+Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"BeModelClinicalObservation.referenceRange.low","BeModelClinicalObservation.referenceRange.low","","","",0,1,"","","","Quantity {[]} {[]}
+","Low Range, if relevant","Low Range, if relevant","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.referenceRange.low",0,1,"",""
+"BeModelClinicalObservation.referenceRange.high","BeModelClinicalObservation.referenceRange.high","","","",0,1,"","","","Quantity {[]} {[]}
+","High Range, if relevant","High Range, if relevant","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.referenceRange.high",0,1,"",""
+"BeModelClinicalObservation.bodySite","BeModelClinicalObservation.bodySite","","","",0,1,"","","","https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeModelBodySite {[]} {[]}
+","The site on the subject's body where the observation was made (i.e. the target site)","The site on the subject's body where the observation was made (i.e. the target site)","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.bodySite",0,1,"",""
+"BeModelClinicalObservation.certainty","BeModelClinicalObservation.certainty","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","A subjective assessment of the quality of the observation","A subjective assessment of the quality of the observation","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.certainty",0,1,"",""
+"BeModelClinicalObservation.note","BeModelClinicalObservation.note","","","",0,*,"","","","Annotation {[]} {[]}
+","Comments about the observation or the results","Comments about the observation or the results","","","","","","","","","",,,,,"",,,,"BeModelClinicalObservation.note",0,*,"",""

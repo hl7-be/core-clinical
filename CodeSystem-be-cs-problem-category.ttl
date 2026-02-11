@@ -1,0 +1,148 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "be-cs-problem-category"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem be-cs-problem-category</b></p><a name=\"be-cs-problem-category\"> </a><a name=\"hcbe-cs-problem-category\"> </a><p>This case-insensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">diagnosis<a name=\"be-cs-problem-category-diagnosis\"> </a></td><td>Diagnosis</td><td>A disease identified from a clinical reasoning, based on pathological and physiological ascertainments</td></tr><tr><td style=\"white-space:nowrap\">problem<a name=\"be-cs-problem-category-problem\"> </a></td><td>Problem</td><td>Identification of problems that the healthcare provider considers harmful, potentially harmful, and which may be the subject of further investigation or treatment</td></tr><tr><td style=\"white-space:nowrap\">risk<a name=\"be-cs-problem-category-risk\"> </a></td><td>Risk</td><td>Identification of a health problem or situation that may require ongoing monitoring or management</td></tr><tr><td style=\"white-space:nowrap\">antecedent<a name=\"be-cs-problem-category-antecedent\"> </a></td><td>Antecedent</td><td>Information about a problem that has been resolved</td></tr><tr><td style=\"white-space:nowrap\">congenital<a name=\"be-cs-problem-category-congenital\"> </a></td><td>Congenital anomaly</td><td>Congenital anomaly</td></tr><tr><td style=\"white-space:nowrap\">conclusion<a name=\"be-cs-problem-category-conclusion\"> </a></td><td>Conclusion</td><td>Informations about a conclusion from anamnesis performed by a professional other than a physician</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"be-cs-problem-category-other\"> </a></td><td>Other</td><td>Other</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (Belgium) (fr)</b></td><td><b>Nederlands (België) (Dutch (Belgium), nl)</b></td></tr><tr><td>diagnosis</td><td>Diagnostic</td><td>diagnose</td></tr><tr><td>problem</td><td>Problème</td><td>Probleem</td></tr><tr><td>risk</td><td>Risque</td><td>Risico</td></tr><tr><td>antecedent</td><td>Antécédent</td><td>Antecedent</td></tr><tr><td>congenital</td><td>Maladie congénitale</td><td>Aangeboren afwijking</td></tr><tr><td>conclusion</td><td>Conclusion anamnèse</td><td>Anamnesis conclusie</td></tr><tr><td>other</td><td>Autre</td><td>andere</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"^^xsd:anyURI ;
+     fhir:l <https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.1"] ; # 
+  fhir:name [ fhir:v "BeCSProblemCategory"] ; # 
+  fhir:title [ fhir:v "Problem Category"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2021-01-10T10:59:49+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "eHealth Platform"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "eHealth Platform" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.ehealth.fgov.be" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "message-structure@www.ehealth.fgov.be" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Message-Structure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "message-structure@www.ehealth.fgov.be" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Problem Category"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "BE" ] ;
+       fhir:display [ fhir:v "Belgium" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "diagnosis" ] ;
+     fhir:display [ fhir:v "Diagnosis" ] ;
+     fhir:definition [ fhir:v "A disease identified from a clinical reasoning, based on pathological and physiological ascertainments" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-BE" ] ;
+       fhir:value [ fhir:v "Diagnostic" ]
+     ] [
+       fhir:language [ fhir:v "nl-BE" ] ;
+       fhir:value [ fhir:v "diagnose" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "problem" ] ;
+     fhir:display [ fhir:v "Problem" ] ;
+     fhir:definition [ fhir:v "Identification of problems that the healthcare provider considers harmful, potentially harmful, and which may be the subject of further investigation or treatment" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-BE" ] ;
+       fhir:value [ fhir:v "Problème" ]
+     ] [
+       fhir:language [ fhir:v "nl-BE" ] ;
+       fhir:value [ fhir:v "Probleem" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "risk" ] ;
+     fhir:display [ fhir:v "Risk" ] ;
+     fhir:definition [ fhir:v "Identification of a health problem or situation that may require ongoing monitoring or management" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-BE" ] ;
+       fhir:value [ fhir:v "Risque" ]
+     ] [
+       fhir:language [ fhir:v "nl-BE" ] ;
+       fhir:value [ fhir:v "Risico" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "antecedent" ] ;
+     fhir:display [ fhir:v "Antecedent" ] ;
+     fhir:definition [ fhir:v "Information about a problem that has been resolved" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-BE" ] ;
+       fhir:value [ fhir:v "Antécédent" ]
+     ] [
+       fhir:language [ fhir:v "nl-BE" ] ;
+       fhir:value [ fhir:v "Antecedent" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "congenital" ] ;
+     fhir:display [ fhir:v "Congenital anomaly" ] ;
+     fhir:definition [ fhir:v "Congenital anomaly" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-BE" ] ;
+       fhir:value [ fhir:v "Maladie congénitale" ]
+     ] [
+       fhir:language [ fhir:v "nl-BE" ] ;
+       fhir:value [ fhir:v "Aangeboren afwijking" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "conclusion" ] ;
+     fhir:display [ fhir:v "Conclusion" ] ;
+     fhir:definition [ fhir:v "Informations about a conclusion from anamnesis performed by a professional other than a physician" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-BE" ] ;
+       fhir:value [ fhir:v "Conclusion anamnèse" ]
+     ] [
+       fhir:language [ fhir:v "nl-BE" ] ;
+       fhir:value [ fhir:v "Anamnesis conclusie" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Other" ] ;
+     fhir:definition [ fhir:v "Other" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-BE" ] ;
+       fhir:value [ fhir:v "Autre" ]
+     ] [
+       fhir:language [ fhir:v "nl-BE" ] ;
+       fhir:value [ fhir:v "andere" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

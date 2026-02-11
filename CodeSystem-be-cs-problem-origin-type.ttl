@@ -1,0 +1,115 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "be-cs-problem-origin-type"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem be-cs-problem-origin-type</b></p><a name=\"be-cs-problem-origin-type\"> </a><a name=\"hcbe-cs-problem-origin-type\"> </a><p>This case-insensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">referral<a name=\"be-cs-problem-origin-type-referral\"> </a></td><td>Referral order</td><td>Following a referral order</td></tr><tr><td style=\"white-space:nowrap\">own-initiative<a name=\"be-cs-problem-origin-type-own-initiative\"> </a></td><td>Patient's own initiative</td><td>The patient has arrived on their own initiative</td></tr><tr><td style=\"white-space:nowrap\">counsel<a name=\"be-cs-problem-origin-type-counsel\"> </a></td><td>Advice or recommendation from another provider (no prescription)</td><td>From an advice or recommendation of a health professional (without prescription)</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"be-cs-problem-origin-type-other\"> </a></td><td>other</td><td>Other</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (Belgium) (fr)</b></td><td><b>Nederlands (België) (Dutch (Belgium), nl)</b></td></tr><tr><td>referral</td><td>prescription de renvoi</td><td>verwijsvoorschrift</td></tr><tr><td>own-initiative</td><td>libre</td><td>Op eigen initiatief</td></tr><tr><td>counsel</td><td>conseil</td><td>doorverwijzing</td></tr><tr><td>other</td><td>autre</td><td>andere</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"^^xsd:anyURI ;
+     fhir:l <https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.1"] ; # 
+  fhir:name [ fhir:v "BeCSProblemOriginType"] ; # 
+  fhir:title [ fhir:v "Problem Origin Type"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2021-01-10T10:59:49+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "eHealth Platform"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "eHealth Platform" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.ehealth.fgov.be" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "message-structure@www.ehealth.fgov.be" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Message-Structure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "message-structure@www.ehealth.fgov.be" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Problem Origin Type"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "BE" ] ;
+       fhir:display [ fhir:v "Belgium" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "referral" ] ;
+     fhir:display [ fhir:v "Referral order" ] ;
+     fhir:definition [ fhir:v "Following a referral order" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-BE" ] ;
+       fhir:value [ fhir:v "prescription de renvoi" ]
+     ] [
+       fhir:language [ fhir:v "nl-BE" ] ;
+       fhir:value [ fhir:v "verwijsvoorschrift" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "own-initiative" ] ;
+     fhir:display [ fhir:v "Patient's own initiative" ] ;
+     fhir:definition [ fhir:v "The patient has arrived on their own initiative" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-BE" ] ;
+       fhir:value [ fhir:v "libre" ]
+     ] [
+       fhir:language [ fhir:v "nl-BE" ] ;
+       fhir:value [ fhir:v "Op eigen initiatief" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "counsel" ] ;
+     fhir:display [ fhir:v "Advice or recommendation from another provider (no prescription)" ] ;
+     fhir:definition [ fhir:v "From an advice or recommendation of a health professional (without prescription)" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-BE" ] ;
+       fhir:value [ fhir:v "conseil" ]
+     ] [
+       fhir:language [ fhir:v "nl-BE" ] ;
+       fhir:value [ fhir:v "doorverwijzing" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "other" ] ;
+     fhir:definition [ fhir:v "Other" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-BE" ] ;
+       fhir:value [ fhir:v "autre" ]
+     ] [
+       fhir:language [ fhir:v "nl-BE" ] ;
+       fhir:value [ fhir:v "andere" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

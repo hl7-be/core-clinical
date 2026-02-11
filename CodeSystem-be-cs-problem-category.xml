@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="be-cs-problem-category"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem be-cs-problem-category</b></p><a name="be-cs-problem-category"> </a><a name="hcbe-cs-problem-category"> </a><p>This case-insensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">diagnosis<a name="be-cs-problem-category-diagnosis"> </a></td><td>Diagnosis</td><td>A disease identified from a clinical reasoning, based on pathological and physiological ascertainments</td></tr><tr><td style="white-space:nowrap">problem<a name="be-cs-problem-category-problem"> </a></td><td>Problem</td><td>Identification of problems that the healthcare provider considers harmful, potentially harmful, and which may be the subject of further investigation or treatment</td></tr><tr><td style="white-space:nowrap">risk<a name="be-cs-problem-category-risk"> </a></td><td>Risk</td><td>Identification of a health problem or situation that may require ongoing monitoring or management</td></tr><tr><td style="white-space:nowrap">antecedent<a name="be-cs-problem-category-antecedent"> </a></td><td>Antecedent</td><td>Information about a problem that has been resolved</td></tr><tr><td style="white-space:nowrap">congenital<a name="be-cs-problem-category-congenital"> </a></td><td>Congenital anomaly</td><td>Congenital anomaly</td></tr><tr><td style="white-space:nowrap">conclusion<a name="be-cs-problem-category-conclusion"> </a></td><td>Conclusion</td><td>Informations about a conclusion from anamnesis performed by a professional other than a physician</td></tr><tr><td style="white-space:nowrap">other<a name="be-cs-problem-category-other"> </a></td><td>Other</td><td>Other</td></tr></table><p><b>Additional Language Displays</b></p><table class="codes"><tr><td><b>Code</b></td><td><b>French (Belgium) (fr)</b></td><td><b>Nederlands (België) (Dutch (Belgium), nl)</b></td></tr><tr><td>diagnosis</td><td>Diagnostic</td><td>diagnose</td></tr><tr><td>problem</td><td>Problème</td><td>Probleem</td></tr><tr><td>risk</td><td>Risque</td><td>Risico</td></tr><tr><td>antecedent</td><td>Antécédent</td><td>Antecedent</td></tr><tr><td>congenital</td><td>Maladie congénitale</td><td>Aangeboren afwijking</td></tr><tr><td>conclusion</td><td>Conclusion anamnèse</td><td>Anamnesis conclusie</td></tr><tr><td>other</td><td>Autre</td><td>andere</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+  <version value="1.0.1"/>
+  <name value="BeCSProblemCategory"/>
+  <title value="Problem Category"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-10T10:59:49+00:00"/>
+  <publisher value="eHealth Platform"/>
+  <contact>
+    <name value="eHealth Platform"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ehealth.fgov.be"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="message-structure@www.ehealth.fgov.be"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Message-Structure"/>
+    <telecom>
+      <system value="email"/>
+      <value value="message-structure@www.ehealth.fgov.be"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Problem Category"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BE"/>
+      <display value="Belgium"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="diagnosis"/>
+    <display value="Diagnosis"/>
+    <definition value="A disease identified from a clinical reasoning, based on pathological and physiological ascertainments"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Diagnostic"/>
+    </designation>
+    <designation>
+      <language value="nl-BE"/>
+      <value value="diagnose"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="problem"/>
+    <display value="Problem"/>
+    <definition value="Identification of problems that the healthcare provider considers harmful, potentially harmful, and which may be the subject of further investigation or treatment"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Problème"/>
+    </designation>
+    <designation>
+      <language value="nl-BE"/>
+      <value value="Probleem"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="risk"/>
+    <display value="Risk"/>
+    <definition value="Identification of a health problem or situation that may require ongoing monitoring or management"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Risque"/>
+    </designation>
+    <designation>
+      <language value="nl-BE"/>
+      <value value="Risico"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="antecedent"/>
+    <display value="Antecedent"/>
+    <definition value="Information about a problem that has been resolved"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Antécédent"/>
+    </designation>
+    <designation>
+      <language value="nl-BE"/>
+      <value value="Antecedent"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="congenital"/>
+    <display value="Congenital anomaly"/>
+    <definition value="Congenital anomaly"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Maladie congénitale"/>
+    </designation>
+    <designation>
+      <language value="nl-BE"/>
+      <value value="Aangeboren afwijking"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="conclusion"/>
+    <display value="Conclusion"/>
+    <definition value="Informations about a conclusion from anamnesis performed by a professional other than a physician"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Conclusion anamnèse"/>
+    </designation>
+    <designation>
+      <language value="nl-BE"/>
+      <value value="Anamnesis conclusie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+    <definition value="Other"/>
+    <designation>
+      <language value="fr-BE"/>
+      <value value="Autre"/>
+    </designation>
+    <designation>
+      <language value="nl-BE"/>
+      <value value="andere"/>
+    </designation>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,10 @@
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
+https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite,1.0.1,active,,BeVSBodySite,Body Site,"Body Site",,"SCT"
+https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality,1.0.1,active,,BeVSLaterality,Laterality,"Laterality",,"SCT"
+https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-problem-category,1.0.1,active,,BeVSProblemCategory,Problem Category,"Problem Category",,"Internal"
+https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-problem-code,1.0.1,active,,BeVSProblemCode,Problem Code,"Problem Code. No Belgian standardized valueset is yet defined, this is expected   for a future iteration. Implementers are encouraged to use a codification system of their choosing.",,
+https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-problem-origin-type,1.0.1,active,,BeVSProblemOriginType,Problem Origin Type,"Problem Origin Type",,"Internal"
+https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-reaction-manifestation-code,1.0.1,active,,BeVSReactionManifestationCode,Reaction Manifestation Code,"Reaction Manifestation Code (Allergy - Immunization)",,"SCT"
+https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-score,1.0.1,active,,BeVSScore,Score Value Set,"Codes as defined by the NIHDI. Dutch translations are expected for a next release.",,"SCT,Internal"
+https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-scorecategory,1.0.1,active,,BeVSScoreCategory,Score Category Value Set,"Score Category Value Set",,"Internal"
+https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/BeVSBodyTopography,1.0.1,draft,,BeVSBodyTopography,BeVSBodyTopography,"Body topography value set - describes the location or relative position on the body (e.g., superior/inferior, medial/lateral, internal/external)",,"SCT"

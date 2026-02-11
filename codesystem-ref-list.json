@@ -1,0 +1,64 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://snomed.info/sct",
+      "version" : null,
+      "status" : "active",
+      "name" : "SNOMED_CT",
+      "title" : "SNOMED CT (all versions)",
+      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+      "oids" : ["2.16.840.1.113883.6.96"],
+      "uses" : {
+      },
+      "ValueSet-be-vs-reaction-manifestation-code.html" : "Reaction Manifestation Code",
+      "ValueSet-be-vs-score.html" : "Score Value Set",
+      "ValueSet-be-vs-body-topography.html" : "BeVSBodyTopography",
+      "ValueSet-be-vs-bodysite.html" : "Body Site",
+      "ValueSet-be-vs-laterality.html" : "Laterality"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeCSProblemCategory",
+      "title" : "Problem Category",
+      "description" : "Problem Category",
+      "uses" : {
+      },
+      "ValueSet-be-vs-problem-category.html" : "Problem Category"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeCSProblemOriginType",
+      "title" : "Problem Origin Type",
+      "description" : "Problem Origin Type",
+      "uses" : {
+      },
+      "ValueSet-be-vs-problem-origin-type.html" : "Problem Origin Type"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeCSScore",
+      "title" : "Score Code System",
+      "description" : "Codes as defined initially by the NIHDI. Dutch translations were not yet defined but are planned   for a next release.",
+      "uses" : {
+      },
+      "ValueSet-be-vs-score.html" : "Score Value Set"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeCSScoreCategory",
+      "title" : "Score Category",
+      "description" : "Score Category",
+      "uses" : {
+      },
+      "ValueSet-be-vs-scorecategory.html" : "Score Category Value Set"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "af948cb9-2994-4bef-b5bb-ab1ad847be34-51",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/af948cb9-2994-4bef-b5bb-ab1ad847be34-51",
+  "name" : "IntersectionObservationReferenceRangeAppliesToCodesAndObservationReferenceRangeAppliesToCodes",
+  "title" : "Intersection of Observation Reference Range Applies To Codes And Observation Reference Range Applies To Codes",
+  "status" : "draft",
+  "date" : "2026-02-11T21:11:46+00:00",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://terminology.hl7.org/ValueSet/v3-Race"]
+    },
+    {
+      "concept" : [{
+        "code" : "248153007"
+      },
+      {
+        "code" : "248152002"
+      },
+      {
+        "code" : "77386006"
+      }]
+    }]
+  }
+}

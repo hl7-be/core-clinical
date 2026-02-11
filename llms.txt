@@ -1,0 +1,70 @@
+# hl7.fhir.be.core-clinical#1.0.1: HL7 FHIR Implementation Guide: Transversal Clinical Core
+
+## Pages
+
+* [Transversal Clinical Core](index.md)
+* [Spec](spec.md)
+* [Guidance](guidance.md)
+* [Artifacts Summary](artifacts.md)
+* [Changes](changes.md)
+* [Downloads](downloads.md)
+
+## Resources
+
+### CodeSystems
+
+* [Body Site CodeSystem](CodeSystem-be-cs-bodysite.md)
+* [Problem Category](CodeSystem-be-cs-problem-category.md)
+* [Problem Origin Type](CodeSystem-be-cs-problem-origin-type.md)
+* [Score Category](CodeSystem-be-cs-score-category.md)
+* [Score Code System](CodeSystem-be-cs-score.md)
+
+### ValueSets
+
+* [BeVSBodyTopography](ValueSet-be-vs-body-topography.md)
+* [Body Site](ValueSet-be-vs-bodysite.md)
+* [Laterality](ValueSet-be-vs-laterality.md)
+* [Problem Category](ValueSet-be-vs-problem-category.md)
+* [Problem Code](ValueSet-be-vs-problem-code.md)
+* [Problem Origin Type](ValueSet-be-vs-problem-origin-type.md)
+* [Reaction Manifestation Code](ValueSet-be-vs-reaction-manifestation-code.md)
+* [Score Value Set](ValueSet-be-vs-score.md)
+* [Score Category Value Set](ValueSet-be-vs-scorecategory.md)
+
+### Logicals
+
+* [BodySite Model](StructureDefinition-BeModelBodySite.md)
+* [BeClinicalObservation Model](StructureDefinition-BeModelClinicalObservation.md)
+
+### Complex-type Profiles
+
+* [BeObservationCodeableConcept](StructureDefinition-be-observationcodeableconcept.md)
+
+### Resource Profiles
+
+* [BeAppointment](StructureDefinition-BeAppointment.md)
+* [BeCarePlan](StructureDefinition-BeCarePlan.md)
+* [BeClinicalImpression](StructureDefinition-BeClinicalImpression.md)
+* [BeGoal](StructureDefinition-BeGoal.md)
+* [BeClinicalObservation](StructureDefinition-be-clinical-observation.md)
+* [BeEncounter](StructureDefinition-be-encounter.md)
+* [BeObservation](StructureDefinition-be-observation.md)
+* [BeProblem](StructureDefinition-be-problem.md)
+* [BeProcedure](StructureDefinition-be-procedure.md)
+* [BeQuestionnaireResponse](StructureDefinition-be-questionnaire-response.md)
+* [BeScoreResult](StructureDefinition-be-scoreresult.md)
+* [BeServiceRequest](StructureDefinition-be-service-request.md)
+
+### Extensions
+
+* [BeExtBodyTopography](StructureDefinition-be-ext-body-topography.md)
+* [BeExtLaterality](StructureDefinition-be-ext-laterality.md)
+* [BeExtProblemOriginType](StructureDefinition-be-ext-problem-origin-type.md)
+
+### ImplementationGuides
+
+* [HL7 FHIR Implementation Guide: Transversal Clinical Core](index.md)
+
+### Examples
+
+* [terminology-expansion (Parameters)](Parameters-terminology-expansion.md)

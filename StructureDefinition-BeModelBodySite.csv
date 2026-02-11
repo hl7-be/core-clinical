@@ -1,0 +1,9 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"BeModelBodySite","BeModelBodySite","","","",0,*,"","","","null {[]} {[]}
+","BodySite Model","Body site model","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"BeModelBodySite.bodyLocation","BeModelBodySite.bodyLocation","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Code that identifies the anatomical location of the specimen on the subject's body","Code that identifies the anatomical location of the specimen on the subject's body","","","","","","","","","",,,,,"",,,,"BeModelBodySite.bodyLocation",0,1,"",""
+"BeModelBodySite.bodyLaterality","BeModelBodySite.bodyLaterality","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","The laterality of a body site - the side of the body","The laterality of a body site - the side of the body","","","","","","","","","",,,,,"",,,,"BeModelBodySite.bodyLaterality",0,1,"",""
+"BeModelBodySite.bodyTopography","BeModelBodySite.bodyTopography","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","The topography of the location of the specimen on the subject's body","The topography of the location of the specimen on the subject's body","","","","","","","","","",,,,,"",,,,"BeModelBodySite.bodyTopography",0,1,"",""

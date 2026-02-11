@@ -1,0 +1,55 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "af948cb9-2994-4bef-b5bb-ab1ad847be34-12",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/af948cb9-2994-4bef-b5bb-ab1ad847be34-12",
+  "name" : "IntersectionBeCSScoreCategoryAndBeCSScoreCategory",
+  "title" : "Intersection of Score Category And Score Category",
+  "status" : "active",
+  "date" : "2026-02-11T21:11:46+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "concept" : [{
+    "code" : "risk",
+    "display" : "Risk score",
+    "definition" : "Risk score",
+    "designation" : [{
+      "language" : "fr-BE",
+      "value" : "Risk score"
+    },
+    {
+      "language" : "nl-BE",
+      "value" : "Risk score"
+    }]
+  },
+  {
+    "code" : "pain",
+    "display" : "Pain score",
+    "definition" : "Pain score",
+    "designation" : [{
+      "language" : "fr-BE",
+      "value" : "Pain Score"
+    },
+    {
+      "language" : "nl-BE",
+      "value" : "Pain Score"
+    }]
+  },
+  {
+    "code" : "other",
+    "display" : "Other",
+    "definition" : "Other",
+    "designation" : [{
+      "language" : "fr-BE",
+      "value" : "Autre"
+    },
+    {
+      "language" : "nl-BE",
+      "value" : "andere"
+    }]
+  }]
+}

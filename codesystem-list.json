@@ -1,0 +1,44 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-bodysite",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeCSBodySite",
+      "title" : "Body Site CodeSystem",
+      "description" : "Body Site CodeSystem"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeCSProblemCategory",
+      "title" : "Problem Category",
+      "description" : "Problem Category"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeCSProblemOriginType",
+      "title" : "Problem Origin Type",
+      "description" : "Problem Origin Type"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeCSScore",
+      "title" : "Score Code System",
+      "description" : "Codes as defined initially by the NIHDI. Dutch translations were not yet defined but are planned   for a next release."
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeCSScoreCategory",
+      "title" : "Score Category",
+      "description" : "Score Category"
+    }
+  ]
+}

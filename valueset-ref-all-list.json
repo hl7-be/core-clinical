@@ -1,0 +1,1228 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/appointment-cancellation-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AppointmentCancellationReason",
+      "title" : "Appointment cancellation reason",
+      "description" : "This example value set defines a set of reasons for the cancellation of an appointment.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/appointment-cancellation-reason"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1381"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1381"],
+      "uses" : {
+      },
+      "StructureDefinition-BeAppointment.html" : "BeAppointment"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/appointmentstatus",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AppointmentStatus",
+      "title" : "AppointmentStatus",
+      "description" : "The free/busy status of an appointment.",
+      "systems" : ["http://hl7.org/fhir/appointmentstatus"],
+      "oids" : ["2.16.840.1.113883.4.642.3.484"],
+      "sources" : ["2.16.840.1.113883.4.642.3.484"],
+      "uses" : {
+      },
+      "StructureDefinition-BeAppointment.html" : "BeAppointment"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/body-site",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTBodyStructures",
+      "title" : "SNOMED CT Body Structures",
+      "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.141"],
+      "sources" : ["2.16.840.1.113883.4.642.3.141"],
+      "uses" : {
+      },
+      "StructureDefinition-be-clinical-observation.html" : "BeClinicalObservation",
+      "StructureDefinition-be-observation.html" : "BeObservation",
+      "StructureDefinition-be-procedure.html" : "BeProcedure",
+      "StructureDefinition-be-service-request.html" : "BeServiceRequest",
+      "StructureDefinition-be-scoreresult.html" : "BeScoreResult"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "PracticeSettingCodeValueSet",
+      "title" : "Practice Setting Code Value Set",
+      "description" : "This is the code representing the clinical specialty of the clinician or provider who interacted with, treated, or provided a service to/for the patient. The value set used for clinical specialty has been limited by HITSP to the value set reproduced from HITSP C80 Table 2-149 Clinical Specialty Value Set Definition.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.3.88.12.80.72"],
+      "sources" : ["2.16.840.1.113883.3.88.12.80.72"],
+      "uses" : {
+      },
+      "StructureDefinition-BeAppointment.html" : "BeAppointment"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-kind",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityKind",
+      "title" : "Care Plan Activity Kind",
+      "description" : "Resource types defined as part of FHIR that can be represented as in-line definitions of a care plan activity.",
+      "systems" : ["http://hl7.org/fhir/resource-types"],
+      "oids" : ["2.16.840.1.113883.4.642.3.145"],
+      "sources" : ["2.16.840.1.113883.4.642.3.145"],
+      "uses" : {
+      },
+      "StructureDefinition-BeCarePlan.html" : "BeCarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-outcome",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityOutcome",
+      "title" : "Care Plan Activity Outcome",
+      "description" : "Example codes indicating the outcome of a care plan activity. Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.149"],
+      "sources" : ["2.16.840.1.113883.4.642.3.149"],
+      "uses" : {
+      },
+      "StructureDefinition-BeCarePlan.html" : "BeCarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanActivityStatus",
+      "title" : "CarePlanActivityStatus",
+      "description" : "Codes that reflect the current state of a care plan activity within its overall life cycle.",
+      "systems" : ["http://hl7.org/fhir/care-plan-activity-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.146"],
+      "sources" : ["2.16.840.1.113883.4.642.3.146"],
+      "uses" : {
+      },
+      "StructureDefinition-BeCarePlan.html" : "BeCarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanCategory",
+      "title" : "Care Plan Category",
+      "description" : "Example codes indicating the category a care plan falls within.  Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.148"],
+      "sources" : ["2.16.840.1.113883.4.642.3.148"],
+      "uses" : {
+      },
+      "StructureDefinition-BeCarePlan.html" : "BeCarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/care-plan-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CarePlanIntent",
+      "title" : "Care Plan Intent",
+      "description" : "Codes indicating the degree of authority/intentionality associated with a care plan.",
+      "systems" : ["http://hl7.org/fhir/request-intent"],
+      "oids" : ["2.16.840.1.113883.4.642.3.150"],
+      "sources" : ["2.16.840.1.113883.4.642.3.150"],
+      "uses" : {
+      },
+      "StructureDefinition-BeCarePlan.html" : "BeCarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTClinicalFindings",
+      "title" : "SNOMED CT Clinical Findings",
+      "description" : "This value set includes all the \"Clinical finding\" [SNOMED CT](http://snomed.info/sct) codes - concepts where concept is-a 404684003 (Clinical finding (finding)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.232"],
+      "sources" : ["2.16.840.1.113883.4.642.3.232"],
+      "uses" : {
+      },
+      "StructureDefinition-BeGoal.html" : "BeGoal",
+      "StructureDefinition-BeCarePlan.html" : "BeCarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinicalimpression-prognosis",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ClinicalImpressionPrognosis",
+      "title" : "Clinical Impression Prognosis",
+      "description" : "Example value set for clinical impression prognosis.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.160"],
+      "sources" : ["2.16.840.1.113883.4.642.3.160"],
+      "uses" : {
+      },
+      "StructureDefinition-BeClinicalImpression.html" : "BeClinicalImpression"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinicalimpression-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ClinicalImpressionStatus",
+      "title" : "Clinical Impression Status",
+      "description" : "Codes that reflect the current state of a clinical impression within its overall lifecycle.",
+      "systems" : ["http://hl7.org/fhir/event-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1046"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1046"],
+      "uses" : {
+      },
+      "StructureDefinition-BeClinicalImpression.html" : "BeClinicalImpression"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-clinical",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionClinicalStatusCodes",
+      "title" : "Condition Clinical Status Codes",
+      "description" : "Preferred value set for Condition Clinical Status.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
+      "oids" : ["2.16.840.1.113883.4.642.3.164"],
+      "sources" : ["2.16.840.1.113883.4.642.3.164"],
+      "uses" : {
+      },
+      "StructureDefinition-be-problem.html" : "BeProblem"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Condition/Problem/DiagnosisCodes",
+      "title" : "Condition/Problem/Diagnosis Codes",
+      "description" : "Example value set for Condition/Problem/Diagnosis codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.161"],
+      "sources" : ["2.16.840.1.113883.4.642.3.161"],
+      "uses" : {
+      },
+      "StructureDefinition-BeClinicalImpression.html" : "BeClinicalImpression",
+      "StructureDefinition-be-procedure.html" : "BeProcedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Condition/DiagnosisSeverity",
+      "title" : "Condition/Diagnosis Severity",
+      "description" : "Preferred value set for Condition/Diagnosis severity grading.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.168"],
+      "sources" : ["2.16.840.1.113883.4.642.3.168"],
+      "uses" : {
+      },
+      "StructureDefinition-be-problem.html" : "BeProblem"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-stage",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionStage",
+      "title" : "Condition Stage",
+      "description" : "Example value set for stages of cancer and other conditions.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.170"],
+      "sources" : ["2.16.840.1.113883.4.642.3.170"],
+      "uses" : {
+      },
+      "StructureDefinition-be-problem.html" : "BeProblem"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionStageType",
+      "title" : "Condition Stage Type",
+      "description" : "Example value set for the type of stages of cancer and other conditions",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.171"],
+      "sources" : ["2.16.840.1.113883.4.642.3.171"],
+      "uses" : {
+      },
+      "StructureDefinition-be-problem.html" : "BeProblem"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ConditionVerificationStatus",
+      "title" : "ConditionVerificationStatus",
+      "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-ver-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.166"],
+      "sources" : ["2.16.840.1.113883.4.642.3.166"],
+      "uses" : {
+      },
+      "StructureDefinition-be-problem.html" : "BeProblem"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "DataAbsentReason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.5"],
+      "sources" : ["2.16.840.1.113883.4.642.3.5"],
+      "uses" : {
+      },
+      "StructureDefinition-be-clinical-observation.html" : "BeClinicalObservation",
+      "StructureDefinition-be-observation.html" : "BeObservation",
+      "StructureDefinition-be-scoreresult.html" : "BeScoreResult"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-action",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureDeviceActionCodes",
+      "title" : "Procedure Device Action Codes",
+      "description" : "Example codes indicating the change that happened to the device during the procedure.  Note that these are in no way complete and might not even be appropriate for some uses.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.425"],
+      "sources" : ["2.16.840.1.113883.4.642.3.425"],
+      "uses" : {
+      },
+      "StructureDefinition-be-procedure.html" : "BeProcedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-kind",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "FHIRDeviceTypes",
+      "title" : "FHIR Device Types",
+      "description" : "Codes used to identify medical devices. Includes concepts from SNOMED CT (http://www.snomed.org/) where concept is-a 49062001 (Device)  and is provided as a suggestive example.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.208"],
+      "sources" : ["2.16.840.1.113883.4.642.3.208"],
+      "uses" : {
+      },
+      "StructureDefinition-be-procedure.html" : "BeProcedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/diagnosis-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DiagnosisRole",
+      "title" : "DiagnosisRole",
+      "description" : "This value set defines a set of codes that can be used to express the role of a diagnosis on the Encounter or EpisodeOfCare record.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/diagnosis-role"],
+      "oids" : ["2.16.840.1.113883.4.642.3.49"],
+      "sources" : ["2.16.840.1.113883.4.642.3.49"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-admit-source",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AdmitSource",
+      "title" : "Admit source",
+      "description" : "This value set defines a set of codes that can be used to indicate from where the patient came in.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/admit-source"],
+      "oids" : ["2.16.840.1.113883.4.642.3.257"],
+      "sources" : ["2.16.840.1.113883.4.642.3.257"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-diet",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "Diet",
+      "title" : "Diet",
+      "description" : "This value set defines a set of codes that can be used to indicate dietary preferences or restrictions a patient may have.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/diet"],
+      "oids" : ["2.16.840.1.113883.4.642.3.255"],
+      "sources" : ["2.16.840.1.113883.4.642.3.255"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-discharge-disposition",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DischargeDisposition",
+      "title" : "Discharge disposition",
+      "description" : "This value set defines a set of codes that can be used to where the patient left the hospital.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/discharge-disposition"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.259"],
+      "sources" : ["2.16.840.1.113883.4.642.3.259"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-location-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EncounterLocationStatus",
+      "title" : "EncounterLocationStatus",
+      "description" : "The status of the location.",
+      "systems" : ["http://hl7.org/fhir/encounter-location-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.262"],
+      "sources" : ["2.16.840.1.113883.4.642.3.262"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-participant-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ParticipantType",
+      "title" : "Participant type",
+      "description" : "This value set defines a set of codes that can be used to indicate how an individual participates in an encounter.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/participant-type",
+        "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.250"],
+      "sources" : ["2.16.840.1.113883.4.642.3.250"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter",
+      "StructureDefinition-BeAppointment.html" : "BeAppointment"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EncounterReasonCodes",
+      "title" : "Encounter Reason Codes",
+      "description" : "This examples value set defines the set of codes that can be used to indicate reasons for an encounter.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.261"],
+      "sources" : ["2.16.840.1.113883.4.642.3.261"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter",
+      "StructureDefinition-BeAppointment.html" : "BeAppointment"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-special-arrangements",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SpecialArrangements",
+      "title" : "Special arrangements",
+      "description" : "This value set defines a set of codes that can be used to indicate the kinds of special arrangements in place for a patients visit.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/encounter-special-arrangements"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.253"],
+      "sources" : ["2.16.840.1.113883.4.642.3.253"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-special-courtesy",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SpecialCourtesy",
+      "title" : "Special courtesy",
+      "description" : "This value set defines a set of codes that can be used to indicate special courtesies provided to the patient.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
+        "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.252"],
+      "sources" : ["2.16.840.1.113883.4.642.3.252"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EncounterStatus",
+      "title" : "EncounterStatus",
+      "description" : "Current state of the encounter.",
+      "systems" : ["http://hl7.org/fhir/encounter-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.246"],
+      "sources" : ["2.16.840.1.113883.4.642.3.246"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EncounterType",
+      "title" : "Encounter type",
+      "description" : "This example value set defines a set of codes that can be used to indicate the type of encounter: a specific code indicating type of service provided.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/encounter-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.248"],
+      "sources" : ["2.16.840.1.113883.4.642.3.248"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/event-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "EventStatus",
+      "title" : "EventStatus",
+      "description" : "Codes identifying the lifecycle stage of an event.",
+      "systems" : ["http://hl7.org/fhir/event-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.109"],
+      "sources" : ["2.16.840.1.113883.4.642.3.109"],
+      "uses" : {
+      },
+      "StructureDefinition-be-procedure.html" : "BeProcedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/goal-achievement",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GoalAchievementStatus",
+      "title" : "Goal achievement status",
+      "description" : "Describes the progression, or lack thereof, towards the goal against the target.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/goal-achievement"],
+      "oids" : ["2.16.840.1.113883.4.642.3.1374"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1374"],
+      "uses" : {
+      },
+      "StructureDefinition-BeGoal.html" : "BeGoal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/goal-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GoalCategory",
+      "title" : "Goal category",
+      "description" : "Example codes for grouping goals to use for filtering or presentation.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/goal-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.275"],
+      "sources" : ["2.16.840.1.113883.4.642.3.275"],
+      "uses" : {
+      },
+      "StructureDefinition-BeGoal.html" : "BeGoal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/goal-priority",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GoalPriority",
+      "title" : "Goal priority",
+      "description" : "Indicates the level of importance associated with reaching or sustaining a goal.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/goal-priority"],
+      "oids" : ["2.16.840.1.113883.4.642.3.273"],
+      "sources" : ["2.16.840.1.113883.4.642.3.273"],
+      "uses" : {
+      },
+      "StructureDefinition-BeGoal.html" : "BeGoal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/goal-start-event",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GoalStartEvent",
+      "title" : "Goal start event",
+      "description" : "Identifies types of events that might trigger the start of a goal.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.279"],
+      "sources" : ["2.16.840.1.113883.4.642.3.279"],
+      "uses" : {
+      },
+      "StructureDefinition-BeGoal.html" : "BeGoal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/goal-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "GoalLifecycleStatus",
+      "title" : "GoalLifecycleStatus",
+      "description" : "Codes that reflect the current state of a goal and whether the goal is still being targeted.",
+      "systems" : ["http://hl7.org/fhir/goal-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.271"],
+      "sources" : ["2.16.840.1.113883.4.642.3.271"],
+      "uses" : {
+      },
+      "StructureDefinition-BeGoal.html" : "BeGoal"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/investigation-sets",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "InvestigationType",
+      "title" : "Investigation Type",
+      "description" : "Example value set for investigation type.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.157"],
+      "sources" : ["2.16.840.1.113883.4.642.3.157"],
+      "uses" : {
+      },
+      "StructureDefinition-BeClinicalImpression.html" : "BeClinicalImpression"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/languages",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "CommonLanguages",
+      "title" : "Common Languages",
+      "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+      "systems" : ["urn:ietf:bcp:47"],
+      "oids" : ["2.16.840.1.113883.4.642.3.20"],
+      "sources" : ["2.16.840.1.113883.4.642.3.20"],
+      "uses" : {
+      },
+      "StructureDefinition-be-clinical-observation.html" : "BeClinicalObservation",
+      "StructureDefinition-be-observation.html" : "BeObservation",
+      "StructureDefinition-BeClinicalImpression.html" : "BeClinicalImpression",
+      "StructureDefinition-be-problem.html" : "BeProblem",
+      "StructureDefinition-be-procedure.html" : "BeProcedure",
+      "StructureDefinition-be-encounter.html" : "BeEncounter",
+      "StructureDefinition-be-service-request.html" : "BeServiceRequest",
+      "StructureDefinition-BeAppointment.html" : "BeAppointment",
+      "StructureDefinition-BeGoal.html" : "BeGoal",
+      "StructureDefinition-be-questionnaire-response.html" : "BeQuestionnaireResponse",
+      "StructureDefinition-BeCarePlan.html" : "BeCarePlan",
+      "StructureDefinition-be-scoreresult.html" : "BeScoreResult"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/location-physical-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LocationType",
+      "title" : "Location type",
+      "description" : "This example value set defines a set of codes that can be used to indicate the physical form of the Location.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/location-physical-type"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.328"],
+      "sources" : ["2.16.840.1.113883.4.642.3.328"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/manifestation-or-symptom",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ManifestationAndSymptomCodes",
+      "title" : "Manifestation and Symptom Codes",
+      "description" : "Example value set for Manifestation and Symptom codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.169"],
+      "sources" : ["2.16.840.1.113883.4.642.3.169"],
+      "uses" : {
+      },
+      "StructureDefinition-be-problem.html" : "BeProblem"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTMedicationAsNeededReasonCodes",
+      "title" : "SNOMED CT Medication As Needed Reason Codes",
+      "description" : "This value set includes all clinical findings from SNOMED CT - provided as an exemplar value set.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.96"],
+      "sources" : ["2.16.840.1.113883.4.642.3.96"],
+      "uses" : {
+      },
+      "StructureDefinition-be-service-request.html" : "BeServiceRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/medication-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTMedicationCodes",
+      "title" : "SNOMED CT Medication Codes",
+      "description" : "This value set includes all drug or medicament substance codes and all pharmaceutical/biologic products from SNOMED CT - provided as an exemplar value set.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.375"],
+      "sources" : ["2.16.840.1.113883.4.642.3.375"],
+      "uses" : {
+      },
+      "StructureDefinition-BeCarePlan.html" : "BeCarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.403"],
+      "sources" : ["2.16.840.1.113883.4.642.3.403"],
+      "uses" : {
+      },
+      "StructureDefinition-be-clinical-observation.html" : "BeClinicalObservation",
+      "StructureDefinition-be-observation.html" : "BeObservation"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LOINCCodes",
+      "title" : "LOINC Codes",
+      "description" : "This value set includes all LOINC codes",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.396"],
+      "sources" : ["2.16.840.1.113883.4.642.3.396"],
+      "uses" : {
+      },
+      "StructureDefinition-be-clinical-observation.html" : "BeClinicalObservation",
+      "StructureDefinition-be-observation.html" : "BeObservation",
+      "StructureDefinition-BeGoal.html" : "BeGoal",
+      "StructureDefinition-be-scoreresult.html" : "BeScoreResult"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationInterpretationCodes",
+      "title" : "Observation Interpretation Codes",
+      "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.399"],
+      "sources" : ["2.16.840.1.113883.4.642.3.399"],
+      "uses" : {
+      },
+      "StructureDefinition-be-clinical-observation.html" : "BeClinicalObservation",
+      "StructureDefinition-be-observation.html" : "BeObservation",
+      "StructureDefinition-be-scoreresult.html" : "BeScoreResult"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationMethods",
+      "title" : "Observation Methods",
+      "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.395"],
+      "sources" : ["2.16.840.1.113883.4.642.3.395"],
+      "uses" : {
+      },
+      "StructureDefinition-be-clinical-observation.html" : "BeClinicalObservation",
+      "StructureDefinition-be-observation.html" : "BeObservation",
+      "StructureDefinition-be-scoreresult.html" : "BeScoreResult"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationStatus",
+      "title" : "ObservationStatus",
+      "description" : "Codes providing the status of an observation.",
+      "systems" : ["http://hl7.org/fhir/observation-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.400"],
+      "sources" : ["2.16.840.1.113883.4.642.3.400"],
+      "uses" : {
+      },
+      "StructureDefinition-be-clinical-observation.html" : "BeClinicalObservation",
+      "StructureDefinition-be-observation.html" : "BeObservation",
+      "StructureDefinition-be-scoreresult.html" : "BeScoreResult"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/participant-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ParticipantRoles",
+      "title" : "Participant Roles",
+      "description" : "Roles of participants that may be included in a care team.  Defined as: Is a Person, Healthcare professional (occupation) or Healthcare related organization (qualifier value).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.152"],
+      "sources" : ["2.16.840.1.113883.4.642.3.152"],
+      "uses" : {
+      },
+      "StructureDefinition-be-service-request.html" : "BeServiceRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/participantrequired",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ParticipantRequired",
+      "title" : "ParticipantRequired",
+      "description" : "Is the Participant required to attend the appointment.",
+      "systems" : ["http://hl7.org/fhir/participantrequired"],
+      "oids" : ["2.16.840.1.113883.4.642.3.488"],
+      "sources" : ["2.16.840.1.113883.4.642.3.488"],
+      "uses" : {
+      },
+      "StructureDefinition-BeAppointment.html" : "BeAppointment"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/participationstatus",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ParticipationStatus",
+      "title" : "ParticipationStatus",
+      "description" : "The Participation status of an appointment.",
+      "systems" : ["http://hl7.org/fhir/participationstatus"],
+      "oids" : ["2.16.840.1.113883.4.642.3.486"],
+      "sources" : ["2.16.840.1.113883.4.642.3.486"],
+      "uses" : {
+      },
+      "StructureDefinition-BeAppointment.html" : "BeAppointment"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/performer-role",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedurePerformerRoleCodes",
+      "title" : "Procedure Performer Role Codes",
+      "description" : "This example value set defines the set of codes that can be used to indicate a role of a procedure performer.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.433"],
+      "sources" : ["2.16.840.1.113883.4.642.3.433"],
+      "uses" : {
+      },
+      "StructureDefinition-be-procedure.html" : "BeProcedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureCategoryCodes(SNOMEDCT)",
+      "title" : "Procedure Category Codes (SNOMED CT)",
+      "description" : "Procedure Category code: A selection of relevant SNOMED CT codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.430"],
+      "sources" : ["2.16.840.1.113883.4.642.3.430"],
+      "uses" : {
+      },
+      "StructureDefinition-be-procedure.html" : "BeProcedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureCodes(SNOMEDCT)",
+      "title" : "Procedure Codes (SNOMED CT)",
+      "description" : "Procedure Code: All SNOMED CT procedure codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.427"],
+      "sources" : ["2.16.840.1.113883.4.642.3.427"],
+      "uses" : {
+      },
+      "StructureDefinition-be-procedure.html" : "BeProcedure",
+      "StructureDefinition-be-service-request.html" : "BeServiceRequest",
+      "StructureDefinition-BeCarePlan.html" : "BeCarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-followup",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureFollowUpCodes(SNOMEDCT)",
+      "title" : "Procedure Follow up Codes (SNOMED CT)",
+      "description" : "Procedure follow up codes: A selection of SNOMED CT codes relevant to procedure follow up.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.429"],
+      "sources" : ["2.16.840.1.113883.4.642.3.429"],
+      "uses" : {
+      },
+      "StructureDefinition-be-procedure.html" : "BeProcedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-not-performed-reason",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ProcedureNotPerformedReason(SNOMED-CT)",
+      "title" : "Procedure Not Performed Reason (SNOMED-CT)",
+      "description" : "Situation codes describing the reason that a procedure, which might otherwise be expected, was not performed, or a procedure that was started and was not completed. Consists of SNOMED CT codes, children of procedure contraindicated (183932001), procedure discontinued (416406003), procedure not done (416237000), procedure not indicated (428119001), procedure not offered (416064006), procedure not wanted (416432009), procedure refused (183944003), and procedure stopped (394908001).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.431"],
+      "sources" : ["2.16.840.1.113883.4.642.3.431"],
+      "uses" : {
+      },
+      "StructureDefinition-be-procedure.html" : "BeProcedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-outcome",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureOutcomeCodes(SNOMEDCT)",
+      "title" : "Procedure Outcome Codes (SNOMED CT)",
+      "description" : "Procedure Outcome code: A selection of relevant SNOMED CT codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.428"],
+      "sources" : ["2.16.840.1.113883.4.642.3.428"],
+      "uses" : {
+      },
+      "StructureDefinition-be-procedure.html" : "BeProcedure"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-reason",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureReasonCodes",
+      "title" : "Procedure Reason Codes",
+      "description" : "This example value set defines the set of codes that can be used to indicate a reason for a procedure.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.432"],
+      "sources" : ["2.16.840.1.113883.4.642.3.432"],
+      "uses" : {
+      },
+      "StructureDefinition-be-procedure.html" : "BeProcedure",
+      "StructureDefinition-be-service-request.html" : "BeServiceRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/questionnaire-answers",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "QuestionnaireAnswerCodes",
+      "title" : "Questionnaire Answer Codes",
+      "description" : "Example list of codes for answers to questions. (Not complete or necessarily appropriate.)",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.446"],
+      "sources" : ["2.16.840.1.113883.4.642.3.446"],
+      "uses" : {
+      },
+      "StructureDefinition-be-questionnaire-response.html" : "BeQuestionnaireResponse"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/questionnaire-answers-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "QuestionnaireResponseStatus",
+      "title" : "QuestionnaireResponseStatus",
+      "description" : "Lifecycle status of the questionnaire response.",
+      "systems" : ["http://hl7.org/fhir/questionnaire-answers-status"],
+      "oids" : ["required"],
+      "sources" : ["required"],
+      "uses" : {
+      },
+      "StructureDefinition-be-questionnaire-response.html" : "BeQuestionnaireResponse"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeAppliesToCodes",
+      "title" : "Observation Reference Range Applies To Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-Race",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.407"],
+      "sources" : ["2.16.840.1.113883.4.642.3.407"],
+      "uses" : {
+      },
+      "StructureDefinition-be-clinical-observation.html" : "BeClinicalObservation",
+      "StructureDefinition-be-observation.html" : "BeObservation",
+      "StructureDefinition-be-scoreresult.html" : "BeScoreResult"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeMeaningCodes",
+      "title" : "Observation Reference Range Meaning Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.397"],
+      "sources" : ["2.16.840.1.113883.4.642.3.397"],
+      "uses" : {
+      },
+      "StructureDefinition-be-clinical-observation.html" : "BeClinicalObservation",
+      "StructureDefinition-be-observation.html" : "BeObservation",
+      "StructureDefinition-be-scoreresult.html" : "BeScoreResult"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-intent",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestIntent",
+      "title" : "RequestIntent",
+      "description" : "Codes indicating the degree of authority/intentionality associated with a request.",
+      "systems" : ["http://hl7.org/fhir/request-intent"],
+      "oids" : ["2.16.840.1.113883.4.642.3.113"],
+      "sources" : ["2.16.840.1.113883.4.642.3.113"],
+      "uses" : {
+      },
+      "StructureDefinition-be-service-request.html" : "BeServiceRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-priority",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestPriority",
+      "title" : "Request priority",
+      "description" : "The clinical priority of a diagnostic order.",
+      "systems" : ["http://hl7.org/fhir/request-priority"],
+      "oids" : ["2.16.840.1.113883.4.642.3.115"],
+      "sources" : ["2.16.840.1.113883.4.642.3.115"],
+      "uses" : {
+      },
+      "StructureDefinition-be-service-request.html" : "BeServiceRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/request-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestStatus",
+      "title" : "RequestStatus",
+      "description" : "Codes identifying the lifecycle stage of a request.",
+      "systems" : ["http://hl7.org/fhir/request-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.111"],
+      "sources" : ["2.16.840.1.113883.4.642.3.111"],
+      "uses" : {
+      },
+      "StructureDefinition-be-service-request.html" : "BeServiceRequest",
+      "StructureDefinition-BeCarePlan.html" : "BeCarePlan"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceCategory",
+      "title" : "Service category",
+      "description" : "This value set defines an example set of codes that can be used to classify groupings of service-types/specialties.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/service-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.516"],
+      "sources" : ["2.16.840.1.113883.4.642.3.516"],
+      "uses" : {
+      },
+      "StructureDefinition-BeAppointment.html" : "BeAppointment"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceType",
+      "title" : "Service type",
+      "description" : "This value set defines an example set of codes of service-types.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/service-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.518"],
+      "sources" : ["2.16.840.1.113883.4.642.3.518"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter",
+      "StructureDefinition-BeAppointment.html" : "BeAppointment"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/servicerequest-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceRequestCategoryCodes",
+      "title" : "Service Request Category Codes",
+      "description" : "An example value set of SNOMED CT concepts that can classify a requested service",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.434"],
+      "sources" : ["2.16.840.1.113883.4.642.3.434"],
+      "uses" : {
+      },
+      "StructureDefinition-be-service-request.html" : "BeServiceRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/servicerequest-orderdetail",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceRequestOrderDetailsCodes",
+      "title" : "Service Request Order Details Codes",
+      "description" : "An example value set of Codified order entry details concepts.  These concepts only make sense in the context of what is being ordered.  This example is for a patient ventilation order",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.435"],
+      "sources" : ["2.16.840.1.113883.4.642.3.435"],
+      "uses" : {
+      },
+      "StructureDefinition-be-service-request.html" : "BeServiceRequest"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0092",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSReAdmissionIndicator",
+      "title" : "hl7VS-re-admissionIndicator",
+      "description" : "Value Set of codes which are used to specify that a patient is being re-admitted to a healthcare facility from which they were discharged, and indicates the circumstances around such re-admission.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0092"],
+      "oids" : ["2.16.840.1.113883.21.40"],
+      "sources" : ["2.16.840.1.113883.21.40"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v2-0276",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "Hl7VSAppointmentReasonCodes",
+      "title" : "hl7VS-appointmentReasonCodes",
+      "description" : "Value Set of codes that describe the kind of appointment or the reason why an appointment has been scheduled.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0276"],
+      "oids" : ["2.16.840.1.113883.21.181"],
+      "sources" : ["2.16.840.1.113883.21.181"],
+      "uses" : {
+      },
+      "StructureDefinition-BeAppointment.html" : "BeAppointment"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActEncounterCode",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ActEncounterCode",
+      "title" : "ActEncounterCode",
+      "description" : "Domain provides codes that qualify the ActEncounterClass (ENC)",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+      "oids" : ["2.16.840.1.113883.1.11.13955"],
+      "sources" : ["2.16.840.1.113883.1.11.13955"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActPriority",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ActPriority",
+      "title" : "ActPriority",
+      "description" : "A code or set of codes (e.g., for routine, emergency,) specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen.\r\n\r\n*Discussion:* This attribute is used in orders to indicate the ordered priority, and in event documentation it indicates the actual priority used to perform the act. In definition mood it indicates the available priorities.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActPriority"],
+      "oids" : ["2.16.840.1.113883.1.11.16866"],
+      "sources" : ["2.16.840.1.113883.1.11.16866"],
+      "uses" : {
+      },
+      "StructureDefinition-be-encounter.html" : "BeEncounter"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ServiceDeliveryLocationRoleType",
+      "title" : "ServiceDeliveryLocationRoleType",
+      "description" : "A role of a place that further classifies the setting (e.g., accident site, road side, work site, community location) in which services are delivered.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"],
+      "oids" : ["2.16.840.1.113883.1.11.17660"],
+      "sources" : ["2.16.840.1.113883.1.11.17660"],
+      "uses" : {
+      },
+      "StructureDefinition-be-service-request.html" : "BeServiceRequest"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSBodySite",
+      "title" : "Body Site",
+      "description" : "Body Site",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-be-problem.html" : "BeProblem"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSLaterality",
+      "title" : "Laterality",
+      "description" : "Laterality",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-be-ext-laterality.html" : "BeExtLaterality"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-problem-category",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSProblemCategory",
+      "title" : "Problem Category",
+      "description" : "Problem Category",
+      "systems" : [
+        "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-be-problem.html" : "BeProblem"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-problem-code",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSProblemCode",
+      "title" : "Problem Code",
+      "description" : "Problem Code. No Belgian standardized valueset is yet defined, this is expected   for a future iteration. Implementers are encouraged to use a codification system of their choosing.",
+      "uses" : {
+      },
+      "StructureDefinition-be-problem.html" : "BeProblem"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-problem-origin-type",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSProblemOriginType",
+      "title" : "Problem Origin Type",
+      "description" : "Problem Origin Type",
+      "systems" : [
+        "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-be-ext-problem-origin-type.html" : "BeExtProblemOriginType"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-reaction-manifestation-code",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSReactionManifestationCode",
+      "title" : "Reaction Manifestation Code",
+      "description" : "Reaction Manifestation Code (Allergy - Immunization)",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-score",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSScore",
+      "title" : "Score Value Set",
+      "description" : "Codes as defined by the NIHDI. Dutch translations are expected for a next release.",
+      "systems" : [
+        "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score",
+        "http://snomed.info/sct"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-be-scoreresult.html" : "BeScoreResult"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-scorecategory",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "BeVSScoreCategory",
+      "title" : "Score Category Value Set",
+      "description" : "Score Category Value Set",
+      "systems" : [
+        "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-be-scoreresult.html" : "BeScoreResult"
+    },
+    {
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/BeVSBodyTopography",
+      "version" : "1.0.1",
+      "status" : "draft",
+      "name" : "BeVSBodyTopography",
+      "title" : "BeVSBodyTopography",
+      "description" : "Body topography value set - describes the location or relative position on the body (e.g., superior/inferior, medial/lateral, internal/external)",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-be-ext-body-topography.html" : "BeExtBodyTopography"
+    }
+  ]
+}
