@@ -1,7 +1,7 @@
 Logical: BeModelProcedure
 Title: "BeProcedure Model"
 Description: "Procedure logical model"
-Id: be-model-procedure
+Id: BeModelProcedure
 
 * identifier 1..* Identifier "Unique identifier for the procedure"
 * recordedDate 1..1 dateTime "Date of the last modification/recording of the procedure"
