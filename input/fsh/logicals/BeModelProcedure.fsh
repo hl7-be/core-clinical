@@ -12,7 +12,7 @@ Id: be-model-procedure
 * request 0..* Reference "CarePlan and/or Referral Prescription that is at the origin of the procedure. For example: a physiotherapy session performed on prescription from the general practitioner"
 * partOf 0..* Reference "Part of the event being referenced: procedure, observation (symptoms) or problem (disease). For example: Blood draw (procedure) is part of the diagnostic observation (Observation)"
 * category 0..* CodeableConcept "Type or nature of the procedure. For example: surgical, psychiatric or chiropractic procedures"
-* focalDevice 0..* CodeableReference "Implanted or manipulated device"
+* focalDevice[x] 0..* CodeableConcept or Reference "Implanted or manipulated device"
 * usedDevice 0..* Reference "Devices or materials used temporarily during the procedure. For example: surgical robot, intraoperative imaging, neuronavigation. This also includes substances such as gels. Standard small instruments such as scalpels and syringes are not recorded"
 * status 1..1 code "Procedure status (not-done, stopped, completed, entered-in-error). Note: 'not-done' is out of scope as it implies planning. Business Rule: 'completed' by default"
 * code 1..1 CodeableConcept "Identification of the procedure (SNOMED-CT Procedure concept)"
