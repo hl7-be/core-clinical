@@ -12,3 +12,6 @@ INFORMATION: Patient/example: Patient.name[1]: This element does not match any k
 
 # If this was a real IG, there should be examples for these profiles too.  But it's not, and I'm lazy...
 %The Implementation Guide contains no examples for this profile%
+
+# no examples provided yet for some profiles
+The Implementation Guide contains no examples for this data type profile
