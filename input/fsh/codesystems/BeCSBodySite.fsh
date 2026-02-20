@@ -16,6 +16,5 @@ Description: "Body Site CodeSystem"
 * ^experimental = false
 * ^caseSensitive = false
 * content = #not-present
-
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 
