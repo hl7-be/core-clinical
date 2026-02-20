@@ -135,7 +135,7 @@ pages:
     title: Guidance
   spec.md:
   changes.xml:
-  downloads.xml:
+  downloads.md:
 
 
 
@@ -201,4 +201,5 @@ FSHOnly: false
 dependencies:
 
   hl7.fhir.be.core: 2.1.2
+
 
