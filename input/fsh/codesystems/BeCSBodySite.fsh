@@ -15,5 +15,6 @@ Description: "Body Site CodeSystem"
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
 * ^experimental = false
 * ^caseSensitive = false
+* content = #not-present
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 
