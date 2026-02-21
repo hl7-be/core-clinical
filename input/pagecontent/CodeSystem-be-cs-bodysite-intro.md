@@ -1,3 +1,5 @@
-
-{:.stu-note}
-This CodeSystem does not contain any values and is a candidate for deprecation in a future version of this IG.
+<div class="stu-note">
+  <p>
+    This Code System is deprecated and should not be used.
+  </p>
+</div>
