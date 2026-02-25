@@ -8,7 +8,7 @@ Description: "A condition, diagnosis or situation that is the focus of care."
 * identifier MS
 * clinicalStatus MS
 * verificationStatus MS
-* category 1.. MS
+* category 0.. MS
 * category from BeVSProblemCategory (extensible)
 * code 1.. MS
 * code from BeVSProblemCode (extensible)
