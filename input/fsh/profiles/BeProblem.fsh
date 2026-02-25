@@ -25,3 +25,4 @@ Description: "A condition, diagnosis or situation that is the focus of care."
 * recorder only Reference(BePractitioner or BePractitionerRole or BePatient)
 * asserter only Reference(RelatedPerson or BePractitioner or BePractitionerRole or BePatient)
 * note MS
+* evidence 0..* MS
