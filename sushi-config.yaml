@@ -91,7 +91,8 @@ jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 #     better option (see below).
 # The following are simple examples to demonstrate what this might
 # look like:
-#resources:
+resources:
+  Parameters/terminology-expansion: omit
 #  Patient/my-example-patient:
 #    name: My Example Patient
 #    description: An example Patient
@@ -135,7 +136,7 @@ pages:
     title: Guidance
   spec.md:
   changes.xml:
-  downloads.md:
+#  downloads.md:
 
 
 
@@ -167,7 +168,7 @@ menu:
     Profiles: artifacts.html#2
     Extensions: artifacts.html#3
     Value Sets: artifacts.html#4
-  Downloads: downloads.html
+  # Downloads: downloads.html
   Changes: changes.html
   History: https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html
 
@@ -202,6 +203,7 @@ FSHOnly: false
 dependencies:
 
   hl7.fhir.be.core: 2.1.2
+  hl7.fhir.extensions.r5: 4.0.1
 
 
 
