@@ -10,8 +10,10 @@ Description: "Placeholder profile for contextualising the FHIR resource"
 // Pre-adopt R5 Procedure.recorded (dateTime) - when the procedure was first captured in the subject's record
 * extension contains http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.recorded named recorded 1..1 MS
 
-* performedDateTime 1..1 MS
-* performedPeriod MS
+* performed[x] 1..1 MS
+* performed[x] only dateTime or Period
+// * performedDateTime MS
+// * performedPeriod MS
 * subject 1..1 MS
 * recorder 1..1 MS
 * performer 0..1 MS
