@@ -10,13 +10,13 @@
 id: hl7.fhir.be.core-clinical
 canonical: https://www.ehealth.fgov.be/standards/fhir/core-clinical
 url: https://www.ehealth.fgov.be/standards/fhir/core-clinical
-name: Transversal Clinical Core
-title: "HL7 FHIR Implementation Guide: Transversal Clinical Core"
-description: "HL7 FHIR Implementation Guide: Transversal Clinical Core"
+name: TransversalClinicalCore
+title: "Clinical Core"
+description: "HL7 Belgium - Transversal Clinical Core"
 status: active
 license: CC0-1.0
-date: 2020-02-26
-version: 1.0.1
+date: 2026-02-27
+version: 1.1.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here (but so far SUSHI only
@@ -91,7 +91,8 @@ jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 #     better option (see below).
 # The following are simple examples to demonstrate what this might
 # look like:
-#resources:
+resources:
+  Parameters/terminology-expansion: omit
 #  Patient/my-example-patient:
 #    name: My Example Patient
 #    description: An example Patient
@@ -129,13 +130,13 @@ jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 pages:
-  index.xml:
+  index.md:
     title: Transversal Clinical Core
   guidance.xml:
     title: Guidance
   spec.md:
   changes.xml:
-  downloads.xml:
+#  downloads.md:
 
 
 
@@ -167,8 +168,9 @@ menu:
     Profiles: artifacts.html#2
     Extensions: artifacts.html#3
     Value Sets: artifacts.html#4
-  Downloads: downloads.html
-#  History: http://hl7.org/fhir/us/example/history.html
+  # Downloads: downloads.html
+  Changes: changes.html
+  History: https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html
 
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
@@ -185,8 +187,8 @@ parameters:
   apply-jurisdiction: 'true'
   apply-publisher: 'true'
   apply-version: 'true'
-  path-expansion-params: Parameters-terminology-expansion.json
-  special-url: https://www.ehealth.fgov.be/standards/fhir/terminology
+  path-expansion-params: ../../Parameters-terminology-expansion.json
+  special-url-base: https://www.ehealth.fgov.be/standards/fhir/terminology
   path-history: https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html
 
 # The FSHOnly flag indicates if only FSH resources should be exported.
@@ -201,4 +203,11 @@ FSHOnly: false
 
 dependencies:
 
-  hl7.fhir.be.core: current
+  hl7.fhir.be.core: 2.1.2
+  hl7.fhir.extensions.r5: 4.0.1
+
+
+
+
+
+
