@@ -1,7 +1,7 @@
 ValueSet: BeVSSeverity
 Id: be-vs-severity
 Title: "Severity"
-Description: "Severity - indicative only, the normative valueset is defined in the Belgian terminology IG."
+Description: "Severity - placeholder valueset - the normative definition will be published in the Belgian terminology IG."
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-severity"
 * ^status = #active
 * ^experimental = false
