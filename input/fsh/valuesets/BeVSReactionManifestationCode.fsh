@@ -2,17 +2,10 @@ ValueSet: BeVSReactionManifestationCode
 Id: be-vs-reaction-manifestation-code
 Title: "Reaction Manifestation Code"
 Description: "Reaction Manifestation Code (Allergy - Immunization)"
-* ^version = "1.0.0"
+* ^url = "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-reaction-manifestation-code"
 * ^status = #active
-* ^date = "2021-01-10T10:59:49+00:00"
-* ^publisher = "eHealth Platform"
-* ^contact[0].name = "eHealth Platform"
-* ^contact[=].telecom.system = #url
-* ^contact[=].telecom.value = "https://www.ehealth.fgov.be"
-* ^contact[+].name = "Message structure"
-* ^contact[=].telecom.system = #email
-* ^contact[=].telecom.value = "message-structure@ehealth.fgov.be"
-* ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
+
+
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * ^experimental = false
 //* ^caseSensitive = false
