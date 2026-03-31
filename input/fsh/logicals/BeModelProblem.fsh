@@ -31,11 +31,11 @@ Description: "Logical model for Problem"
 
 * bodySite 0..* CodeableConcept "Body Site" "Anatomical site(s) where the problem is active"
   * localisation 1..1 CodeableConcept  "Body Localisation" "Specific location on the body if not implied by the code"
-  * localisation from https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite
+  * localisation from https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-bodysite
   * laterality 0..1 CodeableConcept "Body Laterality" "Laterality of the affected body site (right, left, both)"
-  * laterality from https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality 
+  * laterality from https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-laterality 
   * topography 0..1 CodeableConcept "Body Topography" "Topography of the affected body site (e.g., upper arm, lower leg, etc.)"
-  * topography from https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography
+  * topography from https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-body-topography
 * onset[x] 0..1 dateTime or Period or Range or Age or string "Onset" "Moment the problem began"
 * abatement[x] 0..1 dateTime or Period or Range or Age or string "Abatement" "Moment the problem went into remission"
 * note 0..* Annotation "Note" "Additional notes pertaining to the problem"
