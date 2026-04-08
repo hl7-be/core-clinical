@@ -2,6 +2,7 @@ ValueSet: BeVSScoreCategory
 Id: be-vs-scorecategory
 Title: "Score Category Value Set"
 Description: "Score Category Value Set"
+* ^url = "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-scorecategory"
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2021-01-10T10:59:49+00:00"

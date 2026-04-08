@@ -5,16 +5,20 @@ Title: "BeProblem"
 Description: "A condition, diagnosis or situation that is the focus of care."
 
 * extension contains BeExtProblemOriginType named ProblemOriginType 0..1 MS
-* identifier MS
-* clinicalStatus MS
+* extension contains http://hl7.org/fhir/StructureDefinition/condition-dueTo named dueTo 0..* MS
+* identifier 1..* MS
+* clinicalStatus 1..1 MS
 * verificationStatus MS
 * category 0.. MS
 * category from BeVSProblemCategory (extensible)
 * code 1.. MS
 * code from BeVSProblemCode (extensible)
+* severity MS
+* severity from BeVSSeverity (preferred)
 * bodySite MS
 * bodySite from BeVSBodySite (required)
 * bodySite.extension contains BeExtLaterality named laterality 0..1
+* bodySite.extension contains BeExtBodyTopography named topography 0..1
 * subject only Reference(BePatient)
 * subject MS
 * encounter MS

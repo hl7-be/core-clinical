@@ -1,7 +1,7 @@
 ValueSet: BeVSBodyTopography
 Id: be-vs-body-topography
 Title: "BeVSBodyTopography"
-Description: "Body topography value set - describes the location or relative position on the body (e.g., superior/inferior, medial/lateral, internal/external)"
+Description: "Body topography value set - describes the location or relative position on the body (e.g., superior/inferior, medial/lateral, internal/external). Placeholder valueset - the normative definition will be published in the Belgian terminology IG."
 
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-body-topography"
 * ^status = #draft
