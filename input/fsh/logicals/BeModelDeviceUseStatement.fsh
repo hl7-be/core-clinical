@@ -9,7 +9,7 @@ Description: "Logical model for recording the use of a medical device by a patie
 * status from http://hl7.org/fhir/ValueSet/device-statement-status
 * patient 1..1 Reference(Patient) "Patient" "The patient who uses the medical device"
 * derivedFrom 0..* Reference "Derived From" "Extra information on which this registration is based, e.g. a prior Procedure or Observation"
-* timing 0..1 dateTime or Period or Timing "Timing" "Description of how often or when the device is used, e.g. every night between 22:00 and 07:00"
+* timing[x] 0..1 dateTime or Period or Timing "Timing" "Description of how often or when the device is used, e.g. every night between 22:00 and 07:00"
 * recordedDate 1..1 dateTime "Recorded Date" "Date and time when the registration was entered"
 * source 0..1 Reference(Practitioner or PractitionerRole or Patient or RelatedPerson) "Source" "Who created the registration, e.g. a nurse recording the use"
 * device 1..1 Reference "Device" "The device being used, e.g. reference to Device 'Insulin pump SN12345'"
