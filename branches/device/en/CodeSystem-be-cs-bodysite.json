@@ -1,0 +1,54 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "be-cs-bodysite",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem be-cs-bodysite</b></p><a name=\"be-cs-bodysite\"> </a><a name=\"hcbe-cs-bodysite\"> </a><p>This case-insensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-bodysite</code> defines codes, but no codes are represented here</p></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "deprecated"
+  }],
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-bodysite",
+  "version" : "1.1.0",
+  "name" : "BeCSBodySite",
+  "title" : "Body Site CodeSystem",
+  "status" : "retired",
+  "experimental" : false,
+  "date" : "2026-04-29T10:42:49+00:00",
+  "publisher" : "eHealth Platform",
+  "contact" : [{
+    "name" : "eHealth Platform",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ehealth.fgov.be"
+    },
+    {
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be"
+    }]
+  },
+  {
+    "name" : "Message-Structure",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Body Site CodeSystem",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "not-present"
+}

@@ -1,0 +1,99 @@
+TransversalClinicalCore : Validation Results
+=========================================
+
+err = 5, warn = 14, info = 5
+IG Publisher Version: 2.2.7
+Generated Fri Apr 24 05:41:31 UTC 2026. FHIR version 4.0.1 for hl7.fhir.be.core-clinical#1.2.0 (canonical = https://www.ehealth.fgov.be/standards/fhir/core-clinical)
+ Build Errors : 2 / 2 / 0
+ /work/fsh-generated/resources/CodeSystem-be-cs-bodysite : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-problem-category : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-problem-origin-type : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-score : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-score-category : 0 / 0 / 1
+ /work/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.core-clinical : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelBodySite : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelClinicalObservation : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelProblem : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelProcedure : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-clinical-observation : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-ext-body-topography : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-ext-laterality : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-ext-problem-origin-type : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-ext-surgical-approach : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-observation : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-observationcodeableconcept : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-problem : 0 / 3 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-procedure : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-scoreresult : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-ProblemCategoryVS : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-ProblemCodeVS : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-ProblemDiseaseCourseVS : 1 / 3 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-body-topography : 1 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-bodysite : 1 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-laterality : 0 / 2 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-category : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-code : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-origin-type : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-reaction-manifestation-code : 0 / 2 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-score : 0 / 2 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-scorecategory : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-severity : 0 / 2 / 2
+</table>
+== n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+ERROR: There are multiple resources with the same title [Problem Category].  This is not allowed because it produces duplicate entries in the table of contents.
+ERROR: There are multiple resources with the same title [Problem Origin Type].  This is not allowed because it produces duplicate entries in the table of contents.
+WARNING: 5: The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-be-cs-bodysite.json ==
+== fsh-generated/resources/CodeSystem-be-cs-problem-category.json ==
+== fsh-generated/resources/CodeSystem-be-cs-problem-origin-type.json ==
+== fsh-generated/resources/CodeSystem-be-cs-score.json ==
+== fsh-generated/resources/CodeSystem-be-cs-score-category.json ==
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.be.core-clinical.json ==
+== fsh-generated/resources/StructureDefinition-BeModelBodySite.json ==
+== fsh-generated/resources/StructureDefinition-BeModelClinicalObservation.json ==
+== fsh-generated/resources/StructureDefinition-BeModelProblem.json ==
+== fsh-generated/resources/StructureDefinition-BeModelProcedure.json ==
+== fsh-generated/resources/StructureDefinition-be-clinical-observation.json ==
+INFORMATION: StructureDefinition/be-clinical-observation: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+== fsh-generated/resources/StructureDefinition-be-ext-body-topography.json ==
+== fsh-generated/resources/StructureDefinition-be-ext-laterality.json ==
+== fsh-generated/resources/StructureDefinition-be-ext-problem-origin-type.json ==
+== fsh-generated/resources/StructureDefinition-be-ext-surgical-approach.json ==
+== fsh-generated/resources/StructureDefinition-be-observation.json ==
+== fsh-generated/resources/StructureDefinition-be-observationcodeableconcept.json ==
+== fsh-generated/resources/StructureDefinition-be-problem.json ==
+WARNING: StructureDefinition/be-problem: StructureDefinition.snapshot.element[9].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/condition-dueTo'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.1.0 (from hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/condition-dueTo' to 'http://hl7.org/fhir/StructureDefinition/condition-dueTo|5.2.0'
+WARNING: StructureDefinition/be-problem: StructureDefinition.differential.element[3].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/condition-dueTo'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.1.0 (from hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/condition-dueTo' to 'http://hl7.org/fhir/StructureDefinition/condition-dueTo|5.2.0'
+== fsh-generated/resources/StructureDefinition-be-procedure.json ==
+== fsh-generated/resources/StructureDefinition-be-scoreresult.json ==
+== fsh-generated/resources/ValueSet-ProblemCategoryVS.json ==
+WARNING: ValueSet/ProblemCategoryVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ProblemCodeVS.json ==
+WARNING: ValueSet/ProblemCodeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ProblemDiseaseCourseVS.json ==
+ERROR: ValueSet/ProblemDiseaseCourseVS: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://snomed.info/sct', and '288524001' is not (Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided.)
+WARNING: ValueSet/ProblemDiseaseCourseVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.where(id = 'ProblemDiseaseCourseVS'): Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided.
+== fsh-generated/resources/ValueSet-be-vs-body-topography.json ==
+ERROR: ValueSet/be-vs-body-topography: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://snomed.info/sct', and '106233006' is not (Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided.)
+WARNING: ValueSet.where(id = 'be-vs-body-topography'): Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided.
+== fsh-generated/resources/ValueSet-be-vs-bodysite.json ==
+ERROR: ValueSet/be-vs-bodysite: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://snomed.info/sct', and '442083009' is not (Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided.)
+WARNING: ValueSet.where(id = 'be-vs-bodysite'): Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided.
+== fsh-generated/resources/ValueSet-be-vs-laterality.json ==
+INFORMATION: ValueSet/be-vs-laterality: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://apps.health.belgium.be/ontoserver/fhir does not support batch validation (tests version < 1.7.8)
+WARNING: ValueSet.where(id = 'be-vs-laterality'): Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided.
+== fsh-generated/resources/ValueSet-be-vs-problem-category.json ==
+== fsh-generated/resources/ValueSet-be-vs-problem-code.json ==
+== fsh-generated/resources/ValueSet-be-vs-problem-origin-type.json ==
+== fsh-generated/resources/ValueSet-be-vs-reaction-manifestation-code.json ==
+INFORMATION: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://apps.health.belgium.be/ontoserver/fhir does not support batch validation (tests version < 1.7.8)
+WARNING: ValueSet.where(id = 'be-vs-reaction-manifestation-code'): Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided.
+== fsh-generated/resources/ValueSet-be-vs-score.json ==
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://apps.health.belgium.be/ontoserver/fhir does not support batch validation (tests version < 1.7.8)
+WARNING: ValueSet.where(id = 'be-vs-score'): Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided.
+== fsh-generated/resources/ValueSet-be-vs-scorecategory.json ==
+== fsh-generated/resources/ValueSet-be-vs-severity.json ==
+INFORMATION: ValueSet/be-vs-severity: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://apps.health.belgium.be/ontoserver/fhir does not support batch validation (tests version < 1.7.8)
+WARNING: ValueSet.where(id = 'be-vs-severity'): Error from https://apps.health.belgium.be/ontoserver/fhir: Can not determine authorisation; no credentials were provided.

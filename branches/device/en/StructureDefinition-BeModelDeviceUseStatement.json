@@ -1,0 +1,691 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "BeModelDeviceUseStatement",
+  "language" : "en",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: StructureDefinition BeModelDeviceUseStatement</b></p><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the element can appear in the instance\">Card.</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px; width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement\" title=\"Logical model for recording the use of a medical device by a patient\">BeModelDeviceUseStatement</a><a name=\"BeModelDeviceUseStatement\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/types.html#Base\">Base</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">DeviceUseStatement Logical Model</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.identifier\" title=\"Unique ID of this device use registration, assigned by the system that creates the DeviceUseStatement\">identifier</a><a name=\"BeModelDeviceUseStatement.identifier\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Identifier<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.basedOn\" title=\"Reference to a request or plan on which this use is based, e.g. a ServiceRequest or prescription\">basedOn</a><a name=\"BeModelDeviceUseStatement.basedOn\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Based On<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.status\" title=\"Status of the registration (active, completed, entered-in-error, intended, stopped, on-hold)\">status</a><a name=\"BeModelDeviceUseStatement.status\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Status<br class=\"binding\"/><span style=\"font-weight:bold\" title=\"null\" class=\"binding\">Binding: </span><a href=\"http://hl7.org/fhir/R4/valueset-device-statement-status.html\" title=\"http://hl7.org/fhir/ValueSet/device-statement-status\" class=\"binding\">DeviceUseStatementStatus</a><span title=\"null\" class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\" class=\"binding\">required</a><span title=\"null\" class=\"binding\">)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.patient\" title=\"The patient who uses the medical device\">patient</a><a name=\"BeModelDeviceUseStatement.patient\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"http://hl7.org/fhir/R4/patient.html\">Patient</a>)</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Patient</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.derivedFrom\" title=\"Extra information on which this registration is based, e.g. a prior Procedure or Observation\">derivedFrom</a><a name=\"BeModelDeviceUseStatement.derivedFrom\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Derived From<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_choice.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Choice of Types\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.timing[x]\" title=\"Description of how often or when the device is used, e.g. every night between 22:00 and 07:00\">timing[x]</a><a name=\"BeModelDeviceUseStatement.timing_x_\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Timing</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <span title=\"Base StructureDefinition for dateTime Type: A date, date-time or partial date (e.g. just year or year + month).  If hours and minutes are specified, a time zone SHALL be populated. The format is a union of the schema types gYear, gYearMonth, date and dateTime. Seconds must be provided due to schema type constraints but may be zero-filled and may be ignored.                 Dates SHALL be valid dates.\">timingDateTime</span></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span title=\"Base StructureDefinition for Period Type: A time period defined by a start and end date and optionally time.\">timingPeriod</span></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Period\">Period</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <span title=\"Base StructureDefinition for Timing Type: Specifies an event that may occur multiple times. Timing schedules are used to record when things are planned, expected or requested to occur. The most common usage is in dosage instructions for medications. They are also used when planning care of various kinds, and may be used for reporting the schedule to which past regular activities were carried out.\">timingTiming</span></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Timing\">Timing</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.recordedDate\" title=\"Date and time when the registration was entered\">recordedDate</a><a name=\"BeModelDeviceUseStatement.recordedDate\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Recorded Date</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.source\" title=\"Who created the registration, e.g. a nurse recording the use\">source</a><a name=\"BeModelDeviceUseStatement.source\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"http://hl7.org/fhir/R4/practitioner.html\">Practitioner</a> | <a href=\"http://hl7.org/fhir/R4/practitionerrole.html\">PractitionerRole</a> | <a href=\"http://hl7.org/fhir/R4/patient.html\">Patient</a> | <a href=\"http://hl7.org/fhir/R4/relatedperson.html\">RelatedPerson</a>)</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Source</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.device\" title=\"The device being used, e.g. reference to Device 'Insulin pump SN12345'\">device</a><a name=\"BeModelDeviceUseStatement.device\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Device</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.reasonCode\" title=\"Reason why the device is used - can be a condition (problem), procedure or observation code\">reasonCode</a><a name=\"BeModelDeviceUseStatement.reasonCode\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Reason Code<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.reasonReference\" title=\"Reference to a clinical source for the reason, e.g. a diagnosis in a problem resource\">reasonReference</a><a name=\"BeModelDeviceUseStatement.reasonReference\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>()</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Reason Reference<br/></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.bodySite\" title=\"The anatomical location where the device is used or implanted\">bodySite</a><a name=\"BeModelDeviceUseStatement.bodySite\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Body Site</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.bodySite.localisation\" title=\"Specific location on the body, e.g. left hip\">localisation</a><a name=\"BeModelDeviceUseStatement.bodySite.localisation\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Body Localisation<br class=\"binding\"/><span style=\"font-weight:bold\" title=\"null\" class=\"binding\">Binding: </span><a href=\"https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite\" class=\"binding\">https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite</a><span title=\"null\" class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\" class=\"binding\">required</a><span title=\"null\" class=\"binding\">)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.bodySite.laterality\" title=\"Laterality of the body site where the device is used/implanted (right, left, both)\">laterality</a><a name=\"BeModelDeviceUseStatement.bodySite.laterality\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Body Laterality<br class=\"binding\"/><span style=\"font-weight:bold\" title=\"null\" class=\"binding\">Binding: </span><a href=\"https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality\" class=\"binding\">https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality</a><span title=\"null\" class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\" class=\"binding\">required</a><span title=\"null\" class=\"binding\">)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.bodySite.topography\" title=\"Relative position of the device on the body (e.g., upper/lower, medial/lateral, internal/external)\">topography</a><a name=\"BeModelDeviceUseStatement.bodySite.topography\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Body Topography<br class=\"binding\"/><span style=\"font-weight:bold\" title=\"null\" class=\"binding\">Binding: </span><a href=\"https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography\" class=\"binding\">https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography</a><span title=\"null\" class=\"binding\"> (</span><a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\" class=\"binding\">required</a><span title=\"null\" class=\"binding\">)</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelDeviceUseStatement-definitions.html#BeModelDeviceUseStatement.note\" title=\"Remarks or additional instructions, e.g. 'Patient reports irritation around the sensor'\">note</a><a name=\"BeModelDeviceUseStatement.note\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Annotation\">Annotation</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Note<br/></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeModelDeviceUseStatement",
+  "version" : "1.1.0",
+  "name" : "BeModelDeviceUseStatement",
+  "title" : "DeviceUseStatement Logical Model",
+  "status" : "active",
+  "date" : "2026-04-29T10:42:49+00:00",
+  "publisher" : "eHealth Platform",
+  "contact" : [{
+    "name" : "eHealth Platform",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ehealth.fgov.be"
+    },
+    {
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be"
+    }]
+  },
+  {
+    "name" : "Message-Structure",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Logical model for recording the use of a medical device by a patient",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "fhirVersion" : "4.0.1",
+  "kind" : "logical",
+  "abstract" : false,
+  "type" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeModelDeviceUseStatement",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Base",
+  "derivation" : "specialization",
+  "snapshot" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
+      "valueString" : "4.0.1"
+    }],
+    "element" : [{
+      "id" : "BeModelDeviceUseStatement",
+      "path" : "BeModelDeviceUseStatement",
+      "short" : "DeviceUseStatement Logical Model",
+      "definition" : "Logical model for recording the use of a medical device by a patient",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Base",
+        "min" : 0,
+        "max" : "*"
+      },
+      "isModifier" : false
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.identifier",
+      "path" : "BeModelDeviceUseStatement.identifier",
+      "short" : "Identifier",
+      "definition" : "Unique ID of this device use registration, assigned by the system that creates the DeviceUseStatement",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.identifier",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.basedOn",
+      "path" : "BeModelDeviceUseStatement.basedOn",
+      "short" : "Based On",
+      "definition" : "Reference to a request or plan on which this use is based, e.g. a ServiceRequest or prescription",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.basedOn",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.status",
+      "path" : "BeModelDeviceUseStatement.status",
+      "short" : "Status",
+      "definition" : "Status of the registration (active, completed, entered-in-error, intended, stopped, on-hold)",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.status",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://hl7.org/fhir/ValueSet/device-statement-status"
+      }
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.patient",
+      "path" : "BeModelDeviceUseStatement.patient",
+      "short" : "Patient",
+      "definition" : "The patient who uses the medical device",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.patient",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Patient"]
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.derivedFrom",
+      "path" : "BeModelDeviceUseStatement.derivedFrom",
+      "short" : "Derived From",
+      "definition" : "Extra information on which this registration is based, e.g. a prior Procedure or Observation",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.derivedFrom",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.timing[x]",
+      "path" : "BeModelDeviceUseStatement.timing[x]",
+      "short" : "Timing",
+      "definition" : "Description of how often or when the device is used, e.g. every night between 22:00 and 07:00",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.timing[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      },
+      {
+        "code" : "Period"
+      },
+      {
+        "code" : "Timing"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.recordedDate",
+      "path" : "BeModelDeviceUseStatement.recordedDate",
+      "short" : "Recorded Date",
+      "definition" : "Date and time when the registration was entered",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.recordedDate",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.source",
+      "path" : "BeModelDeviceUseStatement.source",
+      "short" : "Source",
+      "definition" : "Who created the registration, e.g. a nurse recording the use",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.source",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Practitioner",
+        "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
+        "http://hl7.org/fhir/StructureDefinition/Patient",
+        "http://hl7.org/fhir/StructureDefinition/RelatedPerson"]
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.device",
+      "path" : "BeModelDeviceUseStatement.device",
+      "short" : "Device",
+      "definition" : "The device being used, e.g. reference to Device 'Insulin pump SN12345'",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.device",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.reasonCode",
+      "path" : "BeModelDeviceUseStatement.reasonCode",
+      "short" : "Reason Code",
+      "definition" : "Reason why the device is used - can be a condition (problem), procedure or observation code",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.reasonCode",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.reasonReference",
+      "path" : "BeModelDeviceUseStatement.reasonReference",
+      "short" : "Reason Reference",
+      "definition" : "Reference to a clinical source for the reason, e.g. a diagnosis in a problem resource",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.reasonReference",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.bodySite",
+      "path" : "BeModelDeviceUseStatement.bodySite",
+      "short" : "Body Site",
+      "definition" : "The anatomical location where the device is used or implanted",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.bodySite",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "BackboneElement"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.bodySite.id",
+      "path" : "BeModelDeviceUseStatement.bodySite.id",
+      "representation" : ["xmlAttr"],
+      "short" : "Unique id for inter-element referencing",
+      "definition" : "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Element.id",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
+          "valueUrl" : "string"
+        }],
+        "code" : "http://hl7.org/fhirpath/System.String"
+      }],
+      "isModifier" : false,
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.bodySite.extension",
+      "path" : "BeModelDeviceUseStatement.bodySite.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "description" : "Extensions are always sliced by (at least) url",
+        "rules" : "open"
+      },
+      "short" : "Additional content defined by implementations",
+      "definition" : "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "alias" : ["extensions",
+      "user content"],
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Element.extension",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Extension"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "ext-1",
+        "severity" : "error",
+        "human" : "Must have either extensions or value[x], not both",
+        "expression" : "extension.exists() != value.exists()",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
+      }],
+      "isModifier" : false,
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.bodySite.modifierExtension",
+      "path" : "BeModelDeviceUseStatement.bodySite.modifierExtension",
+      "short" : "Extensions that cannot be ignored even if unrecognized",
+      "definition" : "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
+      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "requirements" : "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).",
+      "alias" : ["extensions",
+      "user content",
+      "modifiers"],
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BackboneElement.modifierExtension",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Extension"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "ext-1",
+        "severity" : "error",
+        "human" : "Must have either extensions or value[x], not both",
+        "expression" : "extension.exists() != value.exists()",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
+      }],
+      "isModifier" : true,
+      "isModifierReason" : "Modifier extensions are expected to modify the meaning or interpretation of the element that contains them",
+      "isSummary" : true,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "N/A"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.bodySite.localisation",
+      "path" : "BeModelDeviceUseStatement.bodySite.localisation",
+      "short" : "Body Localisation",
+      "definition" : "Specific location on the body, e.g. left hip",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.bodySite.localisation",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite"
+      }
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.bodySite.laterality",
+      "path" : "BeModelDeviceUseStatement.bodySite.laterality",
+      "short" : "Body Laterality",
+      "definition" : "Laterality of the body site where the device is used/implanted (right, left, both)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.bodySite.laterality",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality"
+      }
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.bodySite.topography",
+      "path" : "BeModelDeviceUseStatement.bodySite.topography",
+      "short" : "Body Topography",
+      "definition" : "Relative position of the device on the body (e.g., upper/lower, medial/lateral, internal/external)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.bodySite.topography",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography"
+      }
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.note",
+      "path" : "BeModelDeviceUseStatement.note",
+      "short" : "Note",
+      "definition" : "Remarks or additional instructions, e.g. 'Patient reports irritation around the sensor'",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelDeviceUseStatement.note",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Annotation"
+      }]
+    }]
+  },
+  "differential" : {
+    "element" : [{
+      "id" : "BeModelDeviceUseStatement",
+      "path" : "BeModelDeviceUseStatement",
+      "short" : "DeviceUseStatement Logical Model",
+      "definition" : "Logical model for recording the use of a medical device by a patient"
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.identifier",
+      "path" : "BeModelDeviceUseStatement.identifier",
+      "short" : "Identifier",
+      "definition" : "Unique ID of this device use registration, assigned by the system that creates the DeviceUseStatement",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.basedOn",
+      "path" : "BeModelDeviceUseStatement.basedOn",
+      "short" : "Based On",
+      "definition" : "Reference to a request or plan on which this use is based, e.g. a ServiceRequest or prescription",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.status",
+      "path" : "BeModelDeviceUseStatement.status",
+      "short" : "Status",
+      "definition" : "Status of the registration (active, completed, entered-in-error, intended, stopped, on-hold)",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://hl7.org/fhir/ValueSet/device-statement-status"
+      }
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.patient",
+      "path" : "BeModelDeviceUseStatement.patient",
+      "short" : "Patient",
+      "definition" : "The patient who uses the medical device",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Patient"]
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.derivedFrom",
+      "path" : "BeModelDeviceUseStatement.derivedFrom",
+      "short" : "Derived From",
+      "definition" : "Extra information on which this registration is based, e.g. a prior Procedure or Observation",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.timing[x]",
+      "path" : "BeModelDeviceUseStatement.timing[x]",
+      "short" : "Timing",
+      "definition" : "Description of how often or when the device is used, e.g. every night between 22:00 and 07:00",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      },
+      {
+        "code" : "Period"
+      },
+      {
+        "code" : "Timing"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.recordedDate",
+      "path" : "BeModelDeviceUseStatement.recordedDate",
+      "short" : "Recorded Date",
+      "definition" : "Date and time when the registration was entered",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.source",
+      "path" : "BeModelDeviceUseStatement.source",
+      "short" : "Source",
+      "definition" : "Who created the registration, e.g. a nurse recording the use",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Practitioner",
+        "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
+        "http://hl7.org/fhir/StructureDefinition/Patient",
+        "http://hl7.org/fhir/StructureDefinition/RelatedPerson"]
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.device",
+      "path" : "BeModelDeviceUseStatement.device",
+      "short" : "Device",
+      "definition" : "The device being used, e.g. reference to Device 'Insulin pump SN12345'",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.reasonCode",
+      "path" : "BeModelDeviceUseStatement.reasonCode",
+      "short" : "Reason Code",
+      "definition" : "Reason why the device is used - can be a condition (problem), procedure or observation code",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.reasonReference",
+      "path" : "BeModelDeviceUseStatement.reasonReference",
+      "short" : "Reason Reference",
+      "definition" : "Reference to a clinical source for the reason, e.g. a diagnosis in a problem resource",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.bodySite",
+      "path" : "BeModelDeviceUseStatement.bodySite",
+      "short" : "Body Site",
+      "definition" : "The anatomical location where the device is used or implanted",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "BackboneElement"
+      }]
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.bodySite.localisation",
+      "path" : "BeModelDeviceUseStatement.bodySite.localisation",
+      "short" : "Body Localisation",
+      "definition" : "Specific location on the body, e.g. left hip",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite"
+      }
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.bodySite.laterality",
+      "path" : "BeModelDeviceUseStatement.bodySite.laterality",
+      "short" : "Body Laterality",
+      "definition" : "Laterality of the body site where the device is used/implanted (right, left, both)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality"
+      }
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.bodySite.topography",
+      "path" : "BeModelDeviceUseStatement.bodySite.topography",
+      "short" : "Body Topography",
+      "definition" : "Relative position of the device on the body (e.g., upper/lower, medial/lateral, internal/external)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography"
+      }
+    },
+    {
+      "id" : "BeModelDeviceUseStatement.note",
+      "path" : "BeModelDeviceUseStatement.note",
+      "short" : "Note",
+      "definition" : "Remarks or additional instructions, e.g. 'Patient reports irritation around the sensor'",
+      "min" : 0,
+      "max" : "*",
+      "type" : [{
+        "code" : "Annotation"
+      }]
+    }]
+  }
+}

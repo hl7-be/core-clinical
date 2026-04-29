@@ -1,0 +1,71 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "d5d809f5-3a9e-45c8-8d09-03cd377e604a-11",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/d5d809f5-3a9e-45c8-8d09-03cd377e604a-11",
+  "name" : "UnionBeCSScoreCategoryAndBeCSScoreCategory",
+  "title" : "Union of Score Category And Score Category",
+  "status" : "active",
+  "date" : "2026-04-24T05:40:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "concept" : [{
+    "code" : "risk",
+    "display" : "Risk score",
+    "definition" : "Risk score",
+    "designation" : [{
+      "language" : "fr-BE",
+      "value" : "Risk score"
+    },
+    {
+      "language" : "nl-BE",
+      "value" : "Risk score"
+    }]
+  },
+  {
+    "code" : "pain",
+    "display" : "Pain score",
+    "definition" : "Pain score",
+    "designation" : [{
+      "language" : "fr-BE",
+      "value" : "Pain Score"
+    },
+    {
+      "language" : "nl-BE",
+      "value" : "Pain Score"
+    }]
+  },
+  {
+    "code" : "other",
+    "display" : "Other",
+    "definition" : "Other",
+    "designation" : [{
+      "language" : "fr-BE",
+      "value" : "Autre"
+    },
+    {
+      "language" : "nl-BE",
+      "value" : "andere"
+    },
+    {
+      "language" : "fr-BE",
+      "value" : "Autre"
+    },
+    {
+      "language" : "nl-BE",
+      "value" : "andere"
+    },
+    {
+      "language" : "fr-BE",
+      "value" : "Autre"
+    },
+    {
+      "language" : "nl-BE",
+      "value" : "andere"
+    }]
+  }]
+}

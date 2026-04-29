@@ -1,0 +1,500 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "bc547afd-cd34-49b0-a4de-532eea4914dc",
+  "meta" : {
+    "lastUpdated" : "2026-04-08T07:31:14.559+00:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCategoryVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCategoryVS",
+      "version" : "1.1.0",
+      "name" : "ProblemCategoryVS",
+      "title" : "Problem Category Value Set",
+      "status" : "active",
+      "date" : "2026-04-08T07:31:14+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "BE",
+          "display" : "Belgium"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:df041196-e8a7-41a7-9310-c159c73c1813",
+        "timestamp" : "2026-04-08T07:32:45+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "includeDesignations",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCodeVS",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCodeVS",
+      "version" : "1.1.0",
+      "name" : "ProblemCodeVS",
+      "title" : "Problem Code Value Set",
+      "status" : "active",
+      "date" : "2026-04-08T07:31:14+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "BE",
+          "display" : "Belgium"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:10d21835-dc66-48bc-a0bf-579b1ecc7c7d",
+        "timestamp" : "2026-04-08T07:32:45+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "includeDesignations",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-category",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-be-cs-problem-category.html\">codesystem Problem Category v1.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category|1.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 7 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-diagnosis\"> </a><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-be-cs-problem-category.html#be-cs-problem-category-diagnosis\">diagnosis</a></td><td>Diagnosis</td><td>A disease identified from a clinical reasoning, based on pathological and physiological ascertainments</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;diagnosis&quot;, &quot;display&quot;: &quot;Diagnosis&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;diagnosis&quot;&gt;&lt;display value=&quot;Diagnosis&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-problem\"> </a><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-be-cs-problem-category.html#be-cs-problem-category-problem\">problem</a></td><td>Problem</td><td>Identification of problems that the healthcare provider considers harmful, potentially harmful, and which may be the subject of further investigation or treatment</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;problem&quot;, &quot;display&quot;: &quot;Problem&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;problem&quot;&gt;&lt;display value=&quot;Problem&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-risk\"> </a><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-be-cs-problem-category.html#be-cs-problem-category-risk\">risk</a></td><td>Risk</td><td>Identification of a health problem or situation that may require ongoing monitoring or management</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;risk&quot;, &quot;display&quot;: &quot;Risk&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;risk&quot;&gt;&lt;display value=&quot;Risk&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-antecedent\"> </a><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-be-cs-problem-category.html#be-cs-problem-category-antecedent\">antecedent</a></td><td>Antecedent</td><td>Information about a problem that has been resolved</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;antecedent&quot;, &quot;display&quot;: &quot;Antecedent&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;antecedent&quot;&gt;&lt;display value=&quot;Antecedent&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-congenital\"> </a><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-be-cs-problem-category.html#be-cs-problem-category-congenital\">congenital</a></td><td>Congenital anomaly</td><td>Congenital anomaly</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;congenital&quot;, &quot;display&quot;: &quot;Congenital anomaly&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;congenital&quot;&gt;&lt;display value=&quot;Congenital anomaly&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-conclusion\"> </a><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-be-cs-problem-category.html#be-cs-problem-category-conclusion\">conclusion</a></td><td>Conclusion</td><td>Informations about a conclusion from anamnesis performed by a professional other than a physician</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;conclusion&quot;, &quot;display&quot;: &quot;Conclusion&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;conclusion&quot;&gt;&lt;display value=&quot;Conclusion&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-other\"> </a><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-be-cs-problem-category.html#be-cs-problem-category-other\">other</a></td><td>Other</td><td>Other</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Code</b></td><td><b>French (Belgium) (fr)</b></td><td><b>Nederlands (België) (Dutch (Belgium), nl)</b></td></tr><tr><td>diagnosis</td><td>Diagnostic</td><td>diagnose</td></tr><tr><td>problem</td><td>Problème</td><td>Probleem</td></tr><tr><td>risk</td><td>Risque</td><td>Risico</td></tr><tr><td>antecedent</td><td>Antécédent</td><td>Antecedent</td></tr><tr><td>congenital</td><td>Maladie congénitale</td><td>Aangeboren afwijking</td></tr><tr><td>conclusion</td><td>Conclusion anamnèse</td><td>Anamnesis conclusie</td></tr><tr><td>other</td><td>Autre</td><td>andere</td></tr></table></div>"
+      },
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-category",
+      "version" : "1.1.0",
+      "name" : "BeVSProblemCategory",
+      "title" : "Problem Category",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2026-04-08T07:31:14+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "BE",
+          "display" : "Belgium"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:1d23ea86-5a79-429f-8f5f-c263e7092e6b",
+        "timestamp" : "2026-04-08T07:32:44+00:00",
+        "total" : 7,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "includeDesignations",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category|1.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+          "code" : "diagnosis",
+          "display" : "Diagnosis",
+          "designation" : [{
+            "language" : "fr-BE",
+            "value" : "Diagnostic"
+          },
+          {
+            "language" : "nl-BE",
+            "value" : "diagnose"
+          }]
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+          "code" : "problem",
+          "display" : "Problem",
+          "designation" : [{
+            "language" : "fr-BE",
+            "value" : "Problème"
+          },
+          {
+            "language" : "nl-BE",
+            "value" : "Probleem"
+          }]
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+          "code" : "risk",
+          "display" : "Risk",
+          "designation" : [{
+            "language" : "fr-BE",
+            "value" : "Risque"
+          },
+          {
+            "language" : "nl-BE",
+            "value" : "Risico"
+          }]
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+          "code" : "antecedent",
+          "display" : "Antecedent",
+          "designation" : [{
+            "language" : "fr-BE",
+            "value" : "Antécédent"
+          },
+          {
+            "language" : "nl-BE",
+            "value" : "Antecedent"
+          }]
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+          "code" : "congenital",
+          "display" : "Congenital anomaly",
+          "designation" : [{
+            "language" : "fr-BE",
+            "value" : "Maladie congénitale"
+          },
+          {
+            "language" : "nl-BE",
+            "value" : "Aangeboren afwijking"
+          }]
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+          "code" : "conclusion",
+          "display" : "Conclusion",
+          "designation" : [{
+            "language" : "fr-BE",
+            "value" : "Conclusion anamnèse"
+          },
+          {
+            "language" : "nl-BE",
+            "value" : "Anamnesis conclusie"
+          }]
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+          "code" : "other",
+          "display" : "Other",
+          "designation" : [{
+            "language" : "fr-BE",
+            "value" : "Autre"
+          },
+          {
+            "language" : "nl-BE",
+            "value" : "andere"
+          }]
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-code",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p>This value set contains 0 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr></table></div>"
+      },
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-code",
+      "version" : "1.1.0",
+      "name" : "BeVSProblemCode",
+      "title" : "Problem Code",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2026-04-08T07:31:14+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "BE",
+          "display" : "Belgium"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:0ff74703-cffd-4b9c-b5b8-7f7b769a5420",
+        "timestamp" : "2026-04-08T07:32:44+00:00",
+        "total" : 0,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "includeDesignations",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-origin-type",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-be-cs-problem-origin-type.html\">codesystem Problem Origin Type v1.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type|1.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 4 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-referral\"> </a><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-referral\">referral</a></td><td>Referral order</td><td>Following a referral order</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;referral&quot;, &quot;display&quot;: &quot;Referral order&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;referral&quot;&gt;&lt;display value=&quot;Referral order&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-own-initiative\"> </a><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-own-initiative\">own-initiative</a></td><td>Patient's own initiative</td><td>The patient has arrived on their own initiative</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;own-initiative&quot;, &quot;display&quot;: &quot;Patient's own initiative&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;own-initiative&quot;&gt;&lt;display value=&quot;Patient's own initiative&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-counsel\"> </a><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-counsel\">counsel</a></td><td>Advice or recommendation from another provider (no prescription)</td><td>From an advice or recommendation of a health professional (without prescription)</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;counsel&quot;, &quot;display&quot;: &quot;Advice or recommendation from another provider (no prescription)&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;counsel&quot;&gt;&lt;display value=&quot;Advice or recommendation from another provider (no prescription)&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-other\"> </a><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-other\">other</a></td><td>other</td><td>Other</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;other&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Code</b></td><td><b>French (Belgium) (fr)</b></td><td><b>Nederlands (België) (Dutch (Belgium), nl)</b></td></tr><tr><td>referral</td><td>prescription de renvoi</td><td>verwijsvoorschrift</td></tr><tr><td>own-initiative</td><td>libre</td><td>Op eigen initiatief</td></tr><tr><td>counsel</td><td>conseil</td><td>doorverwijzing</td></tr><tr><td>other</td><td>autre</td><td>andere</td></tr></table></div>"
+      },
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-origin-type",
+      "version" : "1.1.0",
+      "name" : "BeVSProblemOriginType",
+      "title" : "Problem Origin Type",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2026-04-08T07:31:14+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "BE",
+          "display" : "Belgium"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:4280aee7-17a0-4e65-bcad-31729871558f",
+        "timestamp" : "2026-04-08T07:32:48+00:00",
+        "total" : 4,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "includeDesignations",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type|1.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type",
+          "code" : "referral",
+          "display" : "Referral order",
+          "designation" : [{
+            "language" : "fr-BE",
+            "value" : "prescription de renvoi"
+          },
+          {
+            "language" : "nl-BE",
+            "value" : "verwijsvoorschrift"
+          }]
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type",
+          "code" : "own-initiative",
+          "display" : "Patient's own initiative",
+          "designation" : [{
+            "language" : "fr-BE",
+            "value" : "libre"
+          },
+          {
+            "language" : "nl-BE",
+            "value" : "Op eigen initiatief"
+          }]
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type",
+          "code" : "counsel",
+          "display" : "Advice or recommendation from another provider (no prescription)",
+          "designation" : [{
+            "language" : "fr-BE",
+            "value" : "conseil"
+          },
+          {
+            "language" : "nl-BE",
+            "value" : "doorverwijzing"
+          }]
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type",
+          "code" : "other",
+          "display" : "other",
+          "designation" : [{
+            "language" : "fr-BE",
+            "value" : "autre"
+          },
+          {
+            "language" : "nl-BE",
+            "value" : "andere"
+          }]
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-scorecategory",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" data-fhir=\"generated\"><p class=\"res-header-id\"/><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion performed internally based on <a href=\"CodeSystem-be-cs-score-category.html\">codesystem Score Category v1.1.0 (CodeSystem)</a><span class=\"copy-text-inline\"><button data-clipboard-text=\"https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category|1.1.0\" title=\"Click to Copy URL\" class=\"btn-copy\"> </button></span></p><p>This value set contains 3 concepts</p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>System</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display (en)</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name=\"x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category-risk\"> </a><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-be-cs-score-category.html#be-cs-score-category-risk\">risk</a></td><td>Risk score</td><td>Risk score</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;risk&quot;, &quot;display&quot;: &quot;Risk score&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;risk&quot;&gt;&lt;display value=&quot;Risk score&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category-pain\"> </a><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-be-cs-score-category.html#be-cs-score-category-pain\">pain</a></td><td>Pain score</td><td>Pain score</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;pain&quot;, &quot;display&quot;: &quot;Pain score&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;pain&quot;&gt;&lt;display value=&quot;Pain score&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr><tr><td><a name=\"x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category-other\"> </a><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category</code></td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-be-cs-score-category.html#be-cs-score-category-other\">other</a></td><td>Other</td><td>Other</td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td><td><span class=\"copy-text-inline\"><button data-clipboard-text=\"&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;\" title=\"Click to Copy as Coding\" class=\"btn-copy\"> </button></span></td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\" data-fhir=\"generated\"><tr><td><b>Code</b></td><td><b>French (Belgium) (fr)</b></td><td><b>Nederlands (België) (Dutch (Belgium), nl)</b></td></tr><tr><td>risk</td><td>Risk score</td><td>Risk score</td></tr><tr><td>pain</td><td>Pain Score</td><td>Pain Score</td></tr><tr><td>other</td><td>Autre</td><td>andere</td></tr></table></div>"
+      },
+      "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-scorecategory",
+      "version" : "1.1.0",
+      "name" : "BeVSScoreCategory",
+      "title" : "Score Category Value Set",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2021-01-10T10:59:49+00:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "BE",
+          "display" : "Belgium"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:dd09c454-f05d-4862-a754-b22017248133",
+        "timestamp" : "2026-04-08T07:32:44+00:00",
+        "total" : 3,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "includeDesignations",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "displayLanguage",
+          "valueCode" : "en"
+        },
+        {
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category|1.1.0"
+        }],
+        "contains" : [{
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category",
+          "code" : "risk",
+          "display" : "Risk score",
+          "designation" : [{
+            "language" : "fr-BE",
+            "value" : "Risk score"
+          },
+          {
+            "language" : "nl-BE",
+            "value" : "Risk score"
+          }]
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category",
+          "code" : "pain",
+          "display" : "Pain score",
+          "designation" : [{
+            "language" : "fr-BE",
+            "value" : "Pain Score"
+          },
+          {
+            "language" : "nl-BE",
+            "value" : "Pain Score"
+          }]
+        },
+        {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category",
+          "code" : "other",
+          "display" : "Other",
+          "designation" : [{
+            "language" : "fr-BE",
+            "value" : "Autre"
+          },
+          {
+            "language" : "nl-BE",
+            "value" : "andere"
+          }]
+        }]
+      }
+    }
+  }]
+}

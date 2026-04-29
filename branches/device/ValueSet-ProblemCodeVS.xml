@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ProblemCodeVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ProblemCodeVS</b></p><a name="ProblemCodeVS"> </a><a name="hcProblemCodeVS"> </a><p>This value set includes codes based on the following rules:</p><ul/></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCodeVS"/>
+  <version value="1.1.0"/>
+  <name value="ProblemCodeVS"/>
+  <title value="Problem Code Value Set"/>
+  <status value="active"/>
+  <date value="2026-04-29T10:42:49+00:00"/>
+  <publisher value="eHealth Platform"/>
+  <contact>
+    <name value="eHealth Platform"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ehealth.fgov.be"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="message-structure@www.ehealth.fgov.be"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Message-Structure"/>
+    <telecom>
+      <system value="email"/>
+      <value value="message-structure@www.ehealth.fgov.be"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Code of the problem"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BE"/>
+      <display value="Belgium"/>
+    </coding>
+  </jurisdiction>
+</ValueSet>

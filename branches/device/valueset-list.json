@@ -1,0 +1,144 @@
+{
+  "codeSystems" : [{
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCategoryVS",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "ProblemCategoryVS",
+    "title" : "Problem Category Value Set",
+    "description" : "Category of the problem"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCodeVS",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "ProblemCodeVS",
+    "title" : "Problem Code Value Set",
+    "description" : "Code of the problem"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemDiseaseCourseVS",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "ProblemDiseaseCourseVS",
+    "title" : "Condition Disease Course Value Set",
+    "description" : "Condition Disease Course",
+    "systems" : ["http://snomed.info/sct"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-body-topography",
+    "version" : "1.1.0",
+    "status" : "draft",
+    "name" : "BeVSBodyTopography",
+    "title" : "BeVSBodyTopography",
+    "description" : "Body topography value set - describes the location or relative position on the body (e.g., superior/inferior, medial/lateral, internal/external). Placeholder valueset - the normative definition will be published in the Belgian terminology IG.",
+    "systems" : ["http://snomed.info/sct"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-bodysite",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "BeVSBodySite",
+    "title" : "Body Site",
+    "description" : "Body Site - placeholder valueset - the normative definition will be published in the Belgian terminology IG.",
+    "systems" : ["http://snomed.info/sct"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "DeviceStatusVS",
+    "title" : "Device Status Value Set",
+    "description" : "Device Status - placeholder valueset - the normative definition will be published in the Belgian terminology IG.",
+    "systems" : ["http://hl7.org/fhir/device-status"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status-reason",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "DeviceStatusReasonVS",
+    "title" : "Device Status Reason Value Set",
+    "description" : "Device Status Reason - placeholder valueset - the normative definition will be published in the Belgian terminology IG.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/device-status-reason"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-type",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "DeviceTypeVS",
+    "title" : "Device Type Value Set",
+    "description" : "Device Type - placeholder valueset - the normative definition will be published in the Belgian terminology IG.",
+    "systems" : ["http://snomed.info/sct"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-laterality",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "BeVSLaterality",
+    "title" : "Laterality",
+    "description" : "Laterality - placeholder valueset - the normative definition will be published in the Belgian terminology IG.",
+    "systems" : ["http://snomed.info/sct"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-category",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "BeVSProblemCategory",
+    "title" : "Problem Category",
+    "description" : "Problem Category - placeholder valueset - the normative definition will be published in the Belgian terminology IG.",
+    "systems" : ["https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-code",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "BeVSProblemCode",
+    "title" : "Problem Code",
+    "description" : "Problem Code - placeholder valueset - the normative definition will be published in the Belgian terminology IG."
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-origin-type",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "BeVSProblemOriginType",
+    "title" : "Problem Origin Type",
+    "description" : "Problem Origin Type",
+    "systems" : ["https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-reaction-manifestation-code",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "BeVSReactionManifestationCode",
+    "title" : "Reaction Manifestation Code",
+    "description" : "Reaction Manifestation Code (Allergy - Immunization)",
+    "systems" : ["http://snomed.info/sct"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-score",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "BeVSScore",
+    "title" : "Score Value Set",
+    "description" : "Codes as defined by the NIHDI. Dutch translations are expected for a next release.",
+    "systems" : ["https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score",
+    "http://snomed.info/sct"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-scorecategory",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "BeVSScoreCategory",
+    "title" : "Score Category Value Set",
+    "description" : "Score Category Value Set",
+    "systems" : ["https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-severity",
+    "version" : "1.1.0",
+    "status" : "active",
+    "name" : "BeVSSeverity",
+    "title" : "Severity",
+    "description" : "Severity - placeholder valueset - the normative definition will be published in the Belgian terminology IG.",
+    "systems" : ["http://snomed.info/sct"]
+  }]
+}

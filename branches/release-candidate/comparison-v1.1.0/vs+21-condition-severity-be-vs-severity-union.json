@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "d5d809f5-3a9e-45c8-8d09-03cd377e604a-53",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/d5d809f5-3a9e-45c8-8d09-03cd377e604a-53",
+  "name" : "UnionCondition/DiagnosisSeverityAndBeVSSeverity",
+  "title" : "Union of Condition/Diagnosis Severity And Severity",
+  "status" : "draft",
+  "date" : "2026-04-24T05:40:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "24484000",
+        "display" : "Severe"
+      },
+      {
+        "code" : "6736007",
+        "display" : "Moderate severity"
+      },
+      {
+        "code" : "255604002",
+        "display" : "Mild"
+      }]
+    }]
+  }
+}

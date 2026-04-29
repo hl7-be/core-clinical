@@ -1,0 +1,3063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="cbc0a501-c40c-4eb1-995a-859891c1a701"/>
+  <meta>
+    <lastUpdated value="2026-04-29T10:42:49.629+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status-reason"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html">codesystem FHIRDeviceStatusReason v2.0.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/device-status-reason|2.0.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 8 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-online"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-online">online</a>
+                </td>
+                <td>Online</td>
+                <td>The device is off.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;online&quot;, &quot;display&quot;: &quot;Online&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;online&quot;&gt;&lt;display value=&quot;Online&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-paused"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-paused">paused</a>
+                </td>
+                <td>Paused</td>
+                <td>The device is paused.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;paused&quot;, &quot;display&quot;: &quot;Paused&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;paused&quot;&gt;&lt;display value=&quot;Paused&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-standby"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-standby">standby</a>
+                </td>
+                <td>Standby</td>
+                <td>The device is ready but not actively operating.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;standby&quot;, &quot;display&quot;: &quot;Standby&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;standby&quot;&gt;&lt;display value=&quot;Standby&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-offline"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-offline">offline</a>
+                </td>
+                <td>Offline</td>
+                <td>The device is offline.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;offline&quot;, &quot;display&quot;: &quot;Offline&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;offline&quot;&gt;&lt;display value=&quot;Offline&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-not-ready"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-not-ready">not-ready</a>
+                </td>
+                <td>Not Ready</td>
+                <td>The device is not ready.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;not-ready&quot;, &quot;display&quot;: &quot;Not Ready&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;not-ready&quot;&gt;&lt;display value=&quot;Not Ready&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-transduc-discon"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-transduc-discon">transduc-discon</a>
+                </td>
+                <td>Transducer Disconnected</td>
+                <td>The device transducer is disconnected.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;transduc-discon&quot;, &quot;display&quot;: &quot;Transducer Disconnected&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;transduc-discon&quot;&gt;&lt;display value=&quot;Transducer Disconnected&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-hw-discon"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-hw-discon">hw-discon</a>
+                </td>
+                <td>Hardware Disconnected</td>
+                <td>The device hardware is disconnected.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;hw-discon&quot;, &quot;display&quot;: &quot;Hardware Disconnected&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;hw-discon&quot;&gt;&lt;display value=&quot;Hardware Disconnected&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-off"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-off">off</a>
+                </td>
+                <td>Off</td>
+                <td>The device is off.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;off&quot;, &quot;display&quot;: &quot;Off&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;off&quot;&gt;&lt;display value=&quot;Off&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status-reason"/>
+        <version value="1.1.0"/>
+        <name value="DeviceStatusReasonVS"/>
+        <title value="Device Status Reason Value Set"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-04-29T10:42:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:a2dbfffd-9ca9-474e-b8eb-2feb3b5535c6"/>
+          <timestamp value="2026-04-29T10:44:59+00:00"/>
+          <total value="8"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/device-status-reason|2.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="online"/>
+            <display value="Online"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="paused"/>
+            <display value="Paused"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="standby"/>
+            <display value="Standby"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="offline"/>
+            <display value="Offline"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="not-ready"/>
+            <display value="Not Ready"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="transduc-discon"/>
+            <display value="Transducer Disconnected"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="hw-discon"/>
+            <display value="Hardware Disconnected"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="off"/>
+            <display value="Off"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status-reason"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html">codesystem FHIRDeviceStatusReason v2.0.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/device-status-reason|2.0.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 8 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-online"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-online">online</a>
+                </td>
+                <td>Online</td>
+                <td>The device is off.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;online&quot;, &quot;display&quot;: &quot;Online&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;online&quot;&gt;&lt;display value=&quot;Online&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-paused"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-paused">paused</a>
+                </td>
+                <td>Paused</td>
+                <td>The device is paused.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;paused&quot;, &quot;display&quot;: &quot;Paused&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;paused&quot;&gt;&lt;display value=&quot;Paused&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-standby"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-standby">standby</a>
+                </td>
+                <td>Standby</td>
+                <td>The device is ready but not actively operating.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;standby&quot;, &quot;display&quot;: &quot;Standby&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;standby&quot;&gt;&lt;display value=&quot;Standby&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-offline"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-offline">offline</a>
+                </td>
+                <td>Offline</td>
+                <td>The device is offline.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;offline&quot;, &quot;display&quot;: &quot;Offline&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;offline&quot;&gt;&lt;display value=&quot;Offline&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-not-ready"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-not-ready">not-ready</a>
+                </td>
+                <td>Not Ready</td>
+                <td>The device is not ready.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;not-ready&quot;, &quot;display&quot;: &quot;Not Ready&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;not-ready&quot;&gt;&lt;display value=&quot;Not Ready&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-transduc-discon"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-transduc-discon">transduc-discon</a>
+                </td>
+                <td>Transducer Disconnected</td>
+                <td>The device transducer is disconnected.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;transduc-discon&quot;, &quot;display&quot;: &quot;Transducer Disconnected&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;transduc-discon&quot;&gt;&lt;display value=&quot;Transducer Disconnected&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-hw-discon"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-hw-discon">hw-discon</a>
+                </td>
+                <td>Hardware Disconnected</td>
+                <td>The device hardware is disconnected.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;hw-discon&quot;, &quot;display&quot;: &quot;Hardware Disconnected&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;hw-discon&quot;&gt;&lt;display value=&quot;Hardware Disconnected&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/device-status-reason-off"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/device-status-reason</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.1.0/CodeSystem-device-status-reason.html#device-status-reason-off">off</a>
+                </td>
+                <td>Off</td>
+                <td>The device is off.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;off&quot;, &quot;display&quot;: &quot;Off&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/device-status-reason&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;off&quot;&gt;&lt;display value=&quot;Off&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status-reason"/>
+        <version value="1.1.0"/>
+        <name value="DeviceStatusReasonVS"/>
+        <title value="Device Status Reason Value Set"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-04-29T10:42:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:a2dbfffd-9ca9-474e-b8eb-2feb3b5535c6"/>
+          <timestamp value="2026-04-29T10:44:59+00:00"/>
+          <total value="8"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/device-status-reason|2.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="online"/>
+            <display value="Online"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="paused"/>
+            <display value="Paused"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="standby"/>
+            <display value="Standby"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="offline"/>
+            <display value="Offline"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="not-ready"/>
+            <display value="Not Ready"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="transduc-discon"/>
+            <display value="Transducer Disconnected"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="hw-discon"/>
+            <display value="Hardware Disconnected"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/device-status-reason"/>
+            <code value="off"/>
+            <display value="Off"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-device-status.html">codesystem FHIR Device Status v5.0.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://hl7.org/fhir/device-status|5.0.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/device-status-active"> </a>
+                  <code>http://hl7.org/fhir/device-status</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-device-status.html#device-status-active">active</a>
+                </td>
+                <td>Active</td>
+                <td>The device record is current and is appropriate for reference in new instances.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/device-status&quot;, &quot;version&quot;: &quot;5.0.0&quot;, &quot;code&quot;: &quot;active&quot;, &quot;display&quot;: &quot;Active&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/device-status&quot;&gt;&lt;version value=&quot;5.0.0&quot;&gt;&lt;code value=&quot;active&quot;&gt;&lt;display value=&quot;Active&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/device-status-inactive"> </a>
+                  <code>http://hl7.org/fhir/device-status</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-device-status.html#device-status-inactive">inactive</a>
+                </td>
+                <td>Inactive</td>
+                <td>The device record is not current and is not appropriate for reference in new instances.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/device-status&quot;, &quot;version&quot;: &quot;5.0.0&quot;, &quot;code&quot;: &quot;inactive&quot;, &quot;display&quot;: &quot;Inactive&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/device-status&quot;&gt;&lt;version value=&quot;5.0.0&quot;&gt;&lt;code value=&quot;inactive&quot;&gt;&lt;display value=&quot;Inactive&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/device-status-entered-in-error"> </a>
+                  <code>http://hl7.org/fhir/device-status</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-device-status.html#device-status-entered-in-error">entered-in-error</a>
+                </td>
+                <td>Entered in Error</td>
+                <td>The device record is not current and is not appropriate for reference in new instances.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/device-status&quot;, &quot;version&quot;: &quot;5.0.0&quot;, &quot;code&quot;: &quot;entered-in-error&quot;, &quot;display&quot;: &quot;Entered in Error&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/device-status&quot;&gt;&lt;version value=&quot;5.0.0&quot;&gt;&lt;code value=&quot;entered-in-error&quot;&gt;&lt;display value=&quot;Entered in Error&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status"/>
+        <version value="1.1.0"/>
+        <name value="DeviceStatusVS"/>
+        <title value="Device Status Value Set"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-04-29T10:42:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:446735dd-7992-4824-b8a9-92faaca708fe"/>
+          <timestamp value="2026-04-29T10:44:59+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/device-status|5.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/device-status"/>
+            <code value="active"/>
+            <display value="Active"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/device-status"/>
+            <code value="inactive"/>
+            <display value="Inactive"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/device-status"/>
+            <code value="entered-in-error"/>
+            <display value="Entered in Error"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-device-status.html">codesystem FHIR Device Status v5.0.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://hl7.org/fhir/device-status|5.0.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/device-status-active"> </a>
+                  <code>http://hl7.org/fhir/device-status</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-device-status.html#device-status-active">active</a>
+                </td>
+                <td>Active</td>
+                <td>The device record is current and is appropriate for reference in new instances.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/device-status&quot;, &quot;version&quot;: &quot;5.0.0&quot;, &quot;code&quot;: &quot;active&quot;, &quot;display&quot;: &quot;Active&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/device-status&quot;&gt;&lt;version value=&quot;5.0.0&quot;&gt;&lt;code value=&quot;active&quot;&gt;&lt;display value=&quot;Active&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/device-status-inactive"> </a>
+                  <code>http://hl7.org/fhir/device-status</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-device-status.html#device-status-inactive">inactive</a>
+                </td>
+                <td>Inactive</td>
+                <td>The device record is not current and is not appropriate for reference in new instances.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/device-status&quot;, &quot;version&quot;: &quot;5.0.0&quot;, &quot;code&quot;: &quot;inactive&quot;, &quot;display&quot;: &quot;Inactive&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/device-status&quot;&gt;&lt;version value=&quot;5.0.0&quot;&gt;&lt;code value=&quot;inactive&quot;&gt;&lt;display value=&quot;Inactive&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://hl7.org/fhir/device-status-entered-in-error"> </a>
+                  <code>http://hl7.org/fhir/device-status</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-device-status.html#device-status-entered-in-error">entered-in-error</a>
+                </td>
+                <td>Entered in Error</td>
+                <td>The device record is not current and is not appropriate for reference in new instances.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://hl7.org/fhir/device-status&quot;, &quot;version&quot;: &quot;5.0.0&quot;, &quot;code&quot;: &quot;entered-in-error&quot;, &quot;display&quot;: &quot;Entered in Error&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://hl7.org/fhir/device-status&quot;&gt;&lt;version value=&quot;5.0.0&quot;&gt;&lt;code value=&quot;entered-in-error&quot;&gt;&lt;display value=&quot;Entered in Error&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status"/>
+        <version value="1.1.0"/>
+        <name value="DeviceStatusVS"/>
+        <title value="Device Status Value Set"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-04-29T10:42:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:446735dd-7992-4824-b8a9-92faaca708fe"/>
+          <timestamp value="2026-04-29T10:44:59+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/device-status|5.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/device-status"/>
+            <code value="active"/>
+            <display value="Active"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/device-status"/>
+            <code value="inactive"/>
+            <display value="Inactive"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/device-status"/>
+            <code value="entered-in-error"/>
+            <display value="Entered in Error"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCategoryVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCategoryVS"/>
+        <version value="1.1.0"/>
+        <name value="ProblemCategoryVS"/>
+        <title value="Problem Category Value Set"/>
+        <status value="active"/>
+        <date value="2026-04-29T10:42:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:8ef4a8d3-e609-4bbe-ba6e-b0ad99b6e174"/>
+          <timestamp value="2026-04-29T10:45:00+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCategoryVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCategoryVS"/>
+        <version value="1.1.0"/>
+        <name value="ProblemCategoryVS"/>
+        <title value="Problem Category Value Set"/>
+        <status value="active"/>
+        <date value="2026-04-29T10:42:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:8ef4a8d3-e609-4bbe-ba6e-b0ad99b6e174"/>
+          <timestamp value="2026-04-29T10:45:00+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCodeVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCodeVS"/>
+        <version value="1.1.0"/>
+        <name value="ProblemCodeVS"/>
+        <title value="Problem Code Value Set"/>
+        <status value="active"/>
+        <date value="2026-04-29T10:42:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:bd39e61a-e0cc-42c9-be66-3bc711e93c21"/>
+          <timestamp value="2026-04-29T10:45:00+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCodeVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCodeVS"/>
+        <version value="1.1.0"/>
+        <name value="ProblemCodeVS"/>
+        <title value="Problem Code Value Set"/>
+        <status value="active"/>
+        <date value="2026-04-29T10:42:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:bd39e61a-e0cc-42c9-be66-3bc711e93c21"/>
+          <timestamp value="2026-04-29T10:45:00+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-category"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-be-cs-problem-category.html">codesystem Problem Category v1.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category|1.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 7 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-diagnosis"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-diagnosis">diagnosis</a>
+                </td>
+                <td>Diagnosis</td>
+                <td>A disease identified from a clinical reasoning, based on pathological and physiological ascertainments</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;diagnosis&quot;, &quot;display&quot;: &quot;Diagnosis&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;diagnosis&quot;&gt;&lt;display value=&quot;Diagnosis&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-problem"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-problem">problem</a>
+                </td>
+                <td>Problem</td>
+                <td>Identification of problems that the healthcare provider considers harmful, potentially harmful, and which may be the subject of further investigation or treatment</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;problem&quot;, &quot;display&quot;: &quot;Problem&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;problem&quot;&gt;&lt;display value=&quot;Problem&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-risk"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-risk">risk</a>
+                </td>
+                <td>Risk</td>
+                <td>Identification of a health problem or situation that may require ongoing monitoring or management</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;risk&quot;, &quot;display&quot;: &quot;Risk&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;risk&quot;&gt;&lt;display value=&quot;Risk&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-antecedent"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-antecedent">antecedent</a>
+                </td>
+                <td>Antecedent</td>
+                <td>Information about a problem that has been resolved</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;antecedent&quot;, &quot;display&quot;: &quot;Antecedent&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;antecedent&quot;&gt;&lt;display value=&quot;Antecedent&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-congenital"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-congenital">congenital</a>
+                </td>
+                <td>Congenital anomaly</td>
+                <td>Congenital anomaly</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;congenital&quot;, &quot;display&quot;: &quot;Congenital anomaly&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;congenital&quot;&gt;&lt;display value=&quot;Congenital anomaly&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-conclusion"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-conclusion">conclusion</a>
+                </td>
+                <td>Conclusion</td>
+                <td>Informations about a conclusion from anamnesis performed by a professional other than a physician</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;conclusion&quot;, &quot;display&quot;: &quot;Conclusion&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;conclusion&quot;&gt;&lt;display value=&quot;Conclusion&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-other"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <p>
+              <b>Additional Language Displays</b>
+            </p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>French (Belgium) (fr)</b>
+                </td>
+                <td>
+                  <b>Nederlands (België) (Dutch (Belgium), nl)</b>
+                </td>
+              </tr>
+              <tr>
+                <td>diagnosis</td>
+                <td>Diagnostic</td>
+                <td>diagnose</td>
+              </tr>
+              <tr>
+                <td>problem</td>
+                <td>Problème</td>
+                <td>Probleem</td>
+              </tr>
+              <tr>
+                <td>risk</td>
+                <td>Risque</td>
+                <td>Risico</td>
+              </tr>
+              <tr>
+                <td>antecedent</td>
+                <td>Antécédent</td>
+                <td>Antecedent</td>
+              </tr>
+              <tr>
+                <td>congenital</td>
+                <td>Maladie congénitale</td>
+                <td>Aangeboren afwijking</td>
+              </tr>
+              <tr>
+                <td>conclusion</td>
+                <td>Conclusion anamnèse</td>
+                <td>Anamnesis conclusie</td>
+              </tr>
+              <tr>
+                <td>other</td>
+                <td>Autre</td>
+                <td>andere</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-category"/>
+        <version value="1.1.0"/>
+        <name value="BeVSProblemCategory"/>
+        <title value="Problem Category"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-04-29T10:42:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:41477fe3-c135-40fe-935f-67158520dd06"/>
+          <timestamp value="2026-04-29T10:44:57+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="diagnosis"/>
+            <display value="Diagnosis"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Diagnostic"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="diagnose"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="problem"/>
+            <display value="Problem"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Problème"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Probleem"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="risk"/>
+            <display value="Risk"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Risque"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Risico"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="antecedent"/>
+            <display value="Antecedent"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Antécédent"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Antecedent"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="congenital"/>
+            <display value="Congenital anomaly"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Maladie congénitale"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Aangeboren afwijking"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="conclusion"/>
+            <display value="Conclusion"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Conclusion anamnèse"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Anamnesis conclusie"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="other"/>
+            <display value="Other"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Autre"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="andere"/>
+            </designation>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-category"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-be-cs-problem-category.html">codesystem Problem Category v1.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category|1.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 7 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-diagnosis"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-diagnosis">diagnosis</a>
+                </td>
+                <td>Diagnosis</td>
+                <td>A disease identified from a clinical reasoning, based on pathological and physiological ascertainments</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;diagnosis&quot;, &quot;display&quot;: &quot;Diagnosis&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;diagnosis&quot;&gt;&lt;display value=&quot;Diagnosis&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-problem"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-problem">problem</a>
+                </td>
+                <td>Problem</td>
+                <td>Identification of problems that the healthcare provider considers harmful, potentially harmful, and which may be the subject of further investigation or treatment</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;problem&quot;, &quot;display&quot;: &quot;Problem&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;problem&quot;&gt;&lt;display value=&quot;Problem&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-risk"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-risk">risk</a>
+                </td>
+                <td>Risk</td>
+                <td>Identification of a health problem or situation that may require ongoing monitoring or management</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;risk&quot;, &quot;display&quot;: &quot;Risk&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;risk&quot;&gt;&lt;display value=&quot;Risk&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-antecedent"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-antecedent">antecedent</a>
+                </td>
+                <td>Antecedent</td>
+                <td>Information about a problem that has been resolved</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;antecedent&quot;, &quot;display&quot;: &quot;Antecedent&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;antecedent&quot;&gt;&lt;display value=&quot;Antecedent&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-congenital"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-congenital">congenital</a>
+                </td>
+                <td>Congenital anomaly</td>
+                <td>Congenital anomaly</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;congenital&quot;, &quot;display&quot;: &quot;Congenital anomaly&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;congenital&quot;&gt;&lt;display value=&quot;Congenital anomaly&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-conclusion"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-conclusion">conclusion</a>
+                </td>
+                <td>Conclusion</td>
+                <td>Informations about a conclusion from anamnesis performed by a professional other than a physician</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;conclusion&quot;, &quot;display&quot;: &quot;Conclusion&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;conclusion&quot;&gt;&lt;display value=&quot;Conclusion&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-other"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <p>
+              <b>Additional Language Displays</b>
+            </p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>French (Belgium) (fr)</b>
+                </td>
+                <td>
+                  <b>Nederlands (België) (Dutch (Belgium), nl)</b>
+                </td>
+              </tr>
+              <tr>
+                <td>diagnosis</td>
+                <td>Diagnostic</td>
+                <td>diagnose</td>
+              </tr>
+              <tr>
+                <td>problem</td>
+                <td>Problème</td>
+                <td>Probleem</td>
+              </tr>
+              <tr>
+                <td>risk</td>
+                <td>Risque</td>
+                <td>Risico</td>
+              </tr>
+              <tr>
+                <td>antecedent</td>
+                <td>Antécédent</td>
+                <td>Antecedent</td>
+              </tr>
+              <tr>
+                <td>congenital</td>
+                <td>Maladie congénitale</td>
+                <td>Aangeboren afwijking</td>
+              </tr>
+              <tr>
+                <td>conclusion</td>
+                <td>Conclusion anamnèse</td>
+                <td>Anamnesis conclusie</td>
+              </tr>
+              <tr>
+                <td>other</td>
+                <td>Autre</td>
+                <td>andere</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-category"/>
+        <version value="1.1.0"/>
+        <name value="BeVSProblemCategory"/>
+        <title value="Problem Category"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-04-29T10:42:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:41477fe3-c135-40fe-935f-67158520dd06"/>
+          <timestamp value="2026-04-29T10:44:57+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="diagnosis"/>
+            <display value="Diagnosis"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Diagnostic"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="diagnose"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="problem"/>
+            <display value="Problem"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Problème"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Probleem"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="risk"/>
+            <display value="Risk"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Risque"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Risico"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="antecedent"/>
+            <display value="Antecedent"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Antécédent"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Antecedent"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="congenital"/>
+            <display value="Congenital anomaly"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Maladie congénitale"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Aangeboren afwijking"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="conclusion"/>
+            <display value="Conclusion"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Conclusion anamnèse"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Anamnesis conclusie"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="other"/>
+            <display value="Other"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Autre"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="andere"/>
+            </designation>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-code"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-code"/>
+        <version value="1.1.0"/>
+        <name value="BeVSProblemCode"/>
+        <title value="Problem Code"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-04-29T10:42:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:e87aafb7-7ff8-4749-9ee9-a0a2133e59e2"/>
+          <timestamp value="2026-04-29T10:44:57+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-code"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-code"/>
+        <version value="1.1.0"/>
+        <name value="BeVSProblemCode"/>
+        <title value="Problem Code"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-04-29T10:42:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:e87aafb7-7ff8-4749-9ee9-a0a2133e59e2"/>
+          <timestamp value="2026-04-29T10:44:57+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-origin-type"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-be-cs-problem-origin-type.html">codesystem Problem Origin Type v1.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type|1.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-referral"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-referral">referral</a>
+                </td>
+                <td>Referral order</td>
+                <td>Following a referral order</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;referral&quot;, &quot;display&quot;: &quot;Referral order&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;referral&quot;&gt;&lt;display value=&quot;Referral order&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-own-initiative"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-own-initiative">own-initiative</a>
+                </td>
+                <td>Patient's own initiative</td>
+                <td>The patient has arrived on their own initiative</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;own-initiative&quot;, &quot;display&quot;: &quot;Patient's own initiative&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;own-initiative&quot;&gt;&lt;display value=&quot;Patient's own initiative&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-counsel"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-counsel">counsel</a>
+                </td>
+                <td>Advice or recommendation from another provider (no prescription)</td>
+                <td>From an advice or recommendation of a health professional (without prescription)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;counsel&quot;, &quot;display&quot;: &quot;Advice or recommendation from another provider (no prescription)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;counsel&quot;&gt;&lt;display value=&quot;Advice or recommendation from another provider (no prescription)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-other"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-other">other</a>
+                </td>
+                <td>other</td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <p>
+              <b>Additional Language Displays</b>
+            </p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>French (Belgium) (fr)</b>
+                </td>
+                <td>
+                  <b>Nederlands (België) (Dutch (Belgium), nl)</b>
+                </td>
+              </tr>
+              <tr>
+                <td>referral</td>
+                <td>prescription de renvoi</td>
+                <td>verwijsvoorschrift</td>
+              </tr>
+              <tr>
+                <td>own-initiative</td>
+                <td>libre</td>
+                <td>Op eigen initiatief</td>
+              </tr>
+              <tr>
+                <td>counsel</td>
+                <td>conseil</td>
+                <td>doorverwijzing</td>
+              </tr>
+              <tr>
+                <td>other</td>
+                <td>autre</td>
+                <td>andere</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-origin-type"/>
+        <version value="1.1.0"/>
+        <name value="BeVSProblemOriginType"/>
+        <title value="Problem Origin Type"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-04-29T10:42:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:bddb4e1b-8ed0-4613-b103-bc4fb3c2ec07"/>
+          <timestamp value="2026-04-29T10:45:02+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"/>
+            <code value="referral"/>
+            <display value="Referral order"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="prescription de renvoi"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="verwijsvoorschrift"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"/>
+            <code value="own-initiative"/>
+            <display value="Patient's own initiative"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="libre"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Op eigen initiatief"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"/>
+            <code value="counsel"/>
+            <display value="Advice or recommendation from another provider (no prescription)"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="conseil"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="doorverwijzing"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"/>
+            <code value="other"/>
+            <display value="other"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="autre"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="andere"/>
+            </designation>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-origin-type"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-be-cs-problem-origin-type.html">codesystem Problem Origin Type v1.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type|1.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-referral"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-referral">referral</a>
+                </td>
+                <td>Referral order</td>
+                <td>Following a referral order</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;referral&quot;, &quot;display&quot;: &quot;Referral order&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;referral&quot;&gt;&lt;display value=&quot;Referral order&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-own-initiative"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-own-initiative">own-initiative</a>
+                </td>
+                <td>Patient's own initiative</td>
+                <td>The patient has arrived on their own initiative</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;own-initiative&quot;, &quot;display&quot;: &quot;Patient's own initiative&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;own-initiative&quot;&gt;&lt;display value=&quot;Patient's own initiative&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-counsel"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-counsel">counsel</a>
+                </td>
+                <td>Advice or recommendation from another provider (no prescription)</td>
+                <td>From an advice or recommendation of a health professional (without prescription)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;counsel&quot;, &quot;display&quot;: &quot;Advice or recommendation from another provider (no prescription)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;counsel&quot;&gt;&lt;display value=&quot;Advice or recommendation from another provider (no prescription)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-other"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-other">other</a>
+                </td>
+                <td>other</td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <p>
+              <b>Additional Language Displays</b>
+            </p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>French (Belgium) (fr)</b>
+                </td>
+                <td>
+                  <b>Nederlands (België) (Dutch (Belgium), nl)</b>
+                </td>
+              </tr>
+              <tr>
+                <td>referral</td>
+                <td>prescription de renvoi</td>
+                <td>verwijsvoorschrift</td>
+              </tr>
+              <tr>
+                <td>own-initiative</td>
+                <td>libre</td>
+                <td>Op eigen initiatief</td>
+              </tr>
+              <tr>
+                <td>counsel</td>
+                <td>conseil</td>
+                <td>doorverwijzing</td>
+              </tr>
+              <tr>
+                <td>other</td>
+                <td>autre</td>
+                <td>andere</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-origin-type"/>
+        <version value="1.1.0"/>
+        <name value="BeVSProblemOriginType"/>
+        <title value="Problem Origin Type"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-04-29T10:42:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:bddb4e1b-8ed0-4613-b103-bc4fb3c2ec07"/>
+          <timestamp value="2026-04-29T10:45:02+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"/>
+            <code value="referral"/>
+            <display value="Referral order"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="prescription de renvoi"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="verwijsvoorschrift"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"/>
+            <code value="own-initiative"/>
+            <display value="Patient's own initiative"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="libre"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Op eigen initiatief"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"/>
+            <code value="counsel"/>
+            <display value="Advice or recommendation from another provider (no prescription)"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="conseil"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="doorverwijzing"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"/>
+            <code value="other"/>
+            <display value="other"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="autre"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="andere"/>
+            </designation>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-scorecategory"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-be-cs-score-category.html">codesystem Score Category v1.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category|1.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category-risk"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score-category.html#be-cs-score-category-risk">risk</a>
+                </td>
+                <td>Risk score</td>
+                <td>Risk score</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;risk&quot;, &quot;display&quot;: &quot;Risk score&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;risk&quot;&gt;&lt;display value=&quot;Risk score&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category-pain"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score-category.html#be-cs-score-category-pain">pain</a>
+                </td>
+                <td>Pain score</td>
+                <td>Pain score</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;pain&quot;, &quot;display&quot;: &quot;Pain score&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;pain&quot;&gt;&lt;display value=&quot;Pain score&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category-other"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score-category.html#be-cs-score-category-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <p>
+              <b>Additional Language Displays</b>
+            </p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>French (Belgium) (fr)</b>
+                </td>
+                <td>
+                  <b>Nederlands (België) (Dutch (Belgium), nl)</b>
+                </td>
+              </tr>
+              <tr>
+                <td>risk</td>
+                <td>Risk score</td>
+                <td>Risk score</td>
+              </tr>
+              <tr>
+                <td>pain</td>
+                <td>Pain Score</td>
+                <td>Pain Score</td>
+              </tr>
+              <tr>
+                <td>other</td>
+                <td>Autre</td>
+                <td>andere</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-scorecategory"/>
+        <version value="1.1.0"/>
+        <name value="BeVSScoreCategory"/>
+        <title value="Score Category Value Set"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2021-01-10T10:59:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:537ff33d-f176-4fec-a5f0-fb1845f19df6"/>
+          <timestamp value="2026-04-29T10:44:58+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category"/>
+            <code value="risk"/>
+            <display value="Risk score"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Risk score"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Risk score"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category"/>
+            <code value="pain"/>
+            <display value="Pain score"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Pain Score"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Pain Score"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category"/>
+            <code value="other"/>
+            <display value="Other"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Autre"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="andere"/>
+            </designation>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-scorecategory"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-be-cs-score-category.html">codesystem Score Category v1.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category|1.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category-risk"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score-category.html#be-cs-score-category-risk">risk</a>
+                </td>
+                <td>Risk score</td>
+                <td>Risk score</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;risk&quot;, &quot;display&quot;: &quot;Risk score&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;risk&quot;&gt;&lt;display value=&quot;Risk score&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category-pain"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score-category.html#be-cs-score-category-pain">pain</a>
+                </td>
+                <td>Pain score</td>
+                <td>Pain score</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;pain&quot;, &quot;display&quot;: &quot;Pain score&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;pain&quot;&gt;&lt;display value=&quot;Pain score&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category-other"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score-category.html#be-cs-score-category-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <p>
+              <b>Additional Language Displays</b>
+            </p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>French (Belgium) (fr)</b>
+                </td>
+                <td>
+                  <b>Nederlands (België) (Dutch (Belgium), nl)</b>
+                </td>
+              </tr>
+              <tr>
+                <td>risk</td>
+                <td>Risk score</td>
+                <td>Risk score</td>
+              </tr>
+              <tr>
+                <td>pain</td>
+                <td>Pain Score</td>
+                <td>Pain Score</td>
+              </tr>
+              <tr>
+                <td>other</td>
+                <td>Autre</td>
+                <td>andere</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-scorecategory"/>
+        <version value="1.1.0"/>
+        <name value="BeVSScoreCategory"/>
+        <title value="Score Category Value Set"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2021-01-10T10:59:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:537ff33d-f176-4fec-a5f0-fb1845f19df6"/>
+          <timestamp value="2026-04-29T10:44:58+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category"/>
+            <code value="risk"/>
+            <display value="Risk score"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Risk score"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Risk score"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category"/>
+            <code value="pain"/>
+            <display value="Pain score"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Pain Score"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Pain Score"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category"/>
+            <code value="other"/>
+            <display value="Other"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Autre"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="andere"/>
+            </designation>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>
