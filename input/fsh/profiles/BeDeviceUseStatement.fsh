@@ -18,7 +18,7 @@ Description: "A record of a device being used by a patient in the context of Bel
 * device only Reference(BeDevice)
 * reasonCode 0..* MS
 * reasonReference 0..* MS
-* reasonReference only Reference(BeProblem or BeProcedure or Observation or DiagnosticReport or DocumentReference or Media)
+* reasonReference only Reference(BeProblem or Observation or DiagnosticReport or DocumentReference or Media) // missing: Reference(BeProcedure)
 * bodySite 0..1 MS
 * bodySite from BeVSBodySite (required)
 * bodySite.extension contains BeExtLaterality named laterality 0..1
