@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "be-vs-laterality",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet be-vs-laterality</b></p><a name=\"be-vs-laterality\"> </a><a name=\"hcbe-vs-laterality\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/7771000\">7771000</a></td><td/></tr><tr><td><a href=\"http://snomed.info/id/24028007\">24028007</a></td><td/></tr><tr><td><a href=\"http://snomed.info/id/51440002\">51440002</a></td><td/></tr></table></li></ul></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-laterality",
+  "version" : "1.2.0",
+  "name" : "BeVSLaterality",
+  "title" : "Laterality",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-07T07:13:57+00:00",
+  "publisher" : "eHealth Platform",
+  "contact" : [{
+    "name" : "eHealth Platform",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ehealth.fgov.be"
+    },
+    {
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be"
+    }]
+  },
+  {
+    "name" : "Message-Structure",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Laterality - placeholder valueset - the normative definition will be published in the Belgian terminology IG.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "7771000"
+      },
+      {
+        "code" : "24028007"
+      },
+      {
+        "code" : "51440002"
+      }]
+    }]
+  }
+}

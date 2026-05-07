@@ -1,0 +1,83 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "786f24ca-fc9a-447a-aa95-01aa3cdc9495-72",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/786f24ca-fc9a-447a-aa95-01aa3cdc9495-72",
+  "name" : "IntersectionBeVSScoreAndBeVSScore",
+  "title" : "Intersection of Score Value Set And Score Value Set",
+  "status" : "active",
+  "date" : "2026-05-07T07:16:21+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "763117005",
+        "display" : "FINDRISC (Finnish Diabetes Risk Score) score"
+      },
+      {
+        "code" : "446661009",
+        "display" : "Visual analog scale score (observable entity)"
+      },
+      {
+        "code" : "273531005",
+        "display" : "Index of Independence in Activities of Daily Living"
+      },
+      {
+        "code" : "447316007",
+        "display" : "Mini-mental state examination score (observable entity)"
+      },
+      {
+        "code" : "444297006",
+        "display" : "Malnutrition universal screening tool score (observable entity)"
+      },
+      {
+        "code" : "443133008",
+        "display" : "Norton pressure sore risk score (observable entity)"
+      },
+      {
+        "code" : "7121000122100",
+        "display" : "Pain Assessment in Advanced Dementia Scale"
+      },
+      {
+        "code" : "273849003",
+        "display" : "Subjective Global Assessment"
+      },
+      {
+        "code" : "450738001",
+        "display" : "Thirty second chair stand test score (observable entity)"
+      },
+      {
+        "code" : "444680009",
+        "display" : "Timed up and go mobility test score (observable entity)"
+      },
+      {
+        "code" : "278897004",
+        "display" : "Waterlow pressure sore risk score"
+      },
+      {
+        "code" : "763259004",
+        "display" : "Disease Activity Score"
+      },
+      {
+        "code" : "273364009",
+        "display" : "Crohn's disease activity index"
+      },
+      {
+        "code" : "443318007",
+        "display" : "Tinetti balance and gait scale"
+      },
+      {
+        "code" : "719124004",
+        "display" : "Arthritis Impact Measurement Scales 2 score (observable entity)"
+      }]
+    },
+    {
+      
+    }]
+  }
+}

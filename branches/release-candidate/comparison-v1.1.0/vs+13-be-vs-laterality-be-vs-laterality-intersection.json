@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "786f24ca-fc9a-447a-aa95-01aa3cdc9495-30",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/786f24ca-fc9a-447a-aa95-01aa3cdc9495-30",
+  "name" : "IntersectionBeVSLateralityAndBeVSLaterality",
+  "title" : "Intersection of Laterality And Laterality",
+  "status" : "active",
+  "date" : "2026-05-07T07:16:21+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "7771000"
+      },
+      {
+        "code" : "24028007"
+      },
+      {
+        "code" : "51440002"
+      }]
+    }]
+  }
+}

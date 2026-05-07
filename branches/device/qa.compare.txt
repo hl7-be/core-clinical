@@ -1,0 +1,230 @@
+TransversalClinicalCore : Validation Results
+=========================================
+
+err = 73, warn = 23, info = 8
+$--
+Generated $--. FHIR version $-- for hl7.fhir.be.core-clinical#$-- (canonical = https://www.ehealth.fgov.be/standards/fhir/core-clinical)
+ Build Errors : 39 / 2 / 0
+ /work/fsh-generated/resources/CodeSystem-be-cs-bodysite : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-problem-category : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-problem-origin-type : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-score : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-score-category : 0 / 0 / 1
+ /work/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.core-clinical : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelBodySite : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelClinicalObservation : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelDevice : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelDeviceUseStatement : 3 / 8 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelProblem : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelProcedure : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-clinical-observation : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-device : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-device-use-statement : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-ext-body-topography : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-ext-laterality : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-ext-problem-origin-type : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-ext-surgical-approach : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-observation : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-observationcodeableconcept : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-problem : 0 / 3 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-procedure : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-scoreresult : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-DeviceStatusReasonVS : 3 / 0 / 2
+ /work/fsh-generated/resources/ValueSet-DeviceStatusVS : 4 / 0 / 2
+ /work/fsh-generated/resources/ValueSet-DeviceTypeVS : 4 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-ProblemCategoryVS : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-ProblemCodeVS : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-ProblemDiseaseCourseVS : 1 / 3 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-body-topography : 1 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-bodysite : 1 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-laterality : 3 / 2 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-category : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-code : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-origin-type : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-reaction-manifestation-code : 33 / 2 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-score : 15 / 2 / 3
+ /work/fsh-generated/resources/ValueSet-be-vs-scorecategory : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-severity : 3 / 2 / 2
+</table>
+== n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+ERROR: There are multiple resources with the same title [Problem Category].  This is not allowed because it produces duplicate entries in the table of contents.
+ERROR: There are multiple resources with the same title [Problem Origin Type].  This is not allowed because it produces duplicate entries in the table of contents.
+ERROR: en/StructureDefinition-BeModelDevice.html#/html/body/div/div/div/div/div/div/figure/svg/g/g/a at Line 327, column 2633: The link 'StructureDefinition-BeModelDeviceUse.html' for "Device Usage" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDevice.html#/html/body/div/div/div/div/div/div/figure/svg/g/g/a at Line 327, column 4051: The link 'StructureDefinition-BeModelDeviceRequest.html' for "Device Request" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 353, column 372: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 356, column 370: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 359, column 370: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 409, column 372: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 412, column 370: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 415, column 370: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 479, column 372: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 482, column 370: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 485, column 370: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/figure/svg/g/g/a at Line 327, column 2633: The link 'StructureDefinition-BeModelDeviceUse.html' for "Device Usage" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/figure/svg/g/g/a at Line 327, column 4051: The link 'StructureDefinition-BeModelDeviceRequest.html' for "Device Request" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 474, column 278: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 479, column 278: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 484, column 276: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 547, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 560, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 573, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 694, column 280: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 699, column 276: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 704, column 278: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 766, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 779, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 792, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1022, column 278: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1027, column 278: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1032, column 276: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1092, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1105, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1118, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1239, column 280: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1244, column 276: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1249, column 278: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1309, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1322, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1335, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+WARNING: 5: The HTML fragment 'expansion-params.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-be-cs-bodysite.json ==
+== fsh-generated/resources/CodeSystem-be-cs-problem-category.json ==
+== fsh-generated/resources/CodeSystem-be-cs-problem-origin-type.json ==
+== fsh-generated/resources/CodeSystem-be-cs-score.json ==
+== fsh-generated/resources/CodeSystem-be-cs-score-category.json ==
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.be.core-clinical.json ==
+== fsh-generated/resources/StructureDefinition-BeModelBodySite.json ==
+== fsh-generated/resources/StructureDefinition-BeModelClinicalObservation.json ==
+== fsh-generated/resources/StructureDefinition-BeModelDevice.json ==
+== fsh-generated/resources/StructureDefinition-BeModelDeviceUseStatement.json ==
+WARNING: StructureDefinition/BeModelDeviceUseStatement: StructureDefinition.snapshot.element[18].binding.valueSet: A definition could not be found for Canonical URL 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography'
+WARNING: StructureDefinition/BeModelDeviceUseStatement: StructureDefinition.differential.element[15].binding.valueSet: A definition could not be found for Canonical URL 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography'
+WARNING: StructureDefinition/BeModelDeviceUseStatement: StructureDefinition.differential.element[13].binding: The valueSet reference https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite on element BeModelDeviceUseStatement.bodySite.localisation could not be resolved
+WARNING: StructureDefinition/BeModelDeviceUseStatement: StructureDefinition.differential.element[14].binding: The valueSet reference https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality on element BeModelDeviceUseStatement.bodySite.laterality could not be resolved
+WARNING: StructureDefinition/BeModelDeviceUseStatement: StructureDefinition.differential.element[15].binding: The valueSet reference https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography on element BeModelDeviceUseStatement.bodySite.topography could not be resolved
+WARNING: StructureDefinition/BeModelDeviceUseStatement: StructureDefinition.snapshot.element[16].binding: The valueSet reference https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite on element BeModelDeviceUseStatement.bodySite.localisation could not be resolved
+WARNING: StructureDefinition/BeModelDeviceUseStatement: StructureDefinition.snapshot.element[17].binding: The valueSet reference https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality on element BeModelDeviceUseStatement.bodySite.laterality could not be resolved
+WARNING: StructureDefinition/BeModelDeviceUseStatement: StructureDefinition.snapshot.element[18].binding: The valueSet reference https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography on element BeModelDeviceUseStatement.bodySite.topography could not be resolved
+ERROR: StructureDefinition.text.div: Hyperlink 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' at 'div/table/tr/td/a' for 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' does not resolve
+ERROR: StructureDefinition.text.div: Hyperlink 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' at 'div/table/tr/td/a' for 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' does not resolve
+ERROR: StructureDefinition.text.div: Hyperlink 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' at 'div/table/tr/td/a' for 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' does not resolve
+== fsh-generated/resources/StructureDefinition-BeModelProblem.json ==
+== fsh-generated/resources/StructureDefinition-BeModelProcedure.json ==
+== fsh-generated/resources/StructureDefinition-be-clinical-observation.json ==
+INFORMATION: StructureDefinition/be-clinical-observation: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+== fsh-generated/resources/StructureDefinition-be-device.json ==
+== fsh-generated/resources/StructureDefinition-be-device-use-statement.json ==
+== fsh-generated/resources/StructureDefinition-be-ext-body-topography.json ==
+== fsh-generated/resources/StructureDefinition-be-ext-laterality.json ==
+== fsh-generated/resources/StructureDefinition-be-ext-problem-origin-type.json ==
+== fsh-generated/resources/StructureDefinition-be-ext-surgical-approach.json ==
+== fsh-generated/resources/StructureDefinition-be-observation.json ==
+== fsh-generated/resources/StructureDefinition-be-observationcodeableconcept.json ==
+== fsh-generated/resources/StructureDefinition-be-problem.json ==
+WARNING: StructureDefinition/be-problem: StructureDefinition.snapshot.element[9].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/condition-dueTo'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.1.0 (from hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/condition-dueTo' to 'http://hl7.org/fhir/StructureDefinition/condition-dueTo|5.2.0'
+WARNING: StructureDefinition/be-problem: StructureDefinition.differential.element[3].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/condition-dueTo'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.1.0 (from hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/condition-dueTo' to 'http://hl7.org/fhir/StructureDefinition/condition-dueTo|5.2.0'
+== fsh-generated/resources/StructureDefinition-be-procedure.json ==
+== fsh-generated/resources/StructureDefinition-be-scoreresult.json ==
+== fsh-generated/resources/ValueSet-DeviceStatusReasonVS.json ==
+ERROR: ValueSet.where(url = 'https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status-reason'): Conformance resource /work/fsh-generated/resources/ValueSet-DeviceStatusReasonVS.json - the canonical URL (https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/DeviceStatusReasonVS) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status-reason). Use the special-url parameter if you really mean for it not to match
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://terminology.hl7.org/CodeSystem/device-status-reason to 2.0.0 from choices of 1.0.0 (hl7.terminology.r4#6.0.2), 2.0.0 (hl7.terminology.r4#7.1.0)
+ERROR: ValueSet.url: Resource id/url mismatch: DeviceStatusReasonVS/https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status-reason
+ERROR: /work/fsh-generated/resources/ValueSet-DeviceStatusReasonVS: URL Mismatch https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/DeviceStatusReasonVS vs https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status-reason
+== fsh-generated/resources/ValueSet-DeviceStatusVS.json ==
+ERROR: ValueSet.where(url = 'https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status'): Conformance resource /work/fsh-generated/resources/ValueSet-DeviceStatusVS.json - the canonical URL (https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/DeviceStatusVS) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status). Use the special-url parameter if you really mean for it not to match
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://hl7.org/fhir/device-status to 5.0.0 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.0.0 (hl7.fhir.uv.xver-r5.r4#0.1.0)
+ERROR: ValueSet.url: Resource id/url mismatch: DeviceStatusVS/https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status
+ERROR: ValueSet/DeviceStatusVS: ValueSet.compose.include[0].concept[3]: The code 'unknown' is not valid in the system http://hl7.org/fhir/device-status version 5.0.0 (unknown)
+ERROR: /work/fsh-generated/resources/ValueSet-DeviceStatusVS: URL Mismatch https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/DeviceStatusVS vs https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status
+== fsh-generated/resources/ValueSet-DeviceTypeVS.json ==
+ERROR: ValueSet.where(url = 'https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-type'): Conformance resource /work/fsh-generated/resources/ValueSet-DeviceTypeVS.json - the canonical URL (https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/DeviceTypeVS) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-type). Use the special-url parameter if you really mean for it not to match
+ERROR: ValueSet.url: Resource id/url mismatch: DeviceTypeVS/https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-type
+ERROR: ValueSet/DeviceTypeVS: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://snomed.info/sct', and '49062001' is not (Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.)
+WARNING: ValueSet.where(id = 'DeviceTypeVS'): Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.
+ERROR: /work/fsh-generated/resources/ValueSet-DeviceTypeVS: URL Mismatch https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/DeviceTypeVS vs https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-type
+== fsh-generated/resources/ValueSet-ProblemCategoryVS.json ==
+WARNING: ValueSet/ProblemCategoryVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ProblemCodeVS.json ==
+WARNING: ValueSet/ProblemCodeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-ProblemDiseaseCourseVS.json ==
+ERROR: ValueSet/ProblemDiseaseCourseVS: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://snomed.info/sct', and '288524001' is not (Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.)
+WARNING: ValueSet/ProblemDiseaseCourseVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.where(id = 'ProblemDiseaseCourseVS'): Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.
+== fsh-generated/resources/ValueSet-be-vs-body-topography.json ==
+ERROR: ValueSet/be-vs-body-topography: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://snomed.info/sct', and '106233006' is not (Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.)
+WARNING: ValueSet.where(id = 'be-vs-body-topography'): Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.
+== fsh-generated/resources/ValueSet-be-vs-bodysite.json ==
+ERROR: ValueSet/be-vs-bodysite: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'concept' must be a valid code from the system 'http://snomed.info/sct', and '442083009' is not (Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.)
+WARNING: ValueSet.where(id = 'be-vs-bodysite'): Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.
+== fsh-generated/resources/ValueSet-be-vs-laterality.json ==
+ERROR: ValueSet/be-vs-laterality: ValueSet.compose.include[0].concept[0]: The code '7771000' is not valid in the system http://snomed.info/sct (Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.)
+INFORMATION: ValueSet/be-vs-laterality: ValueSet.compose.include[0].concept[0]: Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.
+ERROR: ValueSet/be-vs-laterality: ValueSet.compose.include[0].concept[1]: The code '24028007' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-laterality: ValueSet.compose.include[0].concept[2]: The code '51440002' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+WARNING: ValueSet.where(id = 'be-vs-laterality'): Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.
+== fsh-generated/resources/ValueSet-be-vs-problem-category.json ==
+== fsh-generated/resources/ValueSet-be-vs-problem-code.json ==
+== fsh-generated/resources/ValueSet-be-vs-problem-origin-type.json ==
+== fsh-generated/resources/ValueSet-be-vs-reaction-manifestation-code.json ==
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[0]: The code '39579001' is not valid in the system http://snomed.info/sct (Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.)
+INFORMATION: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[0]: Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[1]: The code '735173007' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[2]: The code '41291007' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[3]: The code '410430005' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[4]: The code '698247007' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[5]: The code '195967001' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[6]: The code '4386001' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[7]: The code '9826008' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[8]: The code '91175000' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[9]: The code '40275004' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[10]: The code '62315008' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[11]: The code '267036007' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[12]: The code '43116000' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[13]: The code '271759003' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[14]: The code '247472004' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[15]: The code '271807003' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[16]: The code '271757001' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[17]: The code '297942002' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[18]: The code '76067001' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[19]: The code '386661006' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[20]: The code '45007003' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[21]: The code '422587007' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[22]: The code '768962006' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[23]: The code '51599000' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[24]: The code '23924001' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[25]: The code '418363000' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[26]: The code '70076002' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[27]: The code '162290004' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[28]: The code '73442001' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[29]: The code '49727002' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[30]: The code '126485001' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[31]: The code '31996006' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-reaction-manifestation-code: ValueSet.compose.include[0].concept[32]: The code '1985008' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+WARNING: ValueSet.where(id = 'be-vs-reaction-manifestation-code'): Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.
+== fsh-generated/resources/ValueSet-be-vs-score.json ==
+ERROR: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[0]: The code '763117005' is not valid in the system http://snomed.info/sct (Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.)
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[0]: Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.
+ERROR: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[1]: The code '446661009' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[2]: The code '273531005' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[3]: The code '447316007' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[4]: The code '444297006' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[5]: The code '443133008' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[6]: The code '7121000122100' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[7]: The code '273849003' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[8]: The code '450738001' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[9]: The code '444680009' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[10]: The code '278897004' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[11]: The code '763259004' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[12]: The code '273364009' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[13]: The code '443318007' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[14]: The code '719124004' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [Visual analog scale score (observable entity), Mini-mental state examination score (observable entity), Malnutrition universal screening tool score (observable entity), Norton pressure sore risk score (observable entity), Thirty second chair stand test score (observable entity)] and examples for no FSN: [FINDRISC (Finnish Diabetes Risk Score) score, Index of Independence in Activities of Daily Living, Pain Assessment in Advanced Dementia Scale, Subjective Global Assessment, Waterlow pressure sore risk score])
+WARNING: ValueSet.where(id = 'be-vs-score'): Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.
+== fsh-generated/resources/ValueSet-be-vs-scorecategory.json ==
+== fsh-generated/resources/ValueSet-be-vs-severity.json ==
+ERROR: ValueSet/be-vs-severity: ValueSet.compose.include[0].concept[0]: The code '24484000' is not valid in the system http://snomed.info/sct (Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.)
+INFORMATION: ValueSet/be-vs-severity: ValueSet.compose.include[0].concept[0]: Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.
+ERROR: ValueSet/be-vs-severity: ValueSet.compose.include[0].concept[1]: The code '6736007' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+ERROR: ValueSet/be-vs-severity: ValueSet.compose.include[0].concept[2]: The code '255604002' is not valid in the system http://snomed.info/sct (error: Can not determine authorisation; no credentials were provided.)
+WARNING: ValueSet.where(id = 'be-vs-severity'): Error from https://apps.health.belgium.be/ontoserver/fhir: Error: Can not determine authorisation; no credentials were provided.

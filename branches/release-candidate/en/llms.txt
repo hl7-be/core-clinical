@@ -1,0 +1,65 @@
+# hl7.fhir.be.core-clinical#1.2.0: Clinical Core(en)
+
+## Pages
+
+* [Transversal](index.md)
+* [Changes](changes.md)
+* [Artifacts Summary](artifacts.md)
+* [Spec](spec.md)
+* [Guidance](guidance.md)
+
+## Resources
+
+### CodeSystems
+
+* [Body Site CodeSystem](CodeSystem-be-cs-bodysite.md)
+* [Problem Category](CodeSystem-be-cs-problem-category.md)
+* [Problem Origin Type](CodeSystem-be-cs-problem-origin-type.md)
+* [Score Category](CodeSystem-be-cs-score-category.md)
+* [Score Code System](CodeSystem-be-cs-score.md)
+
+### ValueSets
+
+* [Problem Category Value Set](ValueSet-ProblemCategoryVS.md)
+* [Problem Code Value Set](ValueSet-ProblemCodeVS.md)
+* [Condition Disease Course Value Set](ValueSet-ProblemDiseaseCourseVS.md)
+* [BeVSBodyTopography](ValueSet-be-vs-body-topography.md)
+* [Body Site](ValueSet-be-vs-bodysite.md)
+* [Laterality](ValueSet-be-vs-laterality.md)
+* [Problem Category](ValueSet-be-vs-problem-category.md)
+* [Problem Code](ValueSet-be-vs-problem-code.md)
+* [Problem Origin Type](ValueSet-be-vs-problem-origin-type.md)
+* [Reaction Manifestation Code](ValueSet-be-vs-reaction-manifestation-code.md)
+* [Score Value Set](ValueSet-be-vs-score.md)
+* [Score Category Value Set](ValueSet-be-vs-scorecategory.md)
+* [Severity](ValueSet-be-vs-severity.md)
+
+### Logicals
+
+* [BodySite Model](StructureDefinition-BeModelBodySite.md)
+* [BeClinicalObservation Model](StructureDefinition-BeModelClinicalObservation.md)
+* [Problem Logical Model](StructureDefinition-BeModelProblem.md)
+* [BeProcedure Model](StructureDefinition-BeModelProcedure.md)
+
+### Complex-type Profiles
+
+* [BeObservationCodeableConcept](StructureDefinition-be-observationcodeableconcept.md)
+
+### Resource Profiles
+
+* [BeClinicalObservation](StructureDefinition-be-clinical-observation.md)
+* [BeObservation](StructureDefinition-be-observation.md)
+* [BeProblem](StructureDefinition-be-problem.md)
+* [BeProcedure](StructureDefinition-be-procedure.md)
+* [BeScoreResult](StructureDefinition-be-scoreresult.md)
+
+### Extensions
+
+* [BeExtBodyTopography](StructureDefinition-be-ext-body-topography.md)
+* [BeExtLaterality](StructureDefinition-be-ext-laterality.md)
+* [BeExtProblemOriginType](StructureDefinition-be-ext-problem-origin-type.md)
+* [Surgical Approach](StructureDefinition-be-ext-surgical-approach.md)
+
+### ImplementationGuides
+
+* [Clinical Core](ImplementationGuide-hl7.fhir.be.core-clinical.md)

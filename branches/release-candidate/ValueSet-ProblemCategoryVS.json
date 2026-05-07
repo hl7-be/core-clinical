@@ -1,0 +1,42 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ProblemCategoryVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ProblemCategoryVS</b></p><a name=\"ProblemCategoryVS\"> </a><a name=\"hcProblemCategoryVS\"> </a><p>This value set includes codes based on the following rules:</p><ul/></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCategoryVS",
+  "version" : "1.2.0",
+  "name" : "ProblemCategoryVS",
+  "title" : "Problem Category Value Set",
+  "status" : "active",
+  "date" : "2026-05-07T07:13:57+00:00",
+  "publisher" : "eHealth Platform",
+  "contact" : [{
+    "name" : "eHealth Platform",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ehealth.fgov.be"
+    },
+    {
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be"
+    }]
+  },
+  {
+    "name" : "Message-Structure",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Category of the problem",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }]
+}

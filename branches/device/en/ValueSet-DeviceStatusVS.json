@@ -1,0 +1,66 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "DeviceStatusVS",
+  "language" : "en",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet DeviceStatusVS</b></p><a name=\"DeviceStatusVS\"> </a><a name=\"hcDeviceStatusVS\"> </a><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-device-status.html\"><code>http://hl7.org/fhir/device-status</code></a><span title=\"Version is explicitly stated to be 5.0.0\"> version &#x1F4CD;5.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-device-status.html#device-status-active\">active</a></td><td>Active</td><td>The device record is current and is appropriate for reference in new instances.</td></tr><tr><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-device-status.html#device-status-inactive\">inactive</a></td><td>Inactive</td><td>The device record is not current and is not appropriate for reference in new instances.</td></tr><tr><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-device-status.html#device-status-entered-in-error\">entered-in-error</a></td><td>Entered in Error</td><td>The device record is not current and is not appropriate for reference in new instances.</td></tr><tr><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-device-status.html#device-status-unknown\">unknown</a></td><td>Unknown</td><td/></tr></table></li></ul></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status",
+  "version" : "1.1.0",
+  "name" : "DeviceStatusVS",
+  "title" : "Device Status Value Set",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-05T08:40:14+00:00",
+  "publisher" : "eHealth Platform",
+  "contact" : [{
+    "name" : "eHealth Platform",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ehealth.fgov.be"
+    },
+    {
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be"
+    }]
+  },
+  {
+    "name" : "Message-Structure",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Device Status - placeholder valueset - the normative definition will be published in the Belgian terminology IG.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/device-status",
+      "version" : "5.0.0",
+      "concept" : [{
+        "code" : "active",
+        "display" : "Active"
+      },
+      {
+        "code" : "inactive",
+        "display" : "Inactive"
+      },
+      {
+        "code" : "entered-in-error",
+        "display" : "Entered in Error"
+      },
+      {
+        "code" : "unknown",
+        "display" : "Unknown"
+      }]
+    }]
+  }
+}
