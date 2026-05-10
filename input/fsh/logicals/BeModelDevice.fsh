@@ -11,9 +11,9 @@ Description: "Logical model for a medical device"
 * status 0..1 code "Status" "Status of the device (active, inactive, entered-in-error, unknown)"
 * status from DeviceStatusVS
 * statusReason 0..* CodeableConcept "Status Reason" "Reason why the device has a particular status, e.g. why it is inactive or out of service"
-* statusReason from DeviceStatusReasonVS
+* statusReason from DeviceStatusReasonVS (example)
 * type 0..1 CodeableConcept "Type" "The kind of medical device, e.g. SNOMED CT code 304120007 - Cardiac pacemaker, device (physical object)"
-* type from DeviceTypeVS
+* type from DeviceTypeVS (example)
 * deviceDefinition 0..1 Reference "Device Definition" "Reference to the generic definition of the device, describing general characteristics of the device type rather than the unique instance"
 * manufacturer 0..1 string "Manufacturer" "The manufacturer that produced the device, e.g. Medtronic"
 * manufactureDate 0..1 dateTime "Manufacture Date" "The date the device was manufactured"
