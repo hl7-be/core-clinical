@@ -4,9 +4,10 @@ Title: "Diabetes Observation Logical Model"
 Description: "Logical model for diabetes-related clinical observations, derived from the generic clinical observation model. Captures glucose monitoring data and derived values such as Time In Range (TIR), Time Above Range (TAR) and Time Below Range (TBR)."
 
 
-* identifier 1..* Identifier "Unique observation business identifier."
+* identifier 1..*
+  * ^short = "Unique observation business identifier."
 
-* performer can be a device?
+//* performer can be a device?
 
 //* Conclusion 0..1 string "Not applicable for the diabetes project Conclusion"
 //* BodyLocalisation 0..1 CodeableConcept " Not application for the diabetes project BodyLocalisation"

@@ -6,7 +6,8 @@ Description: "A"
 
 // * UniqueIdentifierNational 1..1 Identifier "Unique business identifier of the report.(https://docs.google.com/document/d/13qamEPfdQ2HgUiXmjwHQNchpEU3LsQHF5MN9jKufX2g/edit?usp=sharing)."
 // * BusinessIdentifier 0..1 Identifier "Report identifier for the internal supplier's business."
-* identifier 1..* "Unique identifier of the report"
+* identifier 1..* Identifier "Unique identifier of the report"
+
 //* RecordedDate 1..1 dateTime "Date the report was produced."
 * recordedDate 1..1 dateTime "Date the report was authored."
 

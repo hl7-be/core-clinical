@@ -24,7 +24,10 @@ Description: "Belgian profile on DiagnosticReport for diabetes-related reports, 
 * category 1..* MS
 * category from BeVSDiabetesReportCategory
 * code 1..1 MS
-* code from BeVSDiabetesReportCode
+// * code from BeVSDiabetesReportCode
+// JCT: Suppressed because this is only one code and the "example profile", if a profile exists, can just hardcode the code. If we do need a profile and this is expected to have any other codes, we can revert
+* code = $sct#439926003
+
 // * result ^slicing.discriminator.type = #value
 // * result ^slicing.discriminator.path = "reference.resolve().code"
 // * result ^slicing.rules = #open  

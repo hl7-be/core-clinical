@@ -26,7 +26,9 @@ Description: "Belgian profile on Observation for diabetes-related clinical obser
 * category 1..* MS
 * category from BeVSDiabetesObservationCategory 
 * status 1..1 MS
-* status from BeVSDiabetesObservationStatus
+// * status from BeVSDiabetesObservationStatus
+// JCT: Suppressed because the statuses that are relevant are just two for the use case at hand but we don't need a profile that excludes all other values.
+
 * code 1..1 MS
 * code from BeVSDiabetesObservationCode
 * value[x] 1..1 MS
