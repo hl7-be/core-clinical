@@ -6,8 +6,6 @@ Description: "A medical device used in the context of Belgian healthcare."
 
 * identifier 0..1 MS
 * udiCarrier 0..1 MS
-* udiCarrier.deviceIdentifier MS
-* udiCarrier.carrierHRF MS
 * status 0..1 MS
 * statusReason 0..* MS
 * type 0..1 MS
