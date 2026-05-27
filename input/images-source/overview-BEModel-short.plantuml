@@ -1,0 +1,187 @@
+@startuml
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.4.0
+!includeurl ICONURL/common.puml
+!includeurl ICONURL/font-awesome-5/database.puml
+
+'skinparam linetype ortho
+'skinparam linetype polyline
+hide circle
+hide stereotype
+
+'skinparam defaultFontName Avenir-Book
+'skinparam defaultFontSize 17
+'skinparam monochrome true
+
+
+'!pragma layout smetana
+
+skinparam class<<MD>> {
+ BorderColor DarkSlateGray
+ BackgroundColor WhiteSmoke
+ HeaderBackgroundColor #909090
+}
+
+skinparam class<<TM>> {
+ BorderColor #505090
+ BackgroundColor APPLICATION
+ HeaderBackgroundColor SkyBlue
+}
+
+
+skinparam class<<Doc>> {
+ BorderColor #505090
+ BackgroundColor APPLICATION
+ HeaderBackgroundColor SkyBlue
+}
+
+<style>
+file {
+  BackGroundColor APPLICATION
+  LineThickness 1
+  LineColor black
+}
+</style>
+
+'file MDd [
+'  DeviceSchema
+'  ===
+'  |_ patient
+'  |_ LastUpdate
+'  |_ Label
+'  |_ Version
+'  ]
+
+
+' class "** Device Schema **" as DS<<TM>> {
+'   ' |_ patient
+'   ' |_ lastUpdate
+'   ' |_ label
+'   ' |_ version
+' }
+
+
+
+class "** [[StructureDefinition-BeModelDevice.html Device]] **" as Dev<<TM>> {
+    ' |_ identifier 1..*
+    ' |_ type 0..1
+    ' |_ name 0..1
+    ' |_ manufacturer 0..1
+    ' |_ model 0..1
+    }
+
+class "** [[StructureDefinition-BeModelDeviceUse.html Device Usage]] **" as DU<<TM>> {
+  ' |_ identifier 0..*
+  ' |_ basedOn 0..*
+  ' |_ status 1..1
+  ' |_ patient 1..1
+  ' |_ derivedFrom 0..*
+  ' |_ timing[x] 0..1
+  ' |_ recordedDate 1..1
+  ' |_ source 0..1
+  ' |_ device 1..1
+  ' |_ reasonCode 0..*
+  ' |_ reasonReference 0..* 
+  ' |_ bodySite 0..1
+  '   |_ localisation 1..1
+  '   |_ laterality 0..1
+  '   |_ topography 0..1
+  ' |_ note 0..*
+' '--
+' '<i>Identifier NameSpace
+}
+
+
+' class "**Request (Group)**" as RG<<TM>> {
+'   |_ identifier 1..*
+'   |_ status?
+'   |_ period?
+'   |_ indication
+'   |_ comment?
+'   |_ coverage?
+' }
+
+
+'RG -u-> DU : supportingInformation
+class "**[[StructureDefinition-BeModelDeviceRequest.html Device Request]]**" as DR<<TM>> {
+'   |_ identifier 1..*
+'   |_ authoredOn
+'   |_ supportingInformation
+'   |_ subject
+'   |_ status
+'   |_ statusReason
+'   |_ intent?
+'   |_ device
+'   |_ requester
+'   |_ reason
+'   |_ usage
+'   |_ effectivePeriod
+'     |_ start
+'     |_ end
+'   |_ supplyRequest
+'     |_ quantity
+'     |_ supplyInterval
+'     |_ validityPeriod
+'   |_ visible
+' '--
+' '<i>Substitution?
+}
+
+
+class "** [[StructureDefinition-BeModelProcedure.html Procedure]] **" as P<<TM>> {
+   ' |_ patient 0..1
+  ' |_ receiver 0..1
+  ' |_ performer 0..1
+  '   |_ performer 0..1
+  '   |_ <i>organization 0..1
+  ' |_ request 1..1
+  '   |_ isRequested 1..1
+  '   |_ request 1..1
+  ' |_ <b>status 1..1
+  ' |_ statusReasonCoded 0..1
+  ' |_ statusReasonText 0..1
+  ' |_ performedDate  <b><u>1</u></b>..1
+  ' |_ performedItem 0..1
+  '   |_ device 0..1
+  '   |_ performedQuantity 0..1
+  '   |_ usageInstructions 0..1
+  '   |_ note 0..1
+  ' |_ <b>substitution  0..1
+  ' |_ <b>coverage 0..1
+  '   |_ <b>reimbursementRate 0..1
+}
+
+
+' DU .u.o DS : ""
+
+' Patient owns the requests and procedures
+'Pt -d-> DR : "subject"
+'Pt -d-> P  : "subject"
+
+' DeviceRequest may lead to a recorded DeviceUse
+DR <-u- DU : "basedOn            "      
+
+
+' What is being requested / used
+DR -r-> Dev : "code"
+DU -d-> Dev : "device"
+
+' Procedure relationships:
+'  - implant scenario: device is the focus of the procedure
+'  - "because of" scenario: a use is recorded with the procedure as reason
+P  -l-> Dev : "focalDevice"
+DU .d.> P    : "reason"
+DU -d-> P    : "derivedFrom"
+
+' Layout hints
+'Dev -u[hidden]-> DS
+DR -r[hidden]-> Dev
+P  -l[hidden]-> Dev
+
+
+legend bottom
+  |= **DeviceUse → Procedure** |= **meaning** |
+  | **derivedFrom** | the procedure is the source of this Device Usage record (e.g. an implant: the procedure installed the device, the use captures ongoing presence) |
+  | **reason**      | the device is being used //because of// the procedure (e.g. a plaster or protector worn after orthopedic surgery) |
+endlegend
+
+@enduml

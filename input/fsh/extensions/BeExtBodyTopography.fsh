@@ -10,3 +10,7 @@ Description: "Describes the location or relative position on the body, such as s
 * ^context[=].expression = "Condition.bodySite"
 * ^context[+].type = #element
 * ^context[=].expression = "Observation.bodySite"
+* ^context[+].type = #element
+* ^context[=].expression = "DeviceUseStatement.bodySite"
+* ^context[+].type = #element
+* ^context[=].expression = "Procedure.bodySite"
