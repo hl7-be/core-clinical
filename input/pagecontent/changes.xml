@@ -2,6 +2,14 @@
   <p>
     This provides a list of changes to the MyIG specification since its initial release
   </p>
+
+  <a name="1.2.0">  </a>
+  <p>
+	<b>2026-05-29 v1.2.0 - eHealth Platform Federal Core Clinical Profiles</b> based on FHIR 4.0.1
+  </p>
+  <ul>
+	<li><a href="https://github.com/hl7-be/core-clinical/releases/tag/v1.2.0">Release notes on GitHub</a></li>
+  </ul>
 	
   <a name="1.1.0">  </a>
   <p>
