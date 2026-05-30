@@ -9,7 +9,7 @@ Description: "Logical model for Problem"
 * subject 1..1 Reference(Patient) "Patient" "Reference or Identifier to the patient (ideally identified by the NISS)"
 * cause 0..* Reference(Condition or Procedure or MedicationAdministration or Immunization or MedicationStatement) "Cause" "Reference to the primary cause of the problem (procedure, medication administration, or other condition)"
 * category 0..* CodeableConcept "Category" "Thematic category of the problem"
-* category from ProblemCategoryVS 
+* category from BeVSProblemCategory 
 
 * code 1..1 CodeableConcept "Code" "Identification of the problem - in SNOMED-CT"
 * code from ProblemCodeVS 
@@ -42,17 +42,14 @@ Description: "Logical model for Problem"
 
 
 
-ValueSet: ProblemCategoryVS
-Title: "Problem Category Value Set"
-Description: "Category of the problem"
-
-
 ValueSet: ProblemCodeVS
 Title: "Problem Code Value Set"
-Description: "Code of the problem"
-
+Description: "Code of the problem (this is a demonstrative valueset)"
+* ^experimental = true 
 
 ValueSet: ProblemDiseaseCourseVS
 Title: "Condition Disease Course Value Set"
 Description: "Condition Disease Course"
 * include codes from system $sct where concept is-a #288524001 "Courses"
+* ^experimental = true 
+ 

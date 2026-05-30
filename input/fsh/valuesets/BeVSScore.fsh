@@ -33,7 +33,7 @@ Description: "Codes as defined by the NIHDI. Dutch translations are expected for
 * ^compose.include[=].concept[=].designation.language = #fr-BE
 * ^compose.include[=].concept[=].designation.value = "Malnutrition Universal Screening"
 * ^compose.include[=].concept[+].code = #443133008
-* ^compose.include[=].concept[=].display = "Norton pressure sore risk score (observable entity)"
+* ^compose.include[=].concept[=].display = "Norton pressure sore risk score"
 * ^compose.include[=].concept[=].designation.language = #fr-BE
 * ^compose.include[=].concept[=].designation.value = "évaluation du risque d'escarre"
 * ^compose.include[=].concept[+].code = #7121000122100

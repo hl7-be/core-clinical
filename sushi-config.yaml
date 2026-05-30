@@ -190,7 +190,12 @@ parameters:
   path-expansion-params: ../../Parameters-terminology-expansion.json
   special-url-base: https://www.ehealth.fgov.be/standards/fhir/terminology
   path-history: https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html
-
+  special-url:
+    - https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status-reason
+    - https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status
+    - https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-type
+  pin-canonicals: pin-multiples
+ 
 # The FSHOnly flag indicates if only FSH resources should be exported.
 # If set to true, no IG related content will be generated.
 # The default value for this property is false.

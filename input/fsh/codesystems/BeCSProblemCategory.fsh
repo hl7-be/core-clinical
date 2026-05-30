@@ -1,6 +1,6 @@
 CodeSystem: BeCSProblemCategory
 Id: be-cs-problem-category
-Title: "Problem Category"
+Title: "Problem Category Code System"
 Description: "Problem Category"
 * ^version = "1.0.0"
 * ^status = #active

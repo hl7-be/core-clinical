@@ -1,6 +1,6 @@
 ValueSet: BeVSProblemOriginType
 Id: be-vs-problem-origin-type
-Title: "Problem Origin Type"
+Title: "Problem Origin Type Value Set"
 Description: "Problem Origin Type"
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-origin-type"
 * ^status = #active
