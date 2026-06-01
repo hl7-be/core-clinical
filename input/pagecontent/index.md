@@ -28,6 +28,10 @@ This IG Contains the following dependencies on other IGs.
 
 {% include globals-table.xhtml %}
 
+### Expansion parameters
+
+{% lang-fragment expansion-params.xhtml %}
+
 ### Intellectual Property
 
 {% include ip-statements.xhtml %}
