@@ -1,0 +1,37 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"BeModelDiagnosticReportDiabetes","BeModelDiagnosticReportDiabetes","","","",0,*,"","","","null {[]} {[]}
+","Logical data model for Diabetes Diagnostic Report ","A","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"BeModelDiagnosticReportDiabetes.identifier","BeModelDiagnosticReportDiabetes.identifier","","","",1,*,"","","","Identifier {[]} {[]}
+","Unique identifier of the report","Unique identifier of the report","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.identifier",1,*,"",""
+"BeModelDiagnosticReportDiabetes.recordedDate","BeModelDiagnosticReportDiabetes.recordedDate","","","",1,1,"","","","dateTime {[]} {[]}
+","Date the report was authored.","Date the report was authored.","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.recordedDate",1,1,"",""
+"BeModelDiagnosticReportDiabetes.status","BeModelDiagnosticReportDiabetes.status","","","",0,1,"","","","code {[]} {[]}
+","The status of the report","The status of the report","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.status",0,1,"",""
+"BeModelDiagnosticReportDiabetes.patient","BeModelDiagnosticReportDiabetes.patient","","","",1,1,"","","","Reference {[]} {[]}
+","The patient - subject of the report.","The patient - subject of the report.","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.patient",1,1,"",""
+"BeModelDiagnosticReportDiabetes.recorder","BeModelDiagnosticReportDiabetes.recorder","","","",1,1,"","","","Reference {[]} {[]}
+","The provider or organization that encodes the information.","The provider or organization that encodes the information.","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.recorder",1,1,"",""
+"BeModelDiagnosticReportDiabetes.performer","BeModelDiagnosticReportDiabetes.performer","","","",1,1,"","","","Reference {[]} {[]}
+","The service provider or organization that collects the observations and produces the report.","The service provider or organization that collects the observations and produces the report.","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.performer",1,1,"",""
+"BeModelDiagnosticReportDiabetes.interpreter","BeModelDiagnosticReportDiabetes.interpreter","","","",0,1,"","","","Identifier {[]} {[]}
+","Care provider that interpreted the observations in the report.","Care provider that interpreted the observations in the report.","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.interpreter",0,1,"",""
+"BeModelDiagnosticReportDiabetes.observationPeriod","BeModelDiagnosticReportDiabetes.observationPeriod","","","",1,1,"","","","Period {[]} {[]}
+","The period covered by the report.","The period covered by the report.","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.observationPeriod",1,1,"",""
+"BeModelDiagnosticReportDiabetes.category","BeModelDiagnosticReportDiabetes.category","","","",1,*,"","","","CodeableConcept {[]} {[]}
+","Category of the report.","Category of the report.","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.category",1,*,"",""
+"BeModelDiagnosticReportDiabetes.qualification","BeModelDiagnosticReportDiabetes.qualification","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","The determined category of diabetic patient (CAT 1, CAT 2, CAT 3)","The determined category of diabetic patient (CAT 1, CAT 2, CAT 3)","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.qualification",1,1,"",""
+"BeModelDiagnosticReportDiabetes.device","BeModelDiagnosticReportDiabetes.device","","","",0,1,"","","","Reference {[]} {[]}
+","The device used in the report","The device used in the report","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.device",0,1,"",""
+"BeModelDiagnosticReportDiabetes.code","BeModelDiagnosticReportDiabetes.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","The type of report code","The type of report code","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.code",1,1,"",""
+"BeModelDiagnosticReportDiabetes.derivedObservations","BeModelDiagnosticReportDiabetes.derivedObservations","","","",0,*,"","","","Observation {[]} {[]}
+","Observations derived from initial data","Observations derived from initial data","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.derivedObservations",0,*,"",""
+"BeModelDiagnosticReportDiabetes.measurementObservations","BeModelDiagnosticReportDiabetes.measurementObservations","","","",0,*,"","","","Observation {[]} {[]}
+","Observations actually captured and used to produce the analysis","Observations actually captured and used to produce the analysis","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.measurementObservations",0,*,"",""
+"BeModelDiagnosticReportDiabetes.diagnosis","BeModelDiagnosticReportDiabetes.diagnosis","","","",0,*,"","","","Condition {[]} {[]}
+","Problem reference related to this diagnostic report????","Problem reference related to this diagnostic report????","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.diagnosis",0,*,"",""
+"BeModelDiagnosticReportDiabetes.note","BeModelDiagnosticReportDiabetes.note","","","",0,*,"","","","Annotation {[]} {[]}
+","report comments in free text format.","report comments in free text format.","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.note",0,*,"",""
+"BeModelDiagnosticReportDiabetes.document","BeModelDiagnosticReportDiabetes.document","","","",0,1,"","","","Binary {[]} {[]}
+","PDF document containing the complete report (text, graphics, deduced observations, conclusions, etc.)","PDF document containing the complete report (text, graphics, deduced observations, conclusions, etc.)","","","","","","","","","",,,,,"",,,,"BeModelDiagnosticReportDiabetes.document",0,1,"",""

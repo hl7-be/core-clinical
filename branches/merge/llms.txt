@@ -1,0 +1,72 @@
+# hl7.fhir.be.core-clinical#1.1.0: Clinical Core(en)
+
+## Pages
+
+* [Transversal](en/index.md)
+* [Changes](en/changes.md)
+* [Artifacts Summary](en/artifacts.md)
+* [Spec](en/spec.md)
+* [Guidance](en/guidance.md)
+
+## Resources
+
+### CodeSystems
+
+* [Body Site CodeSystem](en/CodeSystem-be-cs-bodysite.md)
+* [Problem Category](en/CodeSystem-be-cs-problem-category.md)
+* [Problem Origin Type](en/CodeSystem-be-cs-problem-origin-type.md)
+* [Score Category](en/CodeSystem-be-cs-score-category.md)
+* [Score Code System](en/CodeSystem-be-cs-score.md)
+
+### ValueSets
+
+* [Device Status Reason Value Set](en/ValueSet-DeviceStatusReasonVS.md)
+* [Device Status Value Set](en/ValueSet-DeviceStatusVS.md)
+* [Device Type Value Set](en/ValueSet-DeviceTypeVS.md)
+* [Problem Category Value Set](en/ValueSet-ProblemCategoryVS.md)
+* [Problem Code Value Set](en/ValueSet-ProblemCodeVS.md)
+* [Condition Disease Course Value Set](en/ValueSet-ProblemDiseaseCourseVS.md)
+* [BeVSBodyTopography](en/ValueSet-be-vs-body-topography.md)
+* [Body Site](en/ValueSet-be-vs-bodysite.md)
+* [Laterality](en/ValueSet-be-vs-laterality.md)
+* [Problem Category](en/ValueSet-be-vs-problem-category.md)
+* [Problem Code](en/ValueSet-be-vs-problem-code.md)
+* [Problem Origin Type](en/ValueSet-be-vs-problem-origin-type.md)
+* [Reaction Manifestation Code](en/ValueSet-be-vs-reaction-manifestation-code.md)
+* [Score Value Set](en/ValueSet-be-vs-score.md)
+* [Score Category Value Set](en/ValueSet-be-vs-scorecategory.md)
+* [Severity](en/ValueSet-be-vs-severity.md)
+
+### Logicals
+
+* [BodySite Model](en/StructureDefinition-BeModelBodySite.md)
+* [BeClinicalObservation Model](en/StructureDefinition-BeModelClinicalObservation.md)
+* [Device Logical Model](en/StructureDefinition-BeModelDevice.md)
+* [DeviceUseStatement Logical Model](en/StructureDefinition-BeModelDeviceUseStatement.md)
+* [Problem Logical Model](en/StructureDefinition-BeModelProblem.md)
+* [BeProcedure Model](en/StructureDefinition-BeModelProcedure.md)
+
+### Complex-type Profiles
+
+* [BeObservationCodeableConcept](en/StructureDefinition-be-observationcodeableconcept.md)
+
+### Resource Profiles
+
+* [BeClinicalObservation](en/StructureDefinition-be-clinical-observation.md)
+* [BeDeviceUseStatement](en/StructureDefinition-be-device-use-statement.md)
+* [BeDevice](en/StructureDefinition-be-device.md)
+* [BeObservation](en/StructureDefinition-be-observation.md)
+* [BeProblem](en/StructureDefinition-be-problem.md)
+* [BeProcedure](en/StructureDefinition-be-procedure.md)
+* [BeScoreResult](en/StructureDefinition-be-scoreresult.md)
+
+### Extensions
+
+* [BeExtBodyTopography](en/StructureDefinition-be-ext-body-topography.md)
+* [BeExtLaterality](en/StructureDefinition-be-ext-laterality.md)
+* [BeExtProblemOriginType](en/StructureDefinition-be-ext-problem-origin-type.md)
+* [Surgical Approach](en/StructureDefinition-be-ext-surgical-approach.md)
+
+### ImplementationGuides
+
+* [Clinical Core](en/ImplementationGuide-hl7.fhir.be.core-clinical.md)

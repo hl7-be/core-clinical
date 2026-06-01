@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "34ee5cab-0ffc-421e-989f-33d7c623e460-54",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/34ee5cab-0ffc-421e-989f-33d7c623e460-54",
+  "name" : "IntersectionCondition/DiagnosisSeverityAndBeVSSeverity",
+  "title" : "Intersection of Condition/Diagnosis Severity And Severity",
+  "status" : "draft",
+  "date" : "2026-05-30T09:12:11+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "24484000",
+        "display" : "Severe"
+      },
+      {
+        "code" : "6736007",
+        "display" : "Moderate severity"
+      },
+      {
+        "code" : "255604002",
+        "display" : "Mild"
+      }]
+    }]
+  }
+}
