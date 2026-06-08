@@ -9,14 +9,14 @@
 
 id: hl7.fhir.be.core-clinical
 canonical: https://www.ehealth.fgov.be/standards/fhir/core-clinical
-url: https://www.ehealth.fgov.be/standards/fhir/core-clinical
+#url: https://www.ehealth.fgov.be/standards/fhir/core-clinical
 name: TransversalClinicalCore
 title: "Clinical Core"
 description: "HL7 Belgium - Transversal Clinical Core"
 status: active
 license: CC0-1.0
-date: 2026-02-27
-version: 1.1.0
+date: 2026-06-05
+version: 1.2.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here (but so far SUSHI only
