@@ -1,0 +1,786 @@
+// Generated from common_translations_3.2.0.json by generate_codesystems.py.
+// Do not edit by hand - re-run the script to regenerate.
+
+ValueSet: VS_aHSDELIRIUM
+Id: vs-ahsdelirium
+Title: "Delirium Screener (aHSDELIRIUM)"
+Description: "Delirium Screener (aHSDELIRIUM)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_aHSDELIRIUM
+
+ValueSet: VS_aHSDEMENTIA
+Id: vs-ahsdementia
+Title: "Dementia Screener (aHSDEMENTIA)"
+Description: "Dementia Screener (aHSDEMENTIA)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_aHSDEMENTIA
+
+ValueSet: VS_aHSDEPRESSION
+Id: vs-ahsdepression
+Title: "Depression Screener (aHSDEPRESSION)"
+Description: "Depression Screener (aHSDEPRESSION)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_aHSDEPRESSION
+
+ValueSet: VS_aHSNUTRITION
+Id: vs-ahsnutrition
+Title: "Nutrition Screener (aHSNUTRITION)"
+Description: "Nutrition Screener (aHSNUTRITION)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_aHSNUTRITION
+
+ValueSet: VS_aMAPLE
+Id: vs-amaple
+Title: "Method for Assigning Priority Levels (aMAPLe)"
+Description: "Method for Assigning Priority Levels (aMAPLe)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_aMAPLE
+
+ValueSet: VS_cABUSE
+Id: vs-cabuse
+Title: "Mishandeling/Verwaarlozing"
+Description: "Mishandeling/Verwaarlozing"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cABUSE
+
+ValueSet: VS_cACTIV
+Id: vs-cactiv
+Title: "Activiteiten"
+Description: "Activiteiten"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cACTIV
+
+ValueSet: VS_cADD
+Id: vs-cadd
+Title: "Tabak- en alcoholgebruik"
+Description: "Tabak- en alcoholgebruik"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cADD
+
+ValueSet: VS_cADL
+Id: vs-cadl
+Title: "Activiteiten van het dagelijks leven (ADL)"
+Description: "Activiteiten van het dagelijks leven (ADL)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cADL
+
+ValueSet: VS_cBEHAV
+Id: vs-cbehav
+Title: "Gedrag"
+Description: "Gedrag"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cBEHAV
+
+ValueSet: VS_cBOWEL
+Id: vs-cbowel
+Title: "Darmproblemen"
+Description: "Darmproblemen"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cBOWEL
+
+ValueSet: VS_cBRITSU
+Id: vs-cbritsu
+Title: "Mantelzorg"
+Description: "Mantelzorg"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cBRITSU
+
+ValueSet: VS_cCARDIO
+Id: vs-ccardio
+Title: "Hart en ademhaling"
+Description: "Hart en ademhaling"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cCARDIO
+
+ValueSet: VS_cCOGNIT
+Id: vs-ccognit
+Title: "Cognitieverlies"
+Description: "Cognitieverlies"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cCOGNIT
+
+ValueSet: VS_cCOMMUN
+Id: vs-ccommun
+Title: "Communicatie"
+Description: "Communicatie"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cCOMMUN
+
+ValueSet: VS_cDEHYD
+Id: vs-cdehyd
+Title: "Dehydratatie"
+Description: "Dehydratatie"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cDEHYD
+
+ValueSet: VS_cDELIR
+Id: vs-cdelir
+Title: "Delirium"
+Description: "Delirium"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cDELIR
+
+ValueSet: VS_cDENTISTREFER
+Id: vs-cdentistrefer
+Title: "Doorverwijzing naar de tandarts"
+Description: "Doorverwijzing naar de tandarts"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cDENTISTREFER
+
+ValueSet: VS_cDRUG
+Id: vs-cdrug
+Title: "Juist en verantwoord medicatiegebruik"
+Description: "Juist en verantwoord medicatiegebruik"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cDRUG
+
+ValueSet: VS_cENVIR
+Id: vs-cenvir
+Title: "Thuisomgeving"
+Description: "Thuisomgeving"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cENVIR
+
+ValueSet: VS_cFALLS
+Id: vs-cfalls
+Title: "Valincidenten"
+Description: "Valincidenten"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cFALLS
+
+ValueSet: VS_cFEEDTB
+Id: vs-cfeedtb
+Title: "Sondevoeding"
+Description: "Sondevoeding"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cFEEDTB
+
+ValueSet: VS_cHSBEHAV
+Id: vs-chsbehav
+Title: "Gedrag - Ziekenhuis"
+Description: "Gedrag - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cHSBEHAV
+
+ValueSet: VS_cHSCOGNIT
+Id: vs-chscognit
+Title: "Cognitieverlies - Ziekenhuis"
+Description: "Cognitieverlies - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cHSCOGNIT
+
+ValueSet: VS_cHSCOMMUN
+Id: vs-chscommun
+Title: "Communicatie - Ziekenhuis"
+Description: "Communicatie - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cHSCOMMUN
+
+ValueSet: VS_cHSDEPRESS
+Id: vs-chsdepress
+Title: "Depressie - Ziekenhuis"
+Description: "Depressie - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cHSDEPRESS
+
+ValueSet: VS_cHSFALLS
+Id: vs-chsfalls
+Title: "Valincidenten - Ziekenhuis"
+Description: "Valincidenten - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cHSFALLS
+
+ValueSet: VS_cHSINSTITUTION
+Id: vs-chsinstitution
+Title: "Kans op opname in een voorziening - Ziekenhuis"
+Description: "Kans op opname in een voorziening - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cHSINSTITUTION
+
+ValueSet: VS_cHSPAIN
+Id: vs-chspain
+Title: "Pijn - Ziekenhuis"
+Description: "Pijn - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cHSPAIN
+
+ValueSet: VS_cHSREADMISSION
+Id: vs-chsreadmission
+Title: "Kans op heropname"
+Description: "Kans op heropname"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cHSREADMISSION
+
+ValueSet: VS_cHSUNDERNUTRITION
+Id: vs-chsundernutrition
+Title: "Ondervoeding - Ziekenhuis"
+Description: "Ondervoeding - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cHSUNDERNUTRITION
+
+ValueSet: VS_cIADL
+Id: vs-ciadl
+Title: "Instrumentele activiteiten van het dagelijks leven (IADL)"
+Description: "Instrumentele activiteiten van het dagelijks leven (IADL)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cIADL
+
+ValueSet: VS_cMHCRIM
+Id: vs-cmhcrim
+Title: "Criminele activiteiten"
+Description: "Criminele activiteiten"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHCRIM
+
+ValueSet: VS_cMHCTRLINT
+Id: vs-cmhctrlint
+Title: "Vrijheidsbeperkende maatregelen"
+Description: "Vrijheidsbeperkende maatregelen"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHCTRLINT
+
+ValueSet: VS_cMHEDEMP
+Id: vs-cmhedemp
+Title: "Opleiding en werk"
+Description: "Opleiding en werk"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHEDEMP
+
+ValueSet: VS_cMHEXER
+Id: vs-cmhexer
+Title: "Beweging"
+Description: "Beweging"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHEXER
+
+ValueSet: VS_cMHFINAN
+Id: vs-cmhfinan
+Title: "Persoonlijke financiën"
+Description: "Persoonlijke financiën"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHFINAN
+
+ValueSet: VS_cMHHARMOTH
+Id: vs-cmhharmoth
+Title: "Schade aan anderen"
+Description: "Schade aan anderen"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHHARMOTH
+
+ValueSet: VS_cMHINFSUPP
+Id: vs-cmhinfsupp
+Title: "Mantelzorg - Mentale gezondheid"
+Description: "Mantelzorg - Mentale gezondheid"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHINFSUPP
+
+ValueSet: VS_cMHIPCON
+Id: vs-cmhipcon
+Title: "Intermenselijke conflicten"
+Description: "Intermenselijke conflicten"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHIPCON
+
+ValueSet: VS_cMHMEDMGT
+Id: vs-cmhmedmgt
+Title: "Geneesmiddelenbeheer en therapietrouw"
+Description: "Geneesmiddelenbeheer en therapietrouw"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHMEDMGT
+
+ValueSet: VS_cMHPAIN
+Id: vs-cmhpain
+Title: "Pijn - Mentale gezondheid"
+Description: "Pijn - Mentale gezondheid"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHPAIN
+
+ValueSet: VS_cMHREHOSP
+Id: vs-cmhrehosp
+Title: "Heropname"
+Description: "Heropname"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHREHOSP
+
+ValueSet: VS_cMHSELFCR
+Id: vs-cmhselfcr
+Title: "Zelfzorg"
+Description: "Zelfzorg"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHSELFCR
+
+ValueSet: VS_cMHSELFHA
+Id: vs-cmhselfha
+Title: "Zelfmoordgedrag en opzettelijke zelfverwonding"
+Description: "Zelfmoordgedrag en opzettelijke zelfverwonding"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHSELFHA
+
+ValueSet: VS_cMHSLEEP
+Id: vs-cmhsleep
+Title: "Slaapstoornissen - Mentale gezondheid"
+Description: "Slaapstoornissen - Mentale gezondheid"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHSLEEP
+
+ValueSet: VS_cMHSMOKE
+Id: vs-cmhsmoke
+Title: "Roken"
+Description: "Roken"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHSMOKE
+
+ValueSet: VS_cMHSOCREL
+Id: vs-cmhsocrel
+Title: "Sociale relaties - Mentale gezondheid"
+Description: "Sociale relaties - Mentale gezondheid"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHSOCREL
+
+ValueSet: VS_cMHSSDIS
+Id: vs-cmhssdis
+Title: "Ondersteuningskader bij ontslag"
+Description: "Ondersteuningskader bij ontslag"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHSSDIS
+
+ValueSet: VS_cMHSUBUSE
+Id: vs-cmhsubuse
+Title: "Middelengebruik"
+Description: "Middelengebruik"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHSUBUSE
+
+ValueSet: VS_cMHTRAUMA
+Id: vs-cmhtrauma
+Title: "Traumatische levensgebeurtenissen"
+Description: "Traumatische levensgebeurtenissen"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHTRAUMA
+
+ValueSet: VS_cMHWTMGT
+Id: vs-cmhwtmgt
+Title: "Gewichtsmanagement"
+Description: "Gewichtsmanagement"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMHWTMGT
+
+ValueSet: VS_cMOOD
+Id: vs-cmood
+Title: "Stemming"
+Description: "Stemming"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cMOOD
+
+ValueSet: VS_cNUTR
+Id: vs-cnutr
+Title: "Ondervoeding"
+Description: "Ondervoeding"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cNUTR
+
+ValueSet: VS_cORALHYG
+Id: vs-coralhyg
+Title: "Mondhygiëne"
+Description: "Mondhygiëne"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cORALHYG
+
+ValueSet: VS_cPACTIV
+Id: vs-cpactiv
+Title: "Bevordering van de lichaamsbeweging"
+Description: "Bevordering van de lichaamsbeweging"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cPACTIV
+
+ValueSet: VS_cPAIN
+Id: vs-cpain
+Title: "Pijn"
+Description: "Pijn"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cPAIN
+
+ValueSet: VS_cPCDYS
+Id: vs-cpcdys
+Title: "Dyspneu"
+Description: "Dyspneu"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cPCDYS
+
+ValueSet: VS_cPCFATIG
+Id: vs-cpcfatig
+Title: "Vermoeidheid"
+Description: "Vermoeidheid"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cPCFATIG
+
+ValueSet: VS_cPCMOOD
+Id: vs-cpcmood
+Title: "Stemming-Palliative Care"
+Description: "Stemming-Palliative Care"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cPCMOOD
+
+ValueSet: VS_cPCNUTR
+Id: vs-cpcnutr
+Title: "Voeding - Palliatieve zorg"
+Description: "Voeding - Palliatieve zorg"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cPCNUTR
+
+ValueSet: VS_cPCPAIN
+Id: vs-cpcpain
+Title: "Pijn - Palliatieve zorg"
+Description: "Pijn - Palliatieve zorg"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cPCPAIN
+
+ValueSet: VS_cPCSLEEP
+Id: vs-cpcsleep
+Title: "Slaapstoornis - Palliatieve zorg"
+Description: "Slaapstoornis - Palliatieve zorg"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cPCSLEEP
+
+ValueSet: VS_cPULCER
+Id: vs-cpulcer
+Title: "Decubitus"
+Description: "Decubitus"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cPULCER
+
+ValueSet: VS_cRESTR
+Id: vs-crestr
+Title: "Fysieke fixatie"
+Description: "Fysieke fixatie"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cRESTR
+
+ValueSet: VS_cRISK
+Id: vs-crisk
+Title: "Kans op opname in een voorziening"
+Description: "Kans op opname in een voorziening"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cRISK
+
+ValueSet: VS_cSOCFUNC
+Id: vs-csocfunc
+Title: "Sociale omgang"
+Description: "Sociale omgang"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cSOCFUNC
+
+ValueSet: VS_cURIN
+Id: vs-curin
+Title: "Urine-incontinentie"
+Description: "Urine-incontinentie"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cURIN
+
+ValueSet: VS_cpHSADL
+Id: vs-cphsadl
+Title: "Activiteiten van het dagelijks leven (ADL)- Preventie"
+Description: "Activiteiten van het dagelijks leven (ADL)- Preventie"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cpHSADL
+
+ValueSet: VS_cpHSDELIRIUM
+Id: vs-cphsdelirium
+Title: "Delirium - Preventie"
+Description: "Delirium - Preventie"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cpHSDELIRIUM
+
+ValueSet: VS_cpHSPULCER
+Id: vs-cphspulcer
+Title: "Decubitus - Ziekenhuis"
+Description: "Decubitus - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cpHSPULCER
+
+ValueSet: VS_cpcPUIMP
+Id: vs-cpcpuimp
+Title: "Decubitus - Palliatieve zorg"
+Description: "Decubitus - Palliatieve zorg"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_cpcPUIMP
+
+ValueSet: VS_ctHSADL
+Id: vs-cthsadl
+Title: "Activiteiten van het dagelijks leven (ADL)- Behandeling"
+Description: "Activiteiten van het dagelijks leven (ADL)- Behandeling"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_ctHSADL
+
+ValueSet: VS_ctHSDELIRIUM
+Id: vs-cthsdelirium
+Title: "Delirium - Behandeling"
+Description: "Delirium - Behandeling"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_ctHSDELIRIUM
+
+ValueSet: VS_ctHSPULCER
+Id: vs-cthspulcer
+Title: "Decubitus - Behandeling - Ziekenhuis"
+Description: "Decubitus - Behandeling - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_ctHSPULCER
+
+ValueSet: VS_rHSADL
+Id: vs-rhsadl
+Title: "Risk of Adverse Outcomes in the Form of ADL Decline in Hospital (rHSADL)"
+Description: "Risk of Adverse Outcomes in the Form of ADL Decline in Hospital (rHSADL)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_rHSADL
+
+ValueSet: VS_rHSDELIRIUM
+Id: vs-rhsdelirium
+Title: "Risk of Delirium in Hospital (rHSDELIRIUM)"
+Description: "Risk of Delirium in Hospital (rHSDELIRIUM)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_rHSDELIRIUM
+
+ValueSet: VS_rHSFALLS
+Id: vs-rhsfalls
+Title: "Falls Risk in Hospital (rHSFALLS)"
+Description: "Falls Risk in Hospital (rHSFALLS)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_rHSFALLS
+
+ValueSet: VS_rHSPULCER
+Id: vs-rhspulcer
+Title: "Pressure Ulcer Risk Scale in Hospital (rHSPULCER)"
+Description: "Pressure Ulcer Risk Scale in Hospital (rHSPULCER)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_rHSPULCER
+
+ValueSet: VS_rHSREADMISSION
+Id: vs-rhsreadmission
+Title: "Risk of Readmission in Hospital (rHSREADMISSION)"
+Description: "Risk of Readmission in Hospital (rHSREADMISSION)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_rHSREADMISSION
+
+ValueSet: VS_sABS
+Id: vs-sabs
+Title: "Aggressive Behaviour Scale (sABS)"
+Description: "Aggressive Behaviour Scale (sABS)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sABS
+
+ValueSet: VS_sADLH
+Id: vs-sadlh
+Title: "ADL Hierarchy Scale (sADLH)"
+Description: "ADL Hierarchy Scale (sADLH)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sADLH
+
+ValueSet: VS_sBMI
+Id: vs-sbmi
+Title: "Body Mass Index (sBMI)"
+Description: "Body Mass Index (sBMI)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sBMI
+
+ValueSet: VS_sCAGE
+Id: vs-scage
+Title: "Addictions and Substance Use Scale (sCAGE)"
+Description: "Scores van 2 of meer (op een schaal van 0 tot 4) duiden op een potentieel probleem met betrekking tot middelengebruik."
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sCAGE
+
+ValueSet: VS_sCHESS
+Id: vs-schess
+Title: "Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)"
+Description: "Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sCHESS
+
+ValueSet: VS_sCOMM
+Id: vs-scomm
+Title: "Communication Scale (sCOMM)"
+Description: "Communication Scale (sCOMM)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sCOMM
+
+ValueSet: VS_sCPS
+Id: vs-scps
+Title: "Cognitive Performance Scale (sCPS)"
+Description: "Cognitive Performance Scale (sCPS)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sCPS
+
+ValueSet: VS_sCPS2
+Id: vs-scps2
+Title: "Cognitive Performance Scale 2 (sCPS2)"
+Description: "Cognitive Performance Scale 2 (sCPS2)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sCPS2
+
+ValueSet: VS_sDRS
+Id: vs-sdrs
+Title: "Depression Rating Scale (sDRS)"
+Description: "Depression Rating Scale (sDRS)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sDRS
+
+ValueSet: VS_sDbSI
+Id: vs-sdbsi
+Title: "Deafblind Severity Index (sDbSI)"
+Description: "Deafblind Severity Index (sDbSI)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sDbSI
+
+ValueSet: VS_sFRAILTY
+Id: vs-sfrailty
+Title: "Frailty Scale (sFrailty)"
+Description: "Frailty Scale (sFrailty)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sFRAILTY
+
+ValueSet: VS_sHSADLH
+Id: vs-shsadlh
+Title: "ADL Hierarchy Scale – Hospital (sHSADLH)"
+Description: "ADL Hierarchy Scale – Hospital (sHSADLH)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sHSADLH
+
+ValueSet: VS_sHSPAIN
+Id: vs-shspain
+Title: "Pain Scale - Hospital (sHSPAIN)"
+Description: "Pain Scale - Hospital (sHSPAIN)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sHSPAIN
+
+ValueSet: VS_sHSPURS
+Id: vs-shspurs
+Title: "Pressure Ulcer Risk Scale - Hospital (sHSPURS)"
+Description: "Pressure Ulcer Risk Scale - Hospital (sHSPURS)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sHSPURS
+
+ValueSet: VS_sIADLCH
+Id: vs-siadlch
+Title: "IADL Capacity Hierarchy Scale (sIADLCH)"
+Description: "IADL Capacity Hierarchy Scale (sIADLCH)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sIADLCH
+
+ValueSet: VS_sPAIN
+Id: vs-spain
+Title: "Pain Scale (sPAIN)"
+Description: "Pain Scale (sPAIN)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sPAIN
+
+ValueSet: VS_sPURS
+Id: vs-spurs
+Title: "Pressure Ulcer Risk Scale (sPURS)"
+Description: "Pressure Ulcer Risk Scale (sPURS)"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sPURS
+
+ValueSet: VS_sSRMOOD
+Id: vs-ssrmood
+Title: "Self-reported Mood Scale"
+Description: "Self-reported Mood Scale"
+* ^status = #active
+* ^experimental = false
+* include codes from system CS_sSRMOOD

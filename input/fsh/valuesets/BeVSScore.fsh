@@ -73,3 +73,5 @@ Description: "Codes as defined by the NIHDI. Dutch translations are expected for
 * ^compose.include[=].concept[=].designation.language = #fr-BE
 * ^compose.include[=].concept[=].designation.value = "(EMIR) Echelle de Mesure de l'Impact de la Polyarthrite Rhumatoïde"
 * ^compose.include[+].system = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"
+// Compose the BelRAI score codes by reference: edit BeVSBelraiScore, not this file.
+* ^compose.include[+].valueSet = "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-belrai-score"

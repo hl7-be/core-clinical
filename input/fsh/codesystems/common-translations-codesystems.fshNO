@@ -1,0 +1,2578 @@
+// Generated from common_translations_3.2.0.json by generate_codesystems.py.
+// Do not edit by hand - re-run the script to regenerate.
+
+CodeSystem: CS_aHSDELIRIUM
+Id: cs-ahsdelirium
+Title: "Delirium Screener (aHSDELIRIUM)"
+Description: "Delirium Screener (aHSDELIRIUM)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #aHSDELIRIUM_0 "Negatief"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Negativ"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Négatif"
+* #aHSDELIRIUM_1 "Positief"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Positiv"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Positif"
+
+CodeSystem: CS_aHSDEMENTIA
+Id: cs-ahsdementia
+Title: "Dementia Screener (aHSDEMENTIA)"
+Description: "Dementia Screener (aHSDEMENTIA)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #aHSDEMENTIA_0 "Negatief"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Negativ"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Négatif"
+* #aHSDEMENTIA_1 "Positief"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Positiv"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Positif"
+
+CodeSystem: CS_aHSDEPRESSION
+Id: cs-ahsdepression
+Title: "Depression Screener (aHSDEPRESSION)"
+Description: "Depression Screener (aHSDEPRESSION)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #aHSDEPRESSION_0 "Negatief"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Negativ"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Négatif"
+* #aHSDEPRESSION_1 "Positief"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Positiv"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Positif"
+
+CodeSystem: CS_aHSNUTRITION
+Id: cs-ahsnutrition
+Title: "Nutrition Screener (aHSNUTRITION)"
+Description: "Nutrition Screener (aHSNUTRITION)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #aHSNUTRITION_0 "Negatief"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Negativ"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Négatif"
+* #aHSNUTRITION_1 "Positief"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Positiv"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Positif"
+
+CodeSystem: CS_aMAPLE
+Id: cs-amaple
+Title: "Method for Assigning Priority Levels (aMAPLe)"
+Description: "Method for Assigning Priority Levels (aMAPLe)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #aMAPLE_1 "Lage prioriteit"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Geringe Priorität"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Priorité basse"
+* #aMAPLE_2 "Milde prioriteit"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Leichte Priorität"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Priorité faible"
+* #aMAPLE_3 "Matige prioriteit"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Moderate Priorität"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Priorité modérée"
+* #aMAPLE_4 "Hoge prioriteit"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Hohe Priorität"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Haute priorité"
+* #aMAPLE_5 "Zeer hoge prioriteit"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Sehr hohe Priorität"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Très haute priorité"
+
+CodeSystem: CS_cABUSE
+Id: cs-cabuse
+Title: "Mishandeling/Verwaarlozing"
+Description: "Mishandeling/Verwaarlozing"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cABUSE_0 "Niet geactiveerd: geen directe indicatoren van mishandeling en stressveroorzakende factoren aanwezig."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: keine direkten Indikatoren von Misshandlungen und Stressfaktoren."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : pas d'indicateurs directs de maltraitance et de présence de facteurs de stress."
+* #cABUSE_1 "Geactiveerd wegens matig risico: alleen directe indicatoren van mishandeling."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: wegen mittlerem Risiko von direkten Indikatoren für Misshandlungen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque modéré : uniquement indicateurs direct de maltraitance."
+* #cABUSE_2 "Geactiveerd wegens hoogste risico: directe indicatoren van mishandeling en stressveroorzakende factoren aanwezig (in laatste dertig dagen)."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: wegen sehr hohem Risiko von direkten Indikatoren für Misshandlungen und Stressfaktoren (innerhalb der letzten 30 Tage)."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison du risque le plus élevé : indicateurs directs de maltraitance et de présence de facteurs de stress (dans les trente derniers jours)."
+
+CodeSystem: CS_cACTIV
+Id: cs-cactiv
+Title: "Activiteiten"
+Description: "Activiteiten"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cACTIV_0 "Niet geactiveerd: sociaal actief en betrokken of niet in staat om aan dagelijkse besluitvorming te doen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: sozialaktiv und in alltägliche Entscheidungen eingebunden bzw. nicht in der Lage diese zu treffen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : socialement actif et impliqué ou incapable de prendre des décisions quotidiennes."
+* #cACTIV_1 "Geactiveerd wegens meestal niet betrokken bij sociale of andere activiteiten niettegenstaande enige cognitieve reserve om aan dagelijkse besluitvorming te doen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: nicht sozialaktiv und aufgrund von kognitiven Einschränkungen nicht in alltägliche Entscheidungen eingebunden."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé : ne participe généralement pas à des activités sociales ou autres malgré la capacité cognitive pour prendre des décisions quotidiennes."
+
+CodeSystem: CS_cADD
+Id: cs-cadd
+Title: "Tabak- en alcoholgebruik"
+Description: "Tabak- en alcoholgebruik"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cADD_0 "Niet geactiveerd: geen aanleiding tot stoppen met roken of reduceren van alcoholgebruik."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: kein Grund das Rauchen zu beenden oder den Alkoholkonsum zu reduzieren."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : aucune raison d'arrêter de fumer ou de réduire la consommation d'alcool."
+* #cADD_1 "Geactiveerd wegens dagelijks roken en/of alcoholbehoefte."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: raucht und trinkt regelmäßig Alkohol."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé : fume et consomme de l'alcool quotidiennement."
+
+CodeSystem: CS_cADL
+Id: cs-cadl
+Title: "Activiteiten van het dagelijks leven (ADL)"
+Description: "Activiteiten van het dagelijks leven (ADL)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cADL_0 "Niet geactiveerd: het herstellen of het behouden van de functionele status om een ADL-terugval te voorkomen is geen prioriteit."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: Es ist nicht prioritär; die Funktionen wiederherzustellen oder zu erhalten um einen Rückfall vorzubeugen (insbesondere in Bezug auf die ADLs)."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé : le rétablissement ou le maintien du statut fonctionnel n’est pas une priorité pour prévenir une rechute dans les AVQ."
+* #cADL_1 "Geactiveerd om achteruitgang te voorkomen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um einen Rückfall vorzubeugen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour prévenir un déclin."
+* #cADL_2 "Geactiveerd op de mogelijkheid tot verbetering."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: Möglichkeit der Verbesserung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé : possibilité d'amélioration."
+
+CodeSystem: CS_cBEHAV
+Id: cs-cbehav
+Title: "Gedrag"
+Description: "Gedrag"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cBEHAV_0 "Niet geactiveerd: geen gedragsproblemen (op gebied van ronddwalen, verbaal en fysiek geweld, sociaal storend gedrag, ongepast seksueel gedrag en weigeren van zorg) tijdens de laatste drie dagen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: keine Verhaltensauffälligkeiten innerhalb der letzten drei Tage (verbale, physische Aggressionen, sozialunangepasstes Verhalten, sexuell unangepasstes Verhalten, Pflegeverweigerung)."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé : pas de problème de comportement durant les 3 derniers jours (déambulation, violence verbale et physique, comportement sociale inapproprié, comportement sexuel inapproprié et résistance aux soins)."
+* #cBEHAV_1 "Geactiveerd om te voorkomen dat gedragsproblemen (op gebied van ronddwalen, verbaal en fysiek geweld, sociaal storend gedrag, ongepast seksueel gedrag en weigeren van zorg) dagelijks gaan optreden."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: vermeiden von täglich auftretenden Verhaltensauffälligkeiten (verbale, physische Aggressionen, sozialunangepasstes Verhalten, sexuell unangepasstes Verhalten, Pflegeverweigerung)."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour prévenir chaque jour des problèmes de comportement (déambulation, violence verbale et physique, comportement sociale inapproprié, comportement sexuel inapproprié et résistance aux soins)."
+* #cBEHAV_2 "Geactiveerd om dagelijkse gedragsproblemen (op gebied van ronddwalen, verbaal en fysiek geweld, sociaal storend gedrag, ongepast seksueel gedrag en weigeren van zorg te reduceren."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: Reduzierung von alltäglich auftretenden Verhaltensauffälligkeiten (verbale, physische Aggressionen, sozialunangepasstes Verhalten, sexuell unangepasstes Verhalten, Pflegeverweigerung)."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour réduire des problèmes quotidiens de comportement (déambulation, violence verbale et physique, comportement sociale inapproprié, comportement sexuel inapproprié et résistance aux soins)."
+
+CodeSystem: CS_cBOWEL
+Id: cs-cbowel
+Title: "Darmproblemen"
+Description: "Darmproblemen"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cBOWEL_0 "Niet geactiveerd: eventueel behandelde darmproblemen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: mögliche Behandlung eines Darmproblems."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : traitement éventuel des problèmes d'intestin."
+* #cBOWEL_1 "Geactiveerd om achteruitgang te voorkomen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um einen Rückfall vorzubeugen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour la prévention du déclin."
+* #cBOWEL_2 "Geactiveerd op potentiële vooruitgang."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert zur Vorbeugung eines Rückfalls."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour un potentiel déclin."
+
+CodeSystem: CS_cBRITSU
+Id: cs-cbritsu
+Title: "Mantelzorg"
+Description: "Mantelzorg"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cBRITSU_0 "Niet geactiveerd: afhankelijk op minstens één IADL-gebied gecombineerd met een ‘breekbaar’ informeel hulpverleningssysteem is niet van toepassing."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: Abhängigkeit in mindestens einem IADL-Bereich kombiniert mit einem ‘fragilen’ informellen Betreuungssystem ist nicht anwendbar."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : dépendance pour au moins un domaine-AIVQ combiné avec un système d’assistance informel « fragile » n’est pas d’application."
+* #cBRITSU_1 "Geactiveerd wegens het afhankelijk zijn op minstens één IADL-gebied gecombineerd met een ‘breekbaar’ informeel hulpverleningssysteem."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: Abhängigkeit in einem IADL-Bereich kombiniert mit einem Problem der informellen Betreuungssystem."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un dépendance pour un domaine-AIVQ combiné avec un problème du système d'assistance informel."
+
+CodeSystem: CS_cCARDIO
+Id: cs-ccardio
+Title: "Hart en ademhaling"
+Description: "Hart en ademhaling"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cCARDIO_0 "Niet geactiveerd: er komen geen cardiorespiratoire symptomen voor."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: keine kardio-pulmonalen Symptome."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : aucun symptôme cardio-respiratoire."
+* #cCARDIO_1 "Geactiveerd wegens één of meerdere cardiorespiratoire symptomen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund einem oder von mehreren kardio-pulmonalen Symptomen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison de la présence d'un ou plusieurs symptômes cardio-respiratoires."
+
+CodeSystem: CS_cCOGNIT
+Id: cs-ccognit
+Title: "Cognitieverlies"
+Description: "Cognitieverlies"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cCOGNIT_0 "Niet geactiveerd."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé."
+* #cCOGNIT_1 "Geactiveerd om het risico op cognitieve achteruitgang te controleren/op te volgen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um das Risiko eines kognitiven Rückfalls zu begleiten oder zu kontrollieren."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour suivre/contrôler le risque le déclin cognitif."
+* #cCOGNIT_2 "Geactiveerd om achteruitgang te voorkomen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um das Risiko eines Rückfalls vorzubeugen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour prévenir le déclin."
+
+CodeSystem: CS_cCOMMUN
+Id: cs-ccommun
+Title: "Communicatie"
+Description: "Communicatie"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cCOMMUN_0 "Niet geactiveerd: functioneel herstel ter preventie van achteruitgang is klinisch gezien geen geschikt zorgdoel."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: Die Wiederherstellung oder der Erhalt der Funktionen zur Vorbeugung eines Rückfalls ist kein angepasstes Pflegeziel."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé : récupération fonctionnelle pour prévenir le déclin n'est pas d'un point de vue clinique un objectif de soins approprié."
+* #cCOMMUN_1 "Geactiveerd op potentiële vooruitgang."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: Möglichkeit der Verbesserung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé : potentiel d'amélioration."
+* #cCOMMUN_2 "Geactiveerd om achteruitgang te voorkomen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um einen Rückfall vorzubeugen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour prévenir le déclin."
+
+CodeSystem: CS_cDEHYD
+Id: cs-cdehyd
+Title: "Dehydratatie"
+Description: "Dehydratatie"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cDEHYD_0 "Niet geactiveerd: geen verstoorde vochtbalans en/of dehydratatie."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: kein beeinträchtigter Flüssigkeitshaushalt und oder Dehydratation."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : pas d'équilibre des fluides altéré et/ou de déshydratation."
+* #cDEHYD_1 "Geactiveerd wegens laag niveau: geen complicaties van dehydratatie."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von leichtem Risiko: keine Probleme mit Dehydratation."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un niveau faible : pas de complications de déshydratation."
+* #cDEHYD_2 "Geactiveerd wegens hoog niveau: met oorzaken of complicaties van dehydratatie."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von hohem Risiko: Komplikationen mit Dehydratation."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un niveau élevé : complications de déshydratation."
+
+CodeSystem: CS_cDELIR
+Id: cs-cdelir
+Title: "Delirium"
+Description: "Delirium"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cDELIR_0 "Niet geactiveerd: geen actieve deliriumsymptomen aanwezig."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: keine aktiven Deliriumsymptome."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : pas de symptôme de délire actif."
+* #cDELIR_1 "Geactiveerd wegens actieve deliriumsymptomen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von Deliriumsymptomen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison de symptômes de délire."
+
+CodeSystem: CS_cDENTISTREFER
+Id: cs-cdentistrefer
+Title: "Doorverwijzing naar de tandarts"
+Description: "Doorverwijzing naar de tandarts"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cDENTISTREFER_0 "Niet geactiveerd, doorverwijzing naar een tandarts is momenteel geen prioriteit.\n"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert,der Besuch eines Zahnarztes hat deerzeit keine Priorität\n"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé, la consultation d'un dentiste n'est pas une priorité actuellement.\n"
+* #cDENTISTREFER_1 "Geactiveerd, doorverwijzing naar een tandarts is aangewezen.\n"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert, Zahnarztbesuch wird empfohlen\n"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé, la consultation d'un dentiste est conseillée\n"
+
+CodeSystem: CS_cDRUG
+Id: cs-cdrug
+Title: "Juist en verantwoord medicatiegebruik"
+Description: "Juist en verantwoord medicatiegebruik"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cDRUG_0 "Niet geactiveerd: medicatiereview is op dit moment geen prioriteit."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: die Überprüfung der Medikation hat im Moment keine Priorität."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : la révision des médicaments n'est pas une priorité pour le moment."
+* #cDRUG_1 "Geactiveerd wegens hoge prioriteit: meer dan negen verschillende geneesmiddelen gecombineerd met een onstabiele gezondheid."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von hohem Risiko: Kombination von mehr als neun verschiedenen Medikamenten mit einem instabilen Gesundheitszustand."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'une priorité élevée : combinaison de plus de neuf médicaments différents avec une santé instable."
+
+CodeSystem: CS_cENVIR
+Id: cs-cenvir
+Title: "Thuisomgeving"
+Description: "Thuisomgeving"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cENVIR_0 "Niet geactiveerd: geen combinatie van een zwakke fysieke of mentale toestand met een problematische woonomgeving."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: keine Kombination einer physischen oder mentalen Situation mit einer problematischen Wohnumgebung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : pas de combinaison d'une situation physique ou mentale précaire avec un environnement problématique."
+* #cENVIR_1 "Geactiveerd wegens een zwakke fysieke of mentale toestand gecombineerd met een problematische woonomgeving."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: Kombination einer physischen oder mentalen Situation mit einer problematischen Wohnumgebung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'une combinaison d'une situation physique ou mentale précaire avec un environnement problématique."
+
+CodeSystem: CS_cFALLS
+Id: cs-cfalls
+Title: "Valincidenten"
+Description: "Valincidenten"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cFALLS_0 "Niet geactiveerd: geen valincidenten in de laatste 90 dagen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: kein Sturz in den letzten 90 Tagen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : pas de chute dans les 90 derniers jours."
+* #cFALLS_1 "Geactiveerd wegens een gemiddeld risico op valincidenten, gebaseerd op één gerapporteerd valincident in de laatste 90 dagen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: mittleres Sturzrisiko, aufgrund eines Sturzes innerhalb der letzten 90 Tage."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour cause d'un risque moyen de chutes, basé sur un incident de chute rapporté dans les 90 derniers jours."
+* #cFALLS_2 "Geactiveerd wegens een hoog risico op valincidenten, gebaseerd op veel gerapporteerde valincidenten in de laatste 30 dagen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: hohes Sturzrisiko, aufgrund mehrerer Stürze innerhalb der letzten 30 Tage."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque élevé de chutes, basé sur beaucoup de chutes rapportées dans les 30 derniers jours."
+
+CodeSystem: CS_cFEEDTB
+Id: cs-cfeedtb
+Title: "Sondevoeding"
+Description: "Sondevoeding"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cFEEDTB_0 "Niet geactiveerd."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé."
+* #cFEEDTB_1 "Geactiveerd wegens laag risico: de persoon heeft geen cognitieve capaciteiten meer."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von leichtem Risiko: die Person hat keine kognitiven Fähigkeiten mehr."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un faible risque : la personne n'a plus de capacités cognitives."
+* #cFEEDTB_2 "Geactiveerd wegens hoog risico: de persoon heeft nog enkele cognitieve capaciteiten."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von hohem Risiko: die Person hat noch einige kognitive Fähigkeiten."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque élevé : la personne a encore quelques capacités cognitives."
+
+CodeSystem: CS_cHSBEHAV
+Id: cs-chsbehav
+Title: "Gedrag - Ziekenhuis"
+Description: "Gedrag - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cHSBEHAV_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé"
+* #cHSBEHAV_1 "Geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé"
+
+CodeSystem: CS_cHSCOGNIT
+Id: cs-chscognit
+Title: "Cognitieverlies - Ziekenhuis"
+Description: "Cognitieverlies - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cHSCOGNIT_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé"
+* #cHSCOGNIT_1 "Geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé"
+
+CodeSystem: CS_cHSCOMMUN
+Id: cs-chscommun
+Title: "Communicatie - Ziekenhuis"
+Description: "Communicatie - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cHSCOMMUN_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé"
+* #cHSCOMMUN_1 "Geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé"
+
+CodeSystem: CS_cHSDEPRESS
+Id: cs-chsdepress
+Title: "Depressie - Ziekenhuis"
+Description: "Depressie - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cHSDEPRESS_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé"
+* #cHSDEPRESS_1 "Geactiveerd wegens een matig verbeteringspotentieel."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines mittleren Verbesserungspotenzial."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un potentiel d'amélioration modéré."
+* #cHSDEPRESS_2 "Geactiveerd wegens een hoog verbeteringspotentieel."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines hohen Verbesserungspotenzial."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un haut potentiel d'amélioration."
+
+CodeSystem: CS_cHSFALLS
+Id: cs-chsfalls
+Title: "Valincidenten - Ziekenhuis"
+Description: "Valincidenten - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cHSFALLS_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cHSFALLS_1 "Geactiveerd wegens een matig risico op valincidenten."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von einem moderaten Sturzrisiko."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque modéré de chutes."
+* #cHSFALLS_2 "Geactiveerd wegens een hoog risico op valincidenten."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von einem hohen Sturzrisiko."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque élevé de chutes."
+
+CodeSystem: CS_cHSINSTITUTION
+Id: cs-chsinstitution
+Title: "Kans op opname in een voorziening - Ziekenhuis"
+Description: "Kans op opname in een voorziening - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cHSINSTITUTION_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé"
+* #cHSINSTITUTION_1 "Matig risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Moderates Risiko"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque modéré"
+* #cHSINSTITUTION_2 "Hoog risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Hohes Risiko"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque élevé"
+* #cHSINSTITUTION_8 "In voorziening vóór de opname"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "In der Einrichtung vor der Aufnahme"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Dans l'institution avant l'admission"
+
+CodeSystem: CS_cHSPAIN
+Id: cs-chspain
+Title: "Pijn - Ziekenhuis"
+Description: "Pijn - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cHSPAIN_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cHSPAIN_1 "Geactiveerd wegens een matig verbeteringspotentieel."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines mittleren Verbesserungspotenzials."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un potentiel d'amélioration modéré."
+* #cHSPAIN_2 "Geactiveerd wegens een hoog verbeteringspotentieel."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines hohen Verbesserungspotenzials."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un potentiel d'amélioration élevé."
+
+CodeSystem: CS_cHSREADMISSION
+Id: cs-chsreadmission
+Title: "Kans op heropname"
+Description: "Kans op heropname"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cHSREADMISSION_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cHSREADMISSION_1 "Geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé"
+
+CodeSystem: CS_cHSUNDERNUTRITION
+Id: cs-chsundernutrition
+Title: "Ondervoeding - Ziekenhuis"
+Description: "Ondervoeding - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cHSUNDERNUTRITION_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cHSUNDERNUTRITION_1 "Geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé"
+
+CodeSystem: CS_cIADL
+Id: cs-ciadl
+Title: "Instrumentele activiteiten van het dagelijks leven (IADL)"
+Description: "Instrumentele activiteiten van het dagelijks leven (IADL)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cIADL_0 "Niet geactiveerd: geen mogelijkheid tot verbetering."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: keine Möglichkeit der Verbesserung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé : pas de possibilité d'amélioration."
+* #cIADL_1 "Geactiveerd op de mogelijkheid tot verbetering."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: Möglichkeit der Verbesserung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé : possibilité d’amélioration."
+
+CodeSystem: CS_cMHCRIM
+Id: cs-cmhcrim
+Title: "Criminele activiteiten"
+Description: "Criminele activiteiten"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHCRIM_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHCRIM_1 "Geactiveerd om het risico op al dan niet gewelddadig crimineel gedrag te beperken."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um das Risiko von kriminellem und gewalttätigem Verhalten zu begrenzen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour limiter le risque de comportement criminel violent ou non-violent."
+
+CodeSystem: CS_cMHCTRLINT
+Id: cs-cmhctrlint
+Title: "Vrijheidsbeperkende maatregelen"
+Description: "Vrijheidsbeperkende maatregelen"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHCTRLINT_0 "Niet geactiveerd: afwezigheid van fixatie, afzonderingskamer of acute control medication."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: keine Fixierung, Isolationszimmer oder akute Kontrolle der Medikation."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé : absence de fixation, chambre d'isolement ou contrôle aigu de la médication."
+* #cMHCTRLINT_1 "Geactiveerd om vrijheidsbeperkende maatregelen te elimineren - personen die niet in een psychiatrische noodsituatie verkeren."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um die Freiheitsbeschränkenden Maßnahmen aufzuheben - Personen die sich nicht in einer akuten psychiatrischen Situation befinden."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour éliminer des mesures limitant la liberté - personnes qui ne sont pas en situation d'urgence psychiatrique."
+* #cMHCTRLINT_2 "Geactiveerd om de behoefte aan vrijheidsbeperkende maatregelen te elimineren - personen in een psychiatrische noodsituatie."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um die Freiheitsbeschränkenden Maßnahmen aufzuheben - Personen die sich in einer akuten psychiatrischen Situation befinden."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour éliminer le besoin de mesures limitant la liberté - personnes en situation d'urgence psychiatrique."
+
+CodeSystem: CS_cMHEDEMP
+Id: cs-cmhedemp
+Title: "Opleiding en werk"
+Description: "Opleiding en werk"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHEDEMP_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHEDEMP_1 "Geactiveerd op hulp om een job te vinden of aan een opleidingsprogramma deel te nemen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: Braucht Unterstützung um eine Arbeitsstelle zu finden oder einem Weiterbildungsprogramm zu folgen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé : aide pour trouver un job ou participer à un programme de formation."
+* #cMHEDEMP_2 "Geactiveerd om het risico op werkloosheid of schoolmoeheid te verminderen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um das Risiko einer Arbeitslosigkeit oder Schuldermüdung zu verringern."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour diminuer le risque de chômage ou lassitude scolaire."
+
+CodeSystem: CS_cMHEXER
+Id: cs-cmhexer
+Title: "Beweging"
+Description: "Beweging"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHEXER_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHEXER_1 "Geactiveerd om de fysieke activiteit te verhogen, maar met nood aan extra aandacht wegens een medische aandoening."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um die physische Aktivität zu steigern, aufgrund einer Erkrankung jedoch eine zusätzliche Beobachtung benötigt."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour augmenter l'activité physique, mais nécessitant une attention particulière en raison d'une maladie."
+* #cMHEXER_2 "Geactiveerd om de fysieke activiteit te verhogen bij personen die tot fysieke activiteit in staat zijn."
+  * ^designation[0].language = #de
+  * ^designation[0].value = " Aktiviert um die physische Aktivität zu steigern bei Personen die dazu in der Lage sind;"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour augmenter l'activité physique chez les personnes capables d'activité physique."
+
+CodeSystem: CS_cMHFINAN
+Id: cs-cmhfinan
+Title: "Persoonlijke financiën"
+Description: "Persoonlijke financiën"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHFINAN_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHFINAN_1 "Geactiveerd wegens het onvermogen om de persoonlijke financiën te beheren."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert wegen der Unfähigkeit die eigenen finanziellen Angelegenheiten zu regeln. "
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'une incapacité à gérer des finances personnelles."
+* #cMHFINAN_2 "Geactiveerd wegens financiële moeilijkheden."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von finanziellen Schwierigkeiten."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison de difficultés financières."
+
+CodeSystem: CS_cMHHARMOTH
+Id: cs-cmhharmoth
+Title: "Schade aan anderen"
+Description: "Schade aan anderen"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHHARMOTH_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHHARMOTH_1 "Geactiveerd wegens een matig risico op schade aan anderen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines moderaten Risikos der Fremdgefährdung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque modéré de dommages pour les autres."
+* #cMHHARMOTH_2 "Geactiveerd wegens een hoog risico op schade aan anderen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines hohen Risikos der Fremdgefährdung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque élevé de dommages pour les autres."
+
+CodeSystem: CS_cMHINFSUPP
+Id: cs-cmhinfsupp
+Title: "Mantelzorg - Mentale gezondheid"
+Description: "Mantelzorg - Mentale gezondheid"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHINFSUPP_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHINFSUPP_1 "Geactiveerd wegens de behoefte aan ondersteuning naar aanleiding van psychische symptomen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund der Notwendigkeit nach Unterstützung aufgrund von psychischen Symptomen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison du besoin de soutien en raison de symptômes psychologiques."
+* #cMHINFSUPP_2 "Geactiveerd wegens de behoefte aan functionele ondersteuning naar aanleiding van een fysieke beperking of een cognitief onvermogen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund der Notwendigkeit nach einer funktionellen Unterstützung aufgrund einer physischen oder kognitiven Einschränkung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison du besoin de soutien fonctionnel en raison d'une limitation physique ou d'une incapacité cognitive."
+
+CodeSystem: CS_cMHIPCON
+Id: cs-cmhipcon
+Title: "Intermenselijke conflicten"
+Description: "Intermenselijke conflicten"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHIPCON_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHIPCON_1 "Geactiveerd om conflicten binnen specifieke relaties te beperken."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um Konflikte in spezifischen Beziehungen zu begrenzen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour limiter les conflits dans des relations spécifiques."
+* #cMHIPCON_2 "Geactiveerd om wijdverspreide conflicten te beperken."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um Konflikte generell zu begrenzen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour limiter les conflits généralisés."
+
+CodeSystem: CS_cMHMEDMGT
+Id: cs-cmhmedmgt
+Title: "Geneesmiddelenbeheer en therapietrouw"
+Description: "Geneesmiddelenbeheer en therapietrouw"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHMEDMGT_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHMEDMGT_1 "Geactiveerd wegens het vroegtijdig stoppen van geneesmiddelen ten gevolge van bijwerkingen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines frühzeitigen Absetzens von Medikamenten aufgrund von Nebenwirkungen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un arrêt prématurés de médicaments suite à des effets secondaires."
+* #cMHMEDMGT_2 "Geactiveerd wegens problemen met geneesmiddelenbeheer en therapietrouw in verband met cognitieve stoornissen en positieve symptomen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von Problem verbunden mit der Medikation im Zusammenhang mit kognitiven Einschränkungen und positiven Symptomen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison de problèmes liés à la gestion des médicaments et à l'observance liée aux troubles cognitifs et aux symptômes positifs."
+
+CodeSystem: CS_cMHPAIN
+Id: cs-cmhpain
+Title: "Pijn - Mentale gezondheid"
+Description: "Pijn - Mentale gezondheid"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHPAIN_0 "Niet geactiveerd:  geen pijn of minder dan dagelijks milde tot matige pijn."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: keine Schmerzen oder weniger als leichte und moderate tägliche Schmerzen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activité : pas de douleur ou moins que la douleur quotidienne légère à modérée."
+* #cMHPAIN_1 "Geactiveerd met middelhoge prioriteit: dagelijkse pijn die omschreven wordt als mild of matig."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert mit mittlerer Priorität: tägliche Schmerzen, die als leicht oder moderat beschrieben werden."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé avec une priorité moyenne : douleur quotidienne qui est décrite comme légère ou modérée."
+* #cMHPAIN_2 "Geactiveerd met hoge prioriteit: pijn die omschreven wordt als ernstig, afschuwelijk of ondraaglijk (ongeacht of de pijn dagelijks of minder vaak voorkomt)."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert mit hoher Priorität: Schmerzen, die als ernst, schrecklich und unerträglich beschrieben werden (unabhängig davon ob der Schmerz täglich oder weniger häufig auftritt)."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé avec une priorité élevée : douleur qui est décrite comme sérieux, horrible ou intolérable (que la douleur se produise tous les jours ou moins souvent)."
+
+CodeSystem: CS_cMHREHOSP
+Id: cs-cmhrehosp
+Title: "Heropname"
+Description: "Heropname"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHREHOSP_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHREHOSP_1 "Geactiveerd wegens een matig risico op heropname."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines moderaten Rezidivrisikos."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque modéré de réadmission."
+* #cMHREHOSP_2 "Geactiveerd wegens een hoog risico op heropname."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines hohen Rezidivrisikos."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque élevé de réadmission."
+
+CodeSystem: CS_cMHSELFCR
+Id: cs-cmhselfcr
+Title: "Zelfzorg"
+Description: "Zelfzorg"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHSELFCR_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHSELFCR_1 "Geactiveerd wegens een matig risico op onvermogen tot zelfzorg."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines moderaten Risikos der Unfähigkeit zur Selbstversorgung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque modéré d'incapacité à prendre soins de soi."
+* #cMHSELFCR_2 "Geactiveerd wegens een hoog risico op onvermogen tot zelfzorg."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines hohen Risikos der Unfähigkeit zur Selbstversorgung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque élevé d'incapacité à prendre soins de soi."
+
+CodeSystem: CS_cMHSELFHA
+Id: cs-cmhselfha
+Title: "Zelfmoordgedrag en opzettelijke zelfverwonding"
+Description: "Zelfmoordgedrag en opzettelijke zelfverwonding"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHSELFHA_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHSELFHA_1 "Geactiveerd wegens een matig risico op zelfverwonding."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines moderaten Risikos der Selbstverletzung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque modéré d'automutilation."
+* #cMHSELFHA_2 "Geactiveerd wegens een hoog risico op zelfverwonding."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines hohen Risikos der Selbstverletzung. "
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque élevé d'automutilation."
+
+CodeSystem: CS_cMHSLEEP
+Id: cs-cmhsleep
+Title: "Slaapstoornissen - Mentale gezondheid"
+Description: "Slaapstoornissen - Mentale gezondheid"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHSLEEP_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHSLEEP_1 "Geactiveerd wegens slaapstoornissen en een matige cognitieve stoornis."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von Schlafstörungen und moderaten kognitiven Störungen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison de troubles du sommeil et d'une déficience cognitive modérée."
+* #cMHSLEEP_2 "Geactiveerd wegens slaapstoornissen en een ernstige cognitieve stoornis."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von Schlafstörungen und ernsten kognitiven Störungen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison de troubles du sommeil et d'une déficience cognitive sévère."
+
+CodeSystem: CS_cMHSMOKE
+Id: cs-cmhsmoke
+Title: "Roken"
+Description: "Roken"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHSMOKE_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHSMOKE_1 "Geactiveerd om het stoppen of verminderen met roken aan te moedigen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert zur Rauchentwöhnung oder Reduzierung des Rauchens."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour encourager le sevrage ou la réduction du tabagisme."
+* #cMHSMOKE_2 "Geactiveerd voor het aanpakken van ontwenningsverschijnselen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert zur Behandlung der Entzugssymptome."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour traiter les symptômes de sevrage."
+
+CodeSystem: CS_cMHSOCREL
+Id: cs-cmhsocrel
+Title: "Sociale relaties - Mentale gezondheid"
+Description: "Sociale relaties - Mentale gezondheid"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHSOCREL_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHSOCREL_1 "Geactiveerd om nauwe vriendschappen en het familiale functioneren te verbeteren."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert zur Verbesserung von engen Beziehungen und der Familienfunktion."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour améliorer les amitiés proches et le fonctionnement en famille."
+* #cMHSOCREL_2 "Geactiveerd om sociaal isolement en verstoorde familierelaties te reduceren."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert zur Verringerung sozialer Isolierung und Störungen der familiären Beziehungen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour réduire l'isolement social et les relations familiales altérées."
+
+CodeSystem: CS_cMHSSDIS
+Id: cs-cmhssdis
+Title: "Ondersteuningskader bij ontslag"
+Description: "Ondersteuningskader bij ontslag"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHSSDIS_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHSSDIS_1 "Geactiveerd wegens de behoefte aan ondersteuning bij ontslag."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund des Bedarfs einer Begleitung nach der Entlassung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un besoin de soutien après la sortie."
+
+CodeSystem: CS_cMHSUBUSE
+Id: cs-cmhsubuse
+Title: "Middelengebruik"
+Description: "Middelengebruik"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHSUBUSE_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHSUBUSE_1 "Geactiveerd wegens een voorgeschiedenis van problematisch middelengebruik."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von vergangenem Missbrauch von Substanzen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'antécédents d'usage problématique de substances."
+* #cMHSUBUSE_2 "Geactiveerd wegens het huidige problematisch middelengebruik."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von aktuellem Missbrauch von Substanzen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison de l'usage problématique actuel de substances."
+
+CodeSystem: CS_cMHTRAUMA
+Id: cs-cmhtrauma
+Title: "Traumatische levensgebeurtenissen"
+Description: "Traumatische levensgebeurtenissen"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHTRAUMA_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHTRAUMA_1 "Geactiveerd om de impact van eerdere traumatische levensgebeurtenissen te beperken."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um Einflüsse von früheren traumatischen Erlebnissen einzuschränken."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour limiter l'impact des événements de la vie traumatiques antérieurs."
+* #cMHTRAUMA_2 "Geactiveerd om een pertinente veiligheidsbekommernis aan te pakken."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um ein hohes Sicherheitsrisiko zu behandeln."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour répondre à un problème de sécurité pertinent."
+
+CodeSystem: CS_cMHWTMGT
+Id: cs-cmhwtmgt
+Title: "Gewichtsmanagement"
+Description: "Gewichtsmanagement"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMHWTMGT_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cMHWTMGT_1 "Geactiveerd wegens een problematisch eetgedrag."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von problematischem Essensverhalten."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un comportement alimentaire problématique."
+* #cMHWTMGT_2 "Geactiveerd wegens een afwijkende lichaamsbouw."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund einer anderen Morphologie."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'une morphologie différente."
+
+CodeSystem: CS_cMOOD
+Id: cs-cmood
+Title: "Stemming"
+Description: "Stemming"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cMOOD_0 "Niet geactiveerd: DRS-score = nul."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: DRS-score = 0."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé : score DRS = 0."
+* #cMOOD_1 "Geactiveerd wegens laag risico: DRS-score = één of twee."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert wegen leichtem Risiko: DRS-score = 1 oder 2."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque faible : score DRS = 1 ou 2."
+* #cMOOD_2 "Geactiveerd wegens hoog risico: DRS-score = drie of hoger."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert wegen hohem Risiko: DRS-score = 3 oder mehr."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque élevé : score DRS = 3 ou +."
+
+CodeSystem: CS_cNUTR
+Id: cs-cnutr
+Title: "Ondervoeding"
+Description: "Ondervoeding"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cNUTR_0 "Niet geactiveerd: BMI-score = 22 of meer, geen gevaar voor ondervoeding."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: BMI-Score = 22 oder mehr, keine Gefahr von Mangelernährung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : score IMC = 22 ou plus, pas de danger de malnutrition."
+* #cNUTR_1 "Geactiveerd wegens matig risico (BMI-score = 19 tot 21) zonder gevaar voor plots overlijden."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines mittleren Risikos(BMI - Score = 19 bis 21) ohne Gefahr eines plötzlichen Todes."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque modéré (Score IMC = 19 à 21) sans risque morbide."
+* #cNUTR_2 "Geactiveerd wegens hoog risico (BMI-score = lager dan 19) zonder gevaar voor plots overlijden."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines hohen Risikos (BMI-Score = kleiner als 19) ohne Gefahr eines plötzlichen Todes."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque élevé (Score IMC = inférieur à 19) sans risque morbide."
+
+CodeSystem: CS_cORALHYG
+Id: cs-coralhyg
+Title: "Mondhygiëne"
+Description: "Mondhygiëne"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cORALHYG_0 "Niet geactiveerd, geen plaque en tandsteen zichtbaar.\n"
+  * ^designation[0].language = #de
+  * ^designation[0].value = " Nicht aktiviert, keine sichtbaren Plaque-oder Kalkablagerungen\n"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé, pas de plaque ni de tartre visibles.\n"
+* #cORALHYG_1 "Geactiveerd om dagelijkse mondhygiëne te verbeteren.\n"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um die tägliche Mundhygiene zu verbessern\n"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour améliorer l'hygiène bucco-dentaire quotidienne. \n"
+
+CodeSystem: CS_cPACTIV
+Id: cs-cpactiv
+Title: "Bevordering van de lichaamsbeweging"
+Description: "Bevordering van de lichaamsbeweging"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cPACTIV_0 "Niet geactiveerd: geen mogelijkheid tot verbetering."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: keine Möglichkeit der Verbesserung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé : pas de possibilité d'amélioration."
+* #cPACTIV_1 "Geactiveerd op de mogelijkheid tot verbetering."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: Möglichkeit der Verbesserung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé : possibilité d’amélioration."
+
+CodeSystem: CS_cPAIN
+Id: cs-cpain
+Title: "Pijn"
+Description: "Pijn"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cPAIN_0 "Niet geactiveerd: geen lichte of hevige pijn."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: keine leichten oder starken Schmerzen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : pas de douleur légère ou intense."
+* #cPAIN_1 "Geactiveerd als matige prioriteit wegens dagelijks lichte pijn."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert mit mittlerer Priorität aufgrund von leichten täglichen Schmerzen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé comme priorité modérée en raison de douleurs quotidiennes légères."
+* #cPAIN_2 "Geactiveerd als hoge prioriteit wegens hevige, vreselijke of ondraaglijke pijn ongeacht de frequentie."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert mit hoher Priorität aufgrund von starken, heftigen oder nichtaushaltbaren Schmerzen unabhängig von der Frequenz."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé comme priorité élevée en raison de douleurs intenses, terribles ou insupportables indépendamment de la fréquence."
+
+CodeSystem: CS_cPCDYS
+Id: cs-cpcdys
+Title: "Dyspneu"
+Description: "Dyspneu"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cPCDYS_0 "Niet geactiveerd: geen dyspneu of geen dyspneu in rust maar wel tijdens zware activiteiten."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: Keine Dyspnoe oder keine Dyspnoe im Ruhezustand, wohl aber während anstrengenden Aktivitäten."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé : pas de dyspnée ou pas de dyspnée au repos mais bien durant des activités lourdes."
+* #cPCDYS_1 "Geactiveerd: dyspneu  in rust of geen dyspneu in rust maar wel tijdens normale dagelijkse activiteiten."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: Keine Dyspnoe oder Dyspnoe im Ruhezustand, wohl aber während normalen alltäglichen Aktivitäten. "
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé : dyspnées au repos ou pas de dyspnée au repos mais bien durant des activités quotidiennes normales."
+
+CodeSystem: CS_cPCFATIG
+Id: cs-cpcfatig
+Title: "Vermoeidheid"
+Description: "Vermoeidheid"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cPCFATIG_0 "Niet geactiveerd: geen vermoeidheid."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: keine Müdigkeit."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé : pas de fatigue."
+* #cPCFATIG_1 "Geactiveerd wegens een matig risico op vermoeidheid."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von einem mittleren Risiko von Ermüdung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque modéré de fatigue."
+* #cPCFATIG_2 "Geactiveerd wegens een ernstig risico op vermoeidheid."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund von einem ernsten Risiko von Ermüdung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque sévère de fatigue."
+
+CodeSystem: CS_cPCMOOD
+Id: cs-cpcmood
+Title: "Stemming-Palliative Care"
+Description: "Stemming-Palliative Care"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cPCMOOD_0 "Niet geactiveerd: er zijn geen symptomen van stemmingsstoornissen aanwezig."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: Es treten keine Symptome einer affektiven Störung auf."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé : il n'y a pas de présence de symptômes de troubles de l'humeur."
+* #cPCMOOD_1 "Geactiveerd: slechts 1 symptoom van stemmingsstoornissen aanwezig."
+  * ^designation[0].language = #de
+  * ^designation[0].value = " Aktiviert: Es tritt ein einziges Symptome einer affektiven Störung auf."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé : présence seulement d'1 symptôme de troubles de l'humeur."
+* #cPCMOOD_2 "Geactiveerd: meerdere symptomen van stemmingsstoornissen aanwezig."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: Es treten mehrere Symptome einer affektiven Störung auf."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé : présence de plusieurs symptômes de troubles de l'humeur."
+
+CodeSystem: CS_cPCNUTR
+Id: cs-cpcnutr
+Title: "Voeding - Palliatieve zorg"
+Description: "Voeding - Palliatieve zorg"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cPCNUTR_0 "Niet geactiveerd: geen gevaar voor ondervoeding."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: keine Gefahr von Mangelernährung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé : aucun danger de malnutrition."
+* #cPCNUTR_1 "Geactiveerd wegens een laag risico: BMI-score is lager dan 21 maar geen recent gewichtsverlies."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert wegen geringem Risiko: BMI kleiner als 21, aber ohne kürzlichen Gewichtsverlust."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque peu élevé : le score IMC est inférieur à 21 mais il n'y a pas de perte de poids récente."
+* #cPCNUTR_2 "Geactiveerd wegens een hoog risico: BMI-score is lager dan 21 en gaat gepaard met recent gewichtsverlies."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert wegen erhöhtem Risiko: BMI kleiner als 21 begleitet von kürzlichem Gewichtsverlust."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un risque élevé : score IMC est inférieur à 21 mais est associé à une perte de poids récente."
+
+CodeSystem: CS_cPCPAIN
+Id: cs-cpcpain
+Title: "Pijn - Palliatieve zorg"
+Description: "Pijn - Palliatieve zorg"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cPCPAIN_0 "Niet geactiveerd: de persoon ervaart geen of matige pijn zonder doorbraakpijn."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: die Person erlebt keine oder moderater Schmerzen ohne paroxysmale Schmerzen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé : la personne n'éprouve pas de douleur modérée ou une douleur modérée sans douleur paroxystique."
+* #cPCPAIN_1 "Geactiveerd: de persoon ervaart milde of matige pijn en doorbraakpijn (Pijnschaal code 2)."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: die Person erlebt leichte oder moderate Schmerzen und paroxysmale Schmerzen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé : la personne éprouve une douleur légère ou modérée et des douleurs paroxystiques."
+* #cPCPAIN_2 "Geactiveerd: de persoon ervaart ernstige of intense pijn en de pijn is al of niet constant aanwezig (Pijnschaal code 3 en 4)."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: die Person erlebt starke oder intensive Schmerzen und die Schmerzen sind nicht konstant anwesend (Schmerzskala 3 oder 4)."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé : la personne éprouve une douleur sévère ou intense et la douleur n'est pas présente de façon constante (échelle de douleur code 3 ou 4)."
+
+CodeSystem: CS_cPCSLEEP
+Id: cs-cpcsleep
+Title: "Slaapstoornis - Palliatieve zorg"
+Description: "Slaapstoornis - Palliatieve zorg"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cPCSLEEP_0 "Niet geactiveerd: geen slaapstoornissen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: keine Schlafstörungen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé : pas de troubles du sommeil."
+* #cPCSLEEP_1 "Geactiveerd wegens minder kans op verbetering."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund einer geringen Chance auf Besserung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison de moins de chance d'amélioration."
+* #cPCSLEEP_2 "Geactiveerd wegens een grote kans op verbetering."
+  * ^designation[0].language = #de
+  * ^designation[0].value = " Aktiviert aufgrund einer großen Chance auf Besserung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison de plus de chance d'amélioration."
+
+CodeSystem: CS_cPULCER
+Id: cs-cpulcer
+Title: "Decubitus"
+Description: "Decubitus"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cPULCER_0 "Niet geactiveerd: geen decubitus en/of risicofactoren aanwezig."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: kein Dekubitus und/oder Risiko für einen Dekubitus."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : pas d'escarres et/ou de facteurs de risque."
+* #cPULCER_1 "Geactiveerd wegens de aanwezigheid van een decubitus stadium II of hoger waarbij genezing het zorgdoel is."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert wegen eines Dekubitus Stadium II oder mehr und bei dem es das Ziel der Pflege ist diesen zu heilen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison de présence d'une escarre de stade II ou supérieur et pour lequel la guérison est le but des soins."
+* #cPULCER_2 "Geactiveerd wegens de aanwezigheid van een decubitus stadium I met risico om een decubitus stadium II of hoger te ontwikkelen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert wegen eines Dekubitus Stadium I und bei dem die Gefahr eines Dekubitus Stadium II oder mehr besteht."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison de présence d'une escarre de stade I avec un risque de développer une escarre de stade II ou supérieur."
+* #cPULCER_3 "Geactiveerd wegens de aanwezigheid van risicofactoren om decubitus te ontwikkelen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert wegen einem Risiko eines Dekubitus."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison de présence de facteurs de risques de développer une escarre."
+
+CodeSystem: CS_cRESTR
+Id: cs-crestr
+Title: "Fysieke fixatie"
+Description: "Fysieke fixatie"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cRESTR_0 "Niet geactiveerd: de bewegingsvrijheid van de persoon wordt niet beperkt door fixatiemateriaal."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: Die Bewegungsfreiheit der Person ist nicht durch freiheitsbeschränkende Maßnahmen eingeschränkt."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : la liberté de mouvement de la personne n'est pas limitée par du matériel de contention."
+* #cRESTR_1 "Geactiveerd om fixatiemateriaal te verwijderen waarbij de persoon zelf (bijna) niet meer in staat is ‘middle loss’ of ‘early loss’ ADL-activiteiten uit te voeren."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um eine freiheitsbeschränkende Maßnahme aufzuheben, wobei die Person nicht mehr oder kaum in der Lage ist ADLs auszuführen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour enlever une restriction physique chez une personne ne disposant presque plus d’une aptitude moyenne ou récemment amoindrie pour l’accomplissement des AVQ."
+* #cRESTR_2 "Geactiveerd om fixatiemateriaal te verwijderen waarbij de persoon zelf nog enkele ‘middle loss’ of ‘early loss’ ADL-activiteiten kan uitvoeren."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um eine freiheitsbeschränkende Maßnahme aufzuheben, wobei die Person kaum oder teilweise noch in der Lage ist ADLs auszuführen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour enlever une restriction physique chez une personne disposant encore d’une aptitude moyenne ou récemment amoindrie pour l’accomplissement des AVQ."
+
+CodeSystem: CS_cRISK
+Id: cs-crisk
+Title: "Kans op opname in een voorziening"
+Description: "Kans op opname in een voorziening"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cRISK_0 "Niet geactiveerd: geen functionele achteruitgang met een verhoogd risico op opname in een voorziening tijdens de komende maanden."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: Kein funktioneller Rückfall mit dem Risiko einer stationären Aufnahme in den nächsten Monaten."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : pas de déclin fonctionnel avec un risque accru d'admission dans une institution au cours des mois prochains."
+* #cRISK_1 "Geactiveerd wegens functionele achteruitgang met een verhoogd risico op opname in een voorziening tijdens de komende maanden."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert: funktioneller Rückfall mit dem Risiko einer möglichen stationären Aufnahme in den nächsten Monaten."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'un déclin fonctionnel avec un risque accru d'admission dans une institution au cours des mois prochains."
+
+CodeSystem: CS_cSOCFUNC
+Id: cs-csocfunc
+Title: "Sociale omgang"
+Description: "Sociale omgang"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cSOCFUNC_0 "Niet geactiveerd: normale sociale relaties of de persoon heeft geen redelijk cognitief niveau en is niet in staat anderen te begrijpen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: normale soziale Beziehungen oder die Person hat kein rationales kognitives Niveau und ist nicht in der Lage andere zu verstehen. "
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : relations sociales normales ou la personne n'a pas un niveau cognitif raisonnable et n'est pas en mesure à comprendre les autres."
+* #cSOCFUNC_1 "Geactiveerd voor follow-up van het zorgplan: de persoon heeft een redelijk cognitief niveau en voelt zich eenzaam of verontrust."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert für eine Pflegeplanung: die Person hat ein rationales kognitives Niveau und fühlt sich einsam oder beunruhigt."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour le suivi du plan de soins : la personne a un niveau cognitif raisonnable et se sent solitaire ou inquiète."
+
+CodeSystem: CS_cURIN
+Id: cs-curin
+Title: "Urine-incontinentie"
+Description: "Urine-incontinentie"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cURIN_0 "Niet geactiveerd : zwakke besluitvorming en/of beperkte cognitieve vaardigheden bij het begin van het onderzoek."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: schwache Entscheidungsfindung und oder Einschränkungen der kognitiven Fähigkeiten bei dem Beginn einer Recherche."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : processus décisionnel faible et/ou restrictions des aptitudes cognitives lors du début de la recherche."
+* #cURIN_1 "Niet geactiveerd: continent bij het begin van het onderzoek."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: kontinent bei dem Beginn einer Recherche."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé : continent au début de la recherche."
+* #cURIN_2 "Geactiveerd om achteruitgang te voorkomen: hogere mate van achteruitgang verwacht."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert um einen Rückfall vorzubeugen: starker Rückfall erwartet."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour prévenir le declin : plus haut degré de declin attendu."
+* #cURIN_3 "Geactiveerd om de blaasfunctie te bevorderen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert zur Verbesserung der Blasenfunktionen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé pour améliorer la fonction urinaire."
+
+CodeSystem: CS_cpHSADL
+Id: cs-cphsadl
+Title: "Activiteiten van het dagelijks leven (ADL)- Preventie"
+Description: "Activiteiten van het dagelijks leven (ADL)- Preventie"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cpHSADL_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé"
+* #cpHSADL_1 "Geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé"
+
+CodeSystem: CS_cpHSDELIRIUM
+Id: cs-cphsdelirium
+Title: "Delirium - Preventie"
+Description: "Delirium - Preventie"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cpHSDELIRIUM_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cpHSDELIRIUM_1 "Geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé"
+
+CodeSystem: CS_cpHSPULCER
+Id: cs-cphspulcer
+Title: "Decubitus - Ziekenhuis"
+Description: "Decubitus - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cpHSPULCER_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #cpHSPULCER_1 "Geactiveerd wegens een matig risico op decubitus."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines moderaten Risikos auf einen Dekubitus."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison du risque modéré d'escarres."
+* #cpHSPULCER_2 "Geactiveerd wegens een hoog risico op decubitus."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund eines hohen Risikos auf einen Dekubitus."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison du risque élevé d'escarres."
+
+CodeSystem: CS_cpcPUIMP
+Id: cs-cpcpuimp
+Title: "Decubitus - Palliatieve zorg"
+Description: "Decubitus - Palliatieve zorg"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #cpcPUIMP_0 "Niet geactiveerd: geen decubitus en/of risicofactoren aanwezig."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert: kein Dekubitus und/oder Risiko für einen Dekubitus."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé : pas de présence d'escarres et ou des facteurs de risque."
+* #cpcPUIMP_1 "Geactiveerd wegens een moeilijke verbetering van decubitus."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund einer geringen Chance auf Besserung des Dekubitus."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison d'une amélioration difficile de l'escarre."
+* #cpcPUIMP_2 "Geactiveerd wegens meer kans op verbetering van decubitus."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert aufgrund einer guten Chance auf Besserung des Dekubitus."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé en raison de plus de chance d'amélioration de l'escarre."
+
+CodeSystem: CS_ctHSADL
+Id: cs-cthsadl
+Title: "Activiteiten van het dagelijks leven (ADL)- Behandeling"
+Description: "Activiteiten van het dagelijks leven (ADL)- Behandeling"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #ctHSADL_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non activé"
+* #ctHSADL_1 "Geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé"
+
+CodeSystem: CS_ctHSDELIRIUM
+Id: cs-cthsdelirium
+Title: "Delirium - Behandeling"
+Description: "Delirium - Behandeling"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #ctHSDELIRIUM_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #ctHSDELIRIUM_1 "Geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé"
+
+CodeSystem: CS_ctHSPULCER
+Id: cs-cthspulcer
+Title: "Decubitus - Behandeling - Ziekenhuis"
+Description: "Decubitus - Behandeling - Ziekenhuis"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #ctHSPULCER_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #ctHSPULCER_1 "Geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé"
+
+CodeSystem: CS_rHSADL
+Id: cs-rhsadl
+Title: "Risk of Adverse Outcomes in the Form of ADL Decline in Hospital (rHSADL)"
+Description: "Risk of Adverse Outcomes in the Form of ADL Decline in Hospital (rHSADL)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #rHSADL_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #rHSADL_1 "Geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé"
+
+CodeSystem: CS_rHSDELIRIUM
+Id: cs-rhsdelirium
+Title: "Risk of Delirium in Hospital (rHSDELIRIUM)"
+Description: "Risk of Delirium in Hospital (rHSDELIRIUM)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #rHSDELIRIUM_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #rHSDELIRIUM_1 "Geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé"
+
+CodeSystem: CS_rHSFALLS
+Id: cs-rhsfalls
+Title: "Falls Risk in Hospital (rHSFALLS)"
+Description: "Falls Risk in Hospital (rHSFALLS)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #rHSFALLS_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #rHSFALLS_1 "Matig risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Moderates Risiko"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque modéré"
+* #rHSFALLS_2 "Hoog risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Hohes Risiko"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque élevé"
+
+CodeSystem: CS_rHSPULCER
+Id: cs-rhspulcer
+Title: "Pressure Ulcer Risk Scale in Hospital (rHSPULCER)"
+Description: "Pressure Ulcer Risk Scale in Hospital (rHSPULCER)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #rHSPULCER_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #rHSPULCER_1 "Matig risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Moderates Risiko"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque modéré"
+* #rHSPULCER_2 "Hoog risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Hohes Risiko"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque élevé"
+
+CodeSystem: CS_rHSREADMISSION
+Id: cs-rhsreadmission
+Title: "Risk of Readmission in Hospital (rHSREADMISSION)"
+Description: "Risk of Readmission in Hospital (rHSREADMISSION)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #rHSREADMISSION_0 "Niet geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas activé"
+* #rHSREADMISSION_1 "Geactiveerd"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Aktiviert"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Activé"
+
+CodeSystem: CS_sABS
+Id: cs-sabs
+Title: "Aggressive Behaviour Scale (sABS)"
+Description: "Aggressive Behaviour Scale (sABS)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sABS_0 "Geen tekenen van agressie"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Keine Anzeichen von Aggressionen"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas de signe d'agression"
+* #sABS_range_1_4 "1-4 Lichte tot matige agressie"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "1-4 Leichte oder moderate Aggressionen"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "1-4 Agression légère ou modérée"
+* #sABS_range_5_12 "5-12 Ernstige agressie"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "5-12 Ernste Aggressionen"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "5-12 Agression sérieuse"
+
+CodeSystem: CS_sADLH
+Id: cs-sadlh
+Title: "ADL Hierarchy Scale (sADLH)"
+Description: "ADL Hierarchy Scale (sADLH)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sADLH_0 "Zelfstandig bij de 4 ADL-functies."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Selbständig für die 4 ADL-Funktionen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Indépendant pour les 4 fonctions AVQ."
+* #sADLH_1 "Tenminste toezicht bij één ADL-functie (en minder dan beperkte hulp bij alle 4 ADL-functies)."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Begleitung bei mindestens einer ADL-Funktion (und mindestens eine leichte Unterstützung bei den 4 ADL-Funktionen)."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Supervision d'au moins une fonction AVQ (et moins qu’une assistance limitée pour les 4 fonctions AVQ)."
+* #sADLH_2 "Beperkte hulp vereist bij 1 of meer van de 4 ADL-functies (en minder dan uitgebreide hulp bij alle 4 ADL-functies)."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Leichte Unterstützung bei mindestens einer ADL-Funktion (und mindestens eine erweiterte Unterstützung bei den 4 ADL-Funktionen)."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Assistance limitée exigée pour minimum une des 4 fonctions AVQ (et moins qu’une assistance étendue pour les toutes les 4 fonctions AVQ)."
+* #sADLH_3 "Tenminste uitgebreide hulp vereist bij de persoonlijke hygiëne en/of het toiletgebruik (en minder dan uitgebreide hulp vereist bij het eten en het zich verplaatsen)."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Unterstützung mindestens bei der Körpertoilette und/oder dem Toilettengang (und mindestens eine erweiterte Unterstützung zur Nahrungsaufnahme und Fortbewegung)."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Au moins une assistance importante exigée pour l’hygiène personnelle et/ou l’utilisation des toilettes (et moins qu’une assistance étendue exigée pour l’alimentation et le déplacement)."
+* #sADLH_4 "Uitgebreide hulp vereist bij het eten en/of het zich verplaatsen (geen totale afhankelijkheid bij het eten en het zich verplaatsen)."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Unterstützung mindestens bei der Nahrungsaufnahme und/oder der Fortbewegung (keine vollständige Unterstützung zur Nahrungsaufnahme und/oder Fortbewegung)."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Assistance importante exigée pour l’alimentation et/ou le déplacement (pas de dépendance totale pour l’alimentation et/ou pour le déplacement)."
+* #sADLH_5 "Totale afhankelijkheid bij het eten en/of het zich verplaatsen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Vollständige Abhängigkeit bei der Nahrungsaufnahme und/oder der Fortbewegung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Dépendance totale pour l’alimentation et/ou pour le déplacement."
+* #sADLH_6 "Totale afhankelijkheid bij de 4 ADL-functies."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Vollständige Abhängigkeit für die 4 ADL-Funktionen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Dépendance totale pour les 4 fonctions AVQ."
+
+CodeSystem: CS_sBMI
+Id: cs-sbmi
+Title: "Body Mass Index (sBMI)"
+Description: "Body Mass Index (sBMI)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sBMI_interval_0_18.5 "0-18.5"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "0-18.5"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "0-18.5"
+* #sBMI_interval_18.5_25 "18.5-25"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "18.5-25"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "18.5-25"
+* #sBMI_interval_25_27 "25-27"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "25-27"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "25-27"
+* #sBMI_interval_27_30 "27-30"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "27-30"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "27-30"
+* #sBMI_interval_30_40 "30-40"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "30-40"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "30-40"
+* #sBMI_interval_40_99 "40-99"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "40-99"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "40-99"
+
+CodeSystem: CS_sCAGE
+Id: cs-scage
+Title: "Addictions and Substance Use Scale (sCAGE)"
+Description: "Scores van 2 of meer (op een schaal van 0 tot 4) duiden op een potentieel probleem met betrekking tot middelengebruik."
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sCAGE_interval_0_2 "0-2"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "0-2"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "0-2"
+* #sCAGE_interval_2_5 "2-5"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "2-5"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "2-5"
+
+CodeSystem: CS_sCHESS
+Id: cs-schess
+Title: "Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)"
+Description: "Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sCHESS_0 "Stabiele gezondheid"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Stabile Gesundheit"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Santé stable"
+* #sCHESS_1 "Minimale instabiliteit van de gezondheid"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Minimale Instabilität der Gesundheit"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Instabilité minimale de la santé"
+* #sCHESS_2 "Lage instabiliteit van de gezondheid"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Geringe Instabilität der Gesundheit"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Instabilité basse de la santé"
+* #sCHESS_3 "Matige instabiliteit van de gezondheid"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Moderate Instabilität der Gesundheit"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Instabilité modérée de la santé"
+* #sCHESS_4 "Hoge instabiliteit van de gezondheid"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Hohe Instabilität der Gesundheit"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Haute instabilité de la santé"
+* #sCHESS_5 "Zeer hoge instabiliteit van de gezondheid"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Sehr hohe Instabilität der Gesundheit"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Très haute instabilité de la santé"
+
+CodeSystem: CS_sCOMM
+Id: cs-scomm
+Title: "Communication Scale (sCOMM)"
+Description: "Communication Scale (sCOMM)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sCOMM_0 "Intact"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Intakt"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Intact"
+* #sCOMM_1 "Zo goed als intact"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Fast intakt"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pratiquement intact"
+* #sCOMM_2 "Licht verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Leichter Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin léger"
+* #sCOMM_3 "Licht tot matig verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Leichter bis moderater Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin léger à modéré"
+* #sCOMM_4 "Matig verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Moderater Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin modéré"
+* #sCOMM_5 "Matig tot ernstig verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Moderater bis ernster Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin modéré à important"
+* #sCOMM_6 "Ernstig verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ernster Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin important"
+* #sCOMM_7 "Ernstig tot zeer ernstig verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ernst bis sehr ernster Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin important à très important"
+* #sCOMM_8 "Zeer ernstig verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Sehr ernster Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin très important"
+
+CodeSystem: CS_sCPS
+Id: cs-scps
+Title: "Cognitive Performance Scale (sCPS)"
+Description: "Cognitive Performance Scale (sCPS)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sCPS_0 "Intact"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Intakt"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Intact"
+* #sCPS_1 "Zo goed als intact"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Fast intakt"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pratiquement intact"
+* #sCPS_2 "Licht verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Leichter Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin léger"
+* #sCPS_3 "Matig verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Moderater Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin modéré"
+* #sCPS_4 "Matig ernstig verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Moderater bis ernster Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin modéré à important"
+* #sCPS_5 "Ernstig verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ernster Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin important"
+* #sCPS_6 "Zeer ernstig verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Sehr ernster Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin très important"
+
+CodeSystem: CS_sCPS2
+Id: cs-scps2
+Title: "Cognitive Performance Scale 2 (sCPS2)"
+Description: "Cognitive Performance Scale 2 (sCPS2)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sCPS2_0 "Intact"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Intakt"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Intact"
+* #sCPS2_1 "Intact"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Intakt"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Intact"
+* #sCPS2_2 "Zo goed als intact"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Fast intakt"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pratiquement intact"
+* #sCPS2_3 "Zo goed als intact"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Fast intakt"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pratiquement intact"
+* #sCPS2_4 "Matig verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Moderater Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin modéré"
+* #sCPS2_5 "Matig verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Moderater Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin modéré"
+* #sCPS2_6 "Ernstig verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ernster Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin important"
+* #sCPS2_7 "Ernstig verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ernster Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin important"
+* #sCPS2_8 "Zeer ernstig verstoord"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Sehr ernster Rückgang"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Déclin très important"
+
+CodeSystem: CS_sDRS
+Id: cs-sdrs
+Title: "Depression Rating Scale (sDRS)"
+Description: "Depression Rating Scale (sDRS)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sDRS_range_0_14 "0-14 Hoe hoger de score (op een schaal van 0-14) hoe waarschijnlijker de aanwezigheid van een depressiestoornis."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "0-14 Je höher der Score ist (auf der Skala 0-14), desto höher ist die Wahrscheinlichkeit einer Depression oder einer depressiven Verstimmung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "0-14 Plus le score est élevé (sur une échelle de 0 à 14), plus il est probable qu'un trouble dépressif soit présent."
+
+CodeSystem: CS_sDbSI
+Id: cs-sdbsi
+Title: "Deafblind Severity Index (sDbSI)"
+Description: "Deafblind Severity Index (sDbSI)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sDbSI_0 "Beide zintuigen zijn intact."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Beide Sinne sind intakt."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Les 2 sens sont intacts."
+* #sDbSI_1 "Eén zintuig is intact en het andere zintuig is licht tot matig verstoord."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ein Sinn ist intakt ein anderer Sinn ist leicht oder moderat beeinträchtigt."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Un sens est intact et l'autre sens légèrement ou modérément perturbé."
+* #sDbSI_2 "Eén zintuig is intact en het andere zintuig is ernstig verstoord."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ein Sinn ist intakt ein anderer Sinn ist ernsthaft beeinträchtigt."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Un sens est intact et l'autre sens est sévèrement perturbé."
+* #sDbSI_3 "Beide zintuigen zijn licht tot matig verstoord."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Beide Sinne sind leicht oder moderat beeinträchtigt."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Les 2 sens sont légèrement ou modérément perturbés."
+* #sDbSI_4 "Eén zintuig is licht tot matig verstoord en het andere zintuig is ernstig verstoord."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ein Sinn ist leicht oder moderat beeinträchtigt und ein anderer Sinn ist ernsthaft beeinträchtigt."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Un sens est légèrement ou modérément perturbé et l'autre sens est sévèrement perturbé."
+* #sDbSI_5 "Beide zintuigen zijn ernstig verstoord."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Beide Sinne sind ernsthaft beeinträchtigt."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Les 2 sens sont sévèrement perturbé."
+
+CodeSystem: CS_sFRAILTY
+Id: cs-sfrailty
+Title: "Frailty Scale (sFrailty)"
+Description: "Frailty Scale (sFrailty)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sFRAILTY_0 "Persoon is niet kwetsbaar"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Die Person ist nicht schutzbedürftig"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "La personne n'est pas vulnérable"
+* #sFRAILTY_1 "Persoon is kwetsbaar"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Die Person ist schutzbedürftig"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "La personne est vulnérable"
+
+CodeSystem: CS_sHSADLH
+Id: cs-shsadlh
+Title: "ADL Hierarchy Scale – Hospital (sHSADLH)"
+Description: "ADL Hierarchy Scale – Hospital (sHSADLH)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sHSADLH_0 "Zelfstandig"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Selbstständig"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Autonome"
+* #sHSADLH_1 "Toezicht vereist"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Begleitung"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Surveillance exigée"
+* #sHSADLH_2 "Beperkte hulp vereist"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Begrenzte Unterstützung"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Aide limitée exigée"
+* #sHSADLH_3 "Uitgebreide hulp vereist - 1"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Verstärkte Unterstützung -1"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Aide élargie exigée -1"
+* #sHSADLH_4 "Uitgebreide hulp vereist - 2"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Maximale Unterstützung"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Aide élargie exigée -2"
+* #sHSADLH_5 "Afhankelijk"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Abhängigkeit"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Dépendant"
+* #sHSADLH_6 "Volledig afhankelijk"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Vollständige Abhängigkeit "
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Totalement dépendant"
+
+CodeSystem: CS_sHSPAIN
+Id: cs-shspain
+Title: "Pain Scale - Hospital (sHSPAIN)"
+Description: "Pain Scale - Hospital (sHSPAIN)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sHSPAIN_0 "Geen pijn"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Keine Schmerzen"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas de douleur"
+* #sHSPAIN_1 "Pijn aanwezig maar niet in de laatste 3 dagen vertoond."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Schmerzen vorhanden aber nicht innerhalb der letzten 3 Tage."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "douleur présente mais pas au cours des 3 derniers jours."
+* #sHSPAIN_2 "Matige pijn in de laatste 3 dagen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Moderate Schmerzen innerhalb der letzten 3 Tage."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Douleur modérée au cours des 3 derniers jours."
+* #sHSPAIN_3 "Ernstige pijn in de laatste 3 dagen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ernsthafte Schmerzen innerhalb der letzten 3 Tage."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Douleur sévère au cours des 3 derniers jours."
+* #sHSPAIN_4 "Vreselijke of ondraaglijke pijn in de laatste 3 dagen."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Starke nicht aushaltbare Schmerzen innerhalb der letzten 3 Tage."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Douleur terrible ou atroce au cours des 3 derniers jours."
+
+CodeSystem: CS_sHSPURS
+Id: cs-shspurs
+Title: "Pressure Ulcer Risk Scale - Hospital (sHSPURS)"
+Description: "Pressure Ulcer Risk Scale - Hospital (sHSPURS)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sHSPURS_0 "Zeer laag risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Sehr geringes Risiko"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque très faible"
+* #sHSPURS_1 "Laag risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Geringes Risiko"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque faible"
+* #sHSPURS_2 "Laag risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Geringes Risiko "
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque faible"
+* #sHSPURS_3 "Matig risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Moderates Risiko"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque modéré"
+* #sHSPURS_4 "Hoog risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Hohes Risiko"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque élevé"
+* #sHSPURS_5 "Hoog risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Hohes Risiko "
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque élevé"
+* #sHSPURS_6 "Zeer hoog risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Sehr hohes Risiko "
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque très élevé"
+* #sHSPURS_7 "Zeer hoog risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Sehr hohes Risiko "
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque très élevé"
+* #sHSPURS_8 "Zeer hoog risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Sehr hohes Risiko "
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque très élevé"
+
+CodeSystem: CS_sIADLCH
+Id: cs-siadlch
+Title: "IADL Capacity Hierarchy Scale (sIADLCH)"
+Description: "IADL Capacity Hierarchy Scale (sIADLCH)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sIADLCH_0 "Geen problemen"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Keine Probleme"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas de problème"
+* #sIADLCH_1 "Een enkel probleem"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ein einziges Problem"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Un seul problème "
+* #sIADLCH_2 "Twee of drie problemen"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "2 oder 3 Probleme"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "2 ou 3 problèmes"
+* #sIADLCH_3 "Vier of meer problemen"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "4 oder mehr Probleme"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "4 ou plus de 4 problèmes"
+* #sIADLCH_4 "Soms afhankelijk"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Manchmal abhängig"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Parfois dépendant"
+* #sIADLCH_5 "Meestal afhankelijk"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Meistens abhängig"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Souvent dépendant"
+* #sIADLCH_6 "Altijd afhankelijk"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Immer abhängig"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Toujours dépendant"
+
+CodeSystem: CS_sPAIN
+Id: cs-spain
+Title: "Pain Scale (sPAIN)"
+Description: "Pain Scale (sPAIN)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sPAIN_0 "Geen pijn"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Keine Schmerzen"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas de douleur"
+* #sPAIN_1 "Minder dan dagelijks pijn"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Schmerzen (nicht täglich)"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Douleur non journalière"
+* #sPAIN_2 "Dagelijks matige pijn "
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Tägliche mittlere Schmerzen"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Douleur journalière modérée"
+* #sPAIN_3 "Dagelijks ernstige pijn"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Tägliche starke Schmerzen"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Douleur journalière sévère"
+* #sPAIN_4 "Dagelijks vreselijke of ondraaglijke pijn"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Tägliche nichtaushaltbare Schmerzen"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Douleur journalière atroce ou insupportable"
+
+CodeSystem: CS_sPURS
+Id: cs-spurs
+Title: "Pressure Ulcer Risk Scale (sPURS)"
+Description: "Pressure Ulcer Risk Scale (sPURS)"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sPURS_0 "Zeer laag risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Sehr geringes Risiko"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque très faible"
+* #sPURS_3 "Matig risico"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Moderates Risiko"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque modéré"
+
+CodeSystem: CS_sSRMOOD
+Id: cs-ssrmood
+Title: "Self-reported Mood Scale"
+Description: "Self-reported Mood Scale"
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #sSRMOOD_0 "Geen verstoring van de gemoedstoestand "
+  * ^designation[0].language = #de
+  * ^designation[0].value = "keine"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Pas de perturbation de l’humeur"
+* #sSRMOOD_range_1_2 "1-2 Milde verstoring van de gemoedstoestand "
+  * ^designation[0].language = #de
+  * ^designation[0].value = "1-2 mild"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "1-2 Perturbation légère de l’humeur"
+* #sSRMOOD_range_3_4 "3-4 Matige verstoring van de gemoedstoestand "
+  * ^designation[0].language = #de
+  * ^designation[0].value = "3-4 mäßig"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "3-4 Perturbation modérée de l’humeur"
+* #sSRMOOD_range_5_9 "5-9 Ernstige verstoring van de gemoedstoestand "
+  * ^designation[0].language = #de
+  * ^designation[0].value = "5-9 schwer"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "5-9 Perturbation sévère de l’humeur"
+
+CodeSystem: CS_CommonTranslationsOther
+Id: cs-common-translations-other
+Title: "Common translations - other concepts"
+Description: "Concepts from the common translations dictionary that do not belong to a numbered `<prefix>_<n>` group."
+* ^status = #active
+* ^experimental = false
+* ^caseSensitive = true
+* ^content = #complete
+* #caps "CAP's"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "CAP's"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "CAP's"
+* #main "Score"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ergebnis"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Score"
+* #sAGE "Age Scale (sAGE)"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Age Scale (sAGE)"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Age Scale (sAGE)"
+* #99999 "Kan niet worden berekend."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Kann nicht berechnet werden."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Ne peut pas être calculé."
+* #bisEPA "Risico op een ernstige psychiatrische aandoening"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Risiko einer schweren psychischen Erkrankung"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Risque d'un trouble psychiatrique grave"
+* #scales "Zorgschalen"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Pflegeskalen"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Echelles de soins"
+* #bisPict1 "PICT-1 of BelRAI Palliative Screener "
+  * ^designation[0].language = #de
+  * ^designation[0].value = "PICT-1 of BelRAI Palliative Screener "
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "PICT-1 ou BelRAI Palliative Screener "
+* #scr_main "Score"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ergebnis"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Score"
+* #screeners "Screeners"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Screeners"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Screeners"
+* #bisPallzorg "Aanwijzingen voor palliatieve zorgnoden’"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Hinweis auf einen palliativen Versorgunsbedarf"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Indications de besoins en soins palliatifs"
+* #scr_fulleval "Het is aan te raden dat voor deze persoon een volledige BelRAI-beoordeling wordt opgestart. Deze persoon heeft immers complexe problemen die best multidisciplinair worden aangepakt."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Es ist ratsam, dass eine vollständige BelRAI-Bewertung für diese Person begonnen wird. Schließlich hat diese Person komplexe Probleme, die am besten multidisziplinär behandelt werden."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Il est conseillé de commencer une évaluation BelRAI complète pour la personne car la complexité des difficultés qu’elle présente doit être abordée par une équipe multidisciplinaire."
+* #pscr_fulleval "Als palliatieve patiënt geïdentificeerd. Vul een volledig BelRAI Palliative Care instrument in. Definieer, samen met de patiënt en in interdisciplinair overleg, een zorgplan en een vroegtijdige zorgplanning."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Als Palliativpatient identifiziert. Füllen Sie ein komplettes BelRAI Palliative Care Instrument aus. Definieren Sie gemeinsam mit Ihrem Patienten/Ihrer Patientin und in multidisziplinärer Absprache einen Pflegeplan und eine frühzeitige Pflegeplanung."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Identifié comme patient palliatif. Remplissez un instrument complet du BelRAI Soins palliatifs. Définissez un plan de soins et un advance care planning avec votre patient et en concertation interdisciplinaire."
+* #scr_BIS_EPA_NA "Resultaat submodule ‘Risico op een EPA’: Risico op een ernstige psychiatrische aandoening kan niet ingeschat worden omdat (een deel van) de items uit deze submodule niet werden ingevuld.  "
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ergebnis des Submoduls ‚Risiko für eine schwere psychische Erkrankung‘ : Das Risiko für eine schwere psychische Erkrankung kann nicht eingeschätzt werden, da (ein Teil der) Items dieses Submoduls nicht ausgefüllt wurden."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Résultat du sous-module ‘Risque d’un TPS’ : Le risque de trouble psychiatrique grave ne peut pas être estimé car (une partie des) items de ce sous-module n'ont pas été complétés."
+* #scr_BIS_EPA_NO "Resultaat submodule ‘Risico op een EPA’: Deze submodule diende niet ingevuld te worden aangezien bij de openingsvragen van de module ‘psychische kwetsbaarheid’ werd aangegeven dat er geen psychische problematiek of psychiatrische aandoening gekend is bij het begeleidende/behandelende team en er geen bezorgdheid is over een mogelijke psychische kwetsbaarheid bij deze persoon. "
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ergebnis des Submoduls ‚Risiko für eine schwere psychische Erkrankung‘: \nDieses Submodul musste nicht ausgefüllt werden, da bei den Eingangsfragen des Moduls ‚Psychische Verletzlichkeit‘ angegeben wurde, dass beim begleitenden/behandelnden Team keine psychischen Problematiken oder psychiatrischen Erkrankungen bekannt sind und keine Besorgnis über eine mögliche psychische Verletzlichkeit bei dieser Person besteht."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Résultat du sous-module ‘Risque d’un TPS’: Ce sous-module ne devait pas être complété car les questions d’ouverture du module ‘vulnérabilité psychique’ ont indiqué qu’aucun problème psychique ou trouble psychiatrique n’est connu par l’équipe d'accompagnement et/ou de soins. Il n’existe aucune inquiétude quant à une éventuelle vulnérabilité psychique chez cette personne."
+* #scr_no_fulleval "Voor deze persoon hoeft u in principe op dit moment geen volledige BelRAI-beoordeling op te starten. Het staat u uiteraard vrij dat wel te doen op basis van uw eigen professioneel en klinisch oordeel of dat van uw collega’s."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Für diese Person ist es im Prinzip nicht erforderlich, eine vollständige BelRAI-Bewertung durchzuführen. Natürlich können/dürfen Sie eine vollständige BelRAI-Bewertung beginnen auf der Grundlage Ihrer eigenen fachlichen und klinischen Beurteilung oder der Ihrer Kollegen."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Une évaluation complète n’est pas nécessaire. Cependant, vous pouvez toujours réaliser une évaluation sur base de votre jugement professionnel ou sur base du jugement de vos collègues."
+* #pscr_no_fulleval "Niet als palliatieve patiënt geïdentificeerd."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Nicht als Palliativpatient identifiziert."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Non identifié comme patient palliatif."
+* #scr_BIS_PICT1_NA "Resultaat submodule ‘PICT-1 of BelRAI Palliative Screener (m.u.v. surprise question)’: Of de persoon palliatief is en invulling van het BelRAI Palliative Care instrument aan te raden is, kan niet ingeschat worden omdat (een deel van) de items uit deze submodule niet werden ingevuld."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ergebnis des Submoduls  ‚PICT-1 oder BelRAI Palliative Screener (außer Surprise Question)‘: Ob die Person palliativ ist und das Ausfüllen des BelRAI Palliative Care Instruments empfehlenswert ist, kann nicht eingeschätzt werden, da (ein Teil der) Items dieses Submoduls nicht ausgefüllt wurden."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Résultat du sous-module ‘PICT-1 ou BelRAI Palliative Screener (à l’exception de la question surprise)’: Il n’est pas possible d’évaluer si la personne relève de soins palliatifs et s’il est recommandé ou non de compléter l’instrument BelRAI Soins palliatifs, car (une partie) des éléments de ce sous-module n’ont pas été complétés. "
+* #scr_BIS_PICT1_NO "Resultaat submodule ‘PICT-1 of BelRAI Palliative Screener (m.u.v. surprise question)’: Deze submodule diende niet ingevuld te worden aangezien uit de voorgaande submodule ‘Aanwijzingen van palliatieve zorgnoden’ bleek dat dergelijke aanwijzingen niet aanwezig zijn."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Ergebnis des Submoduls  ‚PICT-1 oder BelRAI Palliative Screener (außer Surprise Question)‘:\nDieses Submodul musste nicht ausgefüllt werden, da aus dem vorhergehenden Submodul ‚Hinweise zu palliativem Versorgungsbedarf‘ hervorging, dass derartige Hinweise nicht vorhanden sind."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Résultat du sous-module ‘PICT-1 ou BelRAI Palliative Screener (à l’exception de la question surprise)’: Ce sous-module ne devait pas être complété car le sous-module précédent ‘Indications de besoins en soins palliatifs’ a montré que de telles indications ne sont pas présentes."
+* #cap_domain_safety "Veiligheid"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Sicherheit"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Sécurité"
+* #cap_domain_autonomy "Autonomie"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Autonomie"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Autonomie"
+* #scr_fulleval_tooltip "Totaalscore is minstens 13 EN de som van de modules cognitie, psychische problemen en gedragsproblemen is minstens 5."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Die Gesamtpunktzahl beträgt mindestens 13 und die Summe der Module Kognition, psychologische Probleme und Verhaltensprobleme beträgt mindestens 5."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Le score final est au moins égal à 13 ET la somme des modules cognition, troubles psychiques et du comportement est au moins égale à 5."
+* #cap_domain_social_life "Sociaal leven"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Soziale Aspekte"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Vie sociale"
+* #scr_no_fulleval_tooltip "De totaalscore is minder dan 13 OF de som van de modules cognitie, psychische problemen en gedragsproblemen is minder dan 5."
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Die Gesamtpunktzahl beträgt weniger als 13 und die Summe der Module Kognition, psychologische Probleme und Verhaltensprobleme beträgt weniger als 5."
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Le score final est inférieur à 13 OU la somme des modules cognition, troubles psychiques et du comportement est inférieure à 5."
+* #cap_domain_economic_issues "Economische factoren"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Wirtschaftliche Faktoren"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Facteurs économiques"
+* #cap_domain_health_promotion "Gezondheidspromotie"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Gesundheitsförderung"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Promotion de la santé"
+* #cap_domain_clinical_problems "Klinische complicaties"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Klinische Probleme"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Problèmes cliniques"
+* #cap_domain_functional_performance "Functioneel presteren"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Körperlichen Aktivität"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Performance fonctionnelle"
+* #cap_domain_cognitive_and_mental_faculties "Cognitie en geestelijke gezondheid"
+  * ^designation[0].language = #de
+  * ^designation[0].value = "Kognitiven und geistigen Fähigkeiten"
+  * ^designation[1].language = #fr
+  * ^designation[1].value = "Facultés cognitives et mentales"
