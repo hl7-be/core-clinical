@@ -66,4 +66,4 @@ In cases where the performer is known but there is no resource or unique identif
 * extension[recorder]
   * ^definition = "The person or organization that is responsible for the content of the Observation"
   * ^short = "Recorder of the Observation"
-  * valueReference only Reference (BePatient or BePractitioner or BePractitionerRole or BeOrganization or RelatedPerson )
+  * valueReference only Reference (BePatient or BePractitioner or BePractitionerRole or BeOrganization )
