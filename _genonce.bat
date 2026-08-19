@@ -10,7 +10,7 @@ GOTO igpublish
 
 :isonline
 ECHO We're online
-SET txoption=-tx http://127.0.0.1/tx/r4
+SET txoption=-tx "https://dte-tx.ehealth.fgov.be/r4/"
 
 :igpublish
 
