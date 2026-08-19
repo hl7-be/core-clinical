@@ -1,13 +1,12 @@
 ValueSet: BeVSReactionManifestationCode
 Id: be-vs-reaction-manifestation-code
-Title: "Reaction Manifestation Code"
+Title: "Reaction Manifestation Code ValueSet"
 Description: "Reaction Manifestation Code (Allergy - Immunization)"
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-reaction-manifestation-code"
 * ^status = #active
-
-
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * ^experimental = false
+* ^copyright = """This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."""
 //* ^caseSensitive = false
 
 * include  $sct#39579001
