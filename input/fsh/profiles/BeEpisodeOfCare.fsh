@@ -20,11 +20,6 @@ Description: "A period during which care related to one specific goal or problem
 * extension[recordedDate] ^short = "RecordedDate"
 * extension[recordedDate] ^definition = "Recording date by the Author or Recorder (date of the last update). Enables CareSet history management through the pair Business Identifier - RecordedDate, which guarantees access to the latest version of the content."
 
-// Creation date - 1..1 (be-core extension; R4 EpisodeOfCare has no creation date)
-* extension contains BeExtCreationDate named creationDate 1..1 MS
-* extension[creationDate] ^short = "Creation date"
-* extension[creationDate] ^definition = "Date of first registration."
-
 // Status - 1..1 (R4 required binding on EpisodeOfCare.status is kept)
 * status 1..1 MS
 

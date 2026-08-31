@@ -1,5 +1,5 @@
 Logical: BeModelEpisodeOfCare
-Id: be-model-episode-of-care
+Id: BeModelEpisodeOfCare
 Title: "BeEpisodeOfCare model"
 Description: "Logical model for the EpisodeOfCare CareSet - represents a period during which care related to a specific goal or problem is provided to a patient by one or more healthcare providers and/or organizations."
 Characteristics: #can-be-target
@@ -16,10 +16,6 @@ Characteristics: #can-be-target
 // NL: Registratiedatum door de Author of Recorder (datum van laatste update). Maakt CareSet-geschiedenisbeheer mogelijk via het paar Business Identifier - RecordedDate.
 * recordedDate 1..1 dateTime "Recording date by the Author or Recorder (date of last update)" "Enables CareSet history management via the pair Business Identifier - RecordedDate, which guarantees access to the latest version of the content"
 
-// FR: Date du premier enregistrement (jj/mm/aaaa).
-// NL: Datum van eerste registratie (dd/mm/yyyy).
-* creationDate 1..1 dateTime "Date of first registration"
-
 // FR: Statut actuel de l'épisode. Voir VS_EpisodeOfCare_Status.
 // NL: Huidige status van de episode. Zie VS_EpisodeOfCare_Status.
 * status 1..1 code "Current status of the episode" "planned | active | onhold | finished | cancelled | entered-in-error"
@@ -27,7 +23,7 @@ Characteristics: #can-be-target
 
 // FR: Est le professionnel de la santé qui prend la responsabilité du contenu encodé.
 // NL: De zorgprofessional die de verantwoordelijkheid neemt voor de geregistreerde inhoud.
-* author 1..1 Reference "The healthcare professional who takes responsibility for the recorded content"
+* author[x] 1..1 Reference or CodeableConcept "The healthcare professional who takes responsibility for the recorded content"
 
 // FR: La période comprise entre le moment où la ressource est créée afin de regrouper les soins fournis et le moment où elle prend fin.
 // NL: De periode tussen het moment dat de resource wordt gecreëerd om de verleende zorg te groeperen en het moment dat deze wordt opgeheven.
@@ -35,8 +31,8 @@ Characteristics: #can-be-target
 
 // FR: Le problème traité durant l'EpisodeOfCare. Voir VS_Encounter_Reason.
 // NL: Het probleem dat tijdens de EpisodeOfCare zal behandeld worden. Zie VS_Encounter_Reason.
-* reason 1..1 CodeableReference "The problem treated during the EpisodeOfCare"
-* reason from http://hl7.org/fhir/ValueSet/encounter-reason (extensible)
+* reason[x] 1..1 CodeableConcept or Reference "The problem treated during the EpisodeOfCare"
+* reasonCodeableConcept from http://hl7.org/fhir/ValueSet/encounter-reason (extensible)
 
 // FR: Remarque complémentaire éventuelle.
 // NL: Eventueel aanvullende opmerking.
