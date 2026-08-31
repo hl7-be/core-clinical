@@ -1,0 +1,194 @@
+TransversalClinicalCore : Validation Results
+=========================================
+
+err = 12, warn = 29, info = 27
+IG Publisher Version: 2.3.2
+Generated Fri Aug 14 13:34:06 UTC 2026. FHIR version 4.0.1 for hl7.fhir.be.core-clinical#1.2.0 (canonical = https://www.ehealth.fgov.be/standards/fhir/core-clinical)
+ Build Errors : 37 / 0 / 0
+ /work/fsh-generated/resources/CodeSystem-be-cs-bodysite : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-problem-category : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-problem-origin-type : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-score : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-score-category : 0 / 1 / 1
+ /work/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.core-clinical : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-BeModelBodySite : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-BeModelClinicalObservation : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-BeModelDevice : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-BeModelDeviceUseStatement : 3 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-BeModelProblem : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-BeModelProcedure : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-clinical-observation : 0 / 1 / 3
+ /work/fsh-generated/resources/StructureDefinition-be-device : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-device-use-statement : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-ext-body-topography : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-ext-laterality : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-ext-problem-origin-type : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-ext-surgical-approach : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-observation : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-observationcodeableconcept : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-problem : 0 / 3 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-procedure : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-scoreresult : 0 / 1 / 2
+ /work/fsh-generated/resources/ValueSet-DeviceStatusReasonVS : 3 / 1 / 2
+ /work/fsh-generated/resources/ValueSet-DeviceStatusVS : 3 / 1 / 6
+ /work/fsh-generated/resources/ValueSet-DeviceTypeVS : 3 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-ProblemCategoryVS : 0 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-ProblemCodeVS : 0 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-ProblemDiseaseCourseVS : 0 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-body-topography : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-bodysite : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-laterality : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-category : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-code : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-origin-type : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-reaction-manifestation-code : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-score : 0 / 2 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-scorecategory : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-severity : 0 / 1 / 1
+</table>
+== n/a ==
+ERROR: en/StructureDefinition-BeModelDevice.html#/html/body/div/div/div/div/div/div/figure/svg/g/g/a at Line 328, column 2633: The link 'StructureDefinition-BeModelDeviceUse.html' for "Device Usage" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDevice.html#/html/body/div/div/div/div/div/div/figure/svg/g/g/a at Line 328, column 4051: The link 'StructureDefinition-BeModelDeviceRequest.html' for "Device Request" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 354, column 372: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 357, column 370: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 360, column 370: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 410, column 372: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 413, column 370: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 416, column 370: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 480, column 372: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 483, column 370: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 486, column 370: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/figure/svg/g/g/a at Line 328, column 2633: The link 'StructureDefinition-BeModelDeviceUse.html' for "Device Usage" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/figure/svg/g/g/a at Line 328, column 4051: The link 'StructureDefinition-BeModelDeviceRequest.html' for "Device Request" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 475, column 278: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 480, column 278: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 485, column 276: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 548, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 561, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 574, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 695, column 280: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 700, column 276: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 705, column 278: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 767, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 780, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 793, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1023, column 278: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1028, column 278: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1033, column 276: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1093, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1106, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1119, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1240, column 280: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1245, column 276: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1250, column 278: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1310, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1323, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1336, column 9: The link 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' for "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography" cannot be resolved
+== fsh-generated/resources/CodeSystem-be-cs-bodysite.json ==
+WARNING: Resource: The resource CodeSystem/be-cs-bodysite should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/CodeSystem-be-cs-problem-category.json ==
+WARNING: Resource: The resource CodeSystem/be-cs-problem-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/CodeSystem-be-cs-problem-origin-type.json ==
+WARNING: Resource: The resource CodeSystem/be-cs-problem-origin-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/CodeSystem-be-cs-score.json ==
+WARNING: Resource: The resource CodeSystem/be-cs-score should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/CodeSystem-be-cs-score-category.json ==
+WARNING: Resource: The resource CodeSystem/be-cs-score-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.be.core-clinical.json ==
+INFORMATION: Resource: The resource ImplementationGuide/hl7.fhir.be.core-clinical could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-BeModelBodySite.json ==
+INFORMATION: Resource: The resource StructureDefinition/BeModelBodySite could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-BeModelClinicalObservation.json ==
+INFORMATION: Resource: The resource StructureDefinition/BeModelClinicalObservation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-BeModelDevice.json ==
+INFORMATION: Resource: The resource StructureDefinition/BeModelDevice could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-BeModelDeviceUseStatement.json ==
+WARNING: StructureDefinition/BeModelDeviceUseStatement: StructureDefinition.snapshot.element[18].binding.valueSet: A definition could not be found for Canonical URL 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography'
+WARNING: StructureDefinition/BeModelDeviceUseStatement: StructureDefinition.differential.element[15].binding.valueSet: A definition could not be found for Canonical URL 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography'
+INFORMATION: Resource: The resource StructureDefinition/BeModelDeviceUseStatement could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+ERROR: StructureDefinition.text.div: Hyperlink 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' at 'div/table/tr/td/a' for 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-bodysite' does not resolve
+ERROR: StructureDefinition.text.div: Hyperlink 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' at 'div/table/tr/td/a' for 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-laterality' does not resolve
+ERROR: StructureDefinition.text.div: Hyperlink 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' at 'div/table/tr/td/a' for 'https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-topography' does not resolve
+== fsh-generated/resources/StructureDefinition-BeModelProblem.json ==
+INFORMATION: Resource: The resource StructureDefinition/BeModelProblem could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-BeModelProcedure.json ==
+INFORMATION: Resource: The resource StructureDefinition/BeModelProcedure could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-clinical-observation.json ==
+INFORMATION: StructureDefinition/be-clinical-observation: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+INFORMATION: Resource: The resource StructureDefinition/be-clinical-observation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-device.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-device could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-device-use-statement.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-device-use-statement could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-ext-body-topography.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-ext-body-topography could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-ext-laterality.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-ext-laterality could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-ext-problem-origin-type.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-ext-problem-origin-type could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-ext-surgical-approach.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-ext-surgical-approach could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-observation.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-observation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-observationcodeableconcept.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-observationcodeableconcept could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-problem.json ==
+WARNING: StructureDefinition/be-problem: StructureDefinition.snapshot.element[9].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/condition-dueTo'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.1.0 (from hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0), 5.3.0 (from hl7.fhir.uv.extensions.r4#5.3.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/condition-dueTo' to 'http://hl7.org/fhir/StructureDefinition/condition-dueTo|5.3.0'
+WARNING: StructureDefinition/be-problem: StructureDefinition.differential.element[3].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/condition-dueTo'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.1.0 (from hl7.fhir.uv.extensions.r4#5.1.0), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0), 5.3.0 (from hl7.fhir.uv.extensions.r4#5.3.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/condition-dueTo' to 'http://hl7.org/fhir/StructureDefinition/condition-dueTo|5.3.0'
+INFORMATION: Resource: The resource StructureDefinition/be-problem could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-procedure.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-procedure could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-scoreresult.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-scoreresult could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-DeviceStatusReasonVS.json ==
+ERROR: ValueSet.where(url = 'https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status-reason'): Conformance resource /work/fsh-generated/resources/ValueSet-DeviceStatusReasonVS.json - the canonical URL (https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/DeviceStatusReasonVS) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status-reason). Use the special-url parameter if you really mean for it not to match
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://terminology.hl7.org/CodeSystem/device-status-reason to 3.0.0 from choices of 1.0.0 (hl7.terminology.r4#6.0.2), 2.0.0 (hl7.terminology.r4#7.1.0), 3.0.0 (hl7.terminology.r4#7.3.0)
+ERROR: ValueSet.url: Resource id/url mismatch: DeviceStatusReasonVS/https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status-reason
+WARNING: Resource: The resource ValueSet/DeviceStatusReasonVS should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+ERROR: /work/fsh-generated/resources/ValueSet-DeviceStatusReasonVS: URL Mismatch https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/DeviceStatusReasonVS vs https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status-reason
+== fsh-generated/resources/ValueSet-DeviceStatusVS.json ==
+ERROR: ValueSet.where(url = 'https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status'): Conformance resource /work/fsh-generated/resources/ValueSet-DeviceStatusVS.json - the canonical URL (https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/DeviceStatusVS) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status). Use the special-url parameter if you really mean for it not to match
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://hl7.org/fhir/device-status to 4.0.1 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.0.0 (hl7.fhir.uv.xver-r5.r4#0.1.0)
+ERROR: ValueSet.url: Resource id/url mismatch: DeviceStatusVS/https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status
+INFORMATION: ValueSet/DeviceStatusVS: ValueSet.compose.include[0].concept[0]: Reference to draft CodeSystem http://hl7.org/fhir/device-status|4.0.1
+INFORMATION: ValueSet/DeviceStatusVS: ValueSet.compose.include[0].concept[1]: Reference to draft CodeSystem http://hl7.org/fhir/device-status|4.0.1
+INFORMATION: ValueSet/DeviceStatusVS: ValueSet.compose.include[0].concept[2]: Reference to draft CodeSystem http://hl7.org/fhir/device-status|4.0.1
+INFORMATION: ValueSet/DeviceStatusVS: ValueSet.compose.include[0].concept[3]: Reference to draft CodeSystem http://hl7.org/fhir/device-status|4.0.1
+WARNING: Resource: The resource ValueSet/DeviceStatusVS should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+ERROR: /work/fsh-generated/resources/ValueSet-DeviceStatusVS: URL Mismatch https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/DeviceStatusVS vs https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status
+== fsh-generated/resources/ValueSet-DeviceTypeVS.json ==
+ERROR: ValueSet.where(url = 'https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-type'): Conformance resource /work/fsh-generated/resources/ValueSet-DeviceTypeVS.json - the canonical URL (https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/DeviceTypeVS) does not match the URL (https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-type). Use the special-url parameter if you really mean for it not to match
+ERROR: ValueSet.url: Resource id/url mismatch: DeviceTypeVS/https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-type
+WARNING: Resource: The resource ValueSet/DeviceTypeVS should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+ERROR: /work/fsh-generated/resources/ValueSet-DeviceTypeVS: URL Mismatch https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/DeviceTypeVS vs https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-type
+== fsh-generated/resources/ValueSet-ProblemCategoryVS.json ==
+WARNING: ValueSet/ProblemCategoryVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/ProblemCategoryVS should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-ProblemCodeVS.json ==
+WARNING: ValueSet/ProblemCodeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/ProblemCodeVS should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-ProblemDiseaseCourseVS.json ==
+WARNING: ValueSet/ProblemDiseaseCourseVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/ProblemDiseaseCourseVS should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-body-topography.json ==
+WARNING: Resource: The resource ValueSet/be-vs-body-topography should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-bodysite.json ==
+WARNING: Resource: The resource ValueSet/be-vs-bodysite should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-laterality.json ==
+WARNING: Resource: The resource ValueSet/be-vs-laterality should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-problem-category.json ==
+WARNING: Resource: The resource ValueSet/be-vs-problem-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-problem-code.json ==
+WARNING: Resource: The resource ValueSet/be-vs-problem-code should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-problem-origin-type.json ==
+WARNING: Resource: The resource ValueSet/be-vs-problem-origin-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-reaction-manifestation-code.json ==
+WARNING: Resource: The resource ValueSet/be-vs-reaction-manifestation-code should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-score.json ==
+WARNING: ValueSet/be-vs-score: ValueSet.compose.include[0].concept[5].display: 'Norton pressure sore risk score (observable entity)' is no longer considered a correct display for code '443133008' (status = inactive). The correct display is one of Norton pressure sore risk score,Norton Scale score (observable entity),Norton Scale score,score selon l'échelle de Norton
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [Visual analog scale score (observable entity), Mini-mental state examination score (observable entity), Malnutrition universal screening tool score (observable entity), Norton pressure sore risk score (observable entity), Thirty second chair stand test score (observable entity)] and examples for no FSN: [FINDRISC (Finnish Diabetes Risk Score) score, Index of Independence in Activities of Daily Living, Pain Assessment in Advanced Dementia Scale, Subjective Global Assessment, Waterlow pressure sore risk score])
+WARNING: Resource: The resource ValueSet/be-vs-score should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-scorecategory.json ==
+WARNING: Resource: The resource ValueSet/be-vs-scorecategory should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-severity.json ==
+WARNING: Resource: The resource ValueSet/be-vs-severity should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)

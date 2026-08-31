@@ -1,0 +1,459 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-belrai-score> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "be-cs-belrai-score"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem be-cs-belrai-score</b></p><a name=\"be-cs-belrai-score\"> </a><a name=\"hcbe-cs-belrai-score\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-belrai-score</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">aHSDELIRIUM<a name=\"be-cs-belrai-score-aHSDELIRIUM\"> </a></td><td>Delirium Screener (aHSDELIRIUM)</td></tr><tr><td style=\"white-space:nowrap\">aHSDEMENTIA<a name=\"be-cs-belrai-score-aHSDEMENTIA\"> </a></td><td>Dementia Screener (aHSDEMENTIA)</td></tr><tr><td style=\"white-space:nowrap\">aHSDEPRESSION<a name=\"be-cs-belrai-score-aHSDEPRESSION\"> </a></td><td>Depression Screener (aHSDEPRESSION)</td></tr><tr><td style=\"white-space:nowrap\">aHSNUTRITION<a name=\"be-cs-belrai-score-aHSNUTRITION\"> </a></td><td>Nutrition Screener (aHSNUTRITION)</td></tr><tr><td style=\"white-space:nowrap\">aMAPLE<a name=\"be-cs-belrai-score-aMAPLE\"> </a></td><td>Method for Assigning Priority Levels (aMAPLe)</td></tr><tr><td style=\"white-space:nowrap\">cABUSE<a name=\"be-cs-belrai-score-cABUSE\"> </a></td><td>Mishandeling/Verwaarlozing</td></tr><tr><td style=\"white-space:nowrap\">cACTIV<a name=\"be-cs-belrai-score-cACTIV\"> </a></td><td>Activiteiten</td></tr><tr><td style=\"white-space:nowrap\">cADD<a name=\"be-cs-belrai-score-cADD\"> </a></td><td>Tabak- en alcoholgebruik</td></tr><tr><td style=\"white-space:nowrap\">cADL<a name=\"be-cs-belrai-score-cADL\"> </a></td><td>Activiteiten van het dagelijks leven (ADL)</td></tr><tr><td style=\"white-space:nowrap\">cBEHAV<a name=\"be-cs-belrai-score-cBEHAV\"> </a></td><td>Gedrag</td></tr><tr><td style=\"white-space:nowrap\">cBOWEL<a name=\"be-cs-belrai-score-cBOWEL\"> </a></td><td>Darmproblemen</td></tr><tr><td style=\"white-space:nowrap\">cBRITSU<a name=\"be-cs-belrai-score-cBRITSU\"> </a></td><td>Mantelzorg</td></tr><tr><td style=\"white-space:nowrap\">cCARDIO<a name=\"be-cs-belrai-score-cCARDIO\"> </a></td><td>Hart en ademhaling</td></tr><tr><td style=\"white-space:nowrap\">cCOGNIT<a name=\"be-cs-belrai-score-cCOGNIT\"> </a></td><td>Cognitieverlies</td></tr><tr><td style=\"white-space:nowrap\">cCOMMUN<a name=\"be-cs-belrai-score-cCOMMUN\"> </a></td><td>Communicatie</td></tr><tr><td style=\"white-space:nowrap\">cDEHYD<a name=\"be-cs-belrai-score-cDEHYD\"> </a></td><td>Dehydratatie</td></tr><tr><td style=\"white-space:nowrap\">cDELIR<a name=\"be-cs-belrai-score-cDELIR\"> </a></td><td>Delirium</td></tr><tr><td style=\"white-space:nowrap\">cDENTISTREFER<a name=\"be-cs-belrai-score-cDENTISTREFER\"> </a></td><td>Doorverwijzing naar de tandarts</td></tr><tr><td style=\"white-space:nowrap\">cDRUG<a name=\"be-cs-belrai-score-cDRUG\"> </a></td><td>Juist en verantwoord medicatiegebruik</td></tr><tr><td style=\"white-space:nowrap\">cENVIR<a name=\"be-cs-belrai-score-cENVIR\"> </a></td><td>Thuisomgeving</td></tr><tr><td style=\"white-space:nowrap\">cFALLS<a name=\"be-cs-belrai-score-cFALLS\"> </a></td><td>Valincidenten</td></tr><tr><td style=\"white-space:nowrap\">cFEEDTB<a name=\"be-cs-belrai-score-cFEEDTB\"> </a></td><td>Sondevoeding</td></tr><tr><td style=\"white-space:nowrap\">cHSBEHAV<a name=\"be-cs-belrai-score-cHSBEHAV\"> </a></td><td>Gedrag - Ziekenhuis</td></tr><tr><td style=\"white-space:nowrap\">cHSCOGNIT<a name=\"be-cs-belrai-score-cHSCOGNIT\"> </a></td><td>Cognitieverlies - Ziekenhuis</td></tr><tr><td style=\"white-space:nowrap\">cHSCOMMUN<a name=\"be-cs-belrai-score-cHSCOMMUN\"> </a></td><td>Communicatie - Ziekenhuis</td></tr><tr><td style=\"white-space:nowrap\">cHSDEPRESS<a name=\"be-cs-belrai-score-cHSDEPRESS\"> </a></td><td>Depressie - Ziekenhuis</td></tr><tr><td style=\"white-space:nowrap\">cHSFALLS<a name=\"be-cs-belrai-score-cHSFALLS\"> </a></td><td>Valincidenten - Ziekenhuis</td></tr><tr><td style=\"white-space:nowrap\">cHSINSTITUTION<a name=\"be-cs-belrai-score-cHSINSTITUTION\"> </a></td><td>Kans op opname in een voorziening - Ziekenhuis</td></tr><tr><td style=\"white-space:nowrap\">cHSPAIN<a name=\"be-cs-belrai-score-cHSPAIN\"> </a></td><td>Pijn - Ziekenhuis</td></tr><tr><td style=\"white-space:nowrap\">cHSREADMISSION<a name=\"be-cs-belrai-score-cHSREADMISSION\"> </a></td><td>Kans op heropname</td></tr><tr><td style=\"white-space:nowrap\">cHSUNDERNUTRITION<a name=\"be-cs-belrai-score-cHSUNDERNUTRITION\"> </a></td><td>Ondervoeding - Ziekenhuis</td></tr><tr><td style=\"white-space:nowrap\">cIADL<a name=\"be-cs-belrai-score-cIADL\"> </a></td><td>Instrumentele activiteiten van het dagelijks leven (IADL)</td></tr><tr><td style=\"white-space:nowrap\">cMHCRIM<a name=\"be-cs-belrai-score-cMHCRIM\"> </a></td><td>Criminele activiteiten</td></tr><tr><td style=\"white-space:nowrap\">cMHCTRLINT<a name=\"be-cs-belrai-score-cMHCTRLINT\"> </a></td><td>Vrijheidsbeperkende maatregelen</td></tr><tr><td style=\"white-space:nowrap\">cMHEDEMP<a name=\"be-cs-belrai-score-cMHEDEMP\"> </a></td><td>Opleiding en werk</td></tr><tr><td style=\"white-space:nowrap\">cMHEXER<a name=\"be-cs-belrai-score-cMHEXER\"> </a></td><td>Beweging</td></tr><tr><td style=\"white-space:nowrap\">cMHFINAN<a name=\"be-cs-belrai-score-cMHFINAN\"> </a></td><td>Persoonlijke financiën</td></tr><tr><td style=\"white-space:nowrap\">cMHHARMOTH<a name=\"be-cs-belrai-score-cMHHARMOTH\"> </a></td><td>Schade aan anderen</td></tr><tr><td style=\"white-space:nowrap\">cMHINFSUPP<a name=\"be-cs-belrai-score-cMHINFSUPP\"> </a></td><td>Mantelzorg - Mentale gezondheid</td></tr><tr><td style=\"white-space:nowrap\">cMHIPCON<a name=\"be-cs-belrai-score-cMHIPCON\"> </a></td><td>Intermenselijke conflicten</td></tr><tr><td style=\"white-space:nowrap\">cMHMEDMGT<a name=\"be-cs-belrai-score-cMHMEDMGT\"> </a></td><td>Geneesmiddelenbeheer en therapietrouw</td></tr><tr><td style=\"white-space:nowrap\">cMHPAIN<a name=\"be-cs-belrai-score-cMHPAIN\"> </a></td><td>Pijn - Mentale gezondheid</td></tr><tr><td style=\"white-space:nowrap\">cMHREHOSP<a name=\"be-cs-belrai-score-cMHREHOSP\"> </a></td><td>Heropname</td></tr><tr><td style=\"white-space:nowrap\">cMHSELFCR<a name=\"be-cs-belrai-score-cMHSELFCR\"> </a></td><td>Zelfzorg</td></tr><tr><td style=\"white-space:nowrap\">cMHSELFHA<a name=\"be-cs-belrai-score-cMHSELFHA\"> </a></td><td>Zelfmoordgedrag en opzettelijke zelfverwonding</td></tr><tr><td style=\"white-space:nowrap\">cMHSLEEP<a name=\"be-cs-belrai-score-cMHSLEEP\"> </a></td><td>Slaapstoornissen - Mentale gezondheid</td></tr><tr><td style=\"white-space:nowrap\">cMHSMOKE<a name=\"be-cs-belrai-score-cMHSMOKE\"> </a></td><td>Roken</td></tr><tr><td style=\"white-space:nowrap\">cMHSOCREL<a name=\"be-cs-belrai-score-cMHSOCREL\"> </a></td><td>Sociale relaties - Mentale gezondheid</td></tr><tr><td style=\"white-space:nowrap\">cMHSSDIS<a name=\"be-cs-belrai-score-cMHSSDIS\"> </a></td><td>Ondersteuningskader bij ontslag</td></tr><tr><td style=\"white-space:nowrap\">cMHSUBUSE<a name=\"be-cs-belrai-score-cMHSUBUSE\"> </a></td><td>Middelengebruik</td></tr><tr><td style=\"white-space:nowrap\">cMHTRAUMA<a name=\"be-cs-belrai-score-cMHTRAUMA\"> </a></td><td>Traumatische levensgebeurtenissen</td></tr><tr><td style=\"white-space:nowrap\">cMHWTMGT<a name=\"be-cs-belrai-score-cMHWTMGT\"> </a></td><td>Gewichtsmanagement</td></tr><tr><td style=\"white-space:nowrap\">cMOOD<a name=\"be-cs-belrai-score-cMOOD\"> </a></td><td>Stemming</td></tr><tr><td style=\"white-space:nowrap\">cNUTR<a name=\"be-cs-belrai-score-cNUTR\"> </a></td><td>Ondervoeding</td></tr><tr><td style=\"white-space:nowrap\">cORALHYG<a name=\"be-cs-belrai-score-cORALHYG\"> </a></td><td>Mondhygiëne</td></tr><tr><td style=\"white-space:nowrap\">cPACTIV<a name=\"be-cs-belrai-score-cPACTIV\"> </a></td><td>Bevordering van de lichaamsbeweging</td></tr><tr><td style=\"white-space:nowrap\">cPAIN<a name=\"be-cs-belrai-score-cPAIN\"> </a></td><td>Pijn</td></tr><tr><td style=\"white-space:nowrap\">cPCDYS<a name=\"be-cs-belrai-score-cPCDYS\"> </a></td><td>Dyspneu</td></tr><tr><td style=\"white-space:nowrap\">cPCFATIG<a name=\"be-cs-belrai-score-cPCFATIG\"> </a></td><td>Vermoeidheid</td></tr><tr><td style=\"white-space:nowrap\">cPCMOOD<a name=\"be-cs-belrai-score-cPCMOOD\"> </a></td><td>Stemming-Palliative Care</td></tr><tr><td style=\"white-space:nowrap\">cPCNUTR<a name=\"be-cs-belrai-score-cPCNUTR\"> </a></td><td>Voeding - Palliatieve zorg</td></tr><tr><td style=\"white-space:nowrap\">cPCPAIN<a name=\"be-cs-belrai-score-cPCPAIN\"> </a></td><td>Pijn - Palliatieve zorg</td></tr><tr><td style=\"white-space:nowrap\">cPCSLEEP<a name=\"be-cs-belrai-score-cPCSLEEP\"> </a></td><td>Slaapstoornis - Palliatieve zorg</td></tr><tr><td style=\"white-space:nowrap\">cPULCER<a name=\"be-cs-belrai-score-cPULCER\"> </a></td><td>Decubitus</td></tr><tr><td style=\"white-space:nowrap\">cRESTR<a name=\"be-cs-belrai-score-cRESTR\"> </a></td><td>Fysieke fixatie</td></tr><tr><td style=\"white-space:nowrap\">cRISK<a name=\"be-cs-belrai-score-cRISK\"> </a></td><td>Kans op opname in een voorziening</td></tr><tr><td style=\"white-space:nowrap\">cSOCFUNC<a name=\"be-cs-belrai-score-cSOCFUNC\"> </a></td><td>Sociale omgang</td></tr><tr><td style=\"white-space:nowrap\">cURIN<a name=\"be-cs-belrai-score-cURIN\"> </a></td><td>Urine-incontinentie</td></tr><tr><td style=\"white-space:nowrap\">cpHSADL<a name=\"be-cs-belrai-score-cpHSADL\"> </a></td><td>Activiteiten van het dagelijks leven (ADL)- Preventie</td></tr><tr><td style=\"white-space:nowrap\">cpHSDELIRIUM<a name=\"be-cs-belrai-score-cpHSDELIRIUM\"> </a></td><td>Delirium - Preventie</td></tr><tr><td style=\"white-space:nowrap\">cpHSPULCER<a name=\"be-cs-belrai-score-cpHSPULCER\"> </a></td><td>Decubitus - Ziekenhuis</td></tr><tr><td style=\"white-space:nowrap\">cpcPUIMP<a name=\"be-cs-belrai-score-cpcPUIMP\"> </a></td><td>Decubitus - Palliatieve zorg</td></tr><tr><td style=\"white-space:nowrap\">ctHSADL<a name=\"be-cs-belrai-score-ctHSADL\"> </a></td><td>Activiteiten van het dagelijks leven (ADL)- Behandeling</td></tr><tr><td style=\"white-space:nowrap\">ctHSDELIRIUM<a name=\"be-cs-belrai-score-ctHSDELIRIUM\"> </a></td><td>Delirium - Behandeling</td></tr><tr><td style=\"white-space:nowrap\">ctHSPULCER<a name=\"be-cs-belrai-score-ctHSPULCER\"> </a></td><td>Decubitus - Behandeling - Ziekenhuis</td></tr><tr><td style=\"white-space:nowrap\">rHSADL<a name=\"be-cs-belrai-score-rHSADL\"> </a></td><td>Risk of Adverse Outcomes in the Form of ADL Decline in Hospital (rHSADL)</td></tr><tr><td style=\"white-space:nowrap\">rHSDELIRIUM<a name=\"be-cs-belrai-score-rHSDELIRIUM\"> </a></td><td>Risk of Delirium in Hospital (rHSDELIRIUM)</td></tr><tr><td style=\"white-space:nowrap\">rHSFALLS<a name=\"be-cs-belrai-score-rHSFALLS\"> </a></td><td>Falls Risk in Hospital (rHSFALLS)</td></tr><tr><td style=\"white-space:nowrap\">rHSPULCER<a name=\"be-cs-belrai-score-rHSPULCER\"> </a></td><td>Pressure Ulcer Risk Scale in Hospital (rHSPULCER)</td></tr><tr><td style=\"white-space:nowrap\">rHSREADMISSION<a name=\"be-cs-belrai-score-rHSREADMISSION\"> </a></td><td>Risk of Readmission in Hospital (rHSREADMISSION)</td></tr><tr><td style=\"white-space:nowrap\">sABS<a name=\"be-cs-belrai-score-sABS\"> </a></td><td>Aggressive Behaviour Scale (sABS)</td></tr><tr><td style=\"white-space:nowrap\">sADLH<a name=\"be-cs-belrai-score-sADLH\"> </a></td><td>ADL Hierarchy Scale (sADLH)</td></tr><tr><td style=\"white-space:nowrap\">sBMI<a name=\"be-cs-belrai-score-sBMI\"> </a></td><td>Body Mass Index (sBMI)</td></tr><tr><td style=\"white-space:nowrap\">sCAGE<a name=\"be-cs-belrai-score-sCAGE\"> </a></td><td>Addictions and Substance Use Scale (sCAGE)</td></tr><tr><td style=\"white-space:nowrap\">sCHESS<a name=\"be-cs-belrai-score-sCHESS\"> </a></td><td>Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)</td></tr><tr><td style=\"white-space:nowrap\">sCOMM<a name=\"be-cs-belrai-score-sCOMM\"> </a></td><td>Communication Scale (sCOMM)</td></tr><tr><td style=\"white-space:nowrap\">sCPS<a name=\"be-cs-belrai-score-sCPS\"> </a></td><td>Cognitive Performance Scale (sCPS)</td></tr><tr><td style=\"white-space:nowrap\">sCPS2<a name=\"be-cs-belrai-score-sCPS2\"> </a></td><td>Cognitive Performance Scale 2 (sCPS2)</td></tr><tr><td style=\"white-space:nowrap\">sDRS<a name=\"be-cs-belrai-score-sDRS\"> </a></td><td>Depression Rating Scale (sDRS)</td></tr><tr><td style=\"white-space:nowrap\">sDbSI<a name=\"be-cs-belrai-score-sDbSI\"> </a></td><td>Deafblind Severity Index (sDbSI)</td></tr><tr><td style=\"white-space:nowrap\">sFRAILTY<a name=\"be-cs-belrai-score-sFRAILTY\"> </a></td><td>Frailty Scale (sFrailty)</td></tr><tr><td style=\"white-space:nowrap\">sHSADLH<a name=\"be-cs-belrai-score-sHSADLH\"> </a></td><td>ADL Hierarchy Scale – Hospital (sHSADLH)</td></tr><tr><td style=\"white-space:nowrap\">sHSPAIN<a name=\"be-cs-belrai-score-sHSPAIN\"> </a></td><td>Pain Scale - Hospital (sHSPAIN)</td></tr><tr><td style=\"white-space:nowrap\">sHSPURS<a name=\"be-cs-belrai-score-sHSPURS\"> </a></td><td>Pressure Ulcer Risk Scale - Hospital (sHSPURS)</td></tr><tr><td style=\"white-space:nowrap\">sIADLCH<a name=\"be-cs-belrai-score-sIADLCH\"> </a></td><td>IADL Capacity Hierarchy Scale (sIADLCH)</td></tr><tr><td style=\"white-space:nowrap\">sPAIN<a name=\"be-cs-belrai-score-sPAIN\"> </a></td><td>Pain Scale (sPAIN)</td></tr><tr><td style=\"white-space:nowrap\">sPURS<a name=\"be-cs-belrai-score-sPURS\"> </a></td><td>Pressure Ulcer Risk Scale (sPURS)</td></tr><tr><td style=\"white-space:nowrap\">sSRMOOD<a name=\"be-cs-belrai-score-sSRMOOD\"> </a></td><td>Self-reported Mood Scale</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-belrai-score"] ;
+  fhir:CodeSystem.version [ fhir:value "1.2.0"] ;
+  fhir:CodeSystem.name [ fhir:value "BeCSBelraiScore"] ;
+  fhir:CodeSystem.title [ fhir:value "BelRAI Score Code System"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2026-07-16T15:39:29+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "eHealth Platform"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "eHealth Platform" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ehealth.fgov.be" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "message-structure@www.ehealth.fgov.be" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "Message-Structure" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "message-structure@www.ehealth.fgov.be" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Codes identifying each BelRAI scoring scale/screener, used as Observation.code."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BE" ] ;
+       fhir:Coding.display [ fhir:value "Belgium" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "98"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "aHSDELIRIUM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Delirium Screener (aHSDELIRIUM)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "aHSDEMENTIA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dementia Screener (aHSDEMENTIA)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "aHSDEPRESSION" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Depression Screener (aHSDEPRESSION)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "aHSNUTRITION" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nutrition Screener (aHSNUTRITION)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "aMAPLE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Method for Assigning Priority Levels (aMAPLe)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cABUSE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mishandeling/Verwaarlozing" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cACTIV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Activiteiten" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cADD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Tabak- en alcoholgebruik" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cADL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Activiteiten van het dagelijks leven (ADL)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cBEHAV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Gedrag" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cBOWEL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Darmproblemen" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cBRITSU" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mantelzorg" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cCARDIO" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hart en ademhaling" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cCOGNIT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cognitieverlies" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cCOMMUN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Communicatie" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cDEHYD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dehydratatie" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cDELIR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Delirium" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cDENTISTREFER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Doorverwijzing naar de tandarts" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cDRUG" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Juist en verantwoord medicatiegebruik" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cENVIR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Thuisomgeving" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cFALLS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Valincidenten" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cFEEDTB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sondevoeding" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cHSBEHAV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Gedrag - Ziekenhuis" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cHSCOGNIT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cognitieverlies - Ziekenhuis" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cHSCOMMUN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Communicatie - Ziekenhuis" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cHSDEPRESS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Depressie - Ziekenhuis" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cHSFALLS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Valincidenten - Ziekenhuis" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cHSINSTITUTION" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Kans op opname in een voorziening - Ziekenhuis" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cHSPAIN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pijn - Ziekenhuis" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cHSREADMISSION" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Kans op heropname" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cHSUNDERNUTRITION" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ondervoeding - Ziekenhuis" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cIADL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Instrumentele activiteiten van het dagelijks leven (IADL)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHCRIM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Criminele activiteiten" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHCTRLINT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vrijheidsbeperkende maatregelen" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHEDEMP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Opleiding en werk" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHEXER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Beweging" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHFINAN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Persoonlijke financiën" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHHARMOTH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Schade aan anderen" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHINFSUPP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mantelzorg - Mentale gezondheid" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHIPCON" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Intermenselijke conflicten" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHMEDMGT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Geneesmiddelenbeheer en therapietrouw" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHPAIN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pijn - Mentale gezondheid" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHREHOSP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Heropname" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHSELFCR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zelfzorg" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHSELFHA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Zelfmoordgedrag en opzettelijke zelfverwonding" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHSLEEP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Slaapstoornissen - Mentale gezondheid" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHSMOKE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Roken" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHSOCREL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sociale relaties - Mentale gezondheid" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHSSDIS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ondersteuningskader bij ontslag" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHSUBUSE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Middelengebruik" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHTRAUMA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Traumatische levensgebeurtenissen" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMHWTMGT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Gewichtsmanagement" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cMOOD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Stemming" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cNUTR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ondervoeding" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cORALHYG" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mondhygiëne" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cPACTIV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bevordering van de lichaamsbeweging" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cPAIN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pijn" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cPCDYS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Dyspneu" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cPCFATIG" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Vermoeidheid" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cPCMOOD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Stemming-Palliative Care" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cPCNUTR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Voeding - Palliatieve zorg" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cPCPAIN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pijn - Palliatieve zorg" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cPCSLEEP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Slaapstoornis - Palliatieve zorg" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cPULCER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Decubitus" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cRESTR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Fysieke fixatie" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cRISK" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Kans op opname in een voorziening" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cSOCFUNC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sociale omgang" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cURIN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Urine-incontinentie" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cpHSADL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Activiteiten van het dagelijks leven (ADL)- Preventie" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cpHSDELIRIUM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Delirium - Preventie" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cpHSPULCER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Decubitus - Ziekenhuis" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "cpcPUIMP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Decubitus - Palliatieve zorg" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ctHSADL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Activiteiten van het dagelijks leven (ADL)- Behandeling" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ctHSDELIRIUM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Delirium - Behandeling" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ctHSPULCER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Decubitus - Behandeling - Ziekenhuis" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "rHSADL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Risk of Adverse Outcomes in the Form of ADL Decline in Hospital (rHSADL)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "rHSDELIRIUM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Risk of Delirium in Hospital (rHSDELIRIUM)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "rHSFALLS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Falls Risk in Hospital (rHSFALLS)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "rHSPULCER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pressure Ulcer Risk Scale in Hospital (rHSPULCER)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "rHSREADMISSION" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Risk of Readmission in Hospital (rHSREADMISSION)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sABS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Aggressive Behaviour Scale (sABS)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sADLH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ADL Hierarchy Scale (sADLH)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sBMI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Body Mass Index (sBMI)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sCAGE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Addictions and Substance Use Scale (sCAGE)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sCHESS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sCOMM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Communication Scale (sCOMM)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sCPS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cognitive Performance Scale (sCPS)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sCPS2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cognitive Performance Scale 2 (sCPS2)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sDRS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Depression Rating Scale (sDRS)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sDbSI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Deafblind Severity Index (sDbSI)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sFRAILTY" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Frailty Scale (sFrailty)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sHSADLH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "ADL Hierarchy Scale – Hospital (sHSADLH)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sHSPAIN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pain Scale - Hospital (sHSPAIN)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sHSPURS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pressure Ulcer Risk Scale - Hospital (sHSPURS)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sIADLCH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IADL Capacity Hierarchy Scale (sIADLCH)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sPAIN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pain Scale (sPAIN)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sPURS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pressure Ulcer Risk Scale (sPURS)" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "sSRMOOD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Self-reported Mood Scale" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-belrai-score.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

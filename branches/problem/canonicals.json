@@ -1,0 +1,231 @@
+[{
+  "id" : "be-cs-bodysite",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-bodysite",
+  "version" : "1.1.0",
+  "name" : "BeCSBodySite"
+},
+{
+  "id" : "be-cs-problem-category",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+  "version" : "1.1.0",
+  "name" : "BeCSProblemCategory"
+},
+{
+  "id" : "be-cs-problem-origin-type",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type",
+  "version" : "1.1.0",
+  "name" : "BeCSProblemOriginType"
+},
+{
+  "id" : "be-cs-score",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score",
+  "version" : "1.1.0",
+  "name" : "BeCSScore"
+},
+{
+  "id" : "be-cs-score-category",
+  "type" : "CodeSystem",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category",
+  "version" : "1.1.0",
+  "name" : "BeCSScoreCategory"
+},
+{
+  "id" : "hl7.fhir.be.core-clinical",
+  "type" : "ImplementationGuide",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ImplementationGuide/hl7.fhir.be.core-clinical",
+  "version" : "1.1.0",
+  "name" : "TransversalClinicalCore"
+},
+{
+  "id" : "BeModelBodySite",
+  "type" : "StructureDefinition",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeModelBodySite",
+  "version" : "1.1.0",
+  "name" : "BeModelBodySite"
+},
+{
+  "id" : "BeModelClinicalObservation",
+  "type" : "StructureDefinition",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeModelClinicalObservation",
+  "version" : "1.1.0",
+  "name" : "BeModelClinicalObservation"
+},
+{
+  "id" : "BeModelProblem",
+  "type" : "StructureDefinition",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeModelProblem",
+  "version" : "1.1.0",
+  "name" : "BeModelProblem"
+},
+{
+  "id" : "BeModelProcedure",
+  "type" : "StructureDefinition",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeModelProcedure",
+  "version" : "1.1.0",
+  "name" : "BeModelProcedure"
+},
+{
+  "id" : "be-clinical-observation",
+  "type" : "StructureDefinition",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-clinical-observation",
+  "version" : "1.1.0",
+  "name" : "BeClinicalObservation"
+},
+{
+  "id" : "be-ext-body-topography",
+  "type" : "StructureDefinition",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-ext-body-topography",
+  "version" : "1.1.0",
+  "name" : "BeExtBodyTopography"
+},
+{
+  "id" : "be-ext-laterality",
+  "type" : "StructureDefinition",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-ext-laterality",
+  "version" : "1.1.0",
+  "name" : "BeExtLaterality"
+},
+{
+  "id" : "be-ext-problem-origin-type",
+  "type" : "StructureDefinition",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-ext-problem-origin-type",
+  "version" : "1.1.0",
+  "name" : "BeExtProblemOriginType"
+},
+{
+  "id" : "be-ext-surgical-approach",
+  "type" : "StructureDefinition",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-ext-surgical-approach",
+  "version" : "1.1.0",
+  "name" : "BeExtSurgicalApproach"
+},
+{
+  "id" : "be-observation",
+  "type" : "StructureDefinition",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation",
+  "version" : "1.1.0",
+  "name" : "BeObservation"
+},
+{
+  "id" : "be-observationcodeableconcept",
+  "type" : "StructureDefinition",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observationcodeableconcept",
+  "version" : "1.1.0",
+  "name" : "BeObservationCodeableConcept"
+},
+{
+  "id" : "be-problem",
+  "type" : "StructureDefinition",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-problem",
+  "version" : "1.1.0",
+  "name" : "BeProblem"
+},
+{
+  "id" : "be-procedure",
+  "type" : "StructureDefinition",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-procedure",
+  "version" : "1.1.0",
+  "name" : "BeProcedure"
+},
+{
+  "id" : "be-scoreresult",
+  "type" : "StructureDefinition",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-scoreresult",
+  "version" : "1.1.0",
+  "name" : "BeScoreResult"
+},
+{
+  "id" : "ProblemCategoryVS",
+  "type" : "ValueSet",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCategoryVS",
+  "version" : "1.1.0",
+  "name" : "ProblemCategoryVS"
+},
+{
+  "id" : "ProblemCodeVS",
+  "type" : "ValueSet",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCodeVS",
+  "version" : "1.1.0",
+  "name" : "ProblemCodeVS"
+},
+{
+  "id" : "ProblemDiseaseCourseVS",
+  "type" : "ValueSet",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemDiseaseCourseVS",
+  "version" : "1.1.0",
+  "name" : "ProblemDiseaseCourseVS"
+},
+{
+  "id" : "be-vs-body-topography",
+  "type" : "ValueSet",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-body-topography",
+  "version" : "1.1.0",
+  "name" : "BeVSBodyTopography"
+},
+{
+  "id" : "be-vs-bodysite",
+  "type" : "ValueSet",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-bodysite",
+  "version" : "1.1.0",
+  "name" : "BeVSBodySite"
+},
+{
+  "id" : "be-vs-laterality",
+  "type" : "ValueSet",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-laterality",
+  "version" : "1.1.0",
+  "name" : "BeVSLaterality"
+},
+{
+  "id" : "be-vs-problem-category",
+  "type" : "ValueSet",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-category",
+  "version" : "1.1.0",
+  "name" : "BeVSProblemCategory"
+},
+{
+  "id" : "be-vs-problem-code",
+  "type" : "ValueSet",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-code",
+  "version" : "1.1.0",
+  "name" : "BeVSProblemCode"
+},
+{
+  "id" : "be-vs-problem-origin-type",
+  "type" : "ValueSet",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-origin-type",
+  "version" : "1.1.0",
+  "name" : "BeVSProblemOriginType"
+},
+{
+  "id" : "be-vs-reaction-manifestation-code",
+  "type" : "ValueSet",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-reaction-manifestation-code",
+  "version" : "1.1.0",
+  "name" : "BeVSReactionManifestationCode"
+},
+{
+  "id" : "be-vs-score",
+  "type" : "ValueSet",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-score",
+  "version" : "1.1.0",
+  "name" : "BeVSScore"
+},
+{
+  "id" : "be-vs-scorecategory",
+  "type" : "ValueSet",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-scorecategory",
+  "version" : "1.1.0",
+  "name" : "BeVSScoreCategory"
+},
+{
+  "id" : "be-vs-severity",
+  "type" : "ValueSet",
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-severity",
+  "version" : "1.1.0",
+  "name" : "BeVSSeverity"
+}]

@@ -1,0 +1,611 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>BelRAI Score Code System - Clinical Core v1.2.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/hl7-be.css" rel="stylesheet"/>
+<!-- Placeholder for child template CSS declarations -->
+<!-- eHealth Platform -->
+<!-- active -->
+
+<link href="assets/css/federal-colors.css" rel="stylesheet"/>
+
+<link href="assets/css/lforms.min.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script type="text/javascript" src="assets/js/prism.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-fhirpath.js"></script>
+	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"5.37"}
+    h3,h4,h5,h6{--heading-prefix:"5.37"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        
+<!-- eHealth Platform -->
+<!-- active -->
+
+<div id="ig-nav">
+  <a id="standards-logo" no-external="true" href="index.html">
+    <img height="50" alt="Welcome on standards website" src="assets/images/standards.svg"/>
+  </a>
+</div>
+
+
+        <div id="family-nav">
+          <a id="besafeshare-logo" no-external="true" href="#">
+            <img height="71" alt="Project home" src="assets/images/be-safeshare.png"/>
+          </a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Clinical Core</span>
+            <br/>
+            <span style="display:inline-block;">1.2.0 - STU1
+
+
+
+  <img alt="Belgium flag" src="../assets/images/bel.svg" height="16" title="Belgium"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="guidance.html">Guidance</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Artifacts
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html#2">Profiles</a>
+      </li>
+      <li>
+        <a href="artifacts.html#3">Extensions</a>
+      </li>
+      <li>
+        <a href="artifacts.html#4">Value Sets</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="changes.html">Changes</a>
+  </li>
+  <li>
+    <a href="https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html">History</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>BelRAI Score Code System</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ValueSet-be-vs-severity.ttl.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="CodeSystem-be-cs-belrai-score-testing.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-codesystem -->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Clinical Core, published by eHealth Platform. This guide is not an authorized publication; it is the continuous build for version 1.2.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-be/core-clinical/tree/belrai'>https://github.com/hl7-be/core-clinical/tree/belrai</a> and changes regularly. See the <a href='https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-be-cs-belrai-score.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-be-cs-belrai-score.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-be-cs-belrai-score.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+
+  <h2 id="root">CodeSystem: BelRAI Score Code System
+
+  </h2>
+
+  <table class="colsi" data-fhir="generated">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-belrai-score<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-belrai-score"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">1.2.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-belrai-score|1.2.0"/></span>
+      </td>
+      <td style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
+        <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
+  
+        <input style="margin:0" type="checkbox" id="showChanges" onchange="toggleChanges()"/>
+  
+      </span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="5">
+        
+          Active
+          
+
+            as of 
+2026-07-16
+
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">BeCSBelraiScore</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Codes identifying each BelRAI scoring scale/screener, used as Observation.code.</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>This Code system is referenced in the definition of the following value sets:</p>
+
+  
+<ul>
+ <li><a href="ValueSet-be-vs-belrai-score.html">BeVSBelraiScore</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"></p><a name="be-cs-belrai-score"> </a><a name="hcbe-cs-belrai-score"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-belrai-score</code> defines the following codes:</p>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr>
+<tr><td style="white-space:nowrap">aHSDELIRIUM<a name="be-cs-belrai-score-aHSDELIRIUM"> </a></td>
+<td>Delirium Screener (aHSDELIRIUM)</td></tr>
+<tr><td style="white-space:nowrap">aHSDEMENTIA<a name="be-cs-belrai-score-aHSDEMENTIA"> </a></td>
+<td>Dementia Screener (aHSDEMENTIA)</td></tr>
+<tr><td style="white-space:nowrap">aHSDEPRESSION<a name="be-cs-belrai-score-aHSDEPRESSION"> </a></td>
+<td>Depression Screener (aHSDEPRESSION)</td></tr>
+<tr><td style="white-space:nowrap">aHSNUTRITION<a name="be-cs-belrai-score-aHSNUTRITION"> </a></td>
+<td>Nutrition Screener (aHSNUTRITION)</td></tr>
+<tr><td style="white-space:nowrap">aMAPLE<a name="be-cs-belrai-score-aMAPLE"> </a></td>
+<td>Method for Assigning Priority Levels (aMAPLe)</td></tr>
+<tr><td style="white-space:nowrap">cABUSE<a name="be-cs-belrai-score-cABUSE"> </a></td>
+<td>Mishandeling/Verwaarlozing</td></tr>
+<tr><td style="white-space:nowrap">cACTIV<a name="be-cs-belrai-score-cACTIV"> </a></td>
+<td>Activiteiten</td></tr>
+<tr><td style="white-space:nowrap">cADD<a name="be-cs-belrai-score-cADD"> </a></td>
+<td>Tabak- en alcoholgebruik</td></tr>
+<tr><td style="white-space:nowrap">cADL<a name="be-cs-belrai-score-cADL"> </a></td>
+<td>Activiteiten van het dagelijks leven (ADL)</td></tr>
+<tr><td style="white-space:nowrap">cBEHAV<a name="be-cs-belrai-score-cBEHAV"> </a></td>
+<td>Gedrag</td></tr>
+<tr><td style="white-space:nowrap">cBOWEL<a name="be-cs-belrai-score-cBOWEL"> </a></td>
+<td>Darmproblemen</td></tr>
+<tr><td style="white-space:nowrap">cBRITSU<a name="be-cs-belrai-score-cBRITSU"> </a></td>
+<td>Mantelzorg</td></tr>
+<tr><td style="white-space:nowrap">cCARDIO<a name="be-cs-belrai-score-cCARDIO"> </a></td>
+<td>Hart en ademhaling</td></tr>
+<tr><td style="white-space:nowrap">cCOGNIT<a name="be-cs-belrai-score-cCOGNIT"> </a></td>
+<td>Cognitieverlies</td></tr>
+<tr><td style="white-space:nowrap">cCOMMUN<a name="be-cs-belrai-score-cCOMMUN"> </a></td>
+<td>Communicatie</td></tr>
+<tr><td style="white-space:nowrap">cDEHYD<a name="be-cs-belrai-score-cDEHYD"> </a></td>
+<td>Dehydratatie</td></tr>
+<tr><td style="white-space:nowrap">cDELIR<a name="be-cs-belrai-score-cDELIR"> </a></td>
+<td>Delirium</td></tr>
+<tr><td style="white-space:nowrap">cDENTISTREFER<a name="be-cs-belrai-score-cDENTISTREFER"> </a></td>
+<td>Doorverwijzing naar de tandarts</td></tr>
+<tr><td style="white-space:nowrap">cDRUG<a name="be-cs-belrai-score-cDRUG"> </a></td>
+<td>Juist en verantwoord medicatiegebruik</td></tr>
+<tr><td style="white-space:nowrap">cENVIR<a name="be-cs-belrai-score-cENVIR"> </a></td>
+<td>Thuisomgeving</td></tr>
+<tr><td style="white-space:nowrap">cFALLS<a name="be-cs-belrai-score-cFALLS"> </a></td>
+<td>Valincidenten</td></tr>
+<tr><td style="white-space:nowrap">cFEEDTB<a name="be-cs-belrai-score-cFEEDTB"> </a></td>
+<td>Sondevoeding</td></tr>
+<tr><td style="white-space:nowrap">cHSBEHAV<a name="be-cs-belrai-score-cHSBEHAV"> </a></td>
+<td>Gedrag - Ziekenhuis</td></tr>
+<tr><td style="white-space:nowrap">cHSCOGNIT<a name="be-cs-belrai-score-cHSCOGNIT"> </a></td>
+<td>Cognitieverlies - Ziekenhuis</td></tr>
+<tr><td style="white-space:nowrap">cHSCOMMUN<a name="be-cs-belrai-score-cHSCOMMUN"> </a></td>
+<td>Communicatie - Ziekenhuis</td></tr>
+<tr><td style="white-space:nowrap">cHSDEPRESS<a name="be-cs-belrai-score-cHSDEPRESS"> </a></td>
+<td>Depressie - Ziekenhuis</td></tr>
+<tr><td style="white-space:nowrap">cHSFALLS<a name="be-cs-belrai-score-cHSFALLS"> </a></td>
+<td>Valincidenten - Ziekenhuis</td></tr>
+<tr><td style="white-space:nowrap">cHSINSTITUTION<a name="be-cs-belrai-score-cHSINSTITUTION"> </a></td>
+<td>Kans op opname in een voorziening - Ziekenhuis</td></tr>
+<tr><td style="white-space:nowrap">cHSPAIN<a name="be-cs-belrai-score-cHSPAIN"> </a></td>
+<td>Pijn - Ziekenhuis</td></tr>
+<tr><td style="white-space:nowrap">cHSREADMISSION<a name="be-cs-belrai-score-cHSREADMISSION"> </a></td>
+<td>Kans op heropname</td></tr>
+<tr><td style="white-space:nowrap">cHSUNDERNUTRITION<a name="be-cs-belrai-score-cHSUNDERNUTRITION"> </a></td>
+<td>Ondervoeding - Ziekenhuis</td></tr>
+<tr><td style="white-space:nowrap">cIADL<a name="be-cs-belrai-score-cIADL"> </a></td>
+<td>Instrumentele activiteiten van het dagelijks leven (IADL)</td></tr>
+<tr><td style="white-space:nowrap">cMHCRIM<a name="be-cs-belrai-score-cMHCRIM"> </a></td>
+<td>Criminele activiteiten</td></tr>
+<tr><td style="white-space:nowrap">cMHCTRLINT<a name="be-cs-belrai-score-cMHCTRLINT"> </a></td>
+<td>Vrijheidsbeperkende maatregelen</td></tr>
+<tr><td style="white-space:nowrap">cMHEDEMP<a name="be-cs-belrai-score-cMHEDEMP"> </a></td>
+<td>Opleiding en werk</td></tr>
+<tr><td style="white-space:nowrap">cMHEXER<a name="be-cs-belrai-score-cMHEXER"> </a></td>
+<td>Beweging</td></tr>
+<tr><td style="white-space:nowrap">cMHFINAN<a name="be-cs-belrai-score-cMHFINAN"> </a></td>
+<td>Persoonlijke financiën</td></tr>
+<tr><td style="white-space:nowrap">cMHHARMOTH<a name="be-cs-belrai-score-cMHHARMOTH"> </a></td>
+<td>Schade aan anderen</td></tr>
+<tr><td style="white-space:nowrap">cMHINFSUPP<a name="be-cs-belrai-score-cMHINFSUPP"> </a></td>
+<td>Mantelzorg - Mentale gezondheid</td></tr>
+<tr><td style="white-space:nowrap">cMHIPCON<a name="be-cs-belrai-score-cMHIPCON"> </a></td>
+<td>Intermenselijke conflicten</td></tr>
+<tr><td style="white-space:nowrap">cMHMEDMGT<a name="be-cs-belrai-score-cMHMEDMGT"> </a></td>
+<td>Geneesmiddelenbeheer en therapietrouw</td></tr>
+<tr><td style="white-space:nowrap">cMHPAIN<a name="be-cs-belrai-score-cMHPAIN"> </a></td>
+<td>Pijn - Mentale gezondheid</td></tr>
+<tr><td style="white-space:nowrap">cMHREHOSP<a name="be-cs-belrai-score-cMHREHOSP"> </a></td>
+<td>Heropname</td></tr>
+<tr><td style="white-space:nowrap">cMHSELFCR<a name="be-cs-belrai-score-cMHSELFCR"> </a></td>
+<td>Zelfzorg</td></tr>
+<tr><td style="white-space:nowrap">cMHSELFHA<a name="be-cs-belrai-score-cMHSELFHA"> </a></td>
+<td>Zelfmoordgedrag en opzettelijke zelfverwonding</td></tr>
+<tr><td style="white-space:nowrap">cMHSLEEP<a name="be-cs-belrai-score-cMHSLEEP"> </a></td>
+<td>Slaapstoornissen - Mentale gezondheid</td></tr>
+<tr><td style="white-space:nowrap">cMHSMOKE<a name="be-cs-belrai-score-cMHSMOKE"> </a></td>
+<td>Roken</td></tr>
+<tr><td style="white-space:nowrap">cMHSOCREL<a name="be-cs-belrai-score-cMHSOCREL"> </a></td>
+<td>Sociale relaties - Mentale gezondheid</td></tr>
+<tr><td style="white-space:nowrap">cMHSSDIS<a name="be-cs-belrai-score-cMHSSDIS"> </a></td>
+<td>Ondersteuningskader bij ontslag</td></tr>
+<tr><td style="white-space:nowrap">cMHSUBUSE<a name="be-cs-belrai-score-cMHSUBUSE"> </a></td>
+<td>Middelengebruik</td></tr>
+<tr><td style="white-space:nowrap">cMHTRAUMA<a name="be-cs-belrai-score-cMHTRAUMA"> </a></td>
+<td>Traumatische levensgebeurtenissen</td></tr>
+<tr><td style="white-space:nowrap">cMHWTMGT<a name="be-cs-belrai-score-cMHWTMGT"> </a></td>
+<td>Gewichtsmanagement</td></tr>
+<tr><td style="white-space:nowrap">cMOOD<a name="be-cs-belrai-score-cMOOD"> </a></td>
+<td>Stemming</td></tr>
+<tr><td style="white-space:nowrap">cNUTR<a name="be-cs-belrai-score-cNUTR"> </a></td>
+<td>Ondervoeding</td></tr>
+<tr><td style="white-space:nowrap">cORALHYG<a name="be-cs-belrai-score-cORALHYG"> </a></td>
+<td>Mondhygiëne</td></tr>
+<tr><td style="white-space:nowrap">cPACTIV<a name="be-cs-belrai-score-cPACTIV"> </a></td>
+<td>Bevordering van de lichaamsbeweging</td></tr>
+<tr><td style="white-space:nowrap">cPAIN<a name="be-cs-belrai-score-cPAIN"> </a></td>
+<td>Pijn</td></tr>
+<tr><td style="white-space:nowrap">cPCDYS<a name="be-cs-belrai-score-cPCDYS"> </a></td>
+<td>Dyspneu</td></tr>
+<tr><td style="white-space:nowrap">cPCFATIG<a name="be-cs-belrai-score-cPCFATIG"> </a></td>
+<td>Vermoeidheid</td></tr>
+<tr><td style="white-space:nowrap">cPCMOOD<a name="be-cs-belrai-score-cPCMOOD"> </a></td>
+<td>Stemming-Palliative Care</td></tr>
+<tr><td style="white-space:nowrap">cPCNUTR<a name="be-cs-belrai-score-cPCNUTR"> </a></td>
+<td>Voeding - Palliatieve zorg</td></tr>
+<tr><td style="white-space:nowrap">cPCPAIN<a name="be-cs-belrai-score-cPCPAIN"> </a></td>
+<td>Pijn - Palliatieve zorg</td></tr>
+<tr><td style="white-space:nowrap">cPCSLEEP<a name="be-cs-belrai-score-cPCSLEEP"> </a></td>
+<td>Slaapstoornis - Palliatieve zorg</td></tr>
+<tr><td style="white-space:nowrap">cPULCER<a name="be-cs-belrai-score-cPULCER"> </a></td>
+<td>Decubitus</td></tr>
+<tr><td style="white-space:nowrap">cRESTR<a name="be-cs-belrai-score-cRESTR"> </a></td>
+<td>Fysieke fixatie</td></tr>
+<tr><td style="white-space:nowrap">cRISK<a name="be-cs-belrai-score-cRISK"> </a></td>
+<td>Kans op opname in een voorziening</td></tr>
+<tr><td style="white-space:nowrap">cSOCFUNC<a name="be-cs-belrai-score-cSOCFUNC"> </a></td>
+<td>Sociale omgang</td></tr>
+<tr><td style="white-space:nowrap">cURIN<a name="be-cs-belrai-score-cURIN"> </a></td>
+<td>Urine-incontinentie</td></tr>
+<tr><td style="white-space:nowrap">cpHSADL<a name="be-cs-belrai-score-cpHSADL"> </a></td>
+<td>Activiteiten van het dagelijks leven (ADL)- Preventie</td></tr>
+<tr><td style="white-space:nowrap">cpHSDELIRIUM<a name="be-cs-belrai-score-cpHSDELIRIUM"> </a></td>
+<td>Delirium - Preventie</td></tr>
+<tr><td style="white-space:nowrap">cpHSPULCER<a name="be-cs-belrai-score-cpHSPULCER"> </a></td>
+<td>Decubitus - Ziekenhuis</td></tr>
+<tr><td style="white-space:nowrap">cpcPUIMP<a name="be-cs-belrai-score-cpcPUIMP"> </a></td>
+<td>Decubitus - Palliatieve zorg</td></tr>
+<tr><td style="white-space:nowrap">ctHSADL<a name="be-cs-belrai-score-ctHSADL"> </a></td>
+<td>Activiteiten van het dagelijks leven (ADL)- Behandeling</td></tr>
+<tr><td style="white-space:nowrap">ctHSDELIRIUM<a name="be-cs-belrai-score-ctHSDELIRIUM"> </a></td>
+<td>Delirium - Behandeling</td></tr>
+<tr><td style="white-space:nowrap">ctHSPULCER<a name="be-cs-belrai-score-ctHSPULCER"> </a></td>
+<td>Decubitus - Behandeling - Ziekenhuis</td></tr>
+<tr><td style="white-space:nowrap">rHSADL<a name="be-cs-belrai-score-rHSADL"> </a></td>
+<td>Risk of Adverse Outcomes in the Form of ADL Decline in Hospital (rHSADL)</td></tr>
+<tr><td style="white-space:nowrap">rHSDELIRIUM<a name="be-cs-belrai-score-rHSDELIRIUM"> </a></td>
+<td>Risk of Delirium in Hospital (rHSDELIRIUM)</td></tr>
+<tr><td style="white-space:nowrap">rHSFALLS<a name="be-cs-belrai-score-rHSFALLS"> </a></td>
+<td>Falls Risk in Hospital (rHSFALLS)</td></tr>
+<tr><td style="white-space:nowrap">rHSPULCER<a name="be-cs-belrai-score-rHSPULCER"> </a></td>
+<td>Pressure Ulcer Risk Scale in Hospital (rHSPULCER)</td></tr>
+<tr><td style="white-space:nowrap">rHSREADMISSION<a name="be-cs-belrai-score-rHSREADMISSION"> </a></td>
+<td>Risk of Readmission in Hospital (rHSREADMISSION)</td></tr>
+<tr><td style="white-space:nowrap">sABS<a name="be-cs-belrai-score-sABS"> </a></td>
+<td>Aggressive Behaviour Scale (sABS)</td></tr>
+<tr><td style="white-space:nowrap">sADLH<a name="be-cs-belrai-score-sADLH"> </a></td>
+<td>ADL Hierarchy Scale (sADLH)</td></tr>
+<tr><td style="white-space:nowrap">sBMI<a name="be-cs-belrai-score-sBMI"> </a></td>
+<td>Body Mass Index (sBMI)</td></tr>
+<tr><td style="white-space:nowrap">sCAGE<a name="be-cs-belrai-score-sCAGE"> </a></td>
+<td>Addictions and Substance Use Scale (sCAGE)</td></tr>
+<tr><td style="white-space:nowrap">sCHESS<a name="be-cs-belrai-score-sCHESS"> </a></td>
+<td>Changes in Health, End-stage Disease and Symptoms and Signs Scale (sCHESS)</td></tr>
+<tr><td style="white-space:nowrap">sCOMM<a name="be-cs-belrai-score-sCOMM"> </a></td>
+<td>Communication Scale (sCOMM)</td></tr>
+<tr><td style="white-space:nowrap">sCPS<a name="be-cs-belrai-score-sCPS"> </a></td>
+<td>Cognitive Performance Scale (sCPS)</td></tr>
+<tr><td style="white-space:nowrap">sCPS2<a name="be-cs-belrai-score-sCPS2"> </a></td>
+<td>Cognitive Performance Scale 2 (sCPS2)</td></tr>
+<tr><td style="white-space:nowrap">sDRS<a name="be-cs-belrai-score-sDRS"> </a></td>
+<td>Depression Rating Scale (sDRS)</td></tr>
+<tr><td style="white-space:nowrap">sDbSI<a name="be-cs-belrai-score-sDbSI"> </a></td>
+<td>Deafblind Severity Index (sDbSI)</td></tr>
+<tr><td style="white-space:nowrap">sFRAILTY<a name="be-cs-belrai-score-sFRAILTY"> </a></td>
+<td>Frailty Scale (sFrailty)</td></tr>
+<tr><td style="white-space:nowrap">sHSADLH<a name="be-cs-belrai-score-sHSADLH"> </a></td>
+<td>ADL Hierarchy Scale – Hospital (sHSADLH)</td></tr>
+<tr><td style="white-space:nowrap">sHSPAIN<a name="be-cs-belrai-score-sHSPAIN"> </a></td>
+<td>Pain Scale - Hospital (sHSPAIN)</td></tr>
+<tr><td style="white-space:nowrap">sHSPURS<a name="be-cs-belrai-score-sHSPURS"> </a></td>
+<td>Pressure Ulcer Risk Scale - Hospital (sHSPURS)</td></tr>
+<tr><td style="white-space:nowrap">sIADLCH<a name="be-cs-belrai-score-sIADLCH"> </a></td>
+<td>IADL Capacity Hierarchy Scale (sIADLCH)</td></tr>
+<tr><td style="white-space:nowrap">sPAIN<a name="be-cs-belrai-score-sPAIN"> </a></td>
+<td>Pain Scale (sPAIN)</td></tr>
+<tr><td style="white-space:nowrap">sPURS<a name="be-cs-belrai-score-sPURS"> </a></td>
+<td>Pressure Ulcer Risk Scale (sPURS)</td></tr>
+<tr><td style="white-space:nowrap">sSRMOOD<a name="be-cs-belrai-score-sSRMOOD"> </a></td>
+<td>Self-reported Mood Scale</td></tr></table></div>
+
+  <hr/>
+  <p>
+    <a href="http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology">Description of the above table(s)</a>.
+  </p>
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <script type="text/javascript" src="assets/js/togglechanges.js"> </script>
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ValueSet-be-vs-severity.ttl.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="CodeSystem-be-cs-belrai-score-testing.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.ehealth.fgov.be">eHealth Platform</a>.  
+          Package hl7.fhir.be.core-clinical#1.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-07-16 15:39:00 +0000">
+    2026-07-16
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+            <!-- eHealth Platform -->
+<!-- active -->
+
+Links:
+<a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+<a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+
+
+<span class="footer-logos-row">
+  <a id="belgium-logo" href="https://www.belgium.be/en" target="_blank">
+    <img alt="belgium.be" src="assets/images/logo-be.png"/>
+  </a>
+  <a id="ehealth-logo" href="https://www.ehealth.fgov.be" style="text-decoration:none">
+    <img height="50" alt="Welcome to ehealth website" src="assets/images/logo-ehealth.png"/>
+  </a>
+</span>
+
+
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

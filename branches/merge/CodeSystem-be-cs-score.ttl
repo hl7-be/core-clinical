@@ -1,0 +1,251 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "be-cs-score"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem be-cs-score</b></p><a name=\"be-cs-score\"> </a><a name=\"hcbe-cs-score\"> </a><p>This case-insensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>French (Belgium) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">ADBB<a name=\"be-cs-score-ADBB\"> </a></td><td>Alarm distress baby scale</td><td>Alarm distress baby scale</td><td>Alarm détresse bébé</td></tr><tr><td style=\"white-space:nowrap\">BRANDEN<a name=\"be-cs-score-BRANDEN\"> </a></td><td>Branden</td><td>Branden</td><td>Branden</td></tr><tr><td style=\"white-space:nowrap\">DOLOPLUS2<a name=\"be-cs-score-DOLOPLUS2\"> </a></td><td>Doloplus 2 score</td><td>Pain assessment for people with verbal communication impairment</td><td>Evaluation de la douleur chez les personnes présentant des troubles de la communication verbale</td></tr><tr><td style=\"white-space:nowrap\">EAT-10<a name=\"be-cs-score-EAT-10\"> </a></td><td>Eating Assessment Tool</td><td>Dysphagia Assessment scale</td><td>échelle d'évaluation du degré de dysphagie</td></tr><tr><td style=\"white-space:nowrap\">EDIN<a name=\"be-cs-score-EDIN\"> </a></td><td>Neonatal pain and discomfort scale</td><td>Neonatal pain and discomfort scale</td><td>échelle de la douleur et de l'inconfort du nouveau-né</td></tr><tr><td style=\"white-space:nowrap\">HEDEN<a name=\"be-cs-score-HEDEN\"> </a></td><td>HEDEN Pain Scale</td><td>HEDEN (Hétéro-Evaluation de la Douleur chez l'Enfant) Pain Scale</td><td>hétéro-évaluation de la douleur chez l'enfant</td></tr><tr><td style=\"white-space:nowrap\">MNA-complete<a name=\"be-cs-score-MNA-complete\"> </a></td><td>Mini Nutritional Assessment - complete</td><td>Mini Nutritional Assessment - complete</td><td>Mini Nutritional Assessment : échelle d'évaluation de la dénutrition des personnes âgées.</td></tr><tr><td style=\"white-space:nowrap\">MNA-simplified<a name=\"be-cs-score-MNA-simplified\"> </a></td><td>Mini Nutritional Assessment - simplified</td><td>Mini Nutritional Assessment - simplified</td><td>Mini Nutritional Assessment : échelle d'évaluation de la dénutrition des personnes âgées.</td></tr><tr><td style=\"white-space:nowrap\">PAL<a name=\"be-cs-score-PAL\"> </a></td><td>Level of Physical Activity</td><td>Level of Physical Activity (NAP - Niveau d'Activité Physique)</td><td>Niveau d'Activité Physique</td></tr><tr><td style=\"white-space:nowrap\">NRS2002<a name=\"be-cs-score-NRS2002\"> </a></td><td>Nutritional Risk Screening</td><td>Nutritional Risk Screening</td><td>Nutritional Risk Screening</td></tr><tr><td style=\"white-space:nowrap\">SCORE<a name=\"be-cs-score-SCORE\"> </a></td><td>Systemic Coronary Risk Estimation</td><td>Systemic Coronary Risk Estimation</td><td>Systémic Coronary Risk Estimation</td></tr><tr><td style=\"white-space:nowrap\">SNAQ<a name=\"be-cs-score-SNAQ\"> </a></td><td>Short Nutritional Assessment Questionnaire</td><td>Short Nutritional Assessment Questionnaire</td><td>Short Nutritional Assessment Questionnaire</td></tr><tr><td style=\"white-space:nowrap\">TIMED-CHAIR-STAND<a name=\"be-cs-score-TIMED-CHAIR-STAND\"> </a></td><td>Timed Chair Stand</td><td>Timed Chair Stand</td><td>évaluation des risques de chutes et la force musculaire des membres inférieurs</td></tr><tr><td style=\"white-space:nowrap\">TUG<a name=\"be-cs-score-TUG\"> </a></td><td>Timed Up&amp;Go</td><td>Timed Up&amp;Go</td><td>Timed Up&amp;Go : évalue le risque de chute chez une personne</td></tr><tr><td style=\"white-space:nowrap\">WECKX<a name=\"be-cs-score-WECKX\"> </a></td><td>SCORE INZAKE ZORGBEHOEVENDHEID</td><td>WECKX SCORE</td><td>WECKX mesure de degré de dépendance physique</td></tr><tr><td style=\"white-space:nowrap\">SDAI<a name=\"be-cs-score-SDAI\"> </a></td><td>SDAI ou Simplified Disease Activity Index</td><td>SDAI ou Simplified Disease Activity Index</td><td>SDAI ou Simplified Disease Activity Index</td></tr><tr><td style=\"white-space:nowrap\">GARS<a name=\"be-cs-score-GARS\"> </a></td><td>Groningen Activity Restriction Scale</td><td>Groningen Activity Restriction Scale</td><td>Groningen Activity Restriction Scale</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"be-cs-score-other\"> </a></td><td>Other</td><td>Other</td><td>Autre</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"] ;
+  fhir:CodeSystem.version [ fhir:value "1.3.0"] ;
+  fhir:CodeSystem.name [ fhir:value "BeCSScore"] ;
+  fhir:CodeSystem.title [ fhir:value "Score Code System"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2020-10-01T11:01:09+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "eHealth Platform"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "eHealth Platform" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ehealth.fgov.be" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "message-structure@www.ehealth.fgov.be" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Message-Structure" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "message-structure@www.ehealth.fgov.be" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Codes as defined initially by the NIHDI. Dutch translations were not yet defined but are planned   for a next release."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BE" ] ;
+       fhir:Coding.display [ fhir:value "Belgium" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "18"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ADBB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Alarm distress baby scale" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Alarm distress baby scale" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Alarm détresse bébé" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BRANDEN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Branden" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Branden" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Branden" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DOLOPLUS2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Doloplus 2 score" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Pain assessment for people with verbal communication impairment" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Evaluation de la douleur chez les personnes présentant des troubles de la communication verbale" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "EAT-10" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Eating Assessment Tool" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Dysphagia Assessment scale" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "échelle d'évaluation du degré de dysphagie" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "EDIN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Neonatal pain and discomfort scale" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Neonatal pain and discomfort scale" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "échelle de la douleur et de l'inconfort du nouveau-né" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HEDEN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "HEDEN Pain Scale" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "HEDEN (Hétéro-Evaluation de la Douleur chez l'Enfant) Pain Scale" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "hétéro-évaluation de la douleur chez l'enfant" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MNA-complete" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mini Nutritional Assessment - complete" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Mini Nutritional Assessment - complete" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Mini Nutritional Assessment : échelle d'évaluation de la dénutrition des personnes âgées." ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MNA-simplified" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mini Nutritional Assessment - simplified" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Mini Nutritional Assessment - simplified" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Mini Nutritional Assessment : échelle d'évaluation de la dénutrition des personnes âgées." ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PAL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Level of Physical Activity" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Level of Physical Activity (NAP - Niveau d'Activité Physique)" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Niveau d'Activité Physique" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NRS2002" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nutritional Risk Screening" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Nutritional Risk Screening" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Nutritional Risk Screening" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SCORE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Systemic Coronary Risk Estimation" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Systemic Coronary Risk Estimation" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Systémic Coronary Risk Estimation" ]
+     ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SNAQ" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Short Nutritional Assessment Questionnaire" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Short Nutritional Assessment Questionnaire" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Short Nutritional Assessment Questionnaire" ]
+     ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TIMED-CHAIR-STAND" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Timed Chair Stand" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Timed Chair Stand" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "évaluation des risques de chutes et la force musculaire des membres inférieurs" ]
+     ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TUG" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Timed Up&Go" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Timed Up&Go" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Timed Up&Go : évalue le risque de chute chez une personne" ]
+     ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "WECKX" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SCORE INZAKE ZORGBEHOEVENDHEID" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "WECKX SCORE" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "WECKX mesure de degré de dépendance physique" ]
+     ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SDAI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "SDAI ou Simplified Disease Activity Index" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "SDAI ou Simplified Disease Activity Index" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "SDAI ou Simplified Disease Activity Index" ]
+     ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GARS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Groningen Activity Restriction Scale" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Groningen Activity Restriction Scale" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Groningen Activity Restriction Scale" ]
+     ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "other" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Other" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Other" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Autre" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

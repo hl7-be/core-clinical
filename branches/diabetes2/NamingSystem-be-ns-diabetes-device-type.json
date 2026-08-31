@@ -1,0 +1,53 @@
+{
+  "resourceType" : "NamingSystem",
+  "id" : "be-ns-diabetes-device-type",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: NamingSystem be-ns-diabetes-device-type</b></p><a name=\"be-ns-diabetes-device-type\"> </a><a name=\"hcbe-ns-diabetes-device-type\"> </a><h3>Summary</h3><table class=\"grid\"><tr><td>Defining URL</td><td>https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diabetes-device-type</td></tr><tr><td>Version</td><td>1.1.0</td></tr><tr><td>Name</td><td>BeNSDiabetesDeviceType</td></tr><tr><td>Status</td><td>active</td></tr><tr><td>Definition</td><td><div><p>ATTENTION: for information purposes. This table is updated regularly. On the INAMI website - Follow the path Home &gt; Themes &gt; Health care: cost and reimbursement &gt; Diseases &gt; Endocrine and metabolic diseases; you arrive at the page &quot;Diabetes: Our intervention in the cost of a self-management program for children and adolescents&quot; from where - The link entitled &quot;List of equipment for sensor measurement&quot; provides you with the current version of the sensor type with their identification code.</p>\n</div></td></tr><tr><td>Publisher</td><td>eHealth Platform</td></tr></table><h3>Identifiers</h3><table class=\"grid\"><tr><td><b>Type</b></td><td><b>Value</b></td><td><b>Preferred</b></td></tr><tr><td>URI</td><td>https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diabetes-device-type</td><td>true</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url",
+    "valueUri" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diabetes-device-type"
+  },
+  {
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
+    "valueString" : "1.1.0"
+  }],
+  "name" : "BeNSDiabetesDeviceType",
+  "status" : "active",
+  "kind" : "identifier",
+  "date" : "2024",
+  "publisher" : "eHealth Platform",
+  "contact" : [{
+    "name" : "eHealth Platform",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ehealth.fgov.be"
+    },
+    {
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be"
+    }]
+  },
+  {
+    "name" : "Message-Structure",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be",
+      "use" : "work"
+    }]
+  }],
+  "description" : "ATTENTION: for information purposes. This table is updated regularly. On the INAMI website - Follow the path Home > Themes > Health care: cost and reimbursement > Diseases > Endocrine and metabolic diseases; you arrive at the page \"Diabetes: Our intervention in the cost of a self-management program for children and adolescents\" from where - The link entitled \"List of equipment for sensor measurement\" provides you with the current version of the sensor type with their identification code.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "uniqueId" : [{
+    "type" : "uri",
+    "value" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diabetes-device-type",
+    "preferred" : true
+  }]
+}
