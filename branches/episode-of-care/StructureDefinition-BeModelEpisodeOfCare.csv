@@ -1,0 +1,24 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"BeModelEpisodeOfCare","BeModelEpisodeOfCare","","","",0,*,"","","","null {[]} {[]}
+","BeEpisodeOfCare model","Logical model for the EpisodeOfCare CareSet - represents a period during which care related to a specific goal or problem is provided to a patient by one or more healthcare providers and/or organizations.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"BeModelEpisodeOfCare.identifier","BeModelEpisodeOfCare.identifier","","","",1,*,"","","","Identifier {[]} {[]}
+","Unique Business Identifier of the CareSet","Unique Business Identifier of the CareSet","","","","","","","","","",,,,,"",,,,"BeModelEpisodeOfCare.identifier",1,*,"",""
+"BeModelEpisodeOfCare.patient","BeModelEpisodeOfCare.patient","","","",1,1,"","","","Reference {[]} {[]}
+","The person who is the subject of the healthcare to which the record refers (NISS, BIS or other authorised identification)","The person who is the subject of the healthcare to which the record refers (NISS, BIS or other authorised identification)","","","","","","","","","",,,,,"",,,,"BeModelEpisodeOfCare.patient",1,1,"",""
+"BeModelEpisodeOfCare.recordedDate","BeModelEpisodeOfCare.recordedDate","","","",1,1,"","","","dateTime {[]} {[]}
+","Recording date by the Author or Recorder (date of last update)","Enables CareSet history management via the pair Business Identifier - RecordedDate, which guarantees access to the latest version of the content","","","","","","","","","",,,,,"",,,,"BeModelEpisodeOfCare.recordedDate",1,1,"",""
+"BeModelEpisodeOfCare.status","BeModelEpisodeOfCare.status","","","",1,1,"","","","code {[]} {[]}
+","Current status of the episode","planned | active | onhold | finished | cancelled | entered-in-error","","","","","","","","","",,"required","","http://hl7.org/fhir/ValueSet/episode-of-care-status","",,,,"BeModelEpisodeOfCare.status",1,1,"",""
+"BeModelEpisodeOfCare.author[x]","BeModelEpisodeOfCare.author[x]","","","",1,1,"","","","Reference {[]} {[]}
+CodeableConcept {[]} {[]}","The healthcare professional who takes responsibility for the recorded content","The healthcare professional who takes responsibility for the recorded content","","","","","","","","","",,,,,"",,,,"BeModelEpisodeOfCare.author[x]",1,1,"",""
+"BeModelEpisodeOfCare.period","BeModelEpisodeOfCare.period","","","",1,1,"","","","Period {[]} {[]}
+","The period between the moment the resource is created to group the provided care and the moment it ends, when the reason for its creation disappears or the goal is reached","The period between the moment the resource is created to group the provided care and the moment it ends, when the reason for its creation disappears or the goal is reached","","","","","","","","","",,,,,"",,,,"BeModelEpisodeOfCare.period",1,1,"",""
+"BeModelEpisodeOfCare.reason[x]:reasonCodeableConcept","BeModelEpisodeOfCare.reason[x]","reasonCodeableConcept","","",0,1,"","","","CodeableConcept {[]} {[]}
+","The problem treated during the EpisodeOfCare","The problem treated during the EpisodeOfCare","","","","","","","","","",,"extensible","","http://hl7.org/fhir/ValueSet/encounter-reason","","type:$this}
+","",,"open","BeModelEpisodeOfCare.reason[x]",0,1,"",""
+"BeModelEpisodeOfCare.note","BeModelEpisodeOfCare.note","","","",0,*,"","","","Annotation {[]} {[]}
+","Optional additional remark","Optional additional remark","","","","","","","","","",,,,,"",,,,"BeModelEpisodeOfCare.note",0,*,"",""
+"BeModelEpisodeOfCare.careTeam","BeModelEpisodeOfCare.careTeam","","","",0,*,"","","","Reference {[]} {[]}
+","CareTeam involved in the care carried out within this EpisodeOfCare","CareTeam involved in the care carried out within this EpisodeOfCare","","","","","","","","","",,,,,"",,,,"BeModelEpisodeOfCare.careTeam",0,*,"",""
+"BeModelEpisodeOfCare.managingOrganization","BeModelEpisodeOfCare.managingOrganization","","","",0,*,"","","","Reference {[]} {[]}
+","Organization responsible for the management and coordination of the patient's EpisodeOfCare","Organization responsible for the management and coordination of the patient's EpisodeOfCare","","","","","","","","","",,,,,"",,,,"BeModelEpisodeOfCare.managingOrganization",0,*,"",""

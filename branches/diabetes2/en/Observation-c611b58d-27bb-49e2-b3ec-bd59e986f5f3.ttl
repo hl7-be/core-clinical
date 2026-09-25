@@ -1,0 +1,136 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.ehealth.fgov.be/standards/fhir/core-clinical/Observation/c611b58d-27bb-49e2-b3ec-bd59e986f5f3> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "c611b58d-27bb-49e2-b3ec-bd59e986f5f3"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation-diabetes"^^xsd:anyURI ;
+       fhir:l <https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation-diabetes>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation c611b58d-27bb-49e2-b3ec-bd59e986f5f3</b></p><a name=\"c611b58d-27bb-49e2-b3ec-bd59e986f5f3\"> </a><a name=\"hcc611b58d-27bb-49e2-b3ec-bd59e986f5f3\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-be-observation-diabetes.html\">BeObservationDiabetes</a></p></div><p><b>BeExtRecorder</b>: Identifier: <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/NamingSystem-be-nihdi.html\" title=\"RIZIV/INAMI\">BeNIHDINamingSystem</a>/0403044007</p><p><b>BeExtRecordedDate</b>: 2024-11-25</p><p><b>identifier</b>: <a href=\"NamingSystem-be-ns-observation-diabetes.html\">BeNSObservationDiabetes</a>/c611b58d-27bb-49e2-b3ec-bd59e986f5f3</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://snomed.info/sct 439926003}\">439926003</span>, <span title=\"Codes:{http://snomed.info/sct 258090004}\">258090004</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 778232399}\">778232399</span></p><p><b>subject</b>: Identifier: <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/NamingSystem-be-ssin.html\" title=\"NISS/INSZ\">BeSSINNamingSystem</a>/80051207915</p><p><b>effective</b>: 2024-11-11 --&gt; 2024-11-24</p><p><b>performer</b>: Identifier: <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/NamingSystem-be-nihdi.html\" title=\"RIZIV/INAMI\">BeNIHDINamingSystem</a>/0403044007</p><p><b>value</b>: 6 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span></p><p><b>device</b>: <a href=\"Bundle-uc53-bundle.html#urn-uuid-ce11c616-6625-4966-8a16-012ee8ff1d8e\">Device: type = 701010000576</a></p><h3>ReferenceRanges</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>High</b></td></tr><tr><td style=\"display: none\">*</td><td>34 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-ext-recorder"^^xsd:anyURI ;
+       fhir:l <https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-ext-recorder>
+     ] ;
+     fhir:value [
+       a fhir:Reference ;
+       fhir:identifier [
+         fhir:system [
+           fhir:v "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"^^xsd:anyURI ;
+           fhir:l <https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi>
+         ] ;
+         fhir:value [ fhir:v "0403044007" ]
+       ]
+     ]
+  ] [
+     fhir:url [
+       fhir:v "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeExtRecordedDate"^^xsd:anyURI ;
+       fhir:l <https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeExtRecordedDate>
+     ] ;
+     fhir:value [
+       a fhir:DateTime ;
+       fhir:v "2024-11-25"^^xsd:date
+     ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-observation-diabetes"^^xsd:anyURI ;
+       fhir:l <https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-observation-diabetes>
+     ] ;
+     fhir:value [ fhir:v "c611b58d-27bb-49e2-b3ec-bd59e986f5f3" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       a sct:439926003 ;
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:code [ fhir:v "439926003" ]
+     ] )
+  ] [
+     fhir:coding ( [
+       a sct:258090004 ;
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:code [ fhir:v "258090004" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:778232399 ;
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:code [ fhir:v "778232399" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:identifier [
+       fhir:system [
+         fhir:v "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"^^xsd:anyURI ;
+         fhir:l <https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin>
+       ] ;
+       fhir:value [ fhir:v "80051207915" ]
+     ]
+  ] ; # 
+  fhir:effective [
+     a fhir:Period ;
+     fhir:start [ fhir:v "2024-11-11"^^xsd:date ] ;
+     fhir:end [ fhir:v "2024-11-24"^^xsd:date ]
+  ] ; # 
+  fhir:performer ( [
+     fhir:identifier [
+       fhir:system [
+         fhir:v "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"^^xsd:anyURI ;
+         fhir:l <https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi>
+       ] ;
+       fhir:value [ fhir:v "0403044007" ]
+     ]
+  ] ) ; # 
+  fhir:value [
+     a fhir:Quantity ;
+     fhir:value [ fhir:v "6"^^xsd:decimal ] ;
+     fhir:unit [ fhir:v "%" ] ;
+     fhir:system [
+       fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
+       fhir:l <http://unitsofmeasure.org>
+     ] ;
+     fhir:code [ fhir:v "%" ]
+  ] ; # 
+  fhir:device [
+     fhir:l <urn:uuid:ce11c616-6625-4966-8a16-012ee8ff1d8e> ;
+     fhir:reference [ fhir:v "urn:uuid:ce11c616-6625-4966-8a16-012ee8ff1d8e" ]
+  ] ; # 
+  fhir:referenceRange ( [
+     fhir:high [
+       fhir:value [ fhir:v "34"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "%" ] ;
+       fhir:system [
+         fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ;
+         fhir:l <http://unitsofmeasure.org>
+       ] ;
+       fhir:code [ fhir:v "%" ]
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

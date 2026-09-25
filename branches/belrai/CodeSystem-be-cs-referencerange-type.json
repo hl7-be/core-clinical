@@ -1,0 +1,76 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "be-cs-referencerange-type",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem be-cs-referencerange-type</b></p><a name=\"be-cs-referencerange-type\"> </a><a name=\"hcbe-cs-referencerange-type\"> </a><p>This case-sensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-referencerange-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">possible-range<a name=\"be-cs-referencerange-type-possible-range\"> </a></td><td>Possible range</td><td>One of the bands the scale defines (documents the possible ranges of the score).</td></tr><tr><td style=\"white-space:nowrap\">found-range<a name=\"be-cs-referencerange-type-found-range\"> </a></td><td>Found range</td><td>The band this particular result falls into.</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (Belgium) (fr)</b></td><td><b>Nederlands (België) (Dutch (Belgium), nl)</b></td></tr><tr><td>possible-range</td><td>Plage possible</td><td>Mogelijk bereik</td></tr><tr><td>found-range</td><td>Plage constatée</td><td>Gevonden bereik</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  }],
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-referencerange-type",
+  "version" : "1.2.0",
+  "name" : "BeCSReferenceRangeType",
+  "title" : "Reference Range Type",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-16T15:39:29+00:00",
+  "publisher" : "eHealth Platform",
+  "contact" : [{
+    "name" : "eHealth Platform",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ehealth.fgov.be"
+    },
+    {
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be"
+    }]
+  },
+  {
+    "name" : "Message-Structure",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be",
+      "use" : "work"
+    }]
+  }],
+  "description" : "The meaning of an Observation.referenceRange for a score: a band defined by the scale, or the band the result falls into. Deliberately valence-free (no 'normal'/'high'/'elevated').",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "possible-range",
+    "display" : "Possible range",
+    "definition" : "One of the bands the scale defines (documents the possible ranges of the score).",
+    "designation" : [{
+      "language" : "nl-BE",
+      "value" : "Mogelijk bereik"
+    },
+    {
+      "language" : "fr-BE",
+      "value" : "Plage possible"
+    }]
+  },
+  {
+    "code" : "found-range",
+    "display" : "Found range",
+    "definition" : "The band this particular result falls into.",
+    "designation" : [{
+      "language" : "nl-BE",
+      "value" : "Gevonden bereik"
+    },
+    {
+      "language" : "fr-BE",
+      "value" : "Plage constatée"
+    }]
+  }]
+}

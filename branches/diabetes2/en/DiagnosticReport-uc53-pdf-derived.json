@@ -1,0 +1,104 @@
+{
+  "resourceType" : "DiagnosticReport",
+  "id" : "uc53-pdf-derived",
+  "meta" : {
+    "profile" : ["https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-diagnostic-report-diabetes"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport uc53-pdf-derived</b></p><a name=\"uc53-pdf-derived\"> </a><a name=\"hcuc53-pdf-derived\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-be-diagnostic-report-diabetes.html\">BeDiagnosticReportDiabetes</a></p></div><h2><span title=\"Codes:{http://snomed.info/sct 439926003}\">439926003</span> (<span title=\"Codes:{http://snomed.info/sct 4311000179106}\">4311000179106</span>, <span title=\"Codes:{http://snomed.info/sct 408475000}\">408475000</span>, <span title=\"Codes:{http://snomed.info/sct 394583002}\">394583002</span>) </h2><table class=\"grid\"><tr><td>Subject</td><td>Unable to get Patient Details</td></tr><tr><td>When For</td><td>2024-11-11 --&gt; 2024-11-24</td></tr><tr><td>Identifier</td><td> <a href=\"NamingSystem-be-ns-diagnostic-report-diabetes.html\">BeNSDiagnosticReportDiabetes</a>/6e126868-aa6a-41ef-b7fb-3c8b690d8ffb</td></tr></table><p><b>Report Details</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Value</b></td><td><b>Reference Range</b></td><td><b>Flags</b></td></tr><tr><td><a href=\"Bundle-uc53-bundle.html#urn-uuid-c611b58d-27bb-49e2-b3ec-bd59e986f5f3\"><span title=\"Codes:{http://snomed.info/sct 778232399}\">778232399</span></a></td><td>6 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span></td><td>&lt;34 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span></td><td>Final</td></tr><tr><td><a href=\"Bundle-uc53-bundle.html#urn-uuid-397dffb4-a88a-47d0-b10d-beffcbf6157d\"><span title=\"Codes:{http://snomed.info/sct 757492266}\">757492266</span></a></td><td>14 days<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  coded = 'd')</span></td><td>&gt;14 days<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  coded = 'd')</span></td><td>Final</td></tr><tr><td><a href=\"Bundle-uc53-bundle.html#urn-uuid-6756477d-b57a-4611-b048-374d46f52908\"><span title=\"Codes:{http://snomed.info/sct 242282937}\">242282937</span></a></td><td>96 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span></td><td>&gt;70 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span></td><td>Final</td></tr><tr><td><a href=\"Bundle-uc53-bundle.html#urn-uuid-b44fe5d5-f57b-4424-b628-d2baeb447738\"><span title=\"Codes:{http://snomed.info/sct 124011008}\">124011008</span></a></td><td>20 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span></td><td>&lt;5 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span> for <span title=\"Codes:\">≥ 250 mg/dL</span></td><td>Final</td></tr><tr><td><a href=\"Bundle-uc53-bundle.html#urn-uuid-b28ef33b-0480-4bde-a5df-94988813110b\"><span title=\"Codes:{http://snomed.info/sct 865587343}\">865587343</span></a></td><td>23 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span></td><td>&lt;25 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span> for <span title=\"Codes:\">≥180 mg/dL, &lt;250 mg/dL</span></td><td>Final</td></tr><tr><td><a href=\"Bundle-uc53-bundle.html#urn-uuid-449a728d-dfb4-422d-94aa-1a2d43849ee5\"><span title=\"Codes:{http://snomed.info/sct 438565545}\">438565545</span></a></td><td>47 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span></td><td>&gt;25 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span> for <span title=\"Codes:\">≥70 mg/dL, &lt;180 mg/dL</span></td><td>Final</td></tr><tr><td><a href=\"Bundle-uc53-bundle.html#urn-uuid-a6665182-e11a-40a9-ae83-9b093a353f16\"><span title=\"Codes:{http://snomed.info/sct 278399267}\">278399267</span></a></td><td>4 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span></td><td>&lt;5 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span> for <span title=\"Codes:\">≥54 mg/dL, &lt;70 mg/dL</span></td><td>Final</td></tr><tr><td><a href=\"Bundle-uc53-bundle.html#urn-uuid-454a29d0-0893-458a-b2e5-25452b89e29a\"><span title=\"Codes:{http://snomed.info/sct 364527445}\">364527445</span></a></td><td>6 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span></td><td>&lt;2 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span> for <span title=\"Codes:\">&lt; 54 mg/dL</span></td><td>Final</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeExtRecordedDate",
+    "valueDateTime" : "2024-11-25"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-ext-recorder",
+    "valueReference" : {
+      "identifier" : {
+        "system" : "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi",
+        "value" : "0403044007"
+      }
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "concept",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diabetes-device-type",
+          "code" : "701010000576"
+        }]
+      }
+    }],
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-ext-codeable-reference"
+  }],
+  "identifier" : [{
+    "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diagnostic-report-diabetes",
+    "value" : "6e126868-aa6a-41ef-b7fb-3c8b690d8ffb"
+  }],
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "4311000179106"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "408475000"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "394583002"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "439926003"
+    }]
+  },
+  "subject" : {
+    "identifier" : {
+      "system" : "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin",
+      "value" : "80051207915"
+    }
+  },
+  "effectivePeriod" : {
+    "start" : "2024-11-11",
+    "end" : "2024-11-24"
+  },
+  "result" : [{
+    "reference" : "urn:uuid:c611b58d-27bb-49e2-b3ec-bd59e986f5f3"
+  },
+  {
+    "reference" : "urn:uuid:397dffb4-a88a-47d0-b10d-beffcbf6157d"
+  },
+  {
+    "reference" : "urn:uuid:6756477d-b57a-4611-b048-374d46f52908"
+  },
+  {
+    "reference" : "urn:uuid:b44fe5d5-f57b-4424-b628-d2baeb447738"
+  },
+  {
+    "reference" : "urn:uuid:b28ef33b-0480-4bde-a5df-94988813110b"
+  },
+  {
+    "reference" : "urn:uuid:449a728d-dfb4-422d-94aa-1a2d43849ee5"
+  },
+  {
+    "reference" : "urn:uuid:a6665182-e11a-40a9-ae83-9b093a353f16"
+  },
+  {
+    "reference" : "urn:uuid:454a29d0-0893-458a-b2e5-25452b89e29a"
+  }],
+  "presentedForm" : [{
+    "contentType" : "application/pdf",
+    "data" : "JVBERi0xLjANCjEgMCBvYmo8PC9QYWdlcyAyIDAgUj4+ZW5kb2JqIDIgMCBvYmo8PC9LaWRzWzMgMCBSXS9Db3VudCAxPj5lbmRvYmogMyAwIG9iajw8L01lZGlhQm94WzAgMCAzIDNdPj5lbmRvYmoNCnRyYWlsZXI8PC9Sb290IDEgMCBSPj4="
+  }]
+}

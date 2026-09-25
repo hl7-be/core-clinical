@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2789d18a-7e17-4f37-9230-b641cc18a144-104",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2789d18a-7e17-4f37-9230-b641cc18a144-104",
+  "name" : "UnionBeVSSeverityAndBeVSSeverity",
+  "title" : "Union of Severity And Severity ValueSet",
+  "status" : "active",
+  "date" : "2026-08-20T07:29:45+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "24484000",
+        "display" : "Severe"
+      },
+      {
+        "code" : "6736007",
+        "display" : "Moderate severity"
+      },
+      {
+        "code" : "255604002",
+        "display" : "Mild"
+      }]
+    }]
+  }
+}

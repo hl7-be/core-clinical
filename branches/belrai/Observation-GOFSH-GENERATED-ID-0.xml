@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="GOFSH-GENERATED-ID-0"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation GOFSH-GENERATED-ID-0</b></p><a name="GOFSH-GENERATED-ID-0"> </a><a name="hcGOFSH-GENERATED-ID-0"> </a><p><b>identifier</b>: <code>https://api-int.ehealth.fgov.be/belrai/v1/evaluations/</code>/292</p><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:">BelRAI-Assessment</span></p><p><b>code</b>: <span title="Codes:">Acute Care - Admission Assessment</span></p><p><b>subject</b>: <a href="Patient/12345678912">Patient/12345678912</a></p><p><b>effective</b>: 2026-04-01 09:00:00+0100</p><p><b>issued</b>: 2026-04-02 10:15:00+0100</p><p><b>performer</b>: <code>careProviders/nihii:12345678</code></p><p><b>method</b>: <span title="Codes:">Acute Care - Admission Assessment</span></p><p><b>hasMember</b>: </p><ul><li><a href="#hcGOFSH-GENERATED-ID-0/sBMI">Observation Body Mass Index (sBMI)</a></li><li><a href="#hcGOFSH-GENERATED-ID-0/cADL">Observation Activiteiten van het dagelijks leven (ADL)</a></li></ul><hr/><blockquote><p class="res-header-id"><b>Generated Narrative: Observation #sBMI</b></p><a name="GOFSH-GENERATED-ID-0/sBMI"> </a><a name="hcGOFSH-GENERATED-ID-0/sBMI"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:">Body Mass Index (sBMI)</span></p><p><b>value</b>: 28.5 kg/m2</p><p><b>interpretation</b>: <span title="Codes:">Overgewicht</span></p><h3>ReferenceRanges</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style="display: none">*</td><td>5</td><td>70</td></tr></table></blockquote><hr/><blockquote><p class="res-header-id"><b>Generated Narrative: Observation #cADL</b></p><a name="GOFSH-GENERATED-ID-0/cADL"> </a><a name="hcGOFSH-GENERATED-ID-0/cADL"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:">Activiteiten van het dagelijks leven (ADL)</span></p><p><b>value</b>: 2</p><p><b>interpretation</b>: <span title="Codes:">Geactiveerd op de mogelijkheid tot verbetering.</span></p><h3>ReferenceRanges</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style="display: none">*</td><td>0</td><td>2</td></tr></table></blockquote></div>
+  </text>
+  <contained>
+    <Observation>
+      <id value="sBMI"/>
+      <status value="final"/>
+      <code>
+        <coding>
+          <code value="sBMI"/>
+          <display value="Body Mass Index (sBMI)"/>
+        </coding>
+      </code>
+      <valueQuantity>
+        <value value="28.5"/>
+        <unit value="kg/m2"/>
+      </valueQuantity>
+      <interpretation>
+        <text value="Overgewicht"/>
+      </interpretation>
+      <referenceRange>
+        <low>
+          <value value="5"/>
+        </low>
+        <high>
+          <value value="70"/>
+        </high>
+      </referenceRange>
+    </Observation>
+  </contained>
+  <contained>
+    <Observation>
+      <id value="cADL"/>
+      <status value="final"/>
+      <code>
+        <coding>
+          <code value="cADL"/>
+          <display value="Activiteiten van het dagelijks leven (ADL)"/>
+        </coding>
+      </code>
+      <valueInteger value="2"/>
+      <interpretation>
+        <text value="Geactiveerd op de mogelijkheid tot verbetering."/>
+      </interpretation>
+      <referenceRange>
+        <low>
+          <value value="0"/>
+        </low>
+        <high>
+          <value value="2"/>
+        </high>
+      </referenceRange>
+    </Observation>
+  </contained>
+  <identifier>
+    <system value="https://api-int.ehealth.fgov.be/belrai/v1/evaluations/"/>
+    <value value="292"/>
+  </identifier>
+  <status value="final"/>
+  <category>
+    <coding>
+      <code value="survey"/>
+      <display value="BelRAI-Assessment"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <code value="AC-AA"/>
+      <display value="Acute Care - Admission Assessment"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/12345678912"/>
+  </subject>
+  <effectiveDateTime value="2026-04-01T09:00:00+01:00"/>
+  <issued value="2026-04-02T10:15:00+01:00"/>
+  <performer>
+    <reference value="careProviders/nihii:12345678"/>
+  </performer>
+  <method>
+    <coding>
+      <code value="AC-AA"/>
+      <display value="Acute Care - Admission Assessment"/>
+    </coding>
+  </method>
+  <hasMember>
+    <reference value="#sBMI"/>
+  </hasMember>
+  <hasMember>
+    <reference value="#cADL"/>
+  </hasMember>
+</Observation>

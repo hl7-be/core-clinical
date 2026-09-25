@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "be-vs-referencerange-type",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet be-vs-referencerange-type</b></p><a name=\"be-vs-referencerange-type\"> </a><a name=\"hcbe-vs-referencerange-type\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-be-cs-referencerange-type.html\"><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-referencerange-type</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.2.0</span></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1
+  }],
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-referencerange-type",
+  "version" : "1.2.0",
+  "name" : "BeVSReferenceRangeType",
+  "title" : "Reference Range Type Value Set",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-16T15:39:29+00:00",
+  "publisher" : "eHealth Platform",
+  "contact" : [{
+    "name" : "eHealth Platform",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ehealth.fgov.be"
+    },
+    {
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be"
+    }]
+  },
+  {
+    "name" : "Message-Structure",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Values for BeScoreResult.referenceRange.type: a band defined by the scale (possible-range) or the band the result falls into (found-range).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-referencerange-type"
+    }]
+  }
+}

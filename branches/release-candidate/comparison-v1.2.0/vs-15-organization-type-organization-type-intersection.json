@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2789d18a-7e17-4f37-9230-b641cc18a144-33",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2789d18a-7e17-4f37-9230-b641cc18a144-33",
+  "name" : "IntersectionOrganizationTypeAndOrganizationType",
+  "title" : "Intersection of Organization type And Organization type",
+  "status" : "draft",
+  "date" : "2026-08-20T07:29:45+00:00"
+}

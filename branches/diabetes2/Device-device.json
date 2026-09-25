@@ -1,0 +1,14 @@
+{
+  "resourceType" : "Device",
+  "id" : "device",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Device device</b></p><a name=\"device\"> </a><a name=\"hcdevice\"> </a><p><b>type</b>: <span title=\"Codes:{https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diabetes-device-type 701010000576}\">701010000576</span></p></div>"
+  },
+  "type" : {
+    "coding" : [{
+      "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diabetes-device-type",
+      "code" : "701010000576"
+    }]
+  }
+}

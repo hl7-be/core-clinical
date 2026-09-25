@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="be-vs-diabetes-observation-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet be-vs-diabetes-observation-code</b></p><a name="be-vs-diabetes-observation-code"> </a><a name="hcbe-vs-diabetes-observation-code"> </a><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/141191000172105">141191000172105</a></td><td/></tr><tr><td><a href="http://snomed.info/id/141201000172108">141201000172108</a></td><td/></tr><tr><td><a href="http://snomed.info/id/141231000172103">141231000172103</a></td><td/></tr><tr><td><a href="http://snomed.info/id/141211000172106">141211000172106</a></td><td/></tr><tr><td><a href="http://snomed.info/id/141221000172101">141221000172101</a></td><td/></tr><tr><td><a href="http://snomed.info/id/141151000172102">141151000172102</a></td><td/></tr><tr><td><a href="http://snomed.info/id/141171000172109">141171000172109</a></td><td/></tr><tr><td><a href="http://snomed.info/id/141141000172104">141141000172104</a></td><td/></tr><tr><td><a href="http://snomed.info/id/365845005">365845005</a></td><td/></tr><tr><td><a href="http://snomed.info/id/141161000172100">141161000172100</a></td><td/></tr><tr><td><a href="http://snomed.info/id/141121000172108">141121000172108</a></td><td/></tr><tr><td><a href="http://snomed.info/id/141131000172106">141131000172106</a></td><td/></tr><tr><td><a href="http://snomed.info/id/141181000172107">141181000172107</a></td><td/></tr><tr><td><a href="http://snomed.info/id/141241000172105">141241000172105</a></td><td/></tr></table></li></ul></div>
+  </text>
+  <url value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-diabetes-observation-code"/>
+  <version value="1.1.0"/>
+  <name value="BeVSDiabetesObservationCode"/>
+  <title value="BeVSDiabetesObservationCode"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-05-10T20:58:27+00:00"/>
+  <publisher value="eHealth Platform"/>
+  <contact>
+    <name value="eHealth Platform"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.ehealth.fgov.be"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="message-structure@www.ehealth.fgov.be"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Message-Structure"/>
+    <telecom>
+      <system value="email"/>
+      <value value="message-structure@www.ehealth.fgov.be"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Values to be used in the code of Diabetes observations"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="BE"/>
+      <display value="Belgium"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="141191000172105"/>
+      </concept>
+      <concept>
+        <code value="141201000172108"/>
+      </concept>
+      <concept>
+        <code value="141231000172103"/>
+      </concept>
+      <concept>
+        <code value="141211000172106"/>
+      </concept>
+      <concept>
+        <code value="141221000172101"/>
+      </concept>
+      <concept>
+        <code value="141151000172102"/>
+      </concept>
+      <concept>
+        <code value="141171000172109"/>
+      </concept>
+      <concept>
+        <code value="141141000172104"/>
+      </concept>
+      <concept>
+        <code value="365845005"/>
+      </concept>
+      <concept>
+        <code value="141161000172100"/>
+      </concept>
+      <concept>
+        <code value="141121000172108"/>
+      </concept>
+      <concept>
+        <code value="141131000172106"/>
+      </concept>
+      <concept>
+        <code value="141181000172107"/>
+      </concept>
+      <concept>
+        <code value="141241000172105"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

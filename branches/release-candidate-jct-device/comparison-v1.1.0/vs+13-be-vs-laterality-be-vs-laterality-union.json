@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "34ee5cab-0ffc-421e-989f-33d7c623e460-29",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/34ee5cab-0ffc-421e-989f-33d7c623e460-29",
+  "name" : "UnionBeVSLateralityAndBeVSLaterality",
+  "title" : "Union of Laterality And Laterality",
+  "status" : "active",
+  "date" : "2026-05-30T09:12:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "7771000"
+      },
+      {
+        "code" : "24028007"
+      },
+      {
+        "code" : "51440002"
+      }]
+    }]
+  }
+}

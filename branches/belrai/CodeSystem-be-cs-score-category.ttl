@@ -1,0 +1,113 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "be-cs-score-category"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem be-cs-score-category</b></p><a name=\"be-cs-score-category\"> </a><a name=\"hcbe-cs-score-category\"> </a><p>This case-insensitive code system <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">risk<a name=\"be-cs-score-category-risk\"> </a></td><td>Risk score</td><td>Risk score</td></tr><tr><td style=\"white-space:nowrap\">pain<a name=\"be-cs-score-category-pain\"> </a></td><td>Pain score</td><td>Pain score</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"be-cs-score-category-other\"> </a></td><td>Other</td><td>Other</td></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>French (Belgium) (fr)</b></td><td><b>Nederlands (België) (Dutch (Belgium), nl)</b></td></tr><tr><td>risk</td><td>Risk score</td><td>Risk score</td></tr><tr><td>pain</td><td>Pain Score</td><td>Pain Score</td></tr><tr><td>other</td><td>Autre</td><td>andere</td></tr></table></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category"] ;
+  fhir:CodeSystem.version [ fhir:value "1.2.0"] ;
+  fhir:CodeSystem.name [ fhir:value "BeCSScoreCategory"] ;
+  fhir:CodeSystem.title [ fhir:value "Score Category"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2021-01-10T10:59:49+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "eHealth Platform"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "eHealth Platform" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.ehealth.fgov.be" ]
+     ], [
+       fhir:index 1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "message-structure@www.ehealth.fgov.be" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:ContactDetail.name [ fhir:value "Message-Structure" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "message-structure@www.ehealth.fgov.be" ] ;
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Score Category"] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BE" ] ;
+       fhir:Coding.display [ fhir:value "Belgium" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "3"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "risk" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Risk score" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Risk score" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Risk score" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "nl-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Risk score" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "pain" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pain score" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Pain score" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Pain Score" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "nl-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Pain Score" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "other" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Other" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Other" ] ;
+     fhir:CodeSystem.concept.designation [
+       fhir:index 0 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "fr-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "Autre" ]
+     ], [
+       fhir:index 1 ;
+       fhir:CodeSystem.concept.designation.language [ fhir:value "nl-BE" ] ;
+       fhir:CodeSystem.concept.designation.value [ fhir:value "andere" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

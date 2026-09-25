@@ -1,0 +1,115 @@
+TransversalClinicalCore : Validation Results
+=========================================
+
+err = 0, warn = 23, info = 17
+IG Publisher Version: 2.3.2
+Generated Wed Aug 26 12:06:53 UTC 2026. FHIR version 4.0.1 for hl7.fhir.be.core-clinical#1.3.0 (canonical = https://www.ehealth.fgov.be/standards/fhir/core-clinical)
+ Build Errors : 0 / 0 / 0
+ /work/fsh-generated/resources/CodeSystem-be-cs-bodysite : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-problem-category : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-problem-origin-type : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-score : 0 / 1 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-score-category : 0 / 1 / 1
+ /work/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.core-clinical : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-BeModelBodySite : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-BeModelClinicalObservation : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-BeModelProblem : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-BeModelProcedure : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-clinical-observation : 0 / 1 / 3
+ /work/fsh-generated/resources/StructureDefinition-be-ext-body-topography : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-ext-laterality : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-ext-problem-origin-type : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-ext-surgical-approach : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-observation : 0 / 0 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-observationcodeableconcept : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-problem : 0 / 3 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-procedure : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-scoreresult : 0 / 1 / 2
+ /work/fsh-generated/resources/ValueSet-ProblemCategoryVS : 0 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-ProblemCodeVS : 0 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-ProblemDiseaseCourseVS : 0 / 2 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-body-topography : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-bodysite : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-laterality : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-category : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-code : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-origin-type : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-reaction-manifestation-code : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-score : 0 / 1 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-scorecategory : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-severity : 0 / 1 / 1
+</table>
+== n/a ==
+== fsh-generated/resources/CodeSystem-be-cs-bodysite.json ==
+WARNING: Resource: The resource CodeSystem/be-cs-bodysite should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/CodeSystem-be-cs-problem-category.json ==
+WARNING: Resource: The resource CodeSystem/be-cs-problem-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/CodeSystem-be-cs-problem-origin-type.json ==
+WARNING: Resource: The resource CodeSystem/be-cs-problem-origin-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/CodeSystem-be-cs-score.json ==
+WARNING: Resource: The resource CodeSystem/be-cs-score should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/CodeSystem-be-cs-score-category.json ==
+WARNING: Resource: The resource CodeSystem/be-cs-score-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.be.core-clinical.json ==
+INFORMATION: Resource: The resource ImplementationGuide/hl7.fhir.be.core-clinical could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-BeModelBodySite.json ==
+INFORMATION: Resource: The resource StructureDefinition/BeModelBodySite could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-BeModelClinicalObservation.json ==
+INFORMATION: Resource: The resource StructureDefinition/BeModelClinicalObservation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-BeModelProblem.json ==
+INFORMATION: Resource: The resource StructureDefinition/BeModelProblem could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-BeModelProcedure.json ==
+INFORMATION: Resource: The resource StructureDefinition/BeModelProcedure could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-clinical-observation.json ==
+INFORMATION: StructureDefinition/be-clinical-observation: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+INFORMATION: Resource: The resource StructureDefinition/be-clinical-observation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-ext-body-topography.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-ext-body-topography could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-ext-laterality.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-ext-laterality could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-ext-problem-origin-type.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-ext-problem-origin-type could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-ext-surgical-approach.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-ext-surgical-approach could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-observation.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-observation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-observationcodeableconcept.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-observationcodeableconcept could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-problem.json ==
+WARNING: StructureDefinition/be-problem: StructureDefinition.snapshot.element[9].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/condition-dueTo'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0), 5.3.0 (from hl7.fhir.uv.extensions.r4#5.3.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/condition-dueTo' to 'http://hl7.org/fhir/StructureDefinition/condition-dueTo|5.3.0'
+WARNING: StructureDefinition/be-problem: StructureDefinition.differential.element[3].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/condition-dueTo'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0), 5.3.0 (from hl7.fhir.uv.extensions.r4#5.3.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/condition-dueTo' to 'http://hl7.org/fhir/StructureDefinition/condition-dueTo|5.3.0'
+INFORMATION: Resource: The resource StructureDefinition/be-problem could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-procedure.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-procedure could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/StructureDefinition-be-scoreresult.json ==
+INFORMATION: Resource: The resource StructureDefinition/be-scoreresult could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-ProblemCategoryVS.json ==
+WARNING: ValueSet/ProblemCategoryVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/ProblemCategoryVS should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-ProblemCodeVS.json ==
+WARNING: ValueSet/ProblemCodeVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/ProblemCodeVS should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-ProblemDiseaseCourseVS.json ==
+WARNING: ValueSet/ProblemDiseaseCourseVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: Resource: The resource ValueSet/ProblemDiseaseCourseVS should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-body-topography.json ==
+WARNING: Resource: The resource ValueSet/be-vs-body-topography should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-bodysite.json ==
+WARNING: Resource: The resource ValueSet/be-vs-bodysite should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-laterality.json ==
+WARNING: Resource: The resource ValueSet/be-vs-laterality should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-problem-category.json ==
+WARNING: Resource: The resource ValueSet/be-vs-problem-category should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-problem-code.json ==
+WARNING: Resource: The resource ValueSet/be-vs-problem-code should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-problem-origin-type.json ==
+WARNING: Resource: The resource ValueSet/be-vs-problem-origin-type should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-reaction-manifestation-code.json ==
+WARNING: Resource: The resource ValueSet/be-vs-reaction-manifestation-code should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-score.json ==
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [Visual analog scale score (observable entity), Mini-mental state examination score (observable entity), Malnutrition universal screening tool score (observable entity), Norton Scale score (observable entity), Thirty second chair stand test score (observable entity)] and examples for no FSN: [FINDRISC (Finnish Diabetes Risk Score) score, Index of Independence in Activities of Daily Living, Pain Assessment in Advanced Dementia Scale, Subjective Global Assessment, Waterlow pressure sore risk score])
+WARNING: Resource: The resource ValueSet/be-vs-score should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-scorecategory.json ==
+WARNING: Resource: The resource ValueSet/be-vs-scorecategory should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-be-vs-severity.json ==
+WARNING: Resource: The resource ValueSet/be-vs-severity should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
