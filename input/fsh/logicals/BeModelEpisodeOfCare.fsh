@@ -32,10 +32,10 @@ Characteristics: #can-be-target
 
 // FR: Le problème traité durant l'EpisodeOfCare. Voir VS_Encounter_Reason.
 // NL: Het probleem dat tijdens de EpisodeOfCare zal behandeld worden. Zie VS_Encounter_Reason.
-* reason 1..1 Base "The problem treated during the EpisodeOfCare"
-  * reasonReference 0..1 Reference "The problem treated during the EpisodeOfCare, as a reference"
-  * reasonCode 0..1 CodeableConcept "The problem treated during the EpisodeOfCare, as a code"
-  * reasonCode from http://hl7.org/fhir/ValueSet/encounter-reason (extensible)
+* reason 1..1 Base "The main problem treated during the EpisodeOfCare"
+  * reference 0..1 Reference "The main problem treated during the EpisodeOfCare, as a reference"
+  * code 0..1 CodeableConcept "The main problem treated during the EpisodeOfCare, as a code"
+  * code from http://hl7.org/fhir/ValueSet/encounter-reason (extensible)
 
 // FR: Remarque complémentaire éventuelle.
 // NL: Eventueel aanvullende opmerking.
@@ -43,8 +43,8 @@ Characteristics: #can-be-target
 
 // FR: CareTeam impliquée dans les soins réalisés dans cet EoC.
 // NL: CareTeam dat betrokken is bij de zorgen die in deze EoC uitgevoerd worden.
-* careTeam 0..* Reference "CareTeam involved in the care carried out within this EpisodeOfCare"
+* careTeam 0..* Reference "The care team(s) participating in the EpisodeOfCare"
 
 // FR: Organisation responsable de la gestion et coordination de l'EpisodeOfCare du patient. Référence à la resource Organization.
 // NL: Organisatie die verantwoordelijk is voor het beheer en coördinatie van de EpisodeOfCare van de patiënt.
-* managingOrganization 0..* Reference "Organization responsible for the management and coordination of the patient's EpisodeOfCare"
+* managingOrganization 0..1 Reference "Organization responsible for the management and coordination of the patient's EpisodeOfCare" "Organization responsible for the management and coordination of the patient's EpisodeOfCare. The responsibility is not shared: there is one responsible organization, or none."
