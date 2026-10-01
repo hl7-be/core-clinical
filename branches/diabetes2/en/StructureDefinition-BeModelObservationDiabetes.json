@@ -1,0 +1,597 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "BeModelObservationDiabetes",
+  "language" : "en",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: StructureDefinition BeModelObservationDiabetes</b></p><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the element can appear in the instance\">Card.</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px; width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelObservationDiabetes-definitions.html#BeModelObservationDiabetes\" title=\"Logical model for diabetes-related clinical observations, derived from the generic clinical observation model. Captures glucose monitoring data and derived values such as Time In Range (TIR), Time Above Range (TAR) and Time Below Range (TBR).\">BeModelObservationDiabetes</a><a name=\"BeModelObservationDiabetes\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"StructureDefinition-BeModelClinicalObservation.html\">BeModelClinicalObservation</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Diabetes Observation Logical Model<br/><br/>Elements defined in Ancestors:<a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"Unique identifier for the observation\">identifier</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"Date when the observation was recorded\">recordedDate</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"Date or period of the observation\">observationDate[x]</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"Person, organisation or device that recorded the observation\">recorder</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"The professional that performed the observation\">performer</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"The patient that this observation is about\">patient</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"The request that this observation is fulfilling\">request</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"Part of referenced procedure\">partOfProcedure</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"The specimen that was used when this observation was made\">specimen</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"The device used to generate the observation data\">device</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"A code that classifies the general type of observation being made\">category</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"Describes what was observed. Sometimes this is called the observation 'name'\">code</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"The value of the observation - typically a code, an amount or a date\">value[x]</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"Other observations that are part of this observation\">member</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"The status of the result value.\">status</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"A categorical assessment of an observation value\">interpretation</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"Guidance on how to interpret the value by comparison to a normal or recommended range\">referenceRange</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"The site on the subject's body where the observation was made (i.e. the target site)\">bodySite</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"A subjective assessment of the quality of the observation\">certainty</a>, <a href=\"StructureDefinition-BeModelClinicalObservation.html\" title=\"Comments about the observation or the results\">note</a><br/><span style=\"font-weight:bold\">Instances of this logical model can be the target of a Reference</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-BeModelObservationDiabetes-definitions.html#BeModelObservationDiabetes.identifier\">identifier</a><a name=\"BeModelObservationDiabetes.identifier\"> </a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">1</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5; opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Unique observation business identifier.</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics",
+    "valueCode" : "can-be-target"
+  }],
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeModelObservationDiabetes",
+  "version" : "1.1.0",
+  "name" : "BeModelObservationDiabetes",
+  "title" : "Diabetes Observation Logical Model",
+  "status" : "active",
+  "date" : "2026-05-10T20:58:27+00:00",
+  "publisher" : "eHealth Platform",
+  "contact" : [{
+    "name" : "eHealth Platform",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ehealth.fgov.be"
+    },
+    {
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be"
+    }]
+  },
+  {
+    "name" : "Message-Structure",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Logical model for diabetes-related clinical observations, derived from the generic clinical observation model. Captures glucose monitoring data and derived values such as Time In Range (TIR), Time Above Range (TAR) and Time Below Range (TBR).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "fhirVersion" : "4.0.1",
+  "kind" : "logical",
+  "abstract" : false,
+  "type" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeModelObservationDiabetes",
+  "baseDefinition" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeModelClinicalObservation",
+  "derivation" : "specialization",
+  "snapshot" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
+      "valueString" : "1.1.0"
+    }],
+    "element" : [{
+      "id" : "BeModelObservationDiabetes",
+      "path" : "BeModelObservationDiabetes",
+      "short" : "Diabetes Observation Logical Model",
+      "definition" : "Logical model for diabetes-related clinical observations, derived from the generic clinical observation model. Captures glucose monitoring data and derived values such as Time In Range (TIR), Time Above Range (TAR) and Time Below Range (TBR).",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Base",
+        "min" : 0,
+        "max" : "*"
+      },
+      "isModifier" : false
+    },
+    {
+      "id" : "BeModelObservationDiabetes.identifier",
+      "path" : "BeModelObservationDiabetes.identifier",
+      "short" : "Unique observation business identifier.",
+      "definition" : "Unique identifier for the observation",
+      "min" : 1,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelClinicalObservation.identifier",
+        "min" : 1,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Identifier"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.recordedDate",
+      "path" : "BeModelObservationDiabetes.recordedDate",
+      "short" : "Date when the observation was recorded",
+      "definition" : "Date when the observation was recorded",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelClinicalObservation.recordedDate",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.observationDate[x]",
+      "path" : "BeModelObservationDiabetes.observationDate[x]",
+      "short" : "Date or period of the observation",
+      "definition" : "Date or period of the observation",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelClinicalObservation.observationDate[x]",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      },
+      {
+        "code" : "Period"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.recorder",
+      "path" : "BeModelObservationDiabetes.recorder",
+      "short" : "Person, organisation or device that recorded the observation",
+      "definition" : "Person, organisation or device that recorded the observation",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelClinicalObservation.recorder",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.performer",
+      "path" : "BeModelObservationDiabetes.performer",
+      "short" : "The professional that performed the observation",
+      "definition" : "The professional that performed the observation",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelClinicalObservation.performer",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.patient",
+      "path" : "BeModelObservationDiabetes.patient",
+      "short" : "The patient that this observation is about",
+      "definition" : "The patient that this observation is about",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelClinicalObservation.patient",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.request",
+      "path" : "BeModelObservationDiabetes.request",
+      "short" : "The request that this observation is fulfilling",
+      "definition" : "The request that this observation is fulfilling",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelClinicalObservation.request",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.partOfProcedure",
+      "path" : "BeModelObservationDiabetes.partOfProcedure",
+      "short" : "Part of referenced procedure",
+      "definition" : "Part of referenced procedure",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelClinicalObservation.partOfProcedure",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.specimen",
+      "path" : "BeModelObservationDiabetes.specimen",
+      "short" : "The specimen that was used when this observation was made",
+      "definition" : "The specimen that was used when this observation was made",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelClinicalObservation.specimen",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.device",
+      "path" : "BeModelObservationDiabetes.device",
+      "short" : "The device used to generate the observation data",
+      "definition" : "The device used to generate the observation data",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelClinicalObservation.device",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Reference"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.category",
+      "path" : "BeModelObservationDiabetes.category",
+      "short" : "A code that classifies the general type of observation being made",
+      "definition" : "A code that classifies the general type of observation being made",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelClinicalObservation.category",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.code",
+      "path" : "BeModelObservationDiabetes.code",
+      "short" : "Describes what was observed. Sometimes this is called the observation 'name'",
+      "definition" : "Describes what was observed. Sometimes this is called the observation 'name'",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelClinicalObservation.code",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.value[x]",
+      "path" : "BeModelObservationDiabetes.value[x]",
+      "short" : "The value of the observation - typically a code, an amount or a date",
+      "definition" : "The value of the observation - typically a code, an amount or a date",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelClinicalObservation.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Quantity"
+      },
+      {
+        "code" : "CodeableConcept"
+      },
+      {
+        "code" : "string"
+      },
+      {
+        "code" : "boolean"
+      },
+      {
+        "code" : "integer"
+      },
+      {
+        "code" : "Range"
+      },
+      {
+        "code" : "Ratio"
+      },
+      {
+        "code" : "time"
+      },
+      {
+        "code" : "dateTime"
+      },
+      {
+        "code" : "Period"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.member",
+      "path" : "BeModelObservationDiabetes.member",
+      "short" : "Other observations that are part of this observation",
+      "definition" : "Other observations that are part of this observation",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelClinicalObservation.member",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeModelClinicalObservation"]
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.status",
+      "path" : "BeModelObservationDiabetes.status",
+      "short" : "The status of the result value.",
+      "definition" : "The status of the result value.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelClinicalObservation.status",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.interpretation",
+      "path" : "BeModelObservationDiabetes.interpretation",
+      "short" : "A categorical assessment of an observation value",
+      "definition" : "A categorical assessment of an observation value",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelClinicalObservation.interpretation",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.referenceRange",
+      "path" : "BeModelObservationDiabetes.referenceRange",
+      "short" : "Guidance on how to interpret the value by comparison to a normal or recommended range",
+      "definition" : "Guidance on how to interpret the value by comparison to a normal or recommended range",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelClinicalObservation.referenceRange",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "BackboneElement"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.referenceRange.id",
+      "path" : "BeModelObservationDiabetes.referenceRange.id",
+      "representation" : ["xmlAttr"],
+      "short" : "Unique id for inter-element referencing",
+      "definition" : "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Element.id",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
+          "valueUrl" : "string"
+        }],
+        "code" : "http://hl7.org/fhirpath/System.String"
+      }],
+      "isModifier" : false,
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.referenceRange.extension",
+      "path" : "BeModelObservationDiabetes.referenceRange.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "description" : "Extensions are always sliced by (at least) url",
+        "rules" : "open"
+      },
+      "short" : "Additional content defined by implementations",
+      "definition" : "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "alias" : ["extensions",
+      "user content"],
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Element.extension",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Extension"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "ext-1",
+        "severity" : "error",
+        "human" : "Must have either extensions or value[x], not both",
+        "expression" : "extension.exists() != value.exists()",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
+      }],
+      "isModifier" : false,
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.referenceRange.modifierExtension",
+      "path" : "BeModelObservationDiabetes.referenceRange.modifierExtension",
+      "short" : "Extensions that cannot be ignored even if unrecognized",
+      "definition" : "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
+      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "requirements" : "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4/extensibility.html#modifierExtension).",
+      "alias" : ["extensions",
+      "user content",
+      "modifiers"],
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BackboneElement.modifierExtension",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Extension"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "ext-1",
+        "severity" : "error",
+        "human" : "Must have either extensions or value[x], not both",
+        "expression" : "extension.exists() != value.exists()",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
+      }],
+      "isModifier" : true,
+      "isModifierReason" : "Modifier extensions are expected to modify the meaning or interpretation of the element that contains them",
+      "isSummary" : true,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "N/A"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.referenceRange.low",
+      "path" : "BeModelObservationDiabetes.referenceRange.low",
+      "short" : "Low Range, if relevant",
+      "definition" : "Low Range, if relevant",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelClinicalObservation.referenceRange.low",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Quantity"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.referenceRange.high",
+      "path" : "BeModelObservationDiabetes.referenceRange.high",
+      "short" : "High Range, if relevant",
+      "definition" : "High Range, if relevant",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelClinicalObservation.referenceRange.high",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Quantity"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.bodySite",
+      "path" : "BeModelObservationDiabetes.bodySite",
+      "short" : "The site on the subject's body where the observation was made (i.e. the target site)",
+      "definition" : "The site on the subject's body where the observation was made (i.e. the target site)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelClinicalObservation.bodySite",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeModelBodySite"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.certainty",
+      "path" : "BeModelObservationDiabetes.certainty",
+      "short" : "A subjective assessment of the quality of the observation",
+      "definition" : "A subjective assessment of the quality of the observation",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "BeModelClinicalObservation.certainty",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "BeModelObservationDiabetes.note",
+      "path" : "BeModelObservationDiabetes.note",
+      "short" : "Comments about the observation or the results",
+      "definition" : "Comments about the observation or the results",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "BeModelClinicalObservation.note",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Annotation"
+      }]
+    }]
+  },
+  "differential" : {
+    "element" : [{
+      "id" : "BeModelObservationDiabetes",
+      "path" : "BeModelObservationDiabetes",
+      "short" : "Diabetes Observation Logical Model",
+      "definition" : "Logical model for diabetes-related clinical observations, derived from the generic clinical observation model. Captures glucose monitoring data and derived values such as Time In Range (TIR), Time Above Range (TAR) and Time Below Range (TBR)."
+    },
+    {
+      "id" : "BeModelObservationDiabetes.identifier",
+      "path" : "BeModelObservationDiabetes.identifier",
+      "short" : "Unique observation business identifier."
+    }]
+  }
+}

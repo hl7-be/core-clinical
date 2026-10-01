@@ -1,0 +1,2975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="a4f2ca7c-2209-4b3e-bad1-6083a168d939"/>
+  <meta>
+    <lastUpdated value="2026-03-31T17:13:19.681+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCategoryVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCategoryVS"/>
+        <version value="1.1.0"/>
+        <name value="ProblemCategoryVS"/>
+        <title value="Problem Category Value Set"/>
+        <status value="active"/>
+        <date value="2026-03-31T17:13:19+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:71365fda-15b0-4974-bdf8-ae124cd49ef1"/>
+          <timestamp value="2026-03-31T17:15:15+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCodeVS"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/ProblemCodeVS"/>
+        <version value="1.1.0"/>
+        <name value="ProblemCodeVS"/>
+        <title value="Problem Code Value Set"/>
+        <status value="active"/>
+        <date value="2026-03-31T17:13:19+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:c548f80b-1ef4-4dcc-8811-53a03aa6789c"/>
+          <timestamp value="2026-03-31T17:15:15+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-category"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-be-cs-problem-category.html">codesystem Problem Category v1.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category|1.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 7 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-diagnosis"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-diagnosis">diagnosis</a>
+                </td>
+                <td>Diagnosis</td>
+                <td>A disease identified from a clinical reasoning, based on pathological and physiological ascertainments</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;diagnosis&quot;, &quot;display&quot;: &quot;Diagnosis&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;diagnosis&quot;&gt;&lt;display value=&quot;Diagnosis&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-problem"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-problem">problem</a>
+                </td>
+                <td>Problem</td>
+                <td>Identification of problems that the healthcare provider considers harmful, potentially harmful, and which may be the subject of further investigation or treatment</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;problem&quot;, &quot;display&quot;: &quot;Problem&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;problem&quot;&gt;&lt;display value=&quot;Problem&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-risk"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-risk">risk</a>
+                </td>
+                <td>Risk</td>
+                <td>Identification of a health problem or situation that may require ongoing monitoring or management</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;risk&quot;, &quot;display&quot;: &quot;Risk&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;risk&quot;&gt;&lt;display value=&quot;Risk&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-antecedent"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-antecedent">antecedent</a>
+                </td>
+                <td>Antecedent</td>
+                <td>Information about a problem that has been resolved</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;antecedent&quot;, &quot;display&quot;: &quot;Antecedent&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;antecedent&quot;&gt;&lt;display value=&quot;Antecedent&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-congenital"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-congenital">congenital</a>
+                </td>
+                <td>Congenital anomaly</td>
+                <td>Congenital anomaly</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;congenital&quot;, &quot;display&quot;: &quot;Congenital anomaly&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;congenital&quot;&gt;&lt;display value=&quot;Congenital anomaly&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-conclusion"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-conclusion">conclusion</a>
+                </td>
+                <td>Conclusion</td>
+                <td>Informations about a conclusion from anamnesis performed by a professional other than a physician</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;conclusion&quot;, &quot;display&quot;: &quot;Conclusion&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;conclusion&quot;&gt;&lt;display value=&quot;Conclusion&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category-other"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-category.html#be-cs-problem-category-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <p>
+              <b>Additional Language Displays</b>
+            </p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>French (Belgium) (fr)</b>
+                </td>
+                <td>
+                  <b>Nederlands (België) (Dutch (Belgium), nl)</b>
+                </td>
+              </tr>
+              <tr>
+                <td>diagnosis</td>
+                <td>Diagnostic</td>
+                <td>diagnose</td>
+              </tr>
+              <tr>
+                <td>problem</td>
+                <td>Problème</td>
+                <td>Probleem</td>
+              </tr>
+              <tr>
+                <td>risk</td>
+                <td>Risque</td>
+                <td>Risico</td>
+              </tr>
+              <tr>
+                <td>antecedent</td>
+                <td>Antécédent</td>
+                <td>Antecedent</td>
+              </tr>
+              <tr>
+                <td>congenital</td>
+                <td>Maladie congénitale</td>
+                <td>Aangeboren afwijking</td>
+              </tr>
+              <tr>
+                <td>conclusion</td>
+                <td>Conclusion anamnèse</td>
+                <td>Anamnesis conclusie</td>
+              </tr>
+              <tr>
+                <td>other</td>
+                <td>Autre</td>
+                <td>andere</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-category"/>
+        <version value="1.1.0"/>
+        <name value="BeVSProblemCategory"/>
+        <title value="Problem Category"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-03-31T17:13:19+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:0c499df9-63e9-4a21-a636-261b8184abab"/>
+          <timestamp value="2026-03-31T17:15:14+00:00"/>
+          <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="diagnosis"/>
+            <display value="Diagnosis"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Diagnostic"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="diagnose"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="problem"/>
+            <display value="Problem"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Problème"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Probleem"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="risk"/>
+            <display value="Risk"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Risque"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Risico"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="antecedent"/>
+            <display value="Antecedent"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Antécédent"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Antecedent"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="congenital"/>
+            <display value="Congenital anomaly"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Maladie congénitale"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Aangeboren afwijking"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="conclusion"/>
+            <display value="Conclusion"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Conclusion anamnèse"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Anamnesis conclusie"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category"/>
+            <code value="other"/>
+            <display value="Other"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Autre"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="andere"/>
+            </designation>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-code"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p>This value set contains 0 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-code"/>
+        <version value="1.1.0"/>
+        <name value="BeVSProblemCode"/>
+        <title value="Problem Code"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-03-31T17:13:19+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:fcc2b54d-9977-47ae-be5f-0fefab7c6886"/>
+          <timestamp value="2026-03-31T17:15:13+00:00"/>
+          <total value="0"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-origin-type"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-be-cs-problem-origin-type.html">codesystem Problem Origin Type v1.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type|1.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-referral"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-referral">referral</a>
+                </td>
+                <td>Referral order</td>
+                <td>Following a referral order</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;referral&quot;, &quot;display&quot;: &quot;Referral order&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;referral&quot;&gt;&lt;display value=&quot;Referral order&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-own-initiative"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-own-initiative">own-initiative</a>
+                </td>
+                <td>Patient's own initiative</td>
+                <td>The patient has arrived on their own initiative</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;own-initiative&quot;, &quot;display&quot;: &quot;Patient's own initiative&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;own-initiative&quot;&gt;&lt;display value=&quot;Patient's own initiative&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-counsel"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-counsel">counsel</a>
+                </td>
+                <td>Advice or recommendation from another provider (no prescription)</td>
+                <td>From an advice or recommendation of a health professional (without prescription)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;counsel&quot;, &quot;display&quot;: &quot;Advice or recommendation from another provider (no prescription)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;counsel&quot;&gt;&lt;display value=&quot;Advice or recommendation from another provider (no prescription)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type-other"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-problem-origin-type.html#be-cs-problem-origin-type-other">other</a>
+                </td>
+                <td>other</td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <p>
+              <b>Additional Language Displays</b>
+            </p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>French (Belgium) (fr)</b>
+                </td>
+                <td>
+                  <b>Nederlands (België) (Dutch (Belgium), nl)</b>
+                </td>
+              </tr>
+              <tr>
+                <td>referral</td>
+                <td>prescription de renvoi</td>
+                <td>verwijsvoorschrift</td>
+              </tr>
+              <tr>
+                <td>own-initiative</td>
+                <td>libre</td>
+                <td>Op eigen initiatief</td>
+              </tr>
+              <tr>
+                <td>counsel</td>
+                <td>conseil</td>
+                <td>doorverwijzing</td>
+              </tr>
+              <tr>
+                <td>other</td>
+                <td>autre</td>
+                <td>andere</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-origin-type"/>
+        <version value="1.1.0"/>
+        <name value="BeVSProblemOriginType"/>
+        <title value="Problem Origin Type"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-03-31T17:13:19+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:1a926dc1-7978-42f6-93c0-92f1434f787d"/>
+          <timestamp value="2026-03-31T17:15:19+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"/>
+            <code value="referral"/>
+            <display value="Referral order"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="prescription de renvoi"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="verwijsvoorschrift"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"/>
+            <code value="own-initiative"/>
+            <display value="Patient's own initiative"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="libre"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Op eigen initiatief"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"/>
+            <code value="counsel"/>
+            <display value="Advice or recommendation from another provider (no prescription)"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="conseil"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="doorverwijzing"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type"/>
+            <code value="other"/>
+            <display value="other"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="autre"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="andere"/>
+            </designation>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-score"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion from tx.fhir.org based on:</p>
+              <ul>
+                <li>SNOMED CT Belgian Edition edition 15-Nov 2023
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="http://snomed.info/sct|http://snomed.info/sct/11000172109/version/20231115" title="Click to Copy URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+                <li>
+                  <a href="CodeSystem-be-cs-score.html">codesystem Score Code System v1.1.0 (CodeSystem)</a>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score|1.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <p>This value set contains 33 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-763117005"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/763117005">763117005</a>
+                </td>
+                <td>FINDRISC (Finnish Diabetes Risk Score) score</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000172109/version/20231115&quot;, &quot;code&quot;: &quot;763117005&quot;, &quot;display&quot;: &quot;FINDRISC (Finnish Diabetes Risk Score) score&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000172109/version/20231115&quot;&gt;&lt;code value=&quot;763117005&quot;&gt;&lt;display value=&quot;FINDRISC (Finnish Diabetes Risk Score) score&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-446661009"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/446661009">446661009</a>
+                </td>
+                <td>Visual analog scale score (observable entity)</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000172109/version/20231115&quot;, &quot;code&quot;: &quot;446661009&quot;, &quot;display&quot;: &quot;Visual analog scale score (observable entity)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000172109/version/20231115&quot;&gt;&lt;code value=&quot;446661009&quot;&gt;&lt;display value=&quot;Visual analog scale score (observable entity)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-273531005"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/273531005">273531005</a>
+                </td>
+                <td>Index of activities of daily living</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000172109/version/20231115&quot;, &quot;code&quot;: &quot;273531005&quot;, &quot;display&quot;: &quot;Index of activities of daily living&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000172109/version/20231115&quot;&gt;&lt;code value=&quot;273531005&quot;&gt;&lt;display value=&quot;Index of activities of daily living&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-447316007"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/447316007">447316007</a>
+                </td>
+                <td>Mini-mental state examination score (observable entity)</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000172109/version/20231115&quot;, &quot;code&quot;: &quot;447316007&quot;, &quot;display&quot;: &quot;Mini-mental state examination score (observable entity)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000172109/version/20231115&quot;&gt;&lt;code value=&quot;447316007&quot;&gt;&lt;display value=&quot;Mini-mental state examination score (observable entity)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-444297006"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/444297006">444297006</a>
+                </td>
+                <td>Malnutrition universal screening tool score (observable entity)</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000172109/version/20231115&quot;, &quot;code&quot;: &quot;444297006&quot;, &quot;display&quot;: &quot;Malnutrition universal screening tool score (observable entity)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000172109/version/20231115&quot;&gt;&lt;code value=&quot;444297006&quot;&gt;&lt;display value=&quot;Malnutrition universal screening tool score (observable entity)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-443133008"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/443133008">443133008</a>
+                </td>
+                <td>Norton pressure sore risk score (observable entity)</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000172109/version/20231115&quot;, &quot;code&quot;: &quot;443133008&quot;, &quot;display&quot;: &quot;Norton pressure sore risk score (observable entity)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000172109/version/20231115&quot;&gt;&lt;code value=&quot;443133008&quot;&gt;&lt;display value=&quot;Norton pressure sore risk score (observable entity)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-7121000122100"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/7121000122100">7121000122100</a>
+                </td>
+                <td>Pain Assessment in Advanced Dementia Scale (assessment scale)</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000172109/version/20231115&quot;, &quot;code&quot;: &quot;7121000122100&quot;, &quot;display&quot;: &quot;Pain Assessment in Advanced Dementia Scale (assessment scale)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000172109/version/20231115&quot;&gt;&lt;code value=&quot;7121000122100&quot;&gt;&lt;display value=&quot;Pain Assessment in Advanced Dementia Scale (assessment scale)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-273849003"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/273849003">273849003</a>
+                </td>
+                <td>Subjective global assessment</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000172109/version/20231115&quot;, &quot;code&quot;: &quot;273849003&quot;, &quot;display&quot;: &quot;Subjective global assessment&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000172109/version/20231115&quot;&gt;&lt;code value=&quot;273849003&quot;&gt;&lt;display value=&quot;Subjective global assessment&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-450738001"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/450738001">450738001</a>
+                </td>
+                <td>Thirty second chair stand test score (observable entity)</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000172109/version/20231115&quot;, &quot;code&quot;: &quot;450738001&quot;, &quot;display&quot;: &quot;Thirty second chair stand test score (observable entity)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000172109/version/20231115&quot;&gt;&lt;code value=&quot;450738001&quot;&gt;&lt;display value=&quot;Thirty second chair stand test score (observable entity)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-444680009"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/444680009">444680009</a>
+                </td>
+                <td>Timed up and go mobility test score (observable entity)</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000172109/version/20231115&quot;, &quot;code&quot;: &quot;444680009&quot;, &quot;display&quot;: &quot;Timed up and go mobility test score (observable entity)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000172109/version/20231115&quot;&gt;&lt;code value=&quot;444680009&quot;&gt;&lt;display value=&quot;Timed up and go mobility test score (observable entity)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-278897004"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/278897004">278897004</a>
+                </td>
+                <td>Waterlow pressure sore risk score</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000172109/version/20231115&quot;, &quot;code&quot;: &quot;278897004&quot;, &quot;display&quot;: &quot;Waterlow pressure sore risk score&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000172109/version/20231115&quot;&gt;&lt;code value=&quot;278897004&quot;&gt;&lt;display value=&quot;Waterlow pressure sore risk score&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-763259004"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/763259004">763259004</a>
+                </td>
+                <td>Disease Activity Score (observable entity)</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000172109/version/20231115&quot;, &quot;code&quot;: &quot;763259004&quot;, &quot;display&quot;: &quot;Disease Activity Score (observable entity)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000172109/version/20231115&quot;&gt;&lt;code value=&quot;763259004&quot;&gt;&lt;display value=&quot;Disease Activity Score (observable entity)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-273364009"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/273364009">273364009</a>
+                </td>
+                <td>Crohn's disease activity index</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000172109/version/20231115&quot;, &quot;code&quot;: &quot;273364009&quot;, &quot;display&quot;: &quot;Crohn's disease activity index&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000172109/version/20231115&quot;&gt;&lt;code value=&quot;273364009&quot;&gt;&lt;display value=&quot;Crohn's disease activity index&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-443318007"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/443318007">443318007</a>
+                </td>
+                <td>Tinetti balance and gait scale (assessment scale)</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000172109/version/20231115&quot;, &quot;code&quot;: &quot;443318007&quot;, &quot;display&quot;: &quot;Tinetti balance and gait scale (assessment scale)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000172109/version/20231115&quot;&gt;&lt;code value=&quot;443318007&quot;&gt;&lt;display value=&quot;Tinetti balance and gait scale (assessment scale)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://snomed.info/sct-719124004"> </a>
+                  <code>http://snomed.info/sct</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://snomed.info/id/719124004">719124004</a>
+                </td>
+                <td>Arthritis Impact Measurement Scales 2 score (observable entity)</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://snomed.info/sct&quot;, &quot;version&quot;: &quot;http://snomed.info/sct/11000172109/version/20231115&quot;, &quot;code&quot;: &quot;719124004&quot;, &quot;display&quot;: &quot;Arthritis Impact Measurement Scales 2 score (observable entity)&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://snomed.info/sct&quot;&gt;&lt;version value=&quot;http://snomed.info/sct/11000172109/version/20231115&quot;&gt;&lt;code value=&quot;719124004&quot;&gt;&lt;display value=&quot;Arthritis Impact Measurement Scales 2 score (observable entity)&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-ADBB"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-ADBB">ADBB</a>
+                </td>
+                <td>Alarm distress baby scale</td>
+                <td>Alarm distress baby scale</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;ADBB&quot;, &quot;display&quot;: &quot;Alarm distress baby scale&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;ADBB&quot;&gt;&lt;display value=&quot;Alarm distress baby scale&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-BRANDEN"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-BRANDEN">BRANDEN</a>
+                </td>
+                <td>Branden</td>
+                <td>Branden</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;BRANDEN&quot;, &quot;display&quot;: &quot;Branden&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;BRANDEN&quot;&gt;&lt;display value=&quot;Branden&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-DOLOPLUS2"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-DOLOPLUS2">DOLOPLUS2</a>
+                </td>
+                <td>Doloplus 2 score</td>
+                <td>Pain assessment for people with verbal communication impairment</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;DOLOPLUS2&quot;, &quot;display&quot;: &quot;Doloplus 2 score&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;DOLOPLUS2&quot;&gt;&lt;display value=&quot;Doloplus 2 score&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-EAT-10"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-EAT-10">EAT-10</a>
+                </td>
+                <td>Eating Assessment Tool</td>
+                <td>Dysphagia Assessment scale</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;EAT-10&quot;, &quot;display&quot;: &quot;Eating Assessment Tool&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;EAT-10&quot;&gt;&lt;display value=&quot;Eating Assessment Tool&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-EDIN"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-EDIN">EDIN</a>
+                </td>
+                <td>Neonatal pain and discomfort scale</td>
+                <td>Neonatal pain and discomfort scale</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;EDIN&quot;, &quot;display&quot;: &quot;Neonatal pain and discomfort scale&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;EDIN&quot;&gt;&lt;display value=&quot;Neonatal pain and discomfort scale&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-HEDEN"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-HEDEN">HEDEN</a>
+                </td>
+                <td>HEDEN Pain Scale</td>
+                <td>HEDEN (Hétéro-Evaluation de la Douleur chez l'Enfant) Pain Scale</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;HEDEN&quot;, &quot;display&quot;: &quot;HEDEN Pain Scale&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;HEDEN&quot;&gt;&lt;display value=&quot;HEDEN Pain Scale&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-MNA-complete"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-MNA-complete">MNA-complete</a>
+                </td>
+                <td>Mini Nutritional Assessment - complete</td>
+                <td>Mini Nutritional Assessment - complete</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;MNA-complete&quot;, &quot;display&quot;: &quot;Mini Nutritional Assessment - complete&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;MNA-complete&quot;&gt;&lt;display value=&quot;Mini Nutritional Assessment - complete&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-MNA-simplified"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-MNA-simplified">MNA-simplified</a>
+                </td>
+                <td>Mini Nutritional Assessment - simplified</td>
+                <td>Mini Nutritional Assessment - simplified</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;MNA-simplified&quot;, &quot;display&quot;: &quot;Mini Nutritional Assessment - simplified&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;MNA-simplified&quot;&gt;&lt;display value=&quot;Mini Nutritional Assessment - simplified&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-PAL"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-PAL">PAL</a>
+                </td>
+                <td>Level of Physical Activity</td>
+                <td>Level of Physical Activity (NAP - Niveau d'Activité Physique)</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;PAL&quot;, &quot;display&quot;: &quot;Level of Physical Activity&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;PAL&quot;&gt;&lt;display value=&quot;Level of Physical Activity&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-NRS2002"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-NRS2002">NRS2002</a>
+                </td>
+                <td>Nutritional Risk Screening</td>
+                <td>Nutritional Risk Screening</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;NRS2002&quot;, &quot;display&quot;: &quot;Nutritional Risk Screening&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;NRS2002&quot;&gt;&lt;display value=&quot;Nutritional Risk Screening&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-SCORE"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-SCORE">SCORE</a>
+                </td>
+                <td>Systemic Coronary Risk Estimation</td>
+                <td>Systemic Coronary Risk Estimation</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;SCORE&quot;, &quot;display&quot;: &quot;Systemic Coronary Risk Estimation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;SCORE&quot;&gt;&lt;display value=&quot;Systemic Coronary Risk Estimation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-SNAQ"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-SNAQ">SNAQ</a>
+                </td>
+                <td>Short Nutritional Assessment Questionnaire</td>
+                <td>Short Nutritional Assessment Questionnaire</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;SNAQ&quot;, &quot;display&quot;: &quot;Short Nutritional Assessment Questionnaire&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;SNAQ&quot;&gt;&lt;display value=&quot;Short Nutritional Assessment Questionnaire&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-TIMED-CHAIR-STAND"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-TIMED-CHAIR-STAND">TIMED-CHAIR-STAND</a>
+                </td>
+                <td>Timed Chair Stand</td>
+                <td>Timed Chair Stand</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;TIMED-CHAIR-STAND&quot;, &quot;display&quot;: &quot;Timed Chair Stand&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;TIMED-CHAIR-STAND&quot;&gt;&lt;display value=&quot;Timed Chair Stand&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-TUG"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-TUG">TUG</a>
+                </td>
+                <td>Timed Up&amp;Go</td>
+                <td>Timed Up&amp;Go</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;TUG&quot;, &quot;display&quot;: &quot;Timed Up&amp;Go&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;TUG&quot;&gt;&lt;display value=&quot;Timed Up&amp;amp;Go&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-WECKX"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-WECKX">WECKX</a>
+                </td>
+                <td>SCORE INZAKE ZORGBEHOEVENDHEID</td>
+                <td>WECKX SCORE</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;WECKX&quot;, &quot;display&quot;: &quot;SCORE INZAKE ZORGBEHOEVENDHEID&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;WECKX&quot;&gt;&lt;display value=&quot;SCORE INZAKE ZORGBEHOEVENDHEID&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-SDAI"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-SDAI">SDAI</a>
+                </td>
+                <td>SDAI ou Simplified Disease Activity Index</td>
+                <td>SDAI ou Simplified Disease Activity Index</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;SDAI&quot;, &quot;display&quot;: &quot;SDAI ou Simplified Disease Activity Index&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;SDAI&quot;&gt;&lt;display value=&quot;SDAI ou Simplified Disease Activity Index&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-GARS"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-GARS">GARS</a>
+                </td>
+                <td>Groningen Activity Restriction Scale</td>
+                <td>Groningen Activity Restriction Scale</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;GARS&quot;, &quot;display&quot;: &quot;Groningen Activity Restriction Scale&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;GARS&quot;&gt;&lt;display value=&quot;Groningen Activity Restriction Scale&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-other"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score.html#be-cs-score-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <p>
+              <b>Additional Designations and Language Displays</b>
+            </p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Fully specified name</b>
+                </td>
+                <td>
+                  <b>Other Display (null)</b>
+                </td>
+                <td>
+                  <b>English (English, en)</b>
+                </td>
+                <td>
+                  <b>French (Belgium) (fr)</b>
+                </td>
+                <td>
+                  <b>Nederlands (Dutch, nl)</b>
+                </td>
+              </tr>
+              <tr>
+                <td>763117005</td>
+                <td>Finnish Diabetes Risk Score (observable entity)</td>
+                <td>FINDRISC (Finnish Diabetes Risk Score) score</td>
+                <td>Finnish Diabetes Risk Score</td>
+                <td>Finnish Diabetes Risk Score</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>446661009</td>
+                <td></td>
+                <td>Visual analog scale score (observable entity)</td>
+                <td>Visual analogue scale score</td>
+                <td>(EVA) Echelle Visuelle Analogique</td>
+                <td>score op 'Visual Analog Scale'</td>
+              </tr>
+              <tr>
+                <td>273531005</td>
+                <td>Index of activities of daily living (assessment scale)</td>
+                <td>Index of Independence in Activities of Daily Living</td>
+                <td>ADL - Index of independence in activities of daily living</td>
+                <td>Grille d'évaluation de l'autonomie pour les activités basales de la vie quotidienne</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>447316007</td>
+                <td></td>
+                <td>Mini-mental state examination score (observable entity)</td>
+                <td>Mini-mental state examination score</td>
+                <td>Examen mental de Folstein</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>444297006</td>
+                <td></td>
+                <td>Malnutrition universal screening tool score (observable entity)</td>
+                <td>Malnutrition universal screening tool score</td>
+                <td>Malnutrition Universal Screening</td>
+                <td>MUST-score</td>
+              </tr>
+              <tr>
+                <td>443133008</td>
+                <td>Norton Scale score (observable entity)</td>
+                <td>Norton pressure sore risk score (observable entity)</td>
+                <td>Norton Scale score</td>
+                <td>évaluation du risque d'escarre</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>7121000122100</td>
+                <td></td>
+                <td>Pain Assessment in Advanced Dementia Scale</td>
+                <td>PAINAD - Pain Assessment in Advanced Dementia Scale</td>
+                <td>Hétéro-évaluation de la douleur chez la personne âgée non communicante</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>273849003</td>
+                <td>Subjective global assessment (assessment scale)</td>
+                <td>Subjective Global Assessment</td>
+                <td>Subjective global assessment (assessment scale)</td>
+                <td>Subjective Global Assessment</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>450738001</td>
+                <td></td>
+                <td>Thirty second chair stand test score (observable entity)</td>
+                <td>Thirty second chair stand test score</td>
+                <td>évaluation des risques de chutes et la force musculaire des membres inférieurs</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>444680009</td>
+                <td></td>
+                <td>Timed up and go mobility test score (observable entity)</td>
+                <td>Timed up and go mobility test score</td>
+                <td>Timed Up&amp;Go : évalue le risque de chute chez une personne</td>
+                <td>'Timed Up and Go'-testscore</td>
+              </tr>
+              <tr>
+                <td>278897004</td>
+                <td>Waterlow Scale (assessment scale)</td>
+                <td>Waterlow pressure sore risk score</td>
+                <td>Waterlow Scale</td>
+                <td>(WATERLOW) Echelle d'évaluation du risque d'escarre</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>763259004</td>
+                <td></td>
+                <td>Disease Activity Score</td>
+                <td>Disease Activity Score</td>
+                <td>(DAS) Score d'activité de la polyarthrite rhumatoïde</td>
+                <td>Disease Activity Score</td>
+              </tr>
+              <tr>
+                <td>273364009</td>
+                <td>Crohn's Disease Activity Index (assessment scale)</td>
+                <td>Crohn's disease activity index</td>
+                <td>CDAI - Crohn's Disease Activity Index</td>
+                <td>(CDAI) Indice d'activité de la polyarthrite rhumatoïde</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>443318007</td>
+                <td></td>
+                <td>Tinetti balance and gait scale</td>
+                <td>Tinetti balance and gait scale</td>
+                <td>évalue le risque de chute chez une personne âgée</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>719124004</td>
+                <td></td>
+                <td>Arthritis Impact Measurement Scales 2 score (observable entity)</td>
+                <td>AIMS2 (Arthritis Impact Measurement Scales 2) score</td>
+                <td>(EMIR) Echelle de Mesure de l'Impact de la Polyarthrite Rhumatoïde</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>ADBB</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Alarm détresse bébé</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>BRANDEN</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Branden</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>DOLOPLUS2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Evaluation de la douleur chez les personnes présentant des troubles de la communication verbale</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>EAT-10</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>échelle d'évaluation du degré de dysphagie</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>EDIN</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>échelle de la douleur et de l'inconfort du nouveau-né</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>HEDEN</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>hétéro-évaluation de la douleur chez l'enfant</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>MNA-complete</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Mini Nutritional Assessment : échelle d'évaluation de la dénutrition des personnes âgées.</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>MNA-simplified</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Mini Nutritional Assessment : échelle d'évaluation de la dénutrition des personnes âgées.</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>PAL</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Niveau d'Activité Physique</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>NRS2002</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Nutritional Risk Screening</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>SCORE</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Systémic Coronary Risk Estimation</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>SNAQ</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Short Nutritional Assessment Questionnaire</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>TIMED-CHAIR-STAND</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>évaluation des risques de chutes et la force musculaire des membres inférieurs</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>TUG</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Timed Up&amp;Go : évalue le risque de chute chez une personne</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>WECKX</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>WECKX mesure de degré de dépendance physique</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>SDAI</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>SDAI ou Simplified Disease Activity Index</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>GARS</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Groningen Activity Restriction Scale</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>other</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Autre</td>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-score"/>
+        <version value="1.1.0"/>
+        <name value="BeVSScore"/>
+        <title value="Score Value Set"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2026-03-31T17:13:19+00:00"/>
+        <contact>
+          <name value="eHealth Platform"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://www.ehealth.fgov.be"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="message-structure@www.ehealth.fgov.be"/>
+          </telecom>
+        </contact>
+        <contact>
+          <name value="Message-Structure"/>
+          <telecom>
+            <system value="email"/>
+            <value value="message-structure@www.ehealth.fgov.be"/>
+            <use value="work"/>
+          </telecom>
+        </contact>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:589eec7a-d7ba-4b72-a5bd-ef54ebce2857"/>
+          <timestamp value="2026-03-31T17:15:15.323Z"/>
+          <total value="33"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/11000172109/version/20231115"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score|1.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="system-version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/11000172109"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="763117005"/>
+            <display value="FINDRISC (Finnish Diabetes Risk Score) score"/>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000003001"/>
+                <display value="Fully specified name"/>
+              </use>
+              <value value="Finnish Diabetes Risk Score (observable entity)"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Finnish Diabetes Risk Score"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+                <code value="preferredForLanguage"/>
+              </use>
+              <value value="FINDRISC (Finnish Diabetes Risk Score) score"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000003001"/>
+                <display value="Fully specified name"/>
+              </use>
+              <value value="Finnish Diabetes Risk Score (observable entity)"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <value value="Finnish Diabetes Risk Score"/>
+            </designation>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Finnish Diabetes Risk Score"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="446661009"/>
+            <display value="Visual analog scale score (observable entity)"/>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Visual analog scale score"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Visual analogue scale score"/>
+            </designation>
+            <designation>
+              <language value="nl"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="score op visuele analoge schaal"/>
+            </designation>
+            <designation>
+              <language value="nl"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="VAS-score"/>
+            </designation>
+            <designation>
+              <language value="nl"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="score op 'Visual Analog Scale'"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+                <code value="preferredForLanguage"/>
+              </use>
+              <value value="Visual analog scale score (observable entity)"/>
+            </designation>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="(EVA) Echelle Visuelle Analogique"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="273531005"/>
+            <display value="Index of activities of daily living"/>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000003001"/>
+                <display value="Fully specified name"/>
+              </use>
+              <value value="Index of activities of daily living (assessment scale)"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Index of independence in activities of daily living"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="ADL - Index of independence in activities of daily living"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+                <code value="preferredForLanguage"/>
+              </use>
+              <value value="Index of Independence in Activities of Daily Living"/>
+            </designation>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Grille d'évaluation de l'autonomie pour les activités basales de la vie quotidienne"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="447316007"/>
+            <display value="Mini-mental state examination score (observable entity)"/>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Mini-mental state examination score"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+                <code value="preferredForLanguage"/>
+              </use>
+              <value value="Mini-mental state examination score (observable entity)"/>
+            </designation>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Examen mental de Folstein"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="444297006"/>
+            <display value="Malnutrition universal screening tool score (observable entity)"/>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="MUST (Malnutrition universal screening tool) score"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Malnutrition universal screening tool score"/>
+            </designation>
+            <designation>
+              <language value="nl"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="'Malnutrition Universal Screening Tool'-score"/>
+            </designation>
+            <designation>
+              <language value="nl"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="MUST-score"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+                <code value="preferredForLanguage"/>
+              </use>
+              <value value="Malnutrition universal screening tool score (observable entity)"/>
+            </designation>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Malnutrition Universal Screening"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="443133008"/>
+            <display value="Norton pressure sore risk score (observable entity)"/>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Norton pressure sore risk score"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000003001"/>
+                <display value="Fully specified name"/>
+              </use>
+              <value value="Norton pressure ulcer risk score (observable entity)"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Norton pressure ulcer risk score"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000003001"/>
+                <display value="Fully specified name"/>
+              </use>
+              <value value="Norton Scale score (observable entity)"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Norton Scale score"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+                <code value="preferredForLanguage"/>
+              </use>
+              <value value="Norton pressure sore risk score (observable entity)"/>
+            </designation>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="évaluation du risque d'escarre"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="7121000122100"/>
+            <display value="Pain Assessment in Advanced Dementia Scale (assessment scale)"/>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Pain Assessment in Advanced Dementia Scale"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="PAINAD - Pain Assessment in Advanced Dementia Scale"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+                <code value="preferredForLanguage"/>
+              </use>
+              <value value="Pain Assessment in Advanced Dementia Scale"/>
+            </designation>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Hétéro-évaluation de la douleur chez la personne âgée non communicante"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="273849003"/>
+            <display value="Subjective global assessment"/>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000003001"/>
+                <display value="Fully specified name"/>
+              </use>
+              <value value="Subjective global assessment (assessment scale)"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+                <code value="preferredForLanguage"/>
+              </use>
+              <value value="Subjective Global Assessment"/>
+            </designation>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Subjective Global Assessment"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="450738001"/>
+            <display value="Thirty second chair stand test score (observable entity)"/>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Thirty second chair stand test score"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+                <code value="preferredForLanguage"/>
+              </use>
+              <value value="Thirty second chair stand test score (observable entity)"/>
+            </designation>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="évaluation des risques de chutes et la force musculaire des membres inférieurs"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="444680009"/>
+            <display value="Timed up and go mobility test score (observable entity)"/>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Timed up and go mobility test score"/>
+            </designation>
+            <designation>
+              <language value="nl"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="TUG-score"/>
+            </designation>
+            <designation>
+              <language value="nl"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="'Timed Up and Go'-testscore"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+                <code value="preferredForLanguage"/>
+              </use>
+              <value value="Timed up and go mobility test score (observable entity)"/>
+            </designation>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Timed Up&amp;Go : évalue le risque de chute chez une personne"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="278897004"/>
+            <display value="Waterlow pressure sore risk score"/>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000003001"/>
+                <display value="Fully specified name"/>
+              </use>
+              <value value="Waterlow pressure sore risk score (assessment scale)"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000003001"/>
+                <display value="Fully specified name"/>
+              </use>
+              <value value="Waterlow Scale (assessment scale)"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Waterlow Scale"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+                <code value="preferredForLanguage"/>
+              </use>
+              <value value="Waterlow pressure sore risk score"/>
+            </designation>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="(WATERLOW) Echelle d'évaluation du risque d'escarre"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="763259004"/>
+            <display value="Disease Activity Score (observable entity)"/>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="DAS - Disease Activity Score"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Disease Activity Score"/>
+            </designation>
+            <designation>
+              <language value="nl"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Disease Activity Score"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+                <code value="preferredForLanguage"/>
+              </use>
+              <value value="Disease Activity Score"/>
+            </designation>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="(DAS) Score d'activité de la polyarthrite rhumatoïde"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="273364009"/>
+            <display value="Crohn's disease activity index"/>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="CDAI - Crohn's disease activity index"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000003001"/>
+                <display value="Fully specified name"/>
+              </use>
+              <value value="Crohn's disease activity index (assessment scale)"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Crohn disease activity index"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000003001"/>
+                <display value="Fully specified name"/>
+              </use>
+              <value value="Crohn's Disease Activity Index (assessment scale)"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Crohn's Disease Activity Index"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="CDAI - Crohn's Disease Activity Index"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+                <code value="preferredForLanguage"/>
+              </use>
+              <value value="Crohn's disease activity index"/>
+            </designation>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="(CDAI) Indice d'activité de la polyarthrite rhumatoïde"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="443318007"/>
+            <display value="Tinetti balance and gait scale (assessment scale)"/>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Tinetti balance and gait scale"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+                <code value="preferredForLanguage"/>
+              </use>
+              <value value="Tinetti balance and gait scale"/>
+            </designation>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="évalue le risque de chute chez une personne âgée"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="719124004"/>
+            <display value="Arthritis Impact Measurement Scales 2 score (observable entity)"/>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="Arthritis Impact Measurement Scales 2 score"/>
+            </designation>
+            <designation>
+              <language value="en"/>
+              <use>
+                <system value="http://snomed.info/sct"/>
+                <code value="900000000000013009"/>
+                <display value="Synonym (core metadata concept)"/>
+              </use>
+              <value value="AIMS2 (Arthritis Impact Measurement Scales 2) score"/>
+            </designation>
+            <designation>
+              <use>
+                <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+                <code value="preferredForLanguage"/>
+              </use>
+              <value value="Arthritis Impact Measurement Scales 2 score (observable entity)"/>
+            </designation>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="(EMIR) Echelle de Mesure de l'Impact de la Polyarthrite Rhumatoïde"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="ADBB"/>
+            <display value="Alarm distress baby scale"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Alarm détresse bébé"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="BRANDEN"/>
+            <display value="Branden"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Branden"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="DOLOPLUS2"/>
+            <display value="Doloplus 2 score"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Evaluation de la douleur chez les personnes présentant des troubles de la communication verbale"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="EAT-10"/>
+            <display value="Eating Assessment Tool"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="échelle d'évaluation du degré de dysphagie"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="EDIN"/>
+            <display value="Neonatal pain and discomfort scale"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="échelle de la douleur et de l'inconfort du nouveau-né"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="HEDEN"/>
+            <display value="HEDEN Pain Scale"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="hétéro-évaluation de la douleur chez l'enfant"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="MNA-complete"/>
+            <display value="Mini Nutritional Assessment - complete"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Mini Nutritional Assessment : échelle d'évaluation de la dénutrition des personnes âgées."/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="MNA-simplified"/>
+            <display value="Mini Nutritional Assessment - simplified"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Mini Nutritional Assessment : échelle d'évaluation de la dénutrition des personnes âgées."/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="PAL"/>
+            <display value="Level of Physical Activity"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Niveau d'Activité Physique"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="NRS2002"/>
+            <display value="Nutritional Risk Screening"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Nutritional Risk Screening"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="SCORE"/>
+            <display value="Systemic Coronary Risk Estimation"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Systémic Coronary Risk Estimation"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="SNAQ"/>
+            <display value="Short Nutritional Assessment Questionnaire"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Short Nutritional Assessment Questionnaire"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="TIMED-CHAIR-STAND"/>
+            <display value="Timed Chair Stand"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="évaluation des risques de chutes et la force musculaire des membres inférieurs"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="TUG"/>
+            <display value="Timed Up&amp;Go"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Timed Up&amp;Go : évalue le risque de chute chez une personne"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="WECKX"/>
+            <display value="SCORE INZAKE ZORGBEHOEVENDHEID"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="WECKX mesure de degré de dépendance physique"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="SDAI"/>
+            <display value="SDAI ou Simplified Disease Activity Index"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="SDAI ou Simplified Disease Activity Index"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="GARS"/>
+            <display value="Groningen Activity Restriction Scale"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Groningen Activity Restriction Scale"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score"/>
+            <code value="other"/>
+            <display value="Other"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Autre"/>
+            </designation>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-scorecategory"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-be-cs-score-category.html">codesystem Score Category v1.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category|1.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category-risk"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score-category.html#be-cs-score-category-risk">risk</a>
+                </td>
+                <td>Risk score</td>
+                <td>Risk score</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;risk&quot;, &quot;display&quot;: &quot;Risk score&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;risk&quot;&gt;&lt;display value=&quot;Risk score&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category-pain"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score-category.html#be-cs-score-category-pain">pain</a>
+                </td>
+                <td>Pain score</td>
+                <td>Pain score</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;pain&quot;, &quot;display&quot;: &quot;Pain score&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;pain&quot;&gt;&lt;display value=&quot;Pain score&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category-other"> </a>
+                  <code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-be-cs-score-category.html#be-cs-score-category-other">other</a>
+                </td>
+                <td>Other</td>
+                <td>Other</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;, &quot;version&quot;: &quot;1.1.0&quot;, &quot;code&quot;: &quot;other&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category&quot;&gt;&lt;version value=&quot;1.1.0&quot;&gt;&lt;code value=&quot;other&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <p>
+              <b>Additional Language Displays</b>
+            </p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>French (Belgium) (fr)</b>
+                </td>
+                <td>
+                  <b>Nederlands (België) (Dutch (Belgium), nl)</b>
+                </td>
+              </tr>
+              <tr>
+                <td>risk</td>
+                <td>Risk score</td>
+                <td>Risk score</td>
+              </tr>
+              <tr>
+                <td>pain</td>
+                <td>Pain Score</td>
+                <td>Pain Score</td>
+              </tr>
+              <tr>
+                <td>other</td>
+                <td>Autre</td>
+                <td>andere</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-scorecategory"/>
+        <version value="1.1.0"/>
+        <name value="BeVSScoreCategory"/>
+        <title value="Score Category Value Set"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2021-01-10T10:59:49+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="BE"/>
+            <display value="Belgium"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:315c4835-0027-4e1f-8686-3b7016c72bfb"/>
+          <timestamp value="2026-03-31T17:15:14+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="includeDesignations"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category|1.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category"/>
+            <code value="risk"/>
+            <display value="Risk score"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Risk score"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Risk score"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category"/>
+            <code value="pain"/>
+            <display value="Pain score"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Pain Score"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="Pain Score"/>
+            </designation>
+          </contains>
+          <contains>
+            <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category"/>
+            <code value="other"/>
+            <display value="Other"/>
+            <designation>
+              <language value="fr-BE"/>
+              <value value="Autre"/>
+            </designation>
+            <designation>
+              <language value="nl-BE"/>
+              <value value="andere"/>
+            </designation>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

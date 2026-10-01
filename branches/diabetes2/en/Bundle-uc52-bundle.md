@@ -1,0 +1,134 @@
+# uc52-bundle - Clinical Core v1.1.0
+
+## Example Bundle: uc52-bundle
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "Bundle",
+  "id" : "uc52-bundle",
+  "identifier" : {
+    "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diagnostic-report-diabetes",
+    "value" : "6e126868-aa6a-41ef-b7fb-3c8b690d8ffb"
+  },
+  "type" : "document",
+  "timestamp" : "2024-11-25T00:00:00.000+01:00",
+  "entry" : [{
+    "fullUrl" : "urn:uuid:66442d1d-2a00-45cc-a4bd-b07c2a376212",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "uc52-composition",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_uc52-composition\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition uc52-composition</b></p><a name=\"uc52-composition\"> </a><a name=\"hcuc52-composition\"> </a><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://snomed.info/sct 439926003}\">439926003</span></p><p><b>date</b>: 2024-11-25</p><p><b>author</b>: Identifier: <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/NamingSystem-be-nihdi.html\" title=\"RIZIV/INAMI\">BeNIHDINamingSystem</a>/0403044007</p><p><b>title</b>: Diabetes device report</p></div>"
+      },
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "439926003"
+        }]
+      },
+      "date" : "2024-11-25",
+      "author" : [{
+        "identifier" : {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi",
+          "value" : "0403044007"
+        }
+      }],
+      "title" : "Diabetes device report",
+      "section" : [{
+        "entry" : [{
+          "reference" : "urn:uuid:6e126868-aa6a-41ef-b7fb-3c8b690d8ffb"
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:6e126868-aa6a-41ef-b7fb-3c8b690d8ffb",
+    "resource" : {
+      "resourceType" : "DiagnosticReport",
+      "id" : "uc52-pdfonly",
+      "meta" : {
+        "profile" : ["https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-diagnostic-report-diabetes"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"DiagnosticReport_uc52-pdfonly\"> </a><p class=\"res-header-id\"><b>Generated Narrative: DiagnosticReport uc52-pdfonly</b></p><a name=\"uc52-pdfonly\"> </a><a name=\"hcuc52-pdfonly\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-be-diagnostic-report-diabetes.html\">BeDiagnosticReportDiabetes</a></p></div><h2><span title=\"Codes:{http://snomed.info/sct 439926003}\">439926003</span> (<span title=\"Codes:{http://snomed.info/sct 4311000179106}\">4311000179106</span>, <span title=\"Codes:{http://snomed.info/sct 408475000}\">408475000</span>, <span title=\"Codes:{http://snomed.info/sct 394583002}\">394583002</span>) </h2><table class=\"grid\"><tr><td>Subject</td><td>Unable to get Patient Details</td></tr><tr><td>When For</td><td>2024-11-11 --&gt; 2024-11-24</td></tr><tr><td>Identifier</td><td> <a href=\"NamingSystem-be-ns-diagnostic-report-diabetes.html\">BeNSDiagnosticReportDiabetes</a>/6e126868-aa6a-41ef-b7fb-3c8b690d8ffb</td></tr></table><p><b>Report Details</b></p></div>"
+      },
+      "extension" : [{
+        "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeExtRecordedDate",
+        "valueDateTime" : "2024-11-25"
+      },
+      {
+        "url" : "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-ext-recorder",
+        "valueReference" : {
+          "identifier" : {
+            "system" : "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi",
+            "value" : "0403044007"
+          }
+        }
+      },
+      {
+        "extension" : [{
+          "url" : "concept",
+          "valueCodeableConcept" : {
+            "coding" : [{
+              "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diabetes-device-type",
+              "code" : "701010000576"
+            }]
+          }
+        }],
+        "url" : "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-ext-codeable-reference"
+      }],
+      "identifier" : [{
+        "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diagnostic-report-diabetes",
+        "value" : "6e126868-aa6a-41ef-b7fb-3c8b690d8ffb"
+      }],
+      "status" : "final",
+      "category" : [{
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "4311000179106"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "408475000"
+        }]
+      },
+      {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "394583002"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "439926003"
+        }]
+      },
+      "subject" : {
+        "identifier" : {
+          "system" : "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin",
+          "value" : "80051207915"
+        }
+      },
+      "effectivePeriod" : {
+        "start" : "2024-11-11",
+        "end" : "2024-11-24"
+      },
+      "presentedForm" : [{
+        "contentType" : "application/pdf",
+        "data" : "JVBERi0xLjANCjEgMCBvYmo8PC9QYWdlcyAyIDAgUj4+ZW5kb2JqIDIgMCBvYmo8PC9LaWRzWzMgMCBSXS9Db3VudCAxPj5lbmRvYmogMyAwIG9iajw8L01lZGlhQm94WzAgMCAzIDNdPj5lbmRvYmoNCnRyYWlsZXI8PC9Sb290IDEgMCBSPj4="
+      }]
+    }
+  }]
+}
+
+```
