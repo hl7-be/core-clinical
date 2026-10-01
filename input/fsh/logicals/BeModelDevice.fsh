@@ -1,4 +1,5 @@
 Logical: BeModelDevice
+Parent: Base
 Title: "Device Logical Model"
 Description: "Logical model for a medical device"
 

@@ -1,4 +1,5 @@
 Logical: BeModelEpisodeOfCare
+Parent: Base
 Id: BeModelEpisodeOfCare
 Title: "BeEpisodeOfCare model"
 Description: "Logical model for the EpisodeOfCare CareSet - represents a period during which care related to a specific goal or problem is provided to a patient by one or more healthcare providers and/or organizations."
@@ -18,8 +19,8 @@ Characteristics: #can-be-target
 
 // FR: Statut actuel de l'épisode. Voir VS_EpisodeOfCare_Status.
 // NL: Huidige status van de episode. Zie VS_EpisodeOfCare_Status.
-* status 1..1 code "Current status of the episode" "planned | active | onhold | finished | cancelled | entered-in-error"
-* status from http://hl7.org/fhir/ValueSet/episode-of-care-status (required)
+* status 1..1 code "Current status of the episode" "active | onhold | finished | entered-in-error"
+* status from BeVSEpisodeOfCareStatus (required)
 
 // FR: Est le professionnel de la santé qui prend la responsabilité du contenu encodé.
 // NL: De zorgprofessional die de verantwoordelijkheid neemt voor de geregistreerde inhoud.
@@ -31,8 +32,10 @@ Characteristics: #can-be-target
 
 // FR: Le problème traité durant l'EpisodeOfCare. Voir VS_Encounter_Reason.
 // NL: Het probleem dat tijdens de EpisodeOfCare zal behandeld worden. Zie VS_Encounter_Reason.
-* reason[x] 1..1 CodeableConcept or Reference "The problem treated during the EpisodeOfCare"
-* reasonCodeableConcept from http://hl7.org/fhir/ValueSet/encounter-reason (extensible)
+* reason 1..1 Base "The problem treated during the EpisodeOfCare"
+  * reasonReference 0..1 Reference "The problem treated during the EpisodeOfCare, as a reference"
+  * reasonCode 0..1 CodeableConcept "The problem treated during the EpisodeOfCare, as a code"
+  * reasonCode from http://hl7.org/fhir/ValueSet/encounter-reason (extensible)
 
 // FR: Remarque complémentaire éventuelle.
 // NL: Eventueel aanvullende opmerking.

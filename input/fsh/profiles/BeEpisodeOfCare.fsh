@@ -20,8 +20,10 @@ Description: "A period during which care related to one specific goal or problem
 * extension[recordedDate] ^short = "RecordedDate"
 * extension[recordedDate] ^definition = "Recording date by the Author or Recorder (date of the last update). Enables CareSet history management through the pair Business Identifier - RecordedDate, which guarantees access to the latest version of the content."
 
-// Status - 1..1 (R4 required binding on EpisodeOfCare.status is kept)
+// Status - 1..1, narrowed to the four statuses of VS_Status_EpisodeOfCare
+// (a subset of the R4 required binding on EpisodeOfCare.status)
 * status 1..1 MS
+* status from BeVSEpisodeOfCareStatus (required)
 
 // Author - 1..1 (be-core extension; R4 EpisodeOfCare has no author/recorder)
 * extension contains BeExtRecorder named author 1..1 MS
