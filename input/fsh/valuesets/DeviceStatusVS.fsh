@@ -1,4 +1,5 @@
 ValueSet: DeviceStatusVS
+Id: be-vs-device-status
 Title: "Device Status Value Set"
 Description: "Device Status - placeholder valueset - the normative definition will be published in the Belgian terminology IG."
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status"
