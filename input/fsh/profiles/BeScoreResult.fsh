@@ -30,10 +30,20 @@ Description: "To support the standard exchange of scores such as pain assessment
 * effectivePeriod only Period
 * effectivePeriod ^sliceName = "effectivePeriod"
 * effectivePeriod ^short = "The time period that the score refers to."
-// RecordedDate - 1..1, carried by the native R4 Observation.issued.
-* issued 1..1 MS
-* issued ^short = "RecordedDate - when the assessment scale was encoded in the system"
-* issued ^definition = "The date the standardised assessment scale was finally encoded in the system. Note that R4 types Observation.issued as instant, so a full timestamp is required - a date alone cannot be sent."
+// RecordedDate - 1..1 (be-core extension). Not the native Observation.issued:
+// R4 types issued as instant, which forces a full timestamp, while the CareSet
+// asks for a date. BeExtRecordedDate carries a dateTime.
+* extension contains BeExtRecordedDate named recordedDate 1..1 MS
+* extension[recordedDate] ^short = "RecordedDate"
+* extension[recordedDate] ^definition = "The date the standardised assessment scale was finally encoded in the system."
+
+// *TODO* ask at the meeting: does this CareSet need Observation.issued at all,
+// next to RecordedDate? They are different facts - issued is "when this version
+// was made available to providers" (an instant), RecordedDate is the date the
+// scale was encoded / last updated. The CareSet names only the second. Options:
+// keep issued as an optional native element (as now), drop it from the profile,
+// or add it to the CareSet as an element of its own.
+* issued MS
 
 // Recorder - 1..1 (be-core extension; R4 Observation has no recorder element).
 * extension contains BeExtRecorder named recorder 1..1 MS
