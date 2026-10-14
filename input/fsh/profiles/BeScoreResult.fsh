@@ -30,8 +30,16 @@ Description: "To support the standard exchange of scores such as pain assessment
 * effectivePeriod only Period
 * effectivePeriod ^sliceName = "effectivePeriod"
 * effectivePeriod ^short = "The time period that the score refers to."
-* issued 1.. MS
-* issued ^short = "The date and time when the score was made available"
+// RecordedDate - 1..1, carried by the native R4 Observation.issued.
+* issued 1..1 MS
+* issued ^short = "RecordedDate - when the assessment scale was encoded in the system"
+* issued ^definition = "The date the standardised assessment scale was finally encoded in the system. Note that R4 types Observation.issued as instant, so a full timestamp is required - a date alone cannot be sent."
+
+// Recorder - 1..1 (be-core extension; R4 Observation has no recorder element).
+* extension contains BeExtRecorder named recorder 1..1 MS
+* extension[recorder] ^short = "Recorder"
+* extension[recorder] ^definition = "The person or system that records the assessment in the record - the same care provider, another collaborator, or the software itself when recording is automatic."
+* extension[recorder].value[x] only Reference(BePractitioner or BePractitionerRole or BeOrganization)
 * performer only Reference(BePatient or BePractitioner or BePractitionerRole or BeOrganization)
 * performer MS
 * performer ^short = "The care provider that took the assessment"
