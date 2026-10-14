@@ -46,6 +46,23 @@ Description: "To support the standard exchange of scores such as pain assessment
 * issued MS
 
 // Recorder - 1..1 (be-core extension; R4 Observation has no recorder element).
+//
+// *TODO* ask at the meeting: who or what can be the Recorder?
+// The CareSet calls it "la personne ou le systeme qui enregistre l'evaluation
+// dans le dossier (encodeur de donnees)" and explicitly allows the software
+// itself. be-core's BeExtRecorder says the opposite on its value: "The
+// responsability for a recording can only be taken by a natural person. The use
+// of BeOrganisation is therefore discouraged. Use the organisation in
+// BePractionerRole instead." A device cannot take responsibility, and R4 allows
+// no Device on performer either, so one of these has to give:
+//   a) Recorder here is a pure data encoder, and BeExtRecorder - which asserts
+//      responsibility - is the wrong carrier for it;
+//   b) be-core adds Device to BeExtRecorder and softens that statement;
+//   c) automatic recording is out of scope and a natural person is always named.
+// Related: BeEpisodeOfCare and BeEncounter use this same extension for Author,
+// "the professional who takes responsibility for the recorded content", so one
+// extension is currently carrying two different concepts. This CareSet is the
+// first to need them apart: it has Evaluator, Recorder and no Author at all.
 * extension contains BeExtRecorder named recorder 1..1 MS
 * extension[recorder] ^short = "Recorder"
 * extension[recorder] ^definition = "The person or system that records the assessment in the record - the same care provider, another collaborator, or the software itself when recording is automatic."
