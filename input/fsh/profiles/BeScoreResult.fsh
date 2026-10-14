@@ -14,7 +14,9 @@ Description: "To support the standard exchange of scores such as pain assessment
 * ^contact[=].telecom.value = "message-structure@ehealth.fgov.be"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
-* identifier MS
+
+// Mapping of the CareSet BeScoreResult (V0.1) elements onto R4 Observation.
+* identifier 1..* MS
 * category MS
 * category from BeVSScoreCategory (required)
 * category ^short = "The high-level group or category of the score - e.g. 'Risk score' or 'Pain score'"
@@ -33,7 +35,7 @@ Description: "To support the standard exchange of scores such as pain assessment
 * performer only Reference(BePatient or BePractitioner or BePractitionerRole or BeOrganization)
 * performer MS
 * performer ^short = "The care provider that took the assessment"
-* value[x] 1.. MS
+* value[x] 0..1 MS
 * value[x] ^short = "The actual score value."
 * interpretation MS
 * interpretation ^short = "The interpretation of the result from the value. For example if value is 12, the interpretation can be 'elevated'"
@@ -43,8 +45,33 @@ Description: "To support the standard exchange of scores such as pain assessment
 * bodySite.extension ^slicing.discriminator.path = "url"
 * bodySite.extension ^slicing.rules = #open
 * bodySite.extension contains BeExtLaterality named laterality 0..1 MS
-* referenceRange MS
+* referenceRange 0..1 MS
 * referenceRange ^short = "The different ranges of the value"
 * referenceRange ^definition = "The different ranges that the value can have, and corresponding evaluation (e.g. 0..10: normal; 11..20: elevated)"
 * derivedFrom MS
 * derivedFrom ^short = "The source values for the assessment - for example a QuestionnaireResponse"
+
+// Status - 1..1 (R4 required binding kept for now; see VS__Status in the CareSet)
+* status MS
+
+// Method - 0..1 (VS_BeScoreResult_Method has no codes in the CareSet yet)
+* method 0..1 MS
+* method ^short = "How the observation was obtained"
+
+// hasMember - 0..*
+* hasMember 0..* MS
+* hasMember ^short = "Groups the observations that make up this assessment scale"
+
+// Component.Code / Component.value / Component.Interpretation - the sub-scores
+* component 0..* MS
+* component ^short = "A sub-score or component of the assessment scale"
+* component.code MS
+* component.code ^short = "Identifies the sub-score or component of the assessment scale"
+* component.value[x] 0..1 MS
+* component.value[x] ^short = "The value or score of this component"
+* component.interpretation MS
+* component.interpretation ^short = "The clinical interpretation of the sub-score"
+
+// Note - 0..*
+* note 0..* MS
+* note ^short = "Free text remark"
