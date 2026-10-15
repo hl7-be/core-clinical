@@ -33,6 +33,9 @@ Description: "Logical model for Problem"
 // Children cannot be declared under a CodeableConcept: it is a concrete type, so the
 // IG Publisher rejects localisation / laterality / topography defined inside it.
 * bodySite 0..* BeModelBodySite "Body Site" "Anatomical site(s) where the problem is active"
+  * bodyLocation from BeVSBodySite (required)
+  * bodyLaterality from BeVSLaterality (required)
+  * bodyTopography from BeVSBodyTopography (required)
 * onset[x] 0..1 dateTime or Period or Range or Age or string "Onset" "Moment the problem began"
 * abatement[x] 0..1 dateTime or Period or Range or Age or string "Abatement" "Moment the problem went into remission"
 * note 0..* Annotation "Note" "Additional notes pertaining to the problem"
