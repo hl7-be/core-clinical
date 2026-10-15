@@ -12,7 +12,7 @@ Description: "A record of a device being used by a patient in the context of Bel
 * derivedFrom 0..* MS
 * timing[x] 0..1 MS
 * recordedOn 1..1 MS
-* source 0..1 MS
+* source 1..1 MS
 * source only Reference(BePractitioner or BePractitionerRole or BePatient or RelatedPerson)
 * device 1..1 MS
 * device only Reference(BeDevice)

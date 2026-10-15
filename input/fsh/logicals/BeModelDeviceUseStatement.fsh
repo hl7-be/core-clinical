@@ -11,7 +11,7 @@ Description: "Logical model for recording the use of a medical device by a patie
 * derivedFrom 0..* Reference "Derived From" "Extra information on which this registration is based, e.g. a prior Procedure or Observation"
 * timing[x] 0..1 dateTime or Period or Timing "Timing" "Description of how often or when the device is used, e.g. every night between 22:00 and 07:00"
 * recordedDate 1..1 dateTime "Recorded Date" "Date and time when the registration was entered"
-* source 0..1 Reference(Practitioner or PractitionerRole or Patient or RelatedPerson) "Source" "Who created the registration, e.g. a nurse recording the use"
+* source 1..1 Reference(Practitioner or PractitionerRole or Patient or RelatedPerson) "Source" "Who created the registration, e.g. a nurse recording the use"
 * device 1..1 Reference "Device" "The device being used, e.g. reference to Device 'Insulin pump SN12345'"
 * reasonCode 0..* CodeableConcept "Reason Code" "Reason why the device is used - can be a condition (problem), procedure or observation code"
 * reasonReference 0..* Reference "Reason Reference" "Reference to a clinical source for the reason, e.g. a diagnosis in a problem resource"
