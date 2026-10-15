@@ -29,13 +29,13 @@ Description: "Logical model for Problem"
 * severity 0..1 CodeableConcept "Severity" "Degree of severity of the problem"
 * severity from http://hl7.org/fhir/ValueSet/condition-severity
 
-* bodySite 0..* CodeableConcept "Body Site" "Anatomical site(s) where the problem is active"
-  * localisation 1..1 CodeableConcept  "Body Localisation" "Specific location on the body if not implied by the code"
-  * localisation from https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-bodysite
-  * laterality 0..1 CodeableConcept "Body Laterality" "Laterality of the affected body site (right, left, both)"
-  * laterality from https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-laterality 
-  * topography 0..1 CodeableConcept "Body Topography" "Topography of the affected body site (e.g., upper arm, lower leg, etc.)"
-  * topography from https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-body-topography
+// bodySite reuses the BeModelBodySite logical model, as BeModelClinicalObservation does.
+// Children cannot be declared under a CodeableConcept: it is a concrete type, so the
+// IG Publisher rejects localisation / laterality / topography defined inside it.
+* bodySite 0..* BeModelBodySite "Body Site" "Anatomical site(s) where the problem is active"
+  * bodyLocation from BeVSBodySite (required)
+  * bodyLaterality from BeVSLaterality (required)
+  * bodyTopography from BeVSBodyTopography (required)
 * onset[x] 0..1 dateTime or Period or Range or Age or string "Onset" "Moment the problem began"
 * abatement[x] 0..1 dateTime or Period or Range or Age or string "Abatement" "Moment the problem went into remission"
 * note 0..* Annotation "Note" "Additional notes pertaining to the problem"
