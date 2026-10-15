@@ -18,6 +18,9 @@ Description: "Logical model for recording the use of a medical device by a patie
 // bodySite reuses the BeModelBodySite logical model, as BeModelProblem and
 // BeModelClinicalObservation do.
 * bodySite 0..1 BeModelBodySite "Body Site" "The anatomical location where the device is used or implanted"
+  * bodyLocation from BeVSBodySite (required)
+  * bodyLaterality from BeVSLaterality (required)
+  * bodyTopography from BeVSBodyTopography (required)
 * note 0..* Annotation "Note" "Remarks or additional instructions, e.g. 'Patient reports irritation around the sensor'"
 
 
