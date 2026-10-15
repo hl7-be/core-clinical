@@ -15,12 +15,13 @@ Description: "Logical model for recording the use of a medical device by a patie
 * device 1..1 Reference "Device" "The device being used, e.g. reference to Device 'Insulin pump SN12345'"
 * reasonCode 0..* CodeableConcept "Reason Code" "Reason why the device is used - can be a condition (problem), procedure or observation code"
 * reasonReference 0..* Reference "Reason Reference" "Reference to a clinical source for the reason, e.g. a diagnosis in a problem resource"
-// bodySite reuses the BeModelBodySite logical model, as BeModelProblem and
-// BeModelClinicalObservation do.
-* bodySite 0..1 BeModelBodySite "Body Site" "The anatomical location where the device is used or implanted"
-  * bodyLocation from BeVSBodySite (required)
-  * bodyLaterality from BeVSLaterality (required)
-  * bodyTopography from BeVSBodyTopography (required)
+* bodySite 0..1 BackboneElement "Body Site" "The anatomical location where the device is used or implanted"
+  * localisation 1..1 CodeableConcept "Body Localisation" "Specific location on the body, e.g. left hip"
+  * localisation from BeVSBodySite (required)
+  * laterality 0..1 CodeableConcept "Body Laterality" "Laterality of the body site where the device is used/implanted (right, left, both)"
+  * laterality from BeVSLaterality (required)
+  * topography 0..1 CodeableConcept "Body Topography" "Relative position of the device on the body (e.g., upper/lower, medial/lateral, internal/external)"
+  * topography from BeVSBodyTopography (required)
 * note 0..* Annotation "Note" "Remarks or additional instructions, e.g. 'Patient reports irritation around the sensor'"
 
 
