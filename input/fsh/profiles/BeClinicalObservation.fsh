@@ -45,9 +45,6 @@ In cases where the performer is known but there is no resource or unique identif
 // * certainty MS
 
 // BodyLaterality - 0..1 (Belgian Extension)
-// bodySite - bound to the Belgian value set, as in BeProblem and BeDeviceUseStatement.
-* bodySite MS
-* bodySite from BeVSBodySite (required)
 * bodySite.extension contains BeExtLaterality named laterality 0..1 MS
 * bodySite.extension[laterality] ^definition = "Specifies the laterality of the body where the procedure was performed if this precision is not contained in the code (right, left, both)."
 * bodySite.extension[laterality] ^short = "Body laterality"
