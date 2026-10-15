@@ -75,11 +75,13 @@ Description: "To support the standard exchange of scores such as pain assessment
 * interpretation MS
 * interpretation ^short = "The interpretation of the result from the value. For example if value is 12, the interpretation can be 'elevated'"
 * bodySite MS
+* bodySite from BeVSBodySite (required)
 * bodySite ^short = "The body site to which the score applies, when applicable"
 * bodySite.extension ^slicing.discriminator.type = #value
 * bodySite.extension ^slicing.discriminator.path = "url"
 * bodySite.extension ^slicing.rules = #open
 * bodySite.extension contains BeExtLaterality named laterality 0..1 MS
+* bodySite.extension contains BeExtBodyTopography named topography 0..1 MS
 * referenceRange 0..1 MS
 * referenceRange ^short = "The different ranges of the value"
 * referenceRange ^definition = "The different ranges that the value can have, and corresponding evaluation (e.g. 0..10: normal; 11..20: elevated)"
