@@ -4,7 +4,7 @@ Id: be-device-use-statement
 Title: "BeDeviceUseStatement"
 Description: "A record of a device being used by a patient in the context of Belgian healthcare."
 
-* identifier 0..* MS
+* identifier 1..* MS
 * basedOn 0..* MS
 * status 1..1 MS
 * subject 1..1 MS

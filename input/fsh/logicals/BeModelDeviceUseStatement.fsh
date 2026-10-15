@@ -3,7 +3,7 @@ Parent: Base
 Title: "DeviceUseStatement Logical Model"
 Description: "Logical model for recording the use of a medical device by a patient"
 
-* identifier 0..* Identifier "Identifier" "Unique ID of this device use registration, assigned by the system that creates the DeviceUseStatement"
+* identifier 1..* Identifier "Identifier" "Unique ID of this device use registration, assigned by the system that creates the DeviceUseStatement"
 * basedOn 0..* Reference "Based On" "Reference to a request or plan on which this use is based, e.g. a ServiceRequest or prescription"
 * status 1..1 code "Status" "Status of the registration (active, completed, entered-in-error, intended, stopped, on-hold)"
 * status from http://hl7.org/fhir/ValueSet/device-statement-status
