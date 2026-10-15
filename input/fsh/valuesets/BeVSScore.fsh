@@ -1,11 +1,12 @@
 ValueSet: BeVSScore
 Id: be-vs-score
-Title: "Score Value Set"
+Title: "Score ValueSet"
 Description: "Codes as defined by the NIHDI. Dutch translations are expected for a next release."
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-score"
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
 * ^status = #active
 * ^experimental = false
+* ^copyright = """This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."""
 //* ^caseSensitive = false
 * ^compose.include[0].system = $sct
 * ^compose.include[=].concept[0].code = #763117005
@@ -33,7 +34,7 @@ Description: "Codes as defined by the NIHDI. Dutch translations are expected for
 * ^compose.include[=].concept[=].designation.language = #fr-BE
 * ^compose.include[=].concept[=].designation.value = "Malnutrition Universal Screening"
 * ^compose.include[=].concept[+].code = #443133008
-* ^compose.include[=].concept[=].display = "Norton pressure sore risk score (observable entity)"
+* ^compose.include[=].concept[=].display = "Norton Scale score (observable entity)"
 * ^compose.include[=].concept[=].designation.language = #fr-BE
 * ^compose.include[=].concept[=].designation.value = "évaluation du risque d'escarre"
 * ^compose.include[=].concept[+].code = #7121000122100

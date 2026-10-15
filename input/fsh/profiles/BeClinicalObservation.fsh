@@ -60,5 +60,10 @@ In cases where the performer is known but there is no resource or unique identif
 
 * code ^definition = "Describes what was observed. Sometimes this is called the observation \"name\".\r\n\r\nFor providing systems, it is RECOMMENDED to express this using a code and consuming software SHALL record this.\r\nIn general, it shall be noted SNOMED-CT is the preferred national terminology. Other coding systems remain allowed or MAY be preferred in specific flows (e.g. the use of LOINC codes to express a laboratory test.)"
 * subject only Reference (BePatient or Group or Device or Location)
-* performer 1..
-* performer only Reference (BePatient or BePractitioner or BePractitionerRole or BeOrganization or CareTeam or RelatedPerson )
+
+* extension contains https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-ext-recorder named recorder 1..1 MS
+
+* extension[recorder]
+  * ^definition = "The person or organization that is responsible for the content of the Observation"
+  * ^short = "Recorder of the Observation"
+  * valueReference only Reference (BePatient or BePractitioner or BePractitionerRole or BeOrganization )

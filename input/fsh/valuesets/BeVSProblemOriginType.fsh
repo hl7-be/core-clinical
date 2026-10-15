@@ -4,7 +4,6 @@ Title: "Problem Origin Type ValueSet"
 Description: "Problem Origin Type"
 * ^url = "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-problem-origin-type"
 * ^status = #active
-
 * ^experimental = false
 //* ^caseSensitive = false
 
