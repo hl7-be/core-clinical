@@ -16,7 +16,7 @@ Description: "Logical model for recording the use of a medical device by a patie
 * reasonCode 0..* CodeableConcept "Reason Code" "Reason why the device is used - can be a condition (problem), procedure or observation code"
 * reasonReference 0..* Reference "Reason Reference" "Reference to a clinical source for the reason, e.g. a diagnosis in a problem resource"
 * bodySite 0..1 BackboneElement "Body Site" "The anatomical location where the device is used or implanted"
-  * localisation 1..1 CodeableConcept "Body Localisation" "Specific location on the body, e.g. left hip"
+  * localisation 0..1 CodeableConcept "Body Localisation" "Specific location on the body, e.g. left hip"
   * localisation from BeVSBodySite (required)
   * laterality 0..1 CodeableConcept "Body Laterality" "Laterality of the body site where the device is used/implanted (right, left, both)"
   * laterality from BeVSLaterality (required)
