@@ -1,0 +1,56 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "be-vs-diabetes-report-status",
+  "language" : "en",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet be-vs-diabetes-report-status</b></p><a name=\"be-vs-diabetes-report-status\"> </a><a name=\"hcbe-vs-diabetes-report-status\"> </a><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-diagnostic-report-status.html\"><code>http://hl7.org/fhir/diagnostic-report-status</code></a><span title=\"Version is explicitly stated to be 5.0.0\"> version &#x1F4CD;5.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-diagnostic-report-status.html#diagnostic-report-status-final\">final</a></td><td style=\"color: #cccccc\">Final</td><td>The report is complete and verified by an authorized person.</td></tr><tr><td><a href=\"http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-diagnostic-report-status.html#diagnostic-report-status-partial\">partial</a></td><td style=\"color: #cccccc\">Partial</td><td>This is a partial (e.g. initial, interim or preliminary) report: data in the report may be incomplete or unverified.</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ValueSet/be-vs-diabetes-report-status",
+  "version" : "1.1.0",
+  "name" : "BeVSDiabetesReportStatus",
+  "title" : "BeVSDiabetesReportStatus",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-05-10T20:58:27+00:00",
+  "publisher" : "eHealth Platform",
+  "contact" : [{
+    "name" : "eHealth Platform",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ehealth.fgov.be"
+    },
+    {
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be"
+    }]
+  },
+  {
+    "name" : "Message-Structure",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Values to be used in the status of Diabetes reports",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/diagnostic-report-status",
+      "version" : "5.0.0",
+      "concept" : [{
+        "code" : "final"
+      },
+      {
+        "code" : "partial"
+      }]
+    }]
+  }
+}

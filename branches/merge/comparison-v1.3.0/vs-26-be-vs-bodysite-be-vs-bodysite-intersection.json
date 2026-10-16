@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "c802915b-4ea4-4e12-a5ea-b5105cf427bf-57",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/c802915b-4ea4-4e12-a5ea-b5105cf427bf-57",
+  "name" : "IntersectionBeVSBodySiteAndBeVSBodySite",
+  "title" : "Intersection of Body Site ValueSet And Body Site ValueSet",
+  "status" : "active",
+  "date" : "2026-10-16T07:03:10+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "442083009"
+      }]
+    }]
+  }
+}

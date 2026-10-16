@@ -1,0 +1,21 @@
+{
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/ImplementationGuide/hl7.fhir.be.core-clinical",
+  "name" : "TransversalClinicalCore",
+  "title" : "Clinical Core",
+  "description" : "HL7 Belgium - Transversal Clinical Core",
+  "ig-date" : "2026-06-05",
+  "status" : "active",
+  "package-id" : "hl7.fhir.be.core-clinical",
+  "ig-ver" : "1.2.0",
+  "date" : "Tue, 13 Oct, 2026 12:32:43 +0000",
+  "dateISO8601" : "2026-10-13T12:32:43+00:00",
+  "errs" : 18,
+  "warnings" : 32,
+  "hints" : 31,
+  "broken-links" : 979,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 12,
+  "version" : "4.0.1",
+  "tool" : "6.0.0-snapshot1 (3)",
+  "maxMemory" : 1749477816
+}

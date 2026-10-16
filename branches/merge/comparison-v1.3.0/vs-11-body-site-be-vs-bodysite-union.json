@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "447687cc-c311-40cb-8c01-6e21bea6d757-20",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/447687cc-c311-40cb-8c01-6e21bea6d757-20",
+  "name" : "UnionSNOMEDCTBodyStructuresAndBeVSBodySite",
+  "title" : "Union of SNOMED CT Body Structures And Body Site ValueSet",
+  "status" : "draft",
+  "date" : "2026-10-15T14:29:59+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "442083009"
+      }]
+    }]
+  }
+}

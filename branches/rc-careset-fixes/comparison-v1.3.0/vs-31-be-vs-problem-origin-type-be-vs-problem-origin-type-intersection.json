@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "428007cf-0a9e-4364-83be-3ce68d0fa6ca-72",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/428007cf-0a9e-4364-83be-3ce68d0fa6ca-72",
+  "name" : "IntersectionBeVSProblemOriginTypeAndBeVSProblemOriginType",
+  "title" : "Intersection of Problem Origin Type ValueSet And Problem Origin Type ValueSet",
+  "status" : "active",
+  "date" : "2026-10-15T14:30:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }]
+}
