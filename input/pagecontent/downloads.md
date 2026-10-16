@@ -8,9 +8,7 @@ Download the entire implementation guide for local browsing [here](full-ig.zip).
 
 Download the FHIR core specification [here]({{site.data.fhir.path}}fhir-spec.zip).  
 
-| **Artifact Definitions** | [XML](definitions.xml.zip) | [JSON](definitions.json.zip) | [Turtle](definitions.ttl.zip) |
-|--------------------------|----------------------------|------------------------------|--------------------------------|
-| **Examples**             | [XML](examples.xml.zip)    | [JSON](examples.json.zip)    | [Turtle](examples.ttl.zip)     |
+| **Artifact Definitions** | [XML](../definitions.xml.zip) | [JSON](../definitions.json.zip) |
+|--------------------------|----------------------------|------------------------------|
+| **Examples**             | [XML](../examples.xml.zip)    | [JSON](../examples.json.zip)    |
 
-
-{% lang-fragment cross-version-analysis-inline.xhtml %}
