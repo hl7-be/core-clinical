@@ -1,4 +1,5 @@
 Logical: BeModelClinicalObservation
+Parent: Base
 Title: "BeClinicalObservation Model"
 Description: "Clinical Observation logical model"
 Id: BeModelClinicalObservation
