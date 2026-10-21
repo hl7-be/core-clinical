@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2df78b9b-2d11-42f7-ae98-b4fbcee410ac-66",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2df78b9b-2d11-42f7-ae98-b4fbcee410ac-66",
+  "name" : "IntersectionDeviceStatusReasonVSAndDeviceStatusReasonVS",
+  "title" : "Intersection of Device Status Reason Value Set And Device Status Reason Value Set",
+  "status" : "active",
+  "date" : "2026-10-21T12:50:31+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }]
+}

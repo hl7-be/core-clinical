@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Device xmlns="http://hl7.org/fhir">
+  <id value="device"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Device device</b></p><a name="device"> </a><a name="hcdevice"> </a><p><b>type</b>: <span title="Codes:{https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diabetes-device-type 701010000576}">701010000576</span></p></div>
+  </text>
+  <type>
+    <coding>
+      <system value="https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-diabetes-device-type"/>
+      <code value="701010000576"/>
+    </coding>
+  </type>
+</Device>

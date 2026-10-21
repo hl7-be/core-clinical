@@ -1,0 +1,43 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"BeModelScoreResult","BeModelScoreResult","","","",0,*,"","","","null {[]} {[]}
+","BeScoreResult model","Logical model for the BeScoreResult CareSet - the result of a standardised assessment scale (score) taken for a patient.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"BeModelScoreResult.identifier","BeModelScoreResult.identifier","","","",1,*,"","","","Identifier {[]} {[]}
+","Identifier of this administration of the assessment scale","Identifier of this administration of the assessment scale","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.identifier",1,*,"",""
+"BeModelScoreResult.patient","BeModelScoreResult.patient","","","",1,1,"","","","Reference {[]} {[]}
+","The patient the assessment scale is taken for","The patient the assessment scale is taken for","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.patient",1,1,"",""
+"BeModelScoreResult.evaluator","BeModelScoreResult.evaluator","","","",0,*,"","","","Reference {[]} {[]}
+","Care professional or organization responsible for taking the standardised assessment scale","Care professional or organization responsible for taking the standardised assessment scale","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.evaluator",0,*,"",""
+"BeModelScoreResult.recorder","BeModelScoreResult.recorder","","","",1,1,"","","","Reference {[]} {[]}
+","The person or system that records the assessment in the record - the same care provider, another collaborator, or the software itself when recording is automatic","The person or system that records the assessment in the record - the same care provider, another collaborator, or the software itself when recording is automatic","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.recorder",1,1,"",""
+"BeModelScoreResult.recordedDate","BeModelScoreResult.recordedDate","","","",1,1,"","","","dateTime {[]} {[]}
+","Date the standardised assessment scale was finally encoded in the system","Date the standardised assessment scale was finally encoded in the system","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.recordedDate",1,1,"",""
+"BeModelScoreResult.observationDate","BeModelScoreResult.observationDate","","","",1,1,"","","","dateTime {[]} {[]}
+","End date of the observation and/or reference period for all information collected during the assessment","End date of the observation and/or reference period for all information collected during the assessment","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.observationDate",1,1,"",""
+"BeModelScoreResult.hasMember","BeModelScoreResult.hasMember","","","",0,*,"","","","Reference {[]} {[]}
+","Groups the separate observations that make up this assessment","Groups the separate observations that make up this assessment","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.hasMember",0,*,"",""
+"BeModelScoreResult.category","BeModelScoreResult.category","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","The category of the medical assessment","Value set in the CareSet: VS_Observation_Category","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.category",0,*,"",""
+"BeModelScoreResult.code","BeModelScoreResult.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Identifies the assessment scale, for example SNOMED 273547007 Katz activities of daily living (assessment scale)","Value set in the CareSet: VS_BeScoreResult_Code","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.code",1,1,"",""
+"BeModelScoreResult.minMax","BeModelScoreResult.minMax","","","",0,1,"","","","Range {[]} {[]}
+","The possible score range of the scale, for example 0-12","The possible score range of the scale, for example 0-12","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.minMax",0,1,"",""
+"BeModelScoreResult.value[x]","BeModelScoreResult.value[x]","","","",0,1,"","","","Quantity {[]} {[]}
+CodeableConcept {[]} {[]}","The score of the scale, as a number with a unit or as a coded clinical finding","Value set in the CareSet: VS_BeScoreResult_Value","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.value[x]",0,1,"",""
+"BeModelScoreResult.status","BeModelScoreResult.status","","","",1,1,"","","","code {[]} {[]}
+","Status of the observation","Value set in the CareSet: VS__Status - final | entered-in-error","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.status",1,1,"",""
+"BeModelScoreResult.method","BeModelScoreResult.method","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","How the observation was obtained","Value set in the CareSet: VS_BeScoreResult_Method","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.method",0,1,"",""
+"BeModelScoreResult.codeDisplay","BeModelScoreResult.codeDisplay","","","",0,*,"","","","string {[]} {[]}
+","The description corresponding to the value of the score","The description corresponding to the value of the score","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.codeDisplay",0,*,"",""
+"BeModelScoreResult.interpretation","BeModelScoreResult.interpretation","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","The conclusion drawn from the total score","The conclusion drawn from the total score","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.interpretation",0,*,"",""
+"BeModelScoreResult.component","BeModelScoreResult.component","","","",0,*,"","","","Base {[]} {[]}
+","A sub-score or component of the assessment scale","A sub-score or component of the assessment scale","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.component",0,*,"",""
+"BeModelScoreResult.component.code","BeModelScoreResult.component.code","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Identifies the sub-score or component of the assessment scale, for example a sub-scale within a standardised scale","Identifies the sub-score or component of the assessment scale, for example a sub-scale within a standardised scale","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.component.code",0,*,"",""
+"BeModelScoreResult.component.value[x]","BeModelScoreResult.component.value[x]","","","",0,1,"","","","Quantity {[]} {[]}
+CodeableConcept {[]} {[]}","The numeric value or score for this component","The numeric value or score for this component","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.component.value[x]",0,1,"",""
+"BeModelScoreResult.component.interpretation","BeModelScoreResult.component.interpretation","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","The clinical interpretation of the sub-score, as text or coded","The clinical interpretation of the sub-score, as text or coded","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.component.interpretation",0,*,"",""
+"BeModelScoreResult.note","BeModelScoreResult.note","","","",0,*,"","","","Annotation {[]} {[]}
+","Free text field","Free text field","","","","","","","","","",,,,,"",,,,"BeModelScoreResult.note",0,*,"",""
