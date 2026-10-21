@@ -1,4 +1,5 @@
 Logical: BeModelProcedure
+Parent: Base
 Title: "BeProcedure Model"
 Description: "Procedure logical model"
 Id: BeModelProcedure
