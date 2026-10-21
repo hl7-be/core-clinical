@@ -83,15 +83,16 @@ Description: "A physical or virtual contact or interaction between a patient and
 * reasonReference only Reference(Condition or Procedure or Observation)
 * reasonReference ^short = "*TODO* Condition -> BeProblem, Procedure -> BeProcedure, Observation -> BeObservation"
 
-// Diagnosis - 0..* as a CodeableReference (be-core backport extension), so a diagnosis can be
-// given as a code, as a reference to a BeProblem, or as both. R4 Encounter.diagnosis.condition
-// is a plain mandatory Reference and cannot carry the coded form.
-* extension contains BeExtCodeableReference named diagnosis 0..* MS
-* extension[diagnosis] ^short = "Diagnosis"
-* extension[diagnosis] ^definition = "List of diagnoses relevant for this Encounter."
-* extension[diagnosis].extension[reference].value[x] only Reference(BeProblem)
+// Diagnosis - 0..*, given as a reference to a BeProblem, as a code, or as both. R4
+// Encounter.diagnosis.condition is a plain Reference, so the code goes in the R5 cross-version
+// extension on it (R5 Encounter.diagnosis.condition is a CodeableReference).
 * diagnosis MS
+* diagnosis ^short = "Diagnosis"
+* diagnosis ^definition = "List of diagnoses relevant for this Encounter."
+* diagnosis.condition MS
 * diagnosis.condition only Reference(BeProblem)
+* diagnosis.condition.extension contains http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.diagnosis.condition named code 0..1 MS
+* diagnosis.condition.extension[code].valueCodeableConcept from BeVSProblemCode (extensible)
 
 // Admission - 0..1 (R4 Encounter.hospitalization)
 * hospitalization 0..1 MS
