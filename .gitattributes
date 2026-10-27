@@ -1,0 +1,13 @@
+# Store text files with LF in the repository, whatever the contributor's core.autocrlf.
+# Without this, files committed from Windows with CRLF and files with LF get mixed,
+# and a file that changes between the two conflicts on every line.
+* text=auto
+
+# Shell scripts must keep LF, batch files CRLF, on every platform.
+*.sh  text eol=lf
+*.bat text eol=crlf
+
+*.png binary
+*.jpg binary
+*.gif binary
+*.svg text
