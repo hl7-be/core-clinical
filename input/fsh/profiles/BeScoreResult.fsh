@@ -91,7 +91,9 @@ Description: "To support the standard exchange of scores such as pain assessment
 // Status - 1..1 (R4 required binding kept for now; see VS__Status in the CareSet)
 * status MS
 
-// Method - 0..1 (VS_BeScoreResult_Method has no codes in the CareSet yet)
+// Method - 0..1. VS_BeScoreResult_Method in the CareSet is << 254291000 |Staging and scales|.
+// *TODO* not bound yet: whether the CareSet's intensional value sets (Code, Value, Method) are
+// implemented is open, after the WG of 24-09 kept the curated code list for Code.
 * method 0..1 MS
 * method ^short = "How the observation was obtained"
 

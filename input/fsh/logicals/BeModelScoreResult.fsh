@@ -42,7 +42,7 @@ Characteristics: #can-be-target
 
 // NL: Dit identificeert de evaluatieschaal. VS_BeScoreResult_Code
 // FR: Ceci identifie l'echelle d'evaluation. VS_BeScoreResult_Code
-* code 1..1 CodeableConcept "Identifies the assessment scale, for example SNOMED 273547007 Katz activities of daily living (assessment scale)" "Value set in the CareSet: VS_BeScoreResult_Code"
+* code 1..1 CodeableConcept "Identifies the assessment scale, for example SNOMED 273547007 Katz activities of daily living (assessment scale)" "Value set in the CareSet: VS_BeScoreResult_Code - all descendants of SNOMED CT 782487009 |Assessment score| and 445536008 |Assessment using assessment scale|, the second only when there is no equivalent under the first"
 
 // NL: Het mogelijke scorebereik van de schaal (bv. 0-12).
 // FR: L'intervalle de score possible de l'echelle (p. ex. 0-12).
@@ -52,7 +52,7 @@ Characteristics: #can-be-target
 // FR: Le score de l'echelle (calcule) sous forme de nombre avec unite, ou un concept issu du parent SNOMED-CT 404684003 Clinical finding.
 // The CareSet keeps every datatype that FHIR allows on Observation.value[x] ("in FHIR kan value vele vormen
 // bevatten. Deze veelzijdigheid wordt overgenomen in dit profiel"), so all R4 value[x] types are allowed.
-* value[x] 0..1 Quantity or CodeableConcept or string or boolean or integer or Range or Ratio or SampledData or time or dateTime or Period "The score of the scale, for example a number with a unit or a coded clinical finding" "Value set in the CareSet: VS_BeScoreResult_Value"
+* value[x] 0..1 Quantity or CodeableConcept or string or boolean or integer or Range or Ratio or SampledData or time or dateTime or Period "The score of the scale, for example a number with a unit or a coded clinical finding" "Value set in the CareSet: VS_BeScoreResult_Value - any value format; when the value is a SNOMED CT code, a descendant of 404684003 |Clinical finding|"
 
 // NL: Status van de observatie (van een zorgschaal of CAP of totaalscore). Als default wordt Final ingevuld. VS__Status
 // FR: Statut de l'observation (d'une echelle de soins, d'un CAP ou d'un score total). Par defaut, Final. VS__Status
@@ -60,7 +60,7 @@ Characteristics: #can-be-target
 
 // NL: Hoe de observatie bekomen is. VS_BeScoreResult_method
 // FR: Comment l'observation a ete obtenue. VS_BeScoreResult_method
-* method 0..1 CodeableConcept "How the observation was obtained" "Value set in the CareSet: VS_BeScoreResult_Method"
+* method 0..1 CodeableConcept "How the observation was obtained" "Value set in the CareSet: VS_BeScoreResult_Method - all descendants of SNOMED CT 254291000 |Staging and scales|"
 
 // NL: Dit is de beschrijving die bij de waarde van de score hoort.
 // FR: Il s'agit de la description qui correspond a la valeur du score.
