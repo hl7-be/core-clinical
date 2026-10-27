@@ -94,6 +94,7 @@ Description: "The result of a clinical assessment scale taken for a patient: a s
 // Component.Code / Component.value / Component.Interpretation - the sub-scores
 * component 0..* MS
 * component ^short = "A sub-score or component of the assessment scale"
+// component.code is 1..1 in R4; the CareSet says 0..*. A change of the CareSet is requested.
 * component.code MS
 * component.code ^short = "Identifies the sub-score or component of the assessment scale"
 * component.value[x] 0..1 MS
