@@ -2,18 +2,8 @@ Profile: BeScoreResult
 Parent: Observation
 Id: be-scoreresult
 Title: "BeScoreResult"
-Description: "To support the standard exchange of scores such as pain assessment scores, or risk score, etc"
-* ^version = "1.0.0"
-* ^date = "2021-01-10T10:59:49+00:00"
-* ^publisher = "eHealth Platform"
-* ^contact[0].name = "eHealth Platform"
-* ^contact[=].telecom.system = #url
-* ^contact[=].telecom.value = "https://www.ehealth.fgov.be"
-* ^contact[+].name = "Message structure"
-* ^contact[=].telecom.system = #email
-* ^contact[=].telecom.value = "message-structure@ehealth.fgov.be"
+Description: "The result of a clinical assessment scale taken for a patient: a standardised measuring instrument that quantifies a clinical condition, function or risk in a structured and reproducible way, by turning observations or findings into a score that supports the care provider in diagnosis, follow-up, communication or decision-making - for example the Apgar score or the Katz scale. Sub-scores are carried as components, or as separate observations grouped with hasMember."
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
-* ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
 
 // Mapping of the CareSet BeScoreResult (V0.1) elements onto R4 Observation.
 * identifier 1..* MS
