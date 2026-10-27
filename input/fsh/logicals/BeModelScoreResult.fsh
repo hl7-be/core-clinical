@@ -50,9 +50,9 @@ Characteristics: #can-be-target
 
 // NL: De (berekende) schaalscore als getal met eenheid, of een concept uit SNOMED-CT parent 404684003 Clinical finding.
 // FR: Le score de l'echelle (calcule) sous forme de nombre avec unite, ou un concept issu du parent SNOMED-CT 404684003 Clinical finding.
-// *TODO* datatype: the CareSet maps this to Observation.ValueCode but describes both a number with a unit (NRS = 7)
-// and a coded clinical finding (249954005 Movement against gravity). Modelled as a choice pending confirmation.
-* value[x] 0..1 Quantity or CodeableConcept "The score of the scale, as a number with a unit or as a coded clinical finding" "Value set in the CareSet: VS_BeScoreResult_Value"
+// The CareSet keeps every datatype that FHIR allows on Observation.value[x] ("in FHIR kan value vele vormen
+// bevatten. Deze veelzijdigheid wordt overgenomen in dit profiel"), so all R4 value[x] types are allowed.
+* value[x] 0..1 Quantity or CodeableConcept or string or boolean or integer or Range or Ratio or SampledData or time or dateTime or Period "The score of the scale, for example a number with a unit or a coded clinical finding" "Value set in the CareSet: VS_BeScoreResult_Value"
 
 // NL: Status van de observatie (van een zorgschaal of CAP of totaalscore). Als default wordt Final ingevuld. VS__Status
 // FR: Statut de l'observation (d'une echelle de soins, d'un CAP ou d'un score total). Par defaut, Final. VS__Status
@@ -77,7 +77,7 @@ Characteristics: #can-be-target
 // The CareSet lists the three Component.* rows without a parent Component row; grouped here.
 * component 0..* Base "A sub-score or component of the assessment scale"
   * code 0..* CodeableConcept "Identifies the sub-score or component of the assessment scale, for example a sub-scale within a standardised scale"
-  * value[x] 0..1 Quantity or CodeableConcept "The numeric value or score for this component"
+  * value[x] 0..1 Quantity or CodeableConcept or string or boolean or integer or Range or Ratio or SampledData or time or dateTime or Period "The numeric value or score for this component"
   * interpretation 0..* CodeableConcept "The clinical interpretation of the sub-score, as text or coded"
 
 // NL: Vrij tekstveld.
