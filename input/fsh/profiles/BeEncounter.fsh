@@ -42,7 +42,7 @@ Description: "A physical or virtual contact or interaction between a patient and
 
 // EpisodeOfCare - 0..*
 * episodeOfCare MS
-* episodeOfCare ^short = "*TODO* EpisodeOfCare -> BeEpisodeOfCare"
+* episodeOfCare only Reference(BeEpisodeOfCare)
 
 // BasedOn - 0..* (Belgian extension; R4 Encounter.basedOn only allows ServiceRequest)
 * extension contains BeExtEncounterBasedOn named basedOn 0..* MS
@@ -80,8 +80,7 @@ Description: "A physical or virtual contact or interaction between a patient and
 // Reason - 0..*
 * reasonCode MS
 * reasonReference MS
-* reasonReference only Reference(Condition or Procedure or Observation)
-* reasonReference ^short = "*TODO* Condition -> BeProblem, Procedure -> BeProcedure, Observation -> BeObservation"
+* reasonReference only Reference(BeProblem or BeProcedure or BeClinicalObservation)
 
 // Diagnosis - 0..*, given as a reference to a BeProblem, as a code, or as both. R4
 // Encounter.diagnosis.condition is a plain Reference, so the code goes in the R5 cross-version
@@ -112,4 +111,4 @@ Description: "A physical or virtual contact or interaction between a patient and
 * extension[note] ^definition = "Additional information related to the CareSet content in free text form."
 
 // Not part of the CareSet, constrained for consistency with the other Be profiles
-* location.location ^short = "*TODO* Location -> BeLocation"
+* location.location only Reference (BeLocation)
