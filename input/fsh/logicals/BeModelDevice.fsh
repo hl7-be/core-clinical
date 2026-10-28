@@ -28,33 +28,3 @@ Description: "Logical model for a medical device"
   * type 1..1 CodeableConcept "Property Type" "Code that specifies the property"
   * value[x] 0..1 Quantity or CodeableConcept or string or boolean or integer or Range or Attachment "Property Value" "Value of the property"
 * note 0..* Annotation "Note" "General notes about the device"
-
-
-ValueSet: DeviceStatusVS
-Title: "Device Status Value Set"
-Description: "Device Status - placeholder valueset - the normative definition will be published in the Belgian terminology IG."
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status"
-* ^status = #active
-* ^experimental = false
-* http://hl7.org/fhir/device-status#active "Active"
-* http://hl7.org/fhir/device-status#inactive "Inactive"
-* http://hl7.org/fhir/device-status#entered-in-error "Entered in Error"
-* http://hl7.org/fhir/device-status#unknown "Unknown"
-
-
-ValueSet: DeviceStatusReasonVS
-Title: "Device Status Reason Value Set"
-Description: "Device Status Reason - placeholder valueset - the normative definition will be published in the Belgian terminology IG."
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status-reason"
-* ^status = #active
-* ^experimental = false
-* include codes from system http://terminology.hl7.org/CodeSystem/device-status-reason
-
-
-ValueSet: DeviceTypeVS
-Title: "Device Type Value Set"
-Description: "Device Type - placeholder valueset - the normative definition will be published in the Belgian terminology IG."
-* ^url = "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-type"
-* ^status = #active
-* ^experimental = false
-* include codes from system $sct where concept is-a #49062001 "Device"
