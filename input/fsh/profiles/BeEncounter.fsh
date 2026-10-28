@@ -40,9 +40,9 @@ Description: "A physical or virtual contact or interaction between a patient and
 * subject 1..1 MS
 * subject only Reference(BePatient)
 
-// EpisodeOfCare - 0..*
+// EpisodeOfCare - 0..* (base EpisodeOfCare until a Belgian profile is available, #174)
 * episodeOfCare MS
-* episodeOfCare ^short = "*TODO* EpisodeOfCare -> BeEpisodeOfCare"
+* episodeOfCare ^short = "EpisodeOfCare"
 
 // BasedOn - 0..* (Belgian extension; R4 Encounter.basedOn only allows ServiceRequest)
 * extension contains BeExtEncounterBasedOn named basedOn 0..* MS
@@ -51,7 +51,7 @@ Description: "A physical or virtual contact or interaction between a patient and
 
 // CareTeam - 0..* (R5 pre-adoption extension; R4 Encounter has no careTeam)
 * extension contains http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.careTeam named careTeam 0..* MS
-* extension[careTeam] ^short = "*TODO* CareTeam -> BeCareTeam"
+* extension[careTeam] ^short = "CareTeam"
 * extension[careTeam] ^definition = "Reference to the CareTeam resource recording which team is involved in the care during this Encounter."
 
 // PartOf - 0..1
@@ -110,5 +110,5 @@ Description: "A physical or virtual contact or interaction between a patient and
 * extension[note] ^short = "Note"
 * extension[note] ^definition = "Additional information related to the CareSet content in free text form."
 
-// Not part of the CareSet, constrained for consistency with the other Be profiles
-* location.location ^short = "*TODO* Location -> BeLocation"
+// Not part of the CareSet; base Location until a Belgian profile is available (#174)
+* location.location ^short = "Location"

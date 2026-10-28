@@ -5,4 +5,4 @@ Description: "The request that initiated this Encounter. R4 Encounter.basedOn on
 Context: Encounter
 * value[x] only Reference(CarePlan)
 * value[x] 1..1
-* value[x] ^short = "*TODO* CarePlan -> BeCarePlan"
+* value[x] ^short = "CarePlan"
