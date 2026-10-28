@@ -4,7 +4,7 @@ Id: be-episode-of-care
 Title: "BeEpisodeOfCare"
 Description: "A period during which care related to one specific goal or problem is provided to a patient by one or more healthcare providers or organisations. The EpisodeOfCare is the container other CareSets (for example Encounter, CareTeam) are linked to; it carries no clinical content itself."
 
-// Mapping of the CareSet EpisodeOfCare (V0.8) elements onto R4 EpisodeOfCare.
+// Mapping of the CareSet EpisodeOfCare (V1.0) elements onto R4 EpisodeOfCare.
 // Where R4 has an equivalent element it is used; extensions are only used for
 // concepts R4 does not have.
 
@@ -49,7 +49,7 @@ Description: "A period during which care related to one specific goal or problem
 * extension[note] ^short = "Note"
 * extension[note] ^definition = "Optional additional remark."
 
-// Managing Organization - 0..* in the CareSet; R4 EpisodeOfCare.managingOrganization is 0..1
+// Managing Organization - 0..1
 * managingOrganization 0..1 MS
 * managingOrganization only Reference(BeOrganization)
 
