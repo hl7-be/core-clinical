@@ -2,23 +2,15 @@ Profile: BeScoreResult
 Parent: Observation
 Id: be-scoreresult
 Title: "BeScoreResult"
-Description: "To support the standard exchange of scores such as pain assessment scores, or risk score, etc"
-* ^version = "1.0.0"
-* ^date = "2021-01-10T10:59:49+00:00"
-* ^publisher = "eHealth Platform"
-* ^contact[0].name = "eHealth Platform"
-* ^contact[=].telecom.system = #url
-* ^contact[=].telecom.value = "https://www.ehealth.fgov.be"
-* ^contact[+].name = "Message structure"
-* ^contact[=].telecom.system = #email
-* ^contact[=].telecom.value = "message-structure@ehealth.fgov.be"
+Description: "The result of a clinical assessment scale taken for a patient: a standardised measuring instrument that quantifies a clinical condition, function or risk in a structured and reproducible way, by turning observations or findings into a score that supports the care provider in diagnosis, follow-up, communication or decision-making - for example the Apgar score or the Katz scale. Sub-scores are carried as components, or as separate observations grouped with hasMember."
 * ^extension[http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm].valueInteger = 1
-* ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
 
 // Mapping of the CareSet BeScoreResult (V0.1) elements onto R4 Observation.
 * identifier 1..* MS
 * category MS
-* category from BeVSScoreCategory (required)
+// Category - 0..*. A repeating element is normally sliced for different purposes, so no required binding:
+// BeVSScoreCategory is preferred (R4 already binds category as preferred, which cannot be weakened).
+* category from BeVSScoreCategory (preferred)
 * category ^short = "The high-level group or category of the score - e.g. 'Risk score' or 'Pain score'"
 * code MS
 * code from https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-score (required)
@@ -91,7 +83,9 @@ Description: "To support the standard exchange of scores such as pain assessment
 // Status - 1..1 (R4 required binding kept for now; see VS__Status in the CareSet)
 * status MS
 
-// Method - 0..1 (VS_BeScoreResult_Method has no codes in the CareSet yet)
+// Method - 0..1. VS_BeScoreResult_Method in the CareSet is << 254291000 |Staging and scales|.
+// *TODO* not bound yet: whether the CareSet's intensional value sets (Code, Value, Method) are
+// implemented is open, after the WG of 24-09 kept the curated code list for Code.
 * method 0..1 MS
 * method ^short = "How the observation was obtained"
 
@@ -102,6 +96,7 @@ Description: "To support the standard exchange of scores such as pain assessment
 // Component.Code / Component.value / Component.Interpretation - the sub-scores
 * component 0..* MS
 * component ^short = "A sub-score or component of the assessment scale"
+// component.code is 1..1 in R4; the CareSet says 0..*. A change of the CareSet is requested.
 * component.code MS
 * component.code ^short = "Identifies the sub-score or component of the assessment scale"
 * component.value[x] 0..1 MS
