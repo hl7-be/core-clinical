@@ -9,10 +9,10 @@ Description: "Logical model for Problem"
 * subject 1..1 Reference(Patient) "Patient" "Reference or Identifier to the patient (ideally identified by the NISS)"
 * cause 0..* Reference(Condition or Procedure or MedicationAdministration or Immunization or MedicationStatement) "Cause" "Reference to the primary cause of the problem (procedure, medication administration, or other condition)"
 * category 0..* CodeableConcept "Category" "Thematic category of the problem"
-* category from ProblemCategoryVS 
+* category from BeVSProblemCategory 
 
 * code 1..1 CodeableConcept "Code" "Identification of the problem - in SNOMED-CT"
-* code from ProblemCodeVS 
+* code from BeVSProblemCode 
 
 * clinicalStatus 1..1 CodeableConcept "Clinical Status" "Clinical status of the problem (active, inactive, resolved, etc.)"
 * clinicalStatus from http://hl7.org/fhir/ValueSet/condition-clinical
@@ -29,30 +29,20 @@ Description: "Logical model for Problem"
 * severity 0..1 CodeableConcept "Severity" "Degree of severity of the problem"
 * severity from http://hl7.org/fhir/ValueSet/condition-severity
 
-* bodySite 0..* CodeableConcept "Body Site" "Anatomical site(s) where the problem is active"
-  * localisation 1..1 CodeableConcept  "Body Localisation" "Specific location on the body if not implied by the code"
-  * localisation from https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-bodysite
-  * laterality 0..1 CodeableConcept "Body Laterality" "Laterality of the affected body site (right, left, both)"
-  * laterality from https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-laterality 
-  * topography 0..1 CodeableConcept "Body Topography" "Topography of the affected body site (e.g., upper arm, lower leg, etc.)"
-  * topography from https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-body-topography
+// bodySite reuses the BeModelBodySite logical model, as BeModelClinicalObservation does.
+// Children cannot be declared under a CodeableConcept: it is a concrete type, so the
+// IG Publisher rejects localisation / laterality / topography defined inside it.
+* bodySite 0..* BeModelBodySite "Body Site" "Anatomical site(s) where the problem is active"
+  * bodyLocation from BeVSBodySite (required)
+  * bodyLaterality from BeVSLaterality (required)
+  * bodyTopography from BeVSBodyTopography (preferred)
 * onset[x] 0..1 dateTime or Period or Range or Age or string "Onset" "Moment the problem began"
 * abatement[x] 0..1 dateTime or Period or Range or Age or string "Abatement" "Moment the problem went into remission"
 * note 0..* Annotation "Note" "Additional notes pertaining to the problem"
 
-
-
-ValueSet: ProblemCategoryVS
-Title: "Problem Category Value Set"
-Description: "Category of the problem"
-
-
-ValueSet: ProblemCodeVS
-Title: "Problem Code Value Set"
-Description: "Code of the problem"
-
-
 ValueSet: ProblemDiseaseCourseVS
 Title: "Condition Disease Course Value Set"
 Description: "Condition Disease Course"
+* ^experimental = false
+* ^copyright = """This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement."""
 * include codes from system $sct where concept is-a #288524001 "Courses"
