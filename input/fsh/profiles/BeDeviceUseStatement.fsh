@@ -21,6 +21,6 @@ Description: "A record of a device being used by a patient in the context of Bel
 * reasonReference only Reference(BeProblem or Observation or DiagnosticReport or DocumentReference or Media) // missing: Reference(BeProcedure)
 * bodySite 0..1 MS
 * bodySite from BeVSBodySite (required)
-* bodySite.extension contains BeExtLaterality named laterality 0..1
-* bodySite.extension contains BeExtBodyTopography named topography 0..1
+* bodySite.extension contains BeExtLaterality named laterality 0..1 MS
+* bodySite.extension contains BeExtBodyTopography named topography 0..1 MS
 * note 0..* MS
