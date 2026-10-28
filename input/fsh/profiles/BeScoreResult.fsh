@@ -8,7 +8,9 @@ Description: "The result of a clinical assessment scale taken for a patient: a s
 // Mapping of the CareSet BeScoreResult (V0.1) elements onto R4 Observation.
 * identifier 1..* MS
 * category MS
-* category from BeVSScoreCategory (required)
+// Category - 0..*. A repeating element is normally sliced for different purposes, so no required binding:
+// BeVSScoreCategory is preferred (R4 already binds category as preferred, which cannot be weakened).
+* category from BeVSScoreCategory (preferred)
 * category ^short = "The high-level group or category of the score - e.g. 'Risk score' or 'Pain score'"
 * code MS
 * code from https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-score (required)
