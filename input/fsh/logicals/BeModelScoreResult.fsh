@@ -64,8 +64,8 @@ Characteristics: #can-be-target
 
 // NL: Dit is de beschrijving die bij de waarde van de score hoort.
 // FR: Il s'agit de la description qui correspond a la valeur du score.
-// *TODO* the CareSet maps this to Observation.Code.Display 0..*, but display is 0..1 on a Coding and the example
-// given (score 10 on the aggressive behaviour scale = severe aggression) describes the value, not the code.
+// Removal from the CareSet requested: when the value is a code, its description travels with the code, and the
+// meaning of a value (score 10 on the aggressive behaviour scale = severe aggression) is an Interpretation.
 * codeDisplay 0..* string "The description corresponding to the value of the score"
 
 // NL: Dit is de conclusie die wordt getrokken bij de totale score.

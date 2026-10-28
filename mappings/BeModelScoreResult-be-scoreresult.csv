@@ -12,7 +12,7 @@ BeModelScoreResult.minMax,Min-Max,equivalent,Observation.referenceRange,Provides
 BeModelScoreResult.value[x],Value/Score,equivalent,Observation.value[x],Actual result,All R4 value types allowed. VS_BeScoreResult_Value (<< 404684003 for SNOMED CT values) not bound yet.
 BeModelScoreResult.status,Status,inexact,Observation.status,registered | preliminary | final | amended +,*TODO* the CareSet allows only final and entered-in-error; the profile keeps the R4 required binding to all 9 codes.
 BeModelScoreResult.method,Method,equivalent,Observation.method,How it was done,0..1. VS_BeScoreResult_Method (<< 254291000 Staging and scales) not bound yet.
-BeModelScoreResult.codeDisplay,Observation.Code.Display,unmatched,,,"The CareSet maps this to Observation.code.display 0..*, but display is 0..1 on a Coding and the CareSet's example describes the value, not the code. *TODO* open question."
+BeModelScoreResult.codeDisplay,Observation.Code.Display,unmatched,,,"Removal from the CareSet requested: when the value is a code, its description travels with the code (valueCodeableConcept); the meaning of a value (for example score 10 = severe aggression) is an Interpretation. Observation.code.display is the name of the scale and is 0..1."
 BeModelScoreResult.interpretation,Interpretation,equivalent,Observation.interpretation,"High, low, normal, etc.",0..* as in the CareSet.
 BeModelScoreResult.component,Component,equivalent,Observation.component,Component results,Sub-scores taken at the same time by the same performer in one clinical act.
 BeModelScoreResult.component.code,Component.Code,narrower,Observation.component.code,Type of component observation (code / type),R4 component.code is 1..1; the CareSet says 0..*. A change of the CareSet is requested.
