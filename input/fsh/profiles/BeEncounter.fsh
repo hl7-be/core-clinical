@@ -28,13 +28,15 @@ Description: "A physical or virtual contact or interaction between a patient and
 // Class - 1..1 (CareSet says 0..*; R4 Encounter.class is a mandatory single Coding)
 * class 1..1 MS
 
-// ServiceType - 0..1 + repeats through the be-core CodeableConcept extension (CareSet says 0..*).
+// ServiceType - 0..* in the CareSet, but R4 Encounter.serviceType is 0..1. The first service type goes in
+// serviceType, any further ones in the additionalServiceType extension (be-core BeExtCodeableConcept).
 // The R5 pre-adoption extension is not usable here: R5 typed serviceType as CodeableReference,
 // so extension-Encounter.serviceType only carries the Reference(HealthcareService) half.
 * serviceType 0..1 MS
 * extension contains BeExtCodeableConcept named additionalServiceType 0..* MS
-* extension[additionalServiceType] ^short = "Additional service type"
+* extension[additionalServiceType] ^short = "Further service types (the CareSet ServiceType is 0..*, Encounter.serviceType is 0..1)"
 * extension[additionalServiceType] ^definition = "Further types of services/specialisations offered during the Encounter, in addition to Encounter.serviceType."
+* extension[additionalServiceType] ^comment = "The CareSet allows several service types (ServiceType 0..*), but R4 Encounter.serviceType allows only one. Put the first service type in `serviceType` and any further ones in this extension. It is not a separate CareSet element."
 
 // Subject - 1..1
 * subject 1..1 MS
