@@ -87,14 +87,14 @@ Description: "A physical or virtual contact or interaction between a patient and
 * reasonReference only Reference(BeProblem or BeProcedure or BeClinicalObservation)
 
 // Diagnosis - 0..*, given as a reference to a BeProblem, as a code, or as both. R4
-// Encounter.diagnosis.condition is a plain Reference, so the code goes in the R5 cross-version
-// extension on it (R5 Encounter.diagnosis.condition is a CodeableReference).
+// Encounter.diagnosis.condition is a plain Reference, so the code goes in the be-core
+// BeExtCodeableConcept extension on it, as in BeEpisodeOfCare (WG 29/10, #173).
 * diagnosis MS
 * diagnosis ^short = "Diagnosis"
 * diagnosis ^definition = "List of diagnoses relevant for this Encounter."
 * diagnosis.condition MS
 * diagnosis.condition only Reference(BeProblem)
-* diagnosis.condition.extension contains http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.diagnosis.condition named code 0..1 MS
+* diagnosis.condition.extension contains BeExtCodeableConcept named code 0..1 MS
 * diagnosis.condition.extension[code].valueCodeableConcept from BeVSProblemCode (extensible)
 
 // Admission - 0..1 (R4 Encounter.hospitalization)
