@@ -34,6 +34,8 @@ Description: "A physical or virtual contact or interaction between a patient and
 // so extension-Encounter.serviceType only carries the Reference(HealthcareService) half.
 * serviceType 0..1 MS
 * extension contains BeExtCodeableConcept named additionalServiceType 0..* MS
+// Same binding as Encounter.serviceType (base R4, example) until VS_Encounter_ServiceType exists (#146, #181).
+* extension[additionalServiceType].valueCodeableConcept from http://hl7.org/fhir/ValueSet/service-type (example)
 * extension[additionalServiceType] ^short = "Further service types (the CareSet ServiceType is 0..*, Encounter.serviceType is 0..1)"
 * extension[additionalServiceType] ^definition = "Further types of services/specialisations offered during the Encounter, in addition to Encounter.serviceType."
 * extension[additionalServiceType] ^comment = "The CareSet allows several service types (ServiceType 0..*), but R4 Encounter.serviceType allows only one. Put the first service type in `serviceType` and any further ones in this extension. It is not a separate CareSet element."
