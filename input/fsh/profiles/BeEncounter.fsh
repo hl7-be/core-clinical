@@ -42,8 +42,9 @@ Description: "A physical or virtual contact or interaction between a patient and
 * subject 1..1 MS
 * subject only Reference(BePatient)
 
-// EpisodeOfCare - 0..* (base EpisodeOfCare until a Belgian profile is available, #174)
-* episodeOfCare MS
+// EpisodeOfCare - 0..*. Not Must Support and not constrained to BeEpisodeOfCare: BeEpisodeOfCare
+// is published as not intended for implementation yet, and no profile may depend on it
+// (https://github.com/hl7-be/validation-team/issues/131).
 * episodeOfCare ^short = "EpisodeOfCare"
 
 // BasedOn - 0..* (Belgian extension; R4 Encounter.basedOn only allows ServiceRequest)
