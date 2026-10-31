@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "d897b57b-6a71-4d8c-a8dd-156e0c8eeaeb-56",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/d897b57b-6a71-4d8c-a8dd-156e0c8eeaeb-56",
+  "name" : "UnionBeVSBodyTopographyAndBeVSBodyTopography",
+  "title" : "Union of Body Topography ValueSet And Body Topography ValueSet",
+  "status" : "draft",
+  "date" : "2026-10-15T15:03:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "106233006"
+      }]
+    }]
+  }
+}

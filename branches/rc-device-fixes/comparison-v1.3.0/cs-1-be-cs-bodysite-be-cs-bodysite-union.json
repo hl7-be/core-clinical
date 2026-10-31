@@ -1,0 +1,16 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "db9dc009-97cb-479f-9761-353ad0012055-2",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/db9dc009-97cb-479f-9761-353ad0012055-2",
+  "name" : "UnionBeCSBodySiteAndBeCSBodySite",
+  "title" : "Union of Body Site CodeSystem And Body Site CodeSystem",
+  "status" : "retired",
+  "date" : "2026-10-16T07:01:23+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }]
+}

@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "562874a3-b544-4f1f-b19f-aef9bd07dfdc-59",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/562874a3-b544-4f1f-b19f-aef9bd07dfdc-59",
+  "name" : "UnionBeVSBodySiteAndBeVSBodySite",
+  "title" : "Union of Body Site ValueSet And Body Site ValueSet",
+  "status" : "active",
+  "date" : "2026-10-15T15:05:07+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "442083009"
+      }]
+    }]
+  }
+}

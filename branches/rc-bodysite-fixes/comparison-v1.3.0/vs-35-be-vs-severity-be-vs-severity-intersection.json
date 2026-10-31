@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "d897b57b-6a71-4d8c-a8dd-156e0c8eeaeb-84",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/d897b57b-6a71-4d8c-a8dd-156e0c8eeaeb-84",
+  "name" : "IntersectionBeVSSeverityAndBeVSSeverity",
+  "title" : "Intersection of Severity ValueSet And Severity ValueSet",
+  "status" : "active",
+  "date" : "2026-10-15T15:03:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "24484000",
+        "display" : "Severe"
+      },
+      {
+        "code" : "6736007",
+        "display" : "Moderate severity"
+      },
+      {
+        "code" : "255604002",
+        "display" : "Mild"
+      }]
+    }]
+  }
+}

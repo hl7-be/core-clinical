@@ -1,0 +1,80 @@
+{
+  "resourceType" : "Observation",
+  "id" : "c611b58d-27bb-49e2-b3ec-bd59e986f5f3",
+  "meta" : {
+    "profile" : ["https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/be-observation-diabetes"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation c611b58d-27bb-49e2-b3ec-bd59e986f5f3</b></p><a name=\"c611b58d-27bb-49e2-b3ec-bd59e986f5f3\"> </a><a name=\"hcc611b58d-27bb-49e2-b3ec-bd59e986f5f3\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-be-observation-diabetes.html\">BeObservationDiabetes</a></p></div><p><b>BeExtRecorder</b>: Identifier: <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/NamingSystem-be-nihdi.html\" title=\"RIZIV/INAMI\">BeNIHDINamingSystem</a>/0403044007</p><p><b>BeExtRecordedDate</b>: 2024-11-25</p><p><b>identifier</b>: <a href=\"NamingSystem-be-ns-observation-diabetes.html\">BeNSObservationDiabetes</a>/c611b58d-27bb-49e2-b3ec-bd59e986f5f3</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://snomed.info/sct 439926003}\">439926003</span>, <span title=\"Codes:{http://snomed.info/sct 258090004}\">258090004</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 778232399}\">778232399</span></p><p><b>subject</b>: Identifier: <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/NamingSystem-be-ssin.html\" title=\"NISS/INSZ\">BeSSINNamingSystem</a>/80051207915</p><p><b>effective</b>: 2024-11-11 --&gt; 2024-11-24</p><p><b>performer</b>: Identifier: <a href=\"https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/NamingSystem-be-nihdi.html\" title=\"RIZIV/INAMI\">BeNIHDINamingSystem</a>/0403044007</p><p><b>value</b>: 6 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span></p><p><b>device</b>: <a href=\"Bundle-uc53-bundle.html#urn-uuid-ce11c616-6625-4966-8a16-012ee8ff1d8e\">Device: type = 701010000576</a></p><h3>ReferenceRanges</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>High</b></td></tr><tr><td style=\"display: none\">*</td><td>34 %<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code% = '%')</span></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-ext-recorder",
+    "valueReference" : {
+      "identifier" : {
+        "system" : "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi",
+        "value" : "0403044007"
+      }
+    }
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/StructureDefinition/BeExtRecordedDate",
+    "valueDateTime" : "2024-11-25"
+  }],
+  "identifier" : [{
+    "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/NamingSystem/be-ns-observation-diabetes",
+    "value" : "c611b58d-27bb-49e2-b3ec-bd59e986f5f3"
+  }],
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "439926003"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "258090004"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "778232399"
+    }]
+  },
+  "subject" : {
+    "identifier" : {
+      "system" : "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin",
+      "value" : "80051207915"
+    }
+  },
+  "effectivePeriod" : {
+    "start" : "2024-11-11",
+    "end" : "2024-11-24"
+  },
+  "performer" : [{
+    "identifier" : {
+      "system" : "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi",
+      "value" : "0403044007"
+    }
+  }],
+  "valueQuantity" : {
+    "value" : 6,
+    "unit" : "%",
+    "system" : "http://unitsofmeasure.org",
+    "code" : "%"
+  },
+  "device" : {
+    "reference" : "urn:uuid:ce11c616-6625-4966-8a16-012ee8ff1d8e"
+  },
+  "referenceRange" : [{
+    "high" : {
+      "value" : 34,
+      "unit" : "%",
+      "system" : "http://unitsofmeasure.org",
+      "code" : "%"
+    }
+  }]
+}

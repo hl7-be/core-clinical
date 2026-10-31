@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "34ee5cab-0ffc-421e-989f-33d7c623e460-35",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/34ee5cab-0ffc-421e-989f-33d7c623e460-35",
+  "name" : "UnionBeVSProblemOriginTypeAndBeVSProblemOriginType",
+  "title" : "Union of Problem Origin Type And Problem Origin Type Value Set",
+  "status" : "active",
+  "date" : "2026-05-30T09:12:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }]
+}

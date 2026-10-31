@@ -1,0 +1,7 @@
+{
+  "version" : "1.4.0",
+  "fhirVersion" : ["4.0.1"],
+  "date" : "20261016111332",
+  "name" : "hl7.fhir.be.core-clinical",
+  "jurisdiction" : "urn:iso:std:iso:3166#BE"
+}

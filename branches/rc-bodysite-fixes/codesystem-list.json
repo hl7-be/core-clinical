@@ -1,0 +1,47 @@
+{
+  "codeSystems" : [{
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-bodysite",
+    "version" : "1.4.0",
+    "status" : "retired",
+    "name" : "BeCSBodySite",
+    "title" : "Body Site CodeSystem",
+    "description" : "Body Site CodeSystem",
+    "oids" : ["2.16.840.1.113883.4.642.40.200.5.16.1"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+    "version" : "1.4.0",
+    "status" : "active",
+    "name" : "BeCSProblemCategory",
+    "title" : "Problem Category",
+    "description" : "Problem Category",
+    "oids" : ["2.16.840.1.113883.4.642.40.200.5.16.2"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type",
+    "version" : "1.4.0",
+    "status" : "active",
+    "name" : "BeCSProblemOriginType",
+    "title" : "Problem Origin Type",
+    "description" : "Problem Origin Type",
+    "oids" : ["2.16.840.1.113883.4.642.40.200.5.16.3"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score",
+    "version" : "1.4.0",
+    "status" : "active",
+    "name" : "BeCSScore",
+    "title" : "Score Code System",
+    "description" : "Codes as defined initially by the NIHDI. Dutch translations were not yet defined but are planned   for a next release.",
+    "oids" : ["2.16.840.1.113883.4.642.40.200.5.16.5"]
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category",
+    "version" : "1.4.0",
+    "status" : "active",
+    "name" : "BeCSScoreCategory",
+    "title" : "Score Category",
+    "description" : "Score Category",
+    "oids" : ["2.16.840.1.113883.4.642.40.200.5.16.4"]
+  }]
+}

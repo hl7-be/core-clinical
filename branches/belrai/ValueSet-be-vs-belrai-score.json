@@ -1,0 +1,48 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "be-vs-belrai-score",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet be-vs-belrai-score</b></p><a name=\"be-vs-belrai-score\"> </a><a name=\"hcbe-vs-belrai-score\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-be-cs-belrai-score.html\"><code>https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-belrai-score</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;1.2.0</span></li></ul></div>"
+  },
+  "url" : "https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-belrai-score",
+  "version" : "1.2.0",
+  "name" : "BeVSBelraiScore",
+  "title" : "BelRAI Score Value Set",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-07-16T15:39:29+00:00",
+  "publisher" : "eHealth Platform",
+  "contact" : [{
+    "name" : "eHealth Platform",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.ehealth.fgov.be"
+    },
+    {
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be"
+    }]
+  },
+  {
+    "name" : "Message-Structure",
+    "telecom" : [{
+      "system" : "email",
+      "value" : "message-structure@www.ehealth.fgov.be",
+      "use" : "work"
+    }]
+  }],
+  "description" : "Codes identifying each BelRAI scoring scale/screener, used as Observation.code (BeScoreResult).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-belrai-score"
+    }]
+  }
+}

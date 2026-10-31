@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "d38cf33d-005e-400c-a3e7-872cee4036d2-78",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/d38cf33d-005e-400c-a3e7-872cee4036d2-78",
+  "name" : "IntersectionBeVSScoreCategoryAndBeVSScoreCategory",
+  "title" : "Intersection of Score Category ValueSet And Score Category ValueSet",
+  "status" : "active",
+  "date" : "2026-10-16T11:15:47+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }]
+}

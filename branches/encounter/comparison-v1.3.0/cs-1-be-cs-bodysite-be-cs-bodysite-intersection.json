@@ -1,0 +1,16 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "3256d00f-8517-439c-afd2-a3a6351d521b-3",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/3256d00f-8517-439c-afd2-a3a6351d521b-3",
+  "name" : "IntersectionBeCSBodySiteAndBeCSBodySite",
+  "title" : "Intersection of Body Site CodeSystem And Body Site CodeSystem",
+  "status" : "retired",
+  "date" : "2026-09-25T08:58:28+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }]
+}

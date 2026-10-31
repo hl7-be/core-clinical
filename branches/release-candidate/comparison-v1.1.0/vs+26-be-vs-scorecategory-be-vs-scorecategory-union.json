@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "3575d5b0-b3ed-4120-8e98-4f196eb93ecd-68",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/3575d5b0-b3ed-4120-8e98-4f196eb93ecd-68",
+  "name" : "UnionBeVSScoreCategoryAndBeVSScoreCategory",
+  "title" : "Union of Score Category Value Set And Score Category Value Set",
+  "status" : "active",
+  "date" : "2026-06-01T12:30:43+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }]
+}

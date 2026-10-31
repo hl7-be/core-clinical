@@ -1,0 +1,107 @@
+TransversalClinicalCore : Validation Results
+=========================================
+
+err = 0, warn = 4, info = 8, broken links = 10
+IG Publisher Version: 3.0.0
+Generated Thu Oct 15 15:04:30 UTC 2026. FHIR version 4.0.1 for hl7.fhir.be.core-clinical#1.4.0 (canonical = https://www.ehealth.fgov.be/standards/fhir/core-clinical)
+ Build Errors : 10 / 2 / 0
+ /work/fsh-generated/resources/CodeSystem-be-cs-bodysite : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-problem-category : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-problem-origin-type : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-score : 0 / 0 / 1
+ /work/fsh-generated/resources/CodeSystem-be-cs-score-category : 0 / 0 / 1
+ /work/fsh-generated/resources/ImplementationGuide-hl7.fhir.be.core-clinical : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelBodySite : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelClinicalObservation : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelDevice : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelDeviceUseStatement : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelProblem : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-BeModelProcedure : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-clinical-observation : 0 / 1 / 2
+ /work/fsh-generated/resources/StructureDefinition-be-device : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-device-use-statement : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-ext-body-topography : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-ext-laterality : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-ext-problem-origin-type : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-ext-surgical-approach : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-observation : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-observationcodeableconcept : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-problem : 0 / 3 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-procedure : 0 / 1 / 1
+ /work/fsh-generated/resources/StructureDefinition-be-scoreresult : 0 / 1 / 1
+ /work/fsh-generated/resources/ValueSet-ProblemDiseaseCourseVS : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-body-topography : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-bodysite : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-device-status : 0 / 0 / 6
+ /work/fsh-generated/resources/ValueSet-be-vs-device-status-reason : 0 / 0 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-device-type : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-laterality : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-category : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-code : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-problem-origin-type : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-reaction-manifestation-code : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-score : 0 / 0 / 2
+ /work/fsh-generated/resources/ValueSet-be-vs-scorecategory : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-be-vs-severity : 0 / 0 / 1
+</table>
+== n/a ==
+ERROR: en/StructureDefinition-BeModelDevice.html#/html/body/div/div/div/div/div/div/figure/svg/g/g/a at Line 324, column 2633: The link 'StructureDefinition-BeModelDeviceUse.html' for "Device Usage" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDevice.html#/html/body/div/div/div/div/div/div/figure/svg/g/g/a at Line 324, column 4051: The link 'StructureDefinition-BeModelDeviceRequest.html' for "Device Request" cannot be resolved
+WARNING: /work/output/en/StructureDefinition-BeModelDevice.html: The html source has duplicate element ids: DR,DU,Dev,P,link_DU_P. An id must be unique in a page - a link to one of these is ambiguous, and it is invalid HTML
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/figure/svg/g/g/a at Line 324, column 2633: The link 'StructureDefinition-BeModelDeviceUse.html' for "Device Usage" cannot be resolved
+ERROR: en/StructureDefinition-BeModelDeviceUseStatement.html#/html/body/div/div/div/div/div/div/figure/svg/g/g/a at Line 324, column 4051: The link 'StructureDefinition-BeModelDeviceRequest.html' for "Device Request" cannot be resolved
+WARNING: /work/output/en/StructureDefinition-BeModelDeviceUseStatement.html: The html source has duplicate element ids: DR,DU,Dev,P,link_DU_P. An id must be unique in a page - a link to one of these is ambiguous, and it is invalid HTML
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/table/thead/tr/th/a at Line 216, column 12: The link 'definitions.xml.zip' for "XML" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/table/thead/tr/th/a at Line 217, column 12: The link 'definitions.json.zip' for "JSON" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/table/thead/tr/th/a at Line 218, column 12: The link 'definitions.ttl.zip' for "Turtle" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 224, column 12: The link 'examples.xml.zip' for "XML" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 225, column 12: The link 'examples.json.zip' for "JSON" cannot be resolved
+ERROR: en/downloads.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 226, column 12: The link 'examples.ttl.zip' for "Turtle" cannot be resolved
+== fsh-generated/resources/CodeSystem-be-cs-bodysite.json ==
+== fsh-generated/resources/CodeSystem-be-cs-problem-category.json ==
+== fsh-generated/resources/CodeSystem-be-cs-problem-origin-type.json ==
+== fsh-generated/resources/CodeSystem-be-cs-score.json ==
+== fsh-generated/resources/CodeSystem-be-cs-score-category.json ==
+== fsh-generated/resources/ImplementationGuide-hl7.fhir.be.core-clinical.json ==
+== fsh-generated/resources/StructureDefinition-BeModelBodySite.json ==
+== fsh-generated/resources/StructureDefinition-BeModelClinicalObservation.json ==
+== fsh-generated/resources/StructureDefinition-BeModelDevice.json ==
+== fsh-generated/resources/StructureDefinition-BeModelDeviceUseStatement.json ==
+== fsh-generated/resources/StructureDefinition-BeModelProblem.json ==
+== fsh-generated/resources/StructureDefinition-BeModelProcedure.json ==
+== fsh-generated/resources/StructureDefinition-be-clinical-observation.json ==
+INFORMATION: StructureDefinition/be-clinical-observation: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+== fsh-generated/resources/StructureDefinition-be-device.json ==
+== fsh-generated/resources/StructureDefinition-be-device-use-statement.json ==
+== fsh-generated/resources/StructureDefinition-be-ext-body-topography.json ==
+== fsh-generated/resources/StructureDefinition-be-ext-laterality.json ==
+== fsh-generated/resources/StructureDefinition-be-ext-problem-origin-type.json ==
+== fsh-generated/resources/StructureDefinition-be-ext-surgical-approach.json ==
+== fsh-generated/resources/StructureDefinition-be-observation.json ==
+== fsh-generated/resources/StructureDefinition-be-observationcodeableconcept.json ==
+== fsh-generated/resources/StructureDefinition-be-problem.json ==
+WARNING: StructureDefinition/be-problem: StructureDefinition.snapshot.element[9].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/condition-dueTo'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0), 5.3.0 (from hl7.fhir.uv.extensions.r4#5.3.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/condition-dueTo' to 'http://hl7.org/fhir/StructureDefinition/condition-dueTo|5.3.0'
+WARNING: StructureDefinition/be-problem: StructureDefinition.differential.element[3].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/condition-dueTo'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.3.0', found versions: 4.0.1 (from hl7.fhir.r4.core#4.0.1), 5.2.0 (from hl7.fhir.uv.extensions.r4#5.2.0), 5.3.0 (from hl7.fhir.uv.extensions.r4#5.3.0). Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/condition-dueTo' to 'http://hl7.org/fhir/StructureDefinition/condition-dueTo|5.3.0'
+== fsh-generated/resources/StructureDefinition-be-procedure.json ==
+== fsh-generated/resources/StructureDefinition-be-scoreresult.json ==
+== fsh-generated/resources/ValueSet-ProblemDiseaseCourseVS.json ==
+== fsh-generated/resources/ValueSet-be-vs-body-topography.json ==
+== fsh-generated/resources/ValueSet-be-vs-bodysite.json ==
+== fsh-generated/resources/ValueSet-be-vs-device-status.json ==
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://hl7.org/fhir/device-status to 4.0.1 from choices of 4.0.1 (hl7.fhir.r4.core#4.0.1), 5.0.0 (hl7.fhir.uv.xver-r5.r4#0.1.0)
+INFORMATION: ValueSet/be-vs-device-status: ValueSet.compose.include[0].concept[0]: Reference to draft CodeSystem http://hl7.org/fhir/device-status|4.0.1
+INFORMATION: ValueSet/be-vs-device-status: ValueSet.compose.include[0].concept[1]: Reference to draft CodeSystem http://hl7.org/fhir/device-status|4.0.1 from active ValueSet https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status|1.4.0
+INFORMATION: ValueSet/be-vs-device-status: ValueSet.compose.include[0].concept[2]: Reference to draft CodeSystem http://hl7.org/fhir/device-status|4.0.1 from active ValueSet https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status|1.4.0
+INFORMATION: ValueSet/be-vs-device-status: ValueSet.compose.include[0].concept[3]: Reference to draft CodeSystem http://hl7.org/fhir/device-status|4.0.1 from active ValueSet https://www.ehealth.fgov.be/standards/fhir/terminology/ValueSet/be-vs-device-status|1.4.0
+== fsh-generated/resources/ValueSet-be-vs-device-status-reason.json ==
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://terminology.hl7.org/CodeSystem/device-status-reason to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#7.1.0), 3.0.0 (hl7.terminology.r4#7.3.0)
+== fsh-generated/resources/ValueSet-be-vs-device-type.json ==
+== fsh-generated/resources/ValueSet-be-vs-laterality.json ==
+== fsh-generated/resources/ValueSet-be-vs-problem-category.json ==
+== fsh-generated/resources/ValueSet-be-vs-problem-code.json ==
+== fsh-generated/resources/ValueSet-be-vs-problem-origin-type.json ==
+== fsh-generated/resources/ValueSet-be-vs-reaction-manifestation-code.json ==
+== fsh-generated/resources/ValueSet-be-vs-score.json ==
+INFORMATION: ValueSet/be-vs-score: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [Visual analog scale score (observable entity), Mini-mental state examination score (observable entity), Malnutrition universal screening tool score (observable entity), Norton Scale score (observable entity), Thirty second chair stand test score (observable entity)] and examples for no FSN: [FINDRISC (Finnish Diabetes Risk Score) score, Index of Independence in Activities of Daily Living, Pain Assessment in Advanced Dementia Scale, Subjective Global Assessment, Waterlow pressure sore risk score])
+== fsh-generated/resources/ValueSet-be-vs-scorecategory.json ==
+== fsh-generated/resources/ValueSet-be-vs-severity.json ==

@@ -1,0 +1,124 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.ehealth.fgov.be/standards/fhir/core-clinical/Observation/GOFSH-GENERATED-ID-0> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "GOFSH-GENERATED-ID-0"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation GOFSH-GENERATED-ID-0</b></p><a name=\"GOFSH-GENERATED-ID-0\"> </a><a name=\"hcGOFSH-GENERATED-ID-0\"> </a><p><b>identifier</b>: <code>https://api-int.ehealth.fgov.be/belrai/v1/evaluations/</code>/292</p><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:\">BelRAI-Assessment</span></p><p><b>code</b>: <span title=\"Codes:\">Acute Care - Admission Assessment</span></p><p><b>subject</b>: <a href=\"Patient/12345678912\">Patient/12345678912</a></p><p><b>effective</b>: 2026-04-01 09:00:00+0100</p><p><b>issued</b>: 2026-04-02 10:15:00+0100</p><p><b>performer</b>: <code>careProviders/nihii:12345678</code></p><p><b>method</b>: <span title=\"Codes:\">Acute Care - Admission Assessment</span></p><p><b>hasMember</b>: </p><ul><li><a href=\"#hcGOFSH-GENERATED-ID-0/sBMI\">Observation Body Mass Index (sBMI)</a></li><li><a href=\"#hcGOFSH-GENERATED-ID-0/cADL\">Observation Activiteiten van het dagelijks leven (ADL)</a></li></ul><hr/><blockquote><p class=\"res-header-id\"><b>Generated Narrative: Observation #sBMI</b></p><a name=\"GOFSH-GENERATED-ID-0/sBMI\"> </a><a name=\"hcGOFSH-GENERATED-ID-0/sBMI\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:\">Body Mass Index (sBMI)</span></p><p><b>value</b>: 28.5 kg/m2</p><p><b>interpretation</b>: <span title=\"Codes:\">Overgewicht</span></p><h3>ReferenceRanges</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style=\"display: none\">*</td><td>5</td><td>70</td></tr></table></blockquote><hr/><blockquote><p class=\"res-header-id\"><b>Generated Narrative: Observation #cADL</b></p><a name=\"GOFSH-GENERATED-ID-0/cADL\"> </a><a name=\"hcGOFSH-GENERATED-ID-0/cADL\"> </a><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:\">Activiteiten van het dagelijks leven (ADL)</span></p><p><b>value</b>: 2</p><p><b>interpretation</b>: <span title=\"Codes:\">Geactiveerd op de mogelijkheid tot verbetering.</span></p><h3>ReferenceRanges</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style=\"display: none\">*</td><td>0</td><td>2</td></tr></table></blockquote></div>"
+  ] ;
+  fhir:DomainResource.contained [
+     a fhir:Observation ;
+     fhir:index 0 ;
+     fhir:Resource.id [ fhir:value "sBMI" ] ;
+     fhir:Observation.status [ fhir:value "final" ] ;
+     fhir:Observation.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.code [ fhir:value "sBMI" ] ;
+         fhir:Coding.display [ fhir:value "Body Mass Index (sBMI)" ]
+       ]
+     ] ;
+     fhir:Observation.valueQuantity [
+       fhir:Quantity.value [ fhir:value "28.5"^^xsd:decimal ] ;
+       fhir:Quantity.unit [ fhir:value "kg/m2" ]
+     ] ;
+     fhir:Observation.interpretation [
+       fhir:index 0 ;
+       fhir:CodeableConcept.text [ fhir:value "Overgewicht" ]
+     ] ;
+     fhir:Observation.referenceRange [
+       fhir:index 0 ;
+       fhir:Observation.referenceRange.low [
+         fhir:Quantity.value [ fhir:value "5"^^xsd:decimal ]
+       ] ;
+       fhir:Observation.referenceRange.high [
+         fhir:Quantity.value [ fhir:value "70"^^xsd:decimal ]
+       ]
+     ]
+  ], [
+     a fhir:Observation ;
+     fhir:index 1 ;
+     fhir:Resource.id [ fhir:value "cADL" ] ;
+     fhir:Observation.status [ fhir:value "final" ] ;
+     fhir:Observation.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.code [ fhir:value "cADL" ] ;
+         fhir:Coding.display [ fhir:value "Activiteiten van het dagelijks leven (ADL)" ]
+       ]
+     ] ;
+     fhir:Observation.valueInteger [ fhir:value "2"^^xsd:integer ] ;
+     fhir:Observation.interpretation [
+       fhir:index 0 ;
+       fhir:CodeableConcept.text [ fhir:value "Geactiveerd op de mogelijkheid tot verbetering." ]
+     ] ;
+     fhir:Observation.referenceRange [
+       fhir:index 0 ;
+       fhir:Observation.referenceRange.low [
+         fhir:Quantity.value [ fhir:value "0"^^xsd:decimal ]
+       ] ;
+       fhir:Observation.referenceRange.high [
+         fhir:Quantity.value [ fhir:value "2"^^xsd:decimal ]
+       ]
+     ]
+  ] ;
+  fhir:Observation.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.system [ fhir:value "https://api-int.ehealth.fgov.be/belrai/v1/evaluations/" ] ;
+     fhir:Identifier.value [ fhir:value "292" ]
+  ] ;
+  fhir:Observation.status [ fhir:value "final"] ;
+  fhir:Observation.category [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.code [ fhir:value "survey" ] ;
+       fhir:Coding.display [ fhir:value "BelRAI-Assessment" ]
+     ]
+  ] ;
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.code [ fhir:value "AC-AA" ] ;
+       fhir:Coding.display [ fhir:value "Acute Care - Admission Assessment" ]
+     ]
+  ] ;
+  fhir:Observation.subject [
+     fhir:link <https://www.ehealth.fgov.be/standards/fhir/core-clinical/Patient/12345678912> ;
+     fhir:Reference.reference [ fhir:value "Patient/12345678912" ]
+  ] ;
+  fhir:Observation.effectiveDateTime [ fhir:value "2026-04-01T09:00:00+01:00"^^xsd:dateTime] ;
+  fhir:Observation.issued [ fhir:value "2026-04-02T10:15:00+01:00"^^xsd:dateTime] ;
+  fhir:Observation.performer [
+     fhir:index 0 ;
+     fhir:link <https://www.ehealth.fgov.be/standards/fhir/core-clinical/careProviders/nihii:12345678> ;
+     fhir:Reference.reference [ fhir:value "careProviders/nihii:12345678" ]
+  ] ;
+  fhir:Observation.method [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.code [ fhir:value "AC-AA" ] ;
+       fhir:Coding.display [ fhir:value "Acute Care - Admission Assessment" ]
+     ]
+  ] ;
+  fhir:Observation.hasMember [
+     fhir:index 0 ;
+     fhir:Reference.reference [ fhir:value "#sBMI" ]
+  ], [
+     fhir:index 1 ;
+     fhir:Reference.reference [ fhir:value "#cADL" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.ehealth.fgov.be/standards/fhir/core-clinical/Observation/GOFSH-GENERATED-ID-0.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,58 @@
+{
+  "codeSystems" : [{
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-belrai-score",
+    "version" : "1.2.0",
+    "status" : "active",
+    "name" : "BeCSBelraiScore",
+    "title" : "BelRAI Score Code System",
+    "description" : "Codes identifying each BelRAI scoring scale/screener, used as Observation.code."
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-bodysite",
+    "version" : "1.2.0",
+    "status" : "retired",
+    "name" : "BeCSBodySite",
+    "title" : "Body Site CodeSystem",
+    "description" : "Body Site CodeSystem"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-category",
+    "version" : "1.2.0",
+    "status" : "active",
+    "name" : "BeCSProblemCategory",
+    "title" : "Problem Category",
+    "description" : "Problem Category"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-problem-origin-type",
+    "version" : "1.2.0",
+    "status" : "active",
+    "name" : "BeCSProblemOriginType",
+    "title" : "Problem Origin Type",
+    "description" : "Problem Origin Type"
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-referencerange-type",
+    "version" : "1.2.0",
+    "status" : "active",
+    "name" : "BeCSReferenceRangeType",
+    "title" : "Reference Range Type",
+    "description" : "The meaning of an Observation.referenceRange for a score: a band defined by the scale, or the band the result falls into. Deliberately valence-free (no 'normal'/'high'/'elevated')."
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score",
+    "version" : "1.2.0",
+    "status" : "active",
+    "name" : "BeCSScore",
+    "title" : "Score Code System",
+    "description" : "Codes as defined initially by the NIHDI. Dutch translations were not yet defined but are planned   for a next release."
+  },
+  {
+    "url" : "https://www.ehealth.fgov.be/standards/fhir/core-clinical/CodeSystem/be-cs-score-category",
+    "version" : "1.2.0",
+    "status" : "active",
+    "name" : "BeCSScoreCategory",
+    "title" : "Score Category",
+    "description" : "Score Category"
+  }]
+}

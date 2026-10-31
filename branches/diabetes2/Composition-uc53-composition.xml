@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="uc53-composition"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Composition uc53-composition</b></p><a name="uc53-composition"> </a><a name="hcuc53-composition"> </a><p><b>status</b>: Final</p><p><b>type</b>: <span title="Codes:{http://snomed.info/sct 439926003}">439926003</span></p><p><b>date</b>: 2024-11-25</p><p><b>author</b>: Identifier: <a href="https://www.ehealth.fgov.be/standards/fhir/core/2.1.2/NamingSystem-be-nihdi.html" title="RIZIV/INAMI">BeNIHDINamingSystem</a>/0403044007</p><p><b>title</b>: Diabetes device report</p></div>
+  </text>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="439926003"/>
+    </coding>
+  </type>
+  <date value="2024-11-25"/>
+  <author>
+    <identifier>
+      <system value="https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"/>
+      <value value="0403044007"/>
+    </identifier>
+  </author>
+  <title value="Diabetes device report"/>
+  <section>
+    <entry>
+      <reference value="urn:uuid:6e126868-aa6a-41ef-b7fb-3c8b690d8ffb"/>
+    </entry>
+  </section>
+</Composition>

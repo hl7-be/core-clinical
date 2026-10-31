@@ -1,0 +1,18 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "428007cf-0a9e-4364-83be-3ce68d0fa6ca-21",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/428007cf-0a9e-4364-83be-3ce68d0fa6ca-21",
+  "name" : "IntersectionSNOMEDCTBodyStructuresAndBeVSBodySite",
+  "title" : "Intersection of SNOMED CT Body Structures And Body Site ValueSet",
+  "status" : "draft",
+  "date" : "2026-10-15T14:30:30+00:00",
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "442083009"
+      }]
+    }]
+  }
+}

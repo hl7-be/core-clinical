@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "6ba91271-bf03-4da3-b47f-53a612bf4b91-71",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/6ba91271-bf03-4da3-b47f-53a612bf4b91-71",
+  "name" : "UnionBeVSProblemCodeAndBeVSProblemCode",
+  "title" : "Union of Problem Code ValueSet And Problem Code",
+  "status" : "active",
+  "date" : "2026-10-13T12:35:07+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BE",
+      "display" : "Belgium"
+    }]
+  }]
+}
