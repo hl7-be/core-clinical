@@ -188,10 +188,7 @@ parameters:
   apply-publisher: 'true'
   apply-version: 'true'
   path-expansion-params: ../../Parameters-terminology-expansion.json
-  special-url-base:
-    - https://www.ehealth.fgov.be/standards/fhir/terminology
-    # BeExtCreationDate is defined here but carries the be-core canonical, pending its move to hl7.fhir.be.core
-    - https://www.ehealth.fgov.be/standards/fhir/core
+  special-url-base: https://www.ehealth.fgov.be/standards/fhir/terminology
   path-history: https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html
   auto-oid-root: 2.16.840.1.113883.4.642.40.200.5
 

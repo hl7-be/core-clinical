@@ -22,11 +22,6 @@ Description: "A period during which care related to one specific goal or problem
 
 // Status - 1..1, narrowed to the four statuses of VS_Status_EpisodeOfCare
 // (a subset of the R4 required binding on EpisodeOfCare.status)
-// // Creation date - 1..1 (be-core extension; R4 EpisodeOfCare has no creation date)
-// * extension contains BeExtCreationDate named creationDate 1..1 MS
-// * extension[creationDate] ^short = "Creation date"
-// * extension[creationDate] ^definition = "Date of first registration."
-
 * status 1..1 MS
 * status from BeVSEpisodeOfCareStatus (required)
 
