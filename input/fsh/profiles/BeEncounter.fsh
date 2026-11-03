@@ -26,16 +26,20 @@ Description: "A physical or virtual contact or interaction between a patient and
 * status 1..1 MS
 
 // Class - 1..1 (CareSet says 0..*; R4 Encounter.class is a mandatory single Coding)
+// VS_Encounter_Class: the HL7 encounter-class value set, as in CareSet V0.7.
 * class 1..1 MS
+* class from http://terminology.hl7.org/ValueSet/encounter-class (extensible)
 
 // ServiceType - 0..* in the CareSet, but R4 Encounter.serviceType is 0..1. The first service type goes in
 // serviceType, any further ones in the additionalServiceType extension (be-core BeExtCodeableConcept).
 // The R5 pre-adoption extension is not usable here: R5 typed serviceType as CodeableReference,
 // so extension-Encounter.serviceType only carries the Reference(HealthcareService) half.
 * serviceType 0..1 MS
+// VS_Encounter_ServiceType: the proposal VS_Be_ServiceType_Voorstel, as in CareSet V0.7 (#146).
+* serviceType from BeVSEncounterServiceType (extensible)
 * extension contains BeExtCodeableConcept named additionalServiceType 0..* MS
-// Same binding as Encounter.serviceType (base R4, example) until VS_Encounter_ServiceType exists (#146, #181).
-* extension[additionalServiceType].valueCodeableConcept from http://hl7.org/fhir/ValueSet/service-type (example)
+// Same binding as Encounter.serviceType (#146, #181).
+* extension[additionalServiceType].valueCodeableConcept from BeVSEncounterServiceType (extensible)
 * extension[additionalServiceType] ^short = "Further service types (the CareSet ServiceType is 0..*, Encounter.serviceType is 0..1)"
 * extension[additionalServiceType] ^definition = "Further types of services/specialisations offered during the Encounter, in addition to Encounter.serviceType."
 * extension[additionalServiceType] ^comment = "The CareSet allows several service types (ServiceType 0..*), but R4 Encounter.serviceType allows only one. Put the first service type in `serviceType` and any further ones in this extension. It is not a separate CareSet element."
@@ -83,6 +87,8 @@ Description: "A physical or virtual contact or interaction between a patient and
 
 // Reason - 0..*
 * reasonCode MS
+// VS_Encounter_Reason: the HL7 encounter-reason value set, as in CareSet V0.7.
+* reasonCode from http://hl7.org/fhir/ValueSet/encounter-reason (extensible)
 * reasonReference MS
 * reasonReference only Reference(BeProblem or BeProcedure or BeClinicalObservation)
 
@@ -103,16 +109,20 @@ Description: "A physical or virtual contact or interaction between a patient and
 * hospitalization.origin 0..1 MS
 * hospitalization.origin only Reference(BeOrganization)
 * hospitalization.admitSource 0..1 MS
+// VS_Encounter_Admission_AdmitSource: the HL7 encounter-admit-source value set, as in CareSet V0.7.
+* hospitalization.admitSource from http://hl7.org/fhir/ValueSet/encounter-admit-source (extensible)
 * hospitalization.reAdmission 0..1 MS
-* hospitalization.reAdmission ^short = "Is this a re-admission of the patient? (R4 type is CodeableConcept)"
+// ReAdmission is a boolean in the CareSet: carried as a code with its meaning (v2-0092 "R" = Re-admission).
+// Absent means the Encounter is not identified as a re-admission.
+* hospitalization.reAdmission from http://terminology.hl7.org/ValueSet/v2-0092 (extensible)
+* hospitalization.reAdmission ^short = "Re-admission of the patient, as a code (absent if not a re-admission)"
 * hospitalization.destination 0..1 MS
 * hospitalization.destination only Reference(BeOrganization)
 * hospitalization.dischargeDisposition 0..1 MS
+// VS_Encounter_Admission_DischargeDisposition: the HL7 encounter-discharge-disposition value set, as in CareSet V0.7.
+* hospitalization.dischargeDisposition from http://hl7.org/fhir/ValueSet/encounter-discharge-disposition (extensible)
 
 // Note - 0..* (be-core extension; R4 Encounter has no note)
 * extension contains BeExtSimpleNote named note 0..* MS
 * extension[note] ^short = "Note"
 * extension[note] ^definition = "Additional information related to the CareSet content in free text form."
-
-// Not part of the CareSet; base Location until a Belgian profile is available (#174)
-* location.location ^short = "Location"
