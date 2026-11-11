@@ -2,11 +2,13 @@
 // R4 has no standard "recorder" search parameter on these resources. The recorder is
 // an element in Condition, Procedure and DeviceUseStatement (source), and the be-core
 // BeExtRecorder extension in Observation, Encounter and EpisodeOfCare.
+// It already has the be-core canonical, so it can move to be-core without changing its URL (#180);
+// sushi-config.yaml lists it as a special-url.
 Instance: be-sp-recorder
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "Recorder"
-* url = "https://www.ehealth.fgov.be/standards/fhir/core-clinical/SearchParameter/be-sp-recorder"
+* url = "https://www.ehealth.fgov.be/standards/fhir/core/SearchParameter/be-sp-recorder"
 * name = "BeSPRecorder"
 * status = #active
 * description = "Search the Belgian clinical resources by their recorder: the person who records the content and takes responsibility for it. Covers BeProblem, BeProcedure, BeDeviceUseStatement (`source`), and BeClinicalObservation, BeScoreResult, BeEncounter and BeEpisodeOfCare (the be-core BeExtRecorder extension)."
