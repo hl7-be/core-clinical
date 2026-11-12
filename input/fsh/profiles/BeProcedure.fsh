@@ -7,8 +7,11 @@ Description: "Placeholder profile for contextualising the FHIR resource"
 
 * identifier 1..* MS
 
-// Pre-adopt R5 Procedure.recorded (dateTime) - when the procedure was first captured in the subject's record
-* extension contains http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.recorded named recorded 1..1 MS
+// RecordedDate - 1..1 (be-core extension; R4 Procedure has no recorded date).
+// Not the R5 pre-adoption extension-Procedure.recorded: that one is "when the
+// procedure was first captured in the record", while the CareSet asks for the
+// date of the last modification, which is what BeExtRecordedDate carries.
+* extension contains BeExtRecordedDate named recordedDate 1..1 MS
 
 * performed[x] 1..1 MS
 * performed[x] only dateTime or Period
