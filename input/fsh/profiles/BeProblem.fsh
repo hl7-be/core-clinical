@@ -17,8 +17,8 @@ Description: "A condition, diagnosis or situation that is the focus of care."
 * severity from BeVSSeverity (preferred)
 * bodySite MS
 * bodySite from BeVSBodySite (required)
-* bodySite.extension contains BeExtLaterality named laterality 0..1
-* bodySite.extension contains BeExtBodyTopography named topography 0..1
+* bodySite.extension contains BeExtLaterality named laterality 0..1 MS
+* bodySite.extension contains BeExtBodyTopography named topography 0..1 MS
 * subject only Reference(BePatient)
 * subject MS
 * encounter MS
