@@ -27,6 +27,24 @@ Description: "A physical or virtual contact or interaction between a patient and
 
 // Class - 1..1 (CareSet says 0..*; R4 Encounter.class is a mandatory single Coding)
 * class 1..1 MS
+* class ^definition = """Concepts representing classification of patient encounter such as ambulatory (outpatient), inpatient, emergency, home health or others due to local variations.
+
+This element is mandatory. Implementers are asked to use one of the codes of the bound value set, or a more appropriate code from another code system. If the class is not applicable or not coded, a Data Absent Reason can be used."""
+* class ^comment = """- Bound value set: [ActEncounterCode](http://terminology.hl7.org/ValueSet/v3-ActEncounterCode) (extensible), e.g. `AMB` (ambulatory), `IMP` (inpatient encounter), `EMER` (emergency), `HH` (home health), `VR` (virtual).
+- Data Absent Reason: the [data-absent-reason extension](http://hl7.org/fhir/R4/extension-data-absent-reason.html) on `class`, with a code from [DataAbsentReason](http://terminology.hl7.org/CodeSystem/data-absent-reason), e.g. `unknown`, `not-applicable` or `asked-unknown`.
+
+Example of an encounter without a known class:
+
+```json
+"class": {
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+      "valueCode": "unknown"
+    }
+  ]
+}
+```"""
 
 // ServiceType - 0..* in the CareSet, but R4 Encounter.serviceType is 0..1. The first service type goes in
 // serviceType, any further ones in the additionalServiceType extension (be-core BeExtCodeableConcept).
