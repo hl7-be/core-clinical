@@ -27,6 +27,34 @@ Description: "A physical or virtual contact or interaction between a patient and
 
 // Class - 1..1 (CareSet says 0..*; R4 Encounter.class is a mandatory single Coding)
 * class 1..1 MS
+* class ^definition = """Concepts representing classification of patient encounter such as ambulatory (outpatient), inpatient, emergency, home health or others due to local variations.
+
+This element is mandatory. Implementers are asked to use one of the codes of the bound value set, or a more appropriate code from another code system. If the class is not applicable or not coded, a Data Absent Reason can be used."""
+* class ^comment = """- Bound value set: [ActEncounterCode](http://terminology.hl7.org/ValueSet/v3-ActEncounterCode) (extensible), e.g. `AMB` (ambulatory), `IMP` (inpatient encounter), `EMER` (emergency), `HH` (home health), `VR` (virtual).
+- Data Absent Reason: the [data-absent-reason extension](http://hl7.org/fhir/R4/extension-data-absent-reason.html) on `class`, with a code from [DataAbsentReason](http://terminology.hl7.org/CodeSystem/data-absent-reason), e.g. `unknown`, `not-applicable` or `asked-unknown`.
+
+Example of an encounter without a known class:
+
+```json
+"class": {
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+      "valueCode": "unknown"
+    }
+  ]
+}
+```
+
+Further classes go in the `additionalClass` extension."""
+
+// Further classes - the CareSet Class is 0..*, R4 Encounter.class is a single Coding. The first class goes
+// in class, any further ones in the R5 pre-adoption extension (R5 Encounter.class 0..* CodeableConcept).
+// No Belgian extension exists for this, so it is a documented exception to the rule of #182 (as careTeam, #194).
+* extension contains http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.class named additionalClass 0..* MS
+* extension[additionalClass] ^short = "Further classes (the CareSet Class is 0..*, Encounter.class is a single Coding)"
+* extension[additionalClass] ^definition = "Further classifications of the Encounter, in addition to Encounter.class."
+* extension[additionalClass] ^comment = "The CareSet allows several classes (Class 0..*), but R4 Encounter.class allows only one. Put the first class in `class` and any further ones in this extension, which pre-adopts the R5 element `Encounter.class`. No Belgian extension exists for this, so the R5 extension is used as a documented exception to the rule \"use Belgian extensions if they exist\" ([core-clinical#182](https://github.com/hl7-be/core-clinical/issues/182))."
 
 // ServiceType - 0..* in the CareSet, but R4 Encounter.serviceType is 0..1. The first service type goes in
 // serviceType, any further ones in the additionalServiceType extension (be-core BeExtCodeableConcept).
