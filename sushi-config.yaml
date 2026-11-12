@@ -189,6 +189,7 @@ parameters:
   apply-version: 'true'
   path-expansion-params: ../../Parameters-terminology-expansion.json
   special-url-base: https://www.ehealth.fgov.be/standards/fhir/terminology
+  special-url: https://www.ehealth.fgov.be/standards/fhir/core/SearchParameter/be-sp-recorder
   path-history: https://www.ehealth.fgov.be/standards/fhir/core-clinical/history.html
   auto-oid-root: 2.16.840.1.113883.4.642.40.200.5
 
