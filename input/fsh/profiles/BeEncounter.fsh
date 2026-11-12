@@ -81,10 +81,11 @@ Further classes go in the `additionalClass` extension."""
 * extension[basedOn] ^short = "BasedOn"
 * extension[basedOn] ^definition = "The request that initiated this Encounter. In this case it can only originate from a CarePlan."
 
-// CareTeam - 0..* (R5 pre-adoption extension; R4 Encounter has no careTeam)
+// CareTeam - 0..* (R5 pre-adoption extension; R4 Encounter has no careTeam). Exception to #182, decided in #194.
 * extension contains http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.careTeam named careTeam 0..* MS
 * extension[careTeam] ^short = "CareTeam"
 * extension[careTeam] ^definition = "Reference to the CareTeam resource recording which team is involved in the care during this Encounter."
+* extension[careTeam] ^comment = "R4 Encounter has no careTeam, so this extension pre-adopts the R5 element `Encounter.careTeam`. No Belgian extension exists for this, so the R5 extension is used as a documented exception to the rule \"use Belgian extensions if they exist\" ([core-clinical#182](https://github.com/hl7-be/core-clinical/issues/182), decided for careTeam in [core-clinical#194](https://github.com/hl7-be/core-clinical/issues/194))."
 
 // PartOf - 0..1
 * partOf 0..1 MS
