@@ -74,7 +74,7 @@ Further classes go in the `additionalClass` extension."""
 
 // EpisodeOfCare - 0..*. Left as in the base resource (no Must Support, no constraint, not in the
 // differential): BeEpisodeOfCare is published as not intended for implementation yet, and no
-// profile may depend on it (https://github.com/hl7-be/validation-team/issues/131).
+// profile may depend on it (WG decision of 29/10, #191).
 
 // BasedOn - 0..* (Belgian extension; R4 Encounter.basedOn only allows ServiceRequest)
 * extension contains BeExtEncounterBasedOn named basedOn 0..* MS
