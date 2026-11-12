@@ -44,7 +44,17 @@ Example of an encounter without a known class:
     }
   ]
 }
-```"""
+```
+
+Further classes go in the `additionalClass` extension."""
+
+// Further classes - the CareSet Class is 0..*, R4 Encounter.class is a single Coding. The first class goes
+// in class, any further ones in the R5 pre-adoption extension (R5 Encounter.class 0..* CodeableConcept).
+// No Belgian extension exists for this, so it is a documented exception to the rule of #182 (as careTeam, #194).
+* extension contains http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.class named additionalClass 0..* MS
+* extension[additionalClass] ^short = "Further classes (the CareSet Class is 0..*, Encounter.class is a single Coding)"
+* extension[additionalClass] ^definition = "Further classifications of the Encounter, in addition to Encounter.class."
+* extension[additionalClass] ^comment = "The CareSet allows several classes (Class 0..*), but R4 Encounter.class allows only one. Put the first class in `class` and any further ones in this extension, which pre-adopts the R5 element `Encounter.class`. No Belgian extension exists for this, so the R5 extension is used as a documented exception to the rule \"use Belgian extensions if they exist\" ([core-clinical#182](https://github.com/hl7-be/core-clinical/issues/182))."
 
 // ServiceType - 0..* in the CareSet, but R4 Encounter.serviceType is 0..1. The first service type goes in
 // serviceType, any further ones in the additionalServiceType extension (be-core BeExtCodeableConcept).
