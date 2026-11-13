@@ -1,0 +1,21 @@
+sourceCode,sourceDisplay,relationship,targetCode,targetDisplay,comment
+BeModelScoreResult.identifier,Identifier,equivalent,Observation.identifier,Business Identifier for observation,1..* as in the CareSet.
+BeModelScoreResult.patient,Patient,equivalent,Observation.subject,Who and/or what the observation is about,1..1 as in the CareSet. *TODO* the profile also allows Group; the CareSet says patient.
+BeModelScoreResult.evaluator,Evaluator,equivalent,Observation.performer,Who is responsible for the observation,Reference(BePractitioner | BePractitionerRole | BeOrganization). *TODO* the profile also allows BePatient; the CareSet says care professional or organisation.
+BeModelScoreResult.recorder,Recorder,equivalent,Observation.extension:recorder,BeExtRecorder,R4 Observation has no recorder: be-core extension BeExtRecorder. *TODO* open question: the CareSet allows the software itself as recorder; BeExtRecorder asserts responsibility by a natural person.
+BeModelScoreResult.recordedDate,Recorded Date,equivalent,Observation.extension:recordedDate,BeExtRecordedDate,R4 Observation has no recordedDate; Observation.issued is an instant and means something else. be-core extension BeExtRecordedDate.
+BeModelScoreResult.observationDate,Observation Date,inexact,Observation.effectivePeriod,Clinically relevant time/time-period for observation,*TODO* the CareSet maps this to effectiveDateTime; the profile restricts effective[x] to Period. Changing it breaks senders of the published 1.0.0 - open question.
+BeModelScoreResult.hasMember,hasMember,equivalent,Observation.hasMember,Related resource that belongs to the Observation group,"Used when the parts of a scale are taken at different times, by different performers or on different domains."
+BeModelScoreResult.category,Category,equivalent,Observation.category,Classification of type of observation,0..* as in the CareSet. Bound (preferred) to BeVSScoreCategory: a repeating element gets no required binding. The CareSet names VS_Observation_Category (the international value set); its codes such as survey remain valid.
+BeModelScoreResult.code,Code,equivalent,Observation.code,Type of observation (code / type),Bound (required) to be-vs-score: the curated code list kept by the WG of 24-09. The CareSet describes VS_BeScoreResult_Code as the descendants of 782487009 and 445536008.
+BeModelScoreResult.minMax,Min-Max,equivalent,Observation.referenceRange,Provides guide for interpretation,Restricted to 0..1 as in the CareSet.
+BeModelScoreResult.value[x],Value/Score,equivalent,Observation.value[x],Actual result,All R4 value types allowed. VS_BeScoreResult_Value (<< 404684003 for SNOMED CT values) not bound yet.
+BeModelScoreResult.status,Status,inexact,Observation.status,registered | preliminary | final | amended +,*TODO* the CareSet allows only final and entered-in-error; the profile keeps the R4 required binding to all 9 codes.
+BeModelScoreResult.method,Method,equivalent,Observation.method,How it was done,0..1. VS_BeScoreResult_Method (<< 254291000 Staging and scales) not bound yet.
+BeModelScoreResult.codeDisplay,Observation.Code.Display,unmatched,,,"Removal from the CareSet requested: when the value is a code, its description travels with the code (valueCodeableConcept); the meaning of a value (for example score 10 = severe aggression) is an Interpretation. Observation.code.display is the name of the scale and is 0..1."
+BeModelScoreResult.interpretation,Interpretation,equivalent,Observation.interpretation,"High, low, normal, etc.",0..* as in the CareSet.
+BeModelScoreResult.component,Component,equivalent,Observation.component,Component results,Sub-scores taken at the same time by the same performer in one clinical act.
+BeModelScoreResult.component.code,Component.Code,narrower,Observation.component.code,Type of component observation (code / type),R4 component.code is 1..1; the CareSet says 0..*. A change of the CareSet is requested.
+BeModelScoreResult.component.value[x],Component.value,equivalent,Observation.component.value[x],Actual component result,All R4 value types allowed.
+BeModelScoreResult.component.interpretation,Component.Interpretation,equivalent,Observation.component.interpretation,"High, low, normal, etc.",0..* as in the CareSet.
+BeModelScoreResult.note,Note,equivalent,Observation.note,Comments about the observation,0..* as in the CareSet.
