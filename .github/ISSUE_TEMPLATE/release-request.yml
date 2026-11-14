@@ -1,0 +1,67 @@
+name: Release request
+description: Request a release (publication) of this implementation guide
+title: "Release <version>"
+labels: ["release request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        One issue per release of this IG. List what goes in; the release pull request (`release-candidate` into the default branch) says `Closes #<this issue>`.
+        The FHIR Validation Team schedules the publication in validation-team; link that issue below.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The version to publish, and the previous published version.
+      placeholder: "1.5.0 (previous: 1.4.0)"
+    validations:
+      required: true
+  - type: input
+    id: dates
+    attributes:
+      label: Dates
+      description: Content freeze and target publication date.
+      placeholder: "Content freeze 12/11/2026, publication 11/12/2026"
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Content
+      description: The issues and pull requests in this release, one per line. Each issue is approved by the WG, or labelled `preapplied`.
+      placeholder: |
+        - #146 BeEncounter (PR #149)
+        - #139 BeEpisodeOfCare (PR #156)
+    validations:
+      required: true
+  - type: textarea
+    id: breaking
+    attributes:
+      label: Breaking changes and implementation impact
+      description: Changes that break instances valid against the previous version, and whether the implementation timeline for vaults and vendors starts for the new content.
+      placeholder: "None. / BeEpisodeOfCare: published, not for implementation (timeline not started)."
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: Dependency versions (be-core, terminology, ...) and other IGs that are released at the same time.
+      placeholder: "hl7.fhir.be.core 2.2.0. Released with patient-dossier (BeCareTeam, BeCarePlan)."
+  - type: input
+    id: preview
+    attributes:
+      label: Release candidate
+      description: The release-candidate branch preview and its QA report.
+      placeholder: "https://build.fhir.org/ig/hl7-be/<repo>/branches/release-candidate/"
+  - type: input
+    id: validation-team
+    attributes:
+      label: Validation Team issue
+      description: The validation-team issue that schedules and approves this publication.
+      placeholder: "hl7-be/validation-team#131"
+  - type: textarea
+    id: approvals
+    attributes:
+      label: Approvals
+      description: WG and Validation Team decisions, and Management Committee confirmation where needed.
